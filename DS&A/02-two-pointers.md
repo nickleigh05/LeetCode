@@ -1,0 +1,419 @@
+# Two Pointers
+
+## What is the Two Pointers Technique?
+The two pointers technique uses two references (pointers) to traverse a data structure, typically an array or linked list. The pointers can move in various patterns depending on the problem.
+
+## Types of Two Pointer Patterns
+
+### 1. Opposite Direction (Collision)
+Two pointers start at opposite ends and move toward each other:
+
+```
+Initial State:
+L                                           R
+↓                                           ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+After iterations:
+      L                             R
+      ↓                             ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+Continues until L >= R
+```
+
+**When to use:**
+- Reversing arrays
+- Finding pairs with a target sum (sorted array)
+- Palindrome checking
+- Container with most water
+
+**Example: Two Sum II (Sorted Array)**
+```
+arr = [1, 2, 3, 4, 6], target = 6
+
+Step 1: L=0 (1), R=4 (6)
+        sum = 7 > 6, move R left
+┌─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  6  │
+└─────┴─────┴─────┴─────┴─────┘
+  ↑                       ↑
+  L                       R (move left)
+
+Step 2: L=0 (1), R=3 (4)
+        sum = 5 < 6, move L right
+┌─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  6  │
+└─────┴─────┴─────┴─────┴─────┘
+  ↑              ↑
+  L (move right) R
+
+Step 3: L=1 (2), R=3 (4)
+        sum = 6 = target, found!
+┌─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  6  │
+└─────┴─────┴─────┴─────┴─────┘
+        ↑         ↑
+        L         R (found!)
+```
+
+### 2. Same Direction (Fast and Slow)
+Both pointers start at the same position and move in the same direction at different speeds:
+
+```
+Initial:
+S F
+↓ ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+After 1 iteration:
+S     F
+↓     ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+After 2 iterations:
+      S           F
+      ↓           ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+```
+
+**When to use:**
+- Detecting cycles in linked lists
+- Finding the middle of a linked list
+- Removing duplicates from sorted array
+- Removing elements in-place
+
+**Example: Remove Duplicates from Sorted Array**
+```
+arr = [1, 1, 2, 2, 3, 4, 4]
+
+Initial:
+S F
+↓ ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  1  │  2  │  2  │  3  │  4  │  4  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+Step 1: arr[S] == arr[F], move F
+S     F
+↓     ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  1  │  2  │  2  │  3  │  4  │  4  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+
+Step 2: arr[S] != arr[F], move S and copy
+      S     F
+      ↓     ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  2  │  2  │  3  │  4  │  4  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+          ↑ copied from F
+
+Continue until F reaches end:
+              S                 F
+              ↓                 ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  ?  │  ?  │  ?  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+Result: 4 unique elements
+```
+
+### 3. Sliding Window with Two Pointers
+One pointer expands the window, another contracts it:
+
+```
+Window expands:
+L     R
+↓     ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │
+└─────┴─────┴─────┴─────┴─────┴─────┘
+└──────────┘ window
+
+Window contracts:
+      L     R
+      ↓     ↓
+┌─────┬─────┬─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  4  │  5  │  6  │
+└─────┴─────┴─────┴─────┴─────┴─────┘
+      └──────────┘ window
+```
+(See Sliding Window section for more details)
+
+## Common Problems and Patterns
+
+### 1. Valid Palindrome
+```
+s = "racecar"
+
+Check if string is palindrome:
+
+L                             R
+↓                             ↓
+┌───┬───┬───┬───┬───┬───┬───┐
+│ r │ a │ c │ e │ c │ a │ r │
+└───┴───┴───┴───┴───┴───┴───┘
+
+Compare s[L] with s[R]: r == r ✓
+Move both inward:
+
+    L                     R
+    ↓                     ↓
+┌───┬───┬───┬───┬───┬───┬───┐
+│ r │ a │ c │ e │ c │ a │ r │
+└───┴───┴───┴───┴───┴───┴───┘
+
+Compare s[L] with s[R]: a == a ✓
+Continue until L >= R
+```
+
+### 2. Container With Most Water
+```
+height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+
+Goal: Find two lines that form largest container
+
+L                                   R
+↓                                   ↓
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┐
+│ 1 │ 8 │ 6 │ 2 │ 5 │ 4 │ 8 │ 3 │ 7 │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┘
+  │   █                           █ │
+  │   █                           █ │
+  │   █                           █ │
+  │   █       Area = ?            █ │
+  │   █                           █ │
+  │   █                           █ │
+  └───█───────────────────────────█─┘
+
+Area = min(height[L], height[R]) × (R - L)
+     = min(1, 7) × 8 = 8
+
+Move pointer with smaller height:
+      L                             R
+      ↓                             ↓
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┐
+│ 1 │ 8 │ 6 │ 2 │ 5 │ 4 │ 8 │ 3 │ 7 │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┘
+      █                           █
+      █                           █
+      █       Area = 49           █
+      █                           █
+      █                           █
+      █                           █
+      █───────────────────────────█
+
+Area = min(8, 7) × 7 = 49
+```
+
+### 3. 3Sum Problem
+```
+nums = [-1, 0, 1, 2, -1, -4], target = 0
+
+Sort first: [-4, -1, -1, 0, 1, 2]
+
+Fix first element, use two pointers for remaining:
+
+ i   L              R
+ ↓   ↓              ↓
+┌────┬────┬────┬────┬────┬────┐
+│-4  │-1  │-1  │ 0  │ 1  │ 2  │
+└────┴────┴────┴────┴────┴────┘
+
+sum = -4 + (-1) + 2 = -3 < 0
+Move L right
+
+ i        L         R
+ ↓        ↓         ↓
+┌────┬────┬────┬────┬────┬────┐
+│-4  │-1  │-1  │ 0  │ 1  │ 2  │
+└────┴────┴────┴────┴────┴────┘
+
+Continue for each fixed element...
+
+When i = 1:
+      i   L         R
+      ↓   ↓         ↓
+┌────┬────┬────┬────┬────┬────┐
+│-4  │-1  │-1  │ 0  │ 1  │ 2  │
+└────┴────┴────┴────┴────┴────┘
+
+sum = -1 + (-1) + 2 = 0 ✓ Found!
+```
+
+### 4. Trapping Rain Water
+```
+height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+
+Visualization of water trapped:
+        █
+        █░░█
+    █░░░█░█░█
+  █░█░█░█░█░█
+0 1 0 2 1 0 1 3 2 1 2 1
+
+L                           R
+↓                           ↓
+┌──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
+│0 │1 │0 │2 │1 │0 │1 │3 │2 │1 │2 │1 │
+└──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┴──┘
+
+Track max_left and max_right
+Water at position = min(max_left, max_right) - height[pos]
+
+Move pointer with smaller max height
+```
+
+## Algorithm Patterns
+
+### Pattern 1: Opposite Direction Template
+```python
+def two_pointer_opposite(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left < right:
+        # Process arr[left] and arr[right]
+
+        if condition:
+            left += 1
+        else:
+            right -= 1
+
+    return result
+```
+
+### Pattern 2: Same Direction Template
+```python
+def two_pointer_same_direction(arr):
+    slow = 0
+
+    for fast in range(len(arr)):
+        # Process arr[fast]
+
+        if condition:
+            # Update arr[slow]
+            slow += 1
+
+    return slow
+```
+
+### Pattern 3: Fast and Slow (Cycle Detection)
+```python
+def detect_cycle(head):
+    slow = head
+    fast = head
+
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+
+        if slow == fast:
+            return True  # Cycle detected
+
+    return False
+```
+
+## Time and Space Complexity
+
+### Time Complexity
+- **Opposite Direction**: O(n) - each pointer traverses at most n elements
+- **Same Direction**: O(n) - fast pointer traverses array once
+- **With Sorting**: O(n log n) - due to sorting step
+
+### Space Complexity
+- **In-place**: O(1) - only using two pointers
+- **With Result Array**: O(n) - storing results
+
+## Visualization: Find Middle of Linked List
+
+```
+Fast moves 2 steps, Slow moves 1 step:
+
+Initial:
+S,F
+ ↓
+[1] → [2] → [3] → [4] → [5] → null
+
+After 1 iteration:
+      S           F
+      ↓           ↓
+[1] → [2] → [3] → [4] → [5] → null
+
+After 2 iterations:
+            S                   F
+            ↓                   ↓
+[1] → [2] → [3] → [4] → [5] → null
+
+F reached end, S is at middle!
+```
+
+## Visualization: Cycle Detection
+
+```
+Linked List with Cycle:
+[1] → [2] → [3] → [4] → [5]
+             ↑           ↓
+             └───────────┘
+
+Step 1:
+S     F
+↓     ↓
+[1] → [2] → [3] → [4] → [5]
+             ↑           ↓
+             └───────────┘
+
+Step 2:
+      S                 F
+      ↓                 ↓
+[1] → [2] → [3] → [4] → [5]
+             ↑           ↓
+             └───────────┘
+
+Step 3:
+            S     F
+            ↓     ↓
+[1] → [2] → [3] → [4] → [5]
+             ↑           ↓
+             └───────────┘
+
+Step 4: S == F (Cycle detected!)
+```
+
+## Key Takeaways
+
+1. **Opposite Direction**:
+   - Sorted arrays
+   - Palindrome problems
+   - Start from both ends
+
+2. **Same Direction**:
+   - In-place modification
+   - Removing duplicates
+   - Partitioning arrays
+
+3. **Fast and Slow**:
+   - Linked list problems
+   - Cycle detection
+   - Finding middle element
+
+4. **Advantages**:
+   - O(1) space complexity
+   - Single pass through data
+   - Often optimal solution
+
+5. **When to Use**:
+   - Array/string is sorted
+   - Need to find pairs
+   - In-place modification required
+   - Linked list traversal
