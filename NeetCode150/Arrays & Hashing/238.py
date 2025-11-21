@@ -30,37 +30,3 @@ The input is generated such that answer[i] is guaranteed to fit in a 32-bit inte
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        # Code solution below
-
-        n = len(nums)
-        result = [1] * n
-        
-        # First pass: calculate prefix products (left to right)
-        prefix = 1
-        for i in range(n):
-            result[i] = prefix
-            prefix *= nums[i]
-        
-        # Second pass: multiply by suffix products (right to left)
-        suffix = 1
-        for i in range(n - 1, -1, -1):
-            result[i] *= suffix
-            suffix *= nums[i]
-        
-        return result
-    
-"""
-    class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
-        res = [1] * (len(nums))
-
-        prefix = 1
-        for i in range(len(nums)):
-            res[i] = prefix
-            prefix *= nums[i]
-        postfix = 1
-        for i in range(len(nums) - 1, -1, -1):
-            res[i] *= postfix
-            postfix *= nums[i]
-        return res
-"""

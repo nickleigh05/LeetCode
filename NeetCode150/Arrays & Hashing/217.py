@@ -34,24 +34,3 @@ Constraints:
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        # Code solution below
-
-        hashset = set()
-        for num in nums:
-            if num in hashset:
-                return True
-            else:
-                hashset.add(num)
-        return False
-    
-# Creates an empty set to store unique numbers we've seen so far
-
-# Loop through each number in the nums array
-
-# Check if the current number already exists in our hashset
-# If it does, we found a duplicate - return True immediately
-
-# If the number is not in the hashset, add it to the set
-# so we can detect it if we see it again later
-
-# If we've gone through all numbers without finding any duplicates, return False

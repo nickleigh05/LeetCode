@@ -29,6 +29,4 @@ Constraints:
 
 class Solution:
 
-    def encode(self, strs: List[str]) -> str:
-        # Code solution below
-        
+    def encode(self, strs: List[str]) -> str: 

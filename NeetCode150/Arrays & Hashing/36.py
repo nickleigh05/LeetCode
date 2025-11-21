@@ -53,6 +53,4 @@ board[i][j] is a digit 1-9 or '.'.
 """
 
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # Code solution below
-        
+    def isValidSudoku(self, board: List[List[str]]) -> bool: 
