@@ -34,8 +34,8 @@ class Solution:
             left = 0 
             right = len(nums) - 1 
             pos = len(nums) - 1 
-            result = [0] * len(nums) # [0, 0, 0, 0, 0]
-
+            result = [0] * len(nums)
+            
             while left <= right:
                 if abs(nums[left]) > abs(nums[right]):
                     result[pos] = nums[left] ** 2
