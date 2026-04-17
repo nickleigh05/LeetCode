@@ -30,3 +30,60 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 
 """
 
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        
+        n = len(nums)
+        
+        left = [1] * n
+        for i in range(1, n):
+            left[i] = left[i-1] * nums[i-1]
+        
+        right = [1] * n
+        for i in range(n-2, -1, -1):
+            right[i] = right[i+1] * nums[i+1]
+        
+        answer = []
+        for i in range(n):
+            answer.append(left[i] * right[i])
+        
+        return answer
+    
+
+#######################
+# Additional solution # 
+#######################
+
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        
+        answer = [1] * len(nums)
+        
+        prefix = 1
+        for i in range(len(nums)):
+            answer[i] = prefix
+            prefix *= nums[i]
+        
+        suffix = 1
+        for i in range(len(nums) - 1, -1, -1):
+            answer[i] *= suffix
+            suffix *= nums[i]
+        
+        return answer
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
