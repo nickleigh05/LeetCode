@@ -37,9 +37,40 @@ class Solution:
         return "".join(defanged)
 
 
+###Explicit solution above ###
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+### other ways to solve ### 
+
+
+
+# one liner solution using replace() method
+
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+
+        return "[.]".join(address.split("."))
+
+
+
+# one liner solution using join() and split() together
+
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+
+        return address.replace(".", "[.]")
 
 
 
