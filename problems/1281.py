@@ -47,6 +47,21 @@ class Solution:
 
 
 
+### Solution using math.prod ###
+
+import math
+
+class Solution:
+    def subtractProductAndSum(self, n: int) -> int:
+        digits = [int(d) for d in str(n)]
+        return math.prod(digits) - sum(digits)
+    
+
+
+
+
+
+
 
 
 
