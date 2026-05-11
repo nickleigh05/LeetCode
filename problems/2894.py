@@ -64,6 +64,51 @@ class Solution:
 
 
 
+### Explicit solution above ^ ###
+
+
+
+### Pythonic solution ###
+
+class Solution:
+    def differenceOfSums(self, n: int, m: int) -> int:
+        total_diff = 0
+        for i in range(1, n + 1):
+            if i % m == 0:
+                total_diff -= i
+            else:
+                total_diff += i
+        return total_diff
+    
+
+
+
+
+### One liner solution ###
+
+class Solution:
+    def differenceOfSums(self, n: int, m: int) -> int:
+        return sum(i if i % m != 0 else -i for i in range(1, n + 1))
+
+
+
+
+
+### Mathematical solution ###
+
+class Solution:
+    def differenceOfSums(self, n: int, m: int) -> int:
+        total_sum = n * (n + 1) // 2
+        k = n // m
+        num2 = m * (k * (k + 1) // 2)
+        
+        # num1 = total_sum - num2
+        # return (total_sum - num2) - num2
+        return total_sum - (2 * num2)
+    
+
+
+
 
 
 
