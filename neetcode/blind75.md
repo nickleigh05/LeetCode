@@ -1,0 +1,176 @@
+# Blind 75 Problems by Category
+
+Blind 75 is a curated list of 75 LeetCode problems originally shared on the Blind platform. It covers the most essential data structure and algorithm patterns needed for technical interviews at top tech companies.
+
+## 1. Arrays & Hashing (8 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) |
+| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) |
+| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) |
+| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) |
+| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) |
+| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) |
+| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) |
+| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) |
+
+## 2. Two Pointers (3 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) |
+| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) |
+| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) |
+
+## 3. Sliding Window (4 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) |
+
+## 4. Stack (1 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) |
+
+## 5. Binary Search (2 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+
+## 6. Linked List (6 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) |
+| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) |
+| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) |
+| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
+| 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) |
+
+## 7. Trees (11 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) |
+| 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
+| 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) |
+| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) |
+| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |
+| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |
+| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |
+| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |
+
+## 8. Tries (3 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |
+| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) |
+
+## 9. Heap / Priority Queue (1 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) |
+
+## 10. Backtracking (2 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) |
+| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) |
+
+## 11. Graphs (6 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) |
+| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) |
+| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) |
+| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) |
+| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) |
+
+## 12. Advanced Graphs (1 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) |
+
+## 13. 1-D Dynamic Programming (10 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) |
+| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) |
+| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) |
+| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) |
+| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) |
+| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) |
+| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) |
+| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
+
+## 14. 2-D Dynamic Programming (2 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) |
+
+## 15. Greedy (2 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) |
+| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) |
+
+## 16. Intervals (5 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) |
+| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) |
+| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) |
+| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) |
+| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) |
+
+## 17. Math & Geometry (3 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) |
+| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) |
+| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) |
+
+## 18. Bit Manipulation (5 problems)
+
+| Problem # | Difficulty | Problem Name | LeetCode Link |
+|-----------|------------|--------------|---------------|
+| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) |
+| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) |
+| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) |
+| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) |
+| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) |
+
+---
+
+## Summary
+
+**Total Problems: 75**
+
+The Blind 75 covers 18 categories, focusing on the most high-signal problems for interview preparation. Many of these problems are a strict subset of the NeetCode 150.

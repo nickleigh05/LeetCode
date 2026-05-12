@@ -1,36 +1,43 @@
-# LeetCode Solutions
+# LeetCode Tracking
 
-A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem-solving and data structures practice.
+A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem solving and data structures practice.
 
 ## 📁 Repository Structure
 
-Solutions are organized by problem category:
-
 ```
-NeetCode150/
-├── Arrays & Hashing/
-├── Two Pointers/
-├── Sliding Window/
-├── Stack/
-├── Binary Search/
-├── Linked List/
-├── Trees/
-├── Tries/
-├── Heap-Priority Queue/
-├── Backtracking/
-├── Graphs/
-├── Advanced Graphs/
-├── 1-D Dynamic Programming/
-├── 2-D Dynamic Programming/
-├── Greedy/
-├── Intervals/
-├── Math & Geometry/
-└── Bit Manipulation/
+LeetCode/
+├── neetcode/                  # NeetCode solutions organized by category
+│   ├── arrayshashing/
+│   ├── twopointers/
+│   ├── slidingwindow/
+│   ├── stack/
+│   ├── binarysearch/
+│   ├── linkedlist/
+│   ├── trees/
+│   ├── tries/
+│   ├── heap/
+│   ├── backtracking/
+│   ├── graphs/
+│   ├── advancedgraphs/
+│   ├── 1ddynamicprogramming/
+│   ├── 2ddynamicprogramming/
+│   ├── greedy/
+│   ├── intervals/
+│   ├── mathgeometry/
+│   ├── bitmanipulation/
+│   ├── blind75.md             # Blind 75 problem list
+│   ├── neetcode150.md         # NeetCode 150 problem list
+│   └── neetcode250.md         # NeetCode 250 problem list
+└── problems/                  # Standalone problem solutions by number
 ```
 
-## 🎯 Progress
+## 🎯 Curated Problem Lists
 
-Currently working through the **NeetCode 150** - a curated list of essential LeetCode problems for technical interview preparation.
+| List | Problems | Description |
+|------|----------|-------------|
+| [Blind 75](neetcode/blind75.md) | 75 | The original essential list from Blind — highest-signal problems for interviews |
+| [NeetCode 150](neetcode/neetcode150.md) | 150 | NeetCode's expanded core list covering all major patterns |
+| [NeetCode 250](neetcode/neetcode250.md) | 250 | Full extended list with deeper coverage per category |
 
 ## 💻 Languages
 
