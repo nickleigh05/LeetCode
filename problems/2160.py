@@ -47,3 +47,53 @@ class Solution:
 
 
 
+### Other solutions ###
+
+class Solution:
+    def minimumSum(self, num: int) -> int:
+        # Unpack the 4 sorted characters into 4 variables
+        a, b, c, d = sorted(str(num))
+        
+        # a and b are the smallest, c and d are the largest
+        return int(a + c) + int(b + d)
+    
+
+
+
+
+class Solution:
+    def minimumSum(self, num: int) -> int:
+        # Extract all 4 digits mathematically
+        digits = []
+        while num > 0:
+            digits.append(num % 10)
+            num //= 10
+            
+        # Sort the 4 integers
+        digits.sort()
+        
+        # Combine them using place value math: (10 * tens) + ones
+        # digits[0] and digits[1] are our tens places
+        return (digits[0] * 10 + digits[2]) + (digits[1] * 10 + digits[3])
+    
+
+
+
+
+class Solution:
+    def minimumSum(self, num: int) -> int:
+        digits = []
+        # Repeatedly split the last digit off mathematically
+        for _ in range(4):
+            num, digit = divmod(num, 10)
+            digits.append(digit)
+            
+        digits.sort()
+        return (digits[0] * 10 + digits[2]) + (digits[1] * 10 + digits[3])
+    
+
+
+
+
+
+
