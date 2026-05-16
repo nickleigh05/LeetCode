@@ -57,3 +57,43 @@ class Solution:
 
 
 
+"""
+For the constraints given (O(n) time, O(1) space) that's essentially the optimal solution.
+ It's a well-known result that you can't do better.
+
+If you drop the O(1) space constraint there are simpler approaches:
+
+Set — O(n) time, O(n) space
+
+        pythons = set(nums)
+        i = 1
+        while i in s:
+            i += 1
+        return i
+
+Clean and readable but uses O(n) extra space.
+
+Sort — O(n log n) time, O(1) space
+
+        pythonnums.sort()
+        res = 1
+        for n in nums:
+            if n == res:
+                res += 1
+        return res
+
+Simpler logic but worse time complexity.
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
