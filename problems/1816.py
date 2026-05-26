@@ -54,3 +54,27 @@ class Solution:
             if k == 0:
                 return s[:i]
         return s
+
+
+
+
+
+
+
+
+### Alternative solution ###
+
+class Solution:
+    def truncateSentence(self, s: str, k: int) -> str:
+        
+        return " ".join(s.split()[:k])
+    
+
+
+
+
+
+
+
+
+    
