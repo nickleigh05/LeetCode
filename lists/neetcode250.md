@@ -1,11 +1,11 @@
-# NeetCode 250 Problems by Category
+# NeetCode 250 — Deep Coverage
 
-NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on the NeetCode 150 with 100 additional problems. It provides deeper coverage of each topic area to better prepare for advanced technical interviews.
+The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern exposure, better edge-case intuition, and stronger preparation for the hardest rounds at top companies. Once the 150 feels solid, graduate here.
 
 ## 1. Arrays & Hashing (22 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 1929 | Easy | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/) | [Solution](../problems/1500-1999/1929.py) |
 | 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/1-499/217.py) |
 | 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/1-499/242.py) |
@@ -31,8 +31,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 2. Two Pointers (13 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../problems/1-499/344.py) |
 | 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/1-499/125.py) |
 | 680 | Easy | Valid Palindrome II | [Link](https://leetcode.com/problems/valid-palindrome-ii/) | - |
@@ -49,8 +49,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 3. Sliding Window (9 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | - |
 | 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/1-499/121.py) |
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/1-499/3.py) |
@@ -63,8 +63,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 4. Stack (14 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 682 | Easy | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/) | [Solution](../problems/500-999/682.py) |
 | 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/1-499/20.py) |
 | 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | - |
@@ -82,8 +82,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 5. Binary Search (14 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/500-999/704.py) |
 | 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../problems/1-499/35.py) |
 | 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../problems/1-499/374.py) |
@@ -101,8 +101,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 6. Linked List (14 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/1-499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | - |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | - |
@@ -120,8 +120,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 7. Trees (23 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/1-499/94.py) |
 | 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - |
 | 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
@@ -148,8 +148,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 8. Tries (4 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | - |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
 | 2707 | Medium | Extra Characters in a String | [Link](https://leetcode.com/problems/extra-characters-in-a-string/) | - |
@@ -157,8 +157,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 9. Heap / Priority Queue (12 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element In a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | - |
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | - |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
@@ -174,8 +174,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 10. Backtracking (17 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 1863 | Easy | Sum of All Subset XOR Totals | [Link](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | [Solution](../problems/1500-1999/1863.py) |
 | 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | - |
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | - |
@@ -196,8 +196,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 11. Graphs (21 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | - |
 | 953 | Easy | Verifying an Alien Dictionary | [Link](https://leetcode.com/problems/verifying-an-alien-dictionary/) | - |
 | 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | - |
@@ -222,8 +222,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 12. Advanced Graphs (10 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 1631 | Medium | Path with Minimum Effort | [Link](https://leetcode.com/problems/path-with-minimum-effort/) | - |
 | 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | - |
 | 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | - |
@@ -237,8 +237,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 13. 1-D Dynamic Programming (17 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/1-499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | - |
 | 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
@@ -259,8 +259,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 14. 2-D Dynamic Programming (16 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
 | 63 | Medium | Unique Paths II | [Link](https://leetcode.com/problems/unique-paths-ii/) | - |
 | 64 | Medium | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | - |
@@ -280,8 +280,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 15. Greedy (14 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 860 | Easy | Lemonade Change | [Link](https://leetcode.com/problems/lemonade-change/) | [Solution](../problems/500-999/860.py) |
 | 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
 | 918 | Medium | Maximum Sum Circular Subarray | [Link](https://leetcode.com/problems/maximum-sum-circular-subarray/) | - |
@@ -299,8 +299,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 16. Intervals (7 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | - |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
@@ -311,8 +311,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 17. Math & Geometry (13 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | - |
 | 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | - |
 | 2807 | Medium | Insert Greatest Common Divisors in Linked List | [Link](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | - |
@@ -329,8 +329,8 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## 18. Bit Manipulation (10 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../problems/1-499/136.py) |
 | 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/1-499/191.py) |
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/1-499/338.py) |
@@ -346,6 +346,6 @@ NeetCode 250 is an expanded curated list of 250 LeetCode problems, building on t
 
 ## Summary
 
-**Total Problems: 250**
+**Total: 250 problems**
 
-The NeetCode 250 covers 18 categories with deeper problem sets per topic. It includes all NeetCode 150 problems plus 100 additional problems to sharpen pattern recognition and edge-case handling.
+All 150 NeetCode problems plus 100 more. The extra problems don't introduce new patterns — they sharpen your recognition of when and how to apply the ones you already know. Expect more edge cases and harder constraints.

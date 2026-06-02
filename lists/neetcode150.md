@@ -1,11 +1,11 @@
-# NeetCode 150 Problems by Category
+# NeetCode 150 — The Gold Standard
 
-NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all topics in data structures and algorithms. This list is perfect for preparing for technical interviews at FAANG and other big tech companies.
+The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized it by pattern so you're actually learning techniques — not just solving random problems. This is the go-to for FAANG prep.
 
 ## 1. Arrays & Hashing (9 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/1-499/217.py) |
 | 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/1-499/242.py) |
 | 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../problems/1-499/1.py) |
@@ -18,8 +18,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 2. Two Pointers (5 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/1-499/125.py) |
 | 167 | Medium | Two Sum II | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/1-499/167.py) |
 | 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/1-499/15.py) |
@@ -28,8 +28,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 3. Sliding Window (6 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/1-499/121.py) |
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/1-499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/1-499/424.py) |
@@ -39,8 +39,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 4. Stack (7 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/1-499/20.py) |
 | 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/1-499/155.py) |
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | - |
@@ -51,8 +51,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 5. Binary Search (7 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/500-999/704.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/1-499/74.py) |
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
@@ -63,8 +63,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 6. Linked List (11 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/1-499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | - |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
@@ -79,8 +79,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 7. Trees (15 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | - |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
 | 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | - |
@@ -99,16 +99,16 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 8. Tries (3 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | - |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
 | 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
 
 ## 9. Heap / Priority Queue (7 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element in a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | - |
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | - |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
@@ -119,8 +119,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 10. Backtracking (9 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | - |
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | - |
 | 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | - |
@@ -133,8 +133,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 11. Graphs (13 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | - |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
@@ -151,8 +151,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 12. Advanced Graphs (6 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | - |
 | 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | - |
 | 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | - |
@@ -162,8 +162,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 13. 1-D Dynamic Programming (12 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/1-499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | - |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
@@ -179,8 +179,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 14. 2-D Dynamic Programming (11 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
 | 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | - |
 | 309 | Medium | Best Time to Buy and Sell Stock with Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | - |
@@ -195,8 +195,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 15. Greedy (8 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
 | 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |
 | 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | - |
@@ -208,8 +208,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 16. Intervals (6 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | - |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
@@ -219,8 +219,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 17. Math & Geometry (8 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | - |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
@@ -232,8 +232,8 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## 18. Bit Manipulation (7 problems)
 
-| Problem # | Difficulty | Problem Name | LeetCode Link | Solution |
-|-----------|------------|--------------|---------------|----------|
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
 | 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../problems/1-499/136.py) |
 | 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/1-499/191.py) |
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/1-499/338.py) |
@@ -246,8 +246,6 @@ NeetCode 150 is a curated list of 150 LeetCode problems designed to cover all to
 
 ## Summary
 
-**Total Problems: 150**
+**Total: 150 problems**
 
-The NeetCode 150 covers 18 different categories of problems, ranging from fundamental data structures like arrays and linked lists to advanced algorithms like dynamic programming and graph traversal. This comprehensive list ensures you're prepared for the most common patterns and techniques tested in technical interviews.
-
-Each category builds upon fundamental concepts and gradually increases in complexity, making it an excellent structured approach to interview preparation.
+18 categories, easy-to-hard within each one. The ordering matters — don't skip ahead. Finish a section before moving on, and you'll find later sections click faster because the foundations are there.
