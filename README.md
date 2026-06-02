@@ -2,79 +2,64 @@
 
 A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem solving and data structures practice.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
-LeetCode/
-├── neetcode/                  # NeetCode solutions organized by category
-│   ├── arrayshashing/
-│   ├── twopointers/
-│   ├── slidingwindow/
-│   ├── stack/
-│   ├── binarysearch/
-│   ├── linkedlist/
-│   ├── trees/
-│   ├── tries/
-│   ├── heap/
-│   ├── backtracking/
-│   ├── graphs/
-│   ├── advancedgraphs/
-│   ├── 1ddynamicprogramming/
-│   ├── 2ddynamicprogramming/
-│   ├── greedy/
-│   ├── intervals/
-│   ├── mathgeometry/
-│   ├── bitmanipulation/
-│   ├── blind75.md             # Blind 75 problem list
-│   ├── neetcode150.md         # NeetCode 150 problem list
-│   └── neetcode250.md         # NeetCode 250 problem list
-└── problems/                  # Standalone problem solutions by number
+leetcode/
+├── problems/
+│   ├── 1-499/
+│   ├── 500-999/
+│   ├── 1000-1499/
+│   ├── 1500-1999/
+│   ├── 2000-2499/
+│   ├── 2500-2999/
+│   └── 3000+/
+├── lists/
+│   ├── neetcodeblind75.md
+│   ├── neetcode150.md
+│   └── neetcode250.md
+├── reference/
+│   ├── algorithms.md
+│   ├── cheatsheet1.md
+│   ├── cheatsheet2.md
+│   ├── datastructures.md
+│   ├── patterns.md
+│   └── syntaxreference.md
+└── README.md
 ```
 
-## 🎯 Curated Problem Lists
+## Curated Problem Lists
+
+Browse problems by topic — each list has a Solution column linking directly to the local file.
 
 | List | Problems | Description |
 |------|----------|-------------|
-| [Blind 75](neetcode/blind75.md) | 75 | The original essential list from Blind — highest-signal problems for interviews |
-| [NeetCode 150](neetcode/neetcode150.md) | 150 | NeetCode's expanded core list covering all major patterns |
-| [NeetCode 250](neetcode/neetcode250.md) | 250 | Full extended list with deeper coverage per category |
+| [Blind 75](lists/neetcodeblind75.md) | 75 | Highest-signal problems for interviews |
+| [NeetCode 150](lists/neetcode150.md) | 150 | Expanded core list covering all major patterns |
+| [NeetCode 250](lists/neetcode250.md) | 250 | Full extended list with deeper category coverage |
+| [Recommended](lists/recommended.md) | 300 | Comprehensive interview prep list (81 Easy, 187 Medium, 32 Hard) |
 
-## 💻 Languages
+## Languages
 
 - Python
 
-## 📝 Problem Naming Convention
+## Topics Covered
 
-Files are named by their LeetCode problem number (e.g., `217.py` for problem #217).
+- Array & String Manipulation
+- Hash Tables & Sets
+- Two Pointer Techniques
+- Sliding Window Patterns
+- Stack & Queue Operations
+- Binary Search Algorithms
+- Linked List Operations
+- Tree Traversals (BFS/DFS)
+- Graph Algorithms
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
+- Bit Manipulation
 
-## 🚀 Goals
-
-- Build strong foundations in data structures and algorithms
-- Develop problem-solving skills for technical interviews
-- Practice writing clean, efficient code
-- Track progress and improvement over time
-
-## 📊 Topics Covered
-
-- **Array & String Manipulation**
-- **Hash Tables & Sets**
-- **Two Pointer Techniques**
-- **Sliding Window Patterns**
-- **Stack & Queue Operations**
-- **Binary Search Algorithms**
-- **Linked List Operations**
-- **Tree Traversals (BFS/DFS)**
-- **Graph Algorithms**
-- **Dynamic Programming**
-- **Greedy Algorithms**
-- **Backtracking**
-- **Bit Manipulation**
-
-## 🔗 Resources
+## Resources
 
 - [LeetCode](https://leetcode.com)
 - [NeetCode](https://neetcode.io)
-
----
-
-*This repository is a work in progress and represents my continuous learning journey in computer science fundamentals.*
