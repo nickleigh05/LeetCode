@@ -14,30 +14,30 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../problems/1-499/1.py) |
-| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/1-499/217.py) |
-| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/1-499/242.py) |
-| 14 | Easy | Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Solution](../problems/1-499/14.py) |
-| 169 | Easy | Majority Element | [Link](https://leetcode.com/problems/majority-element/) | [Solution](../problems/1-499/169.py) |
-| 26 | Easy | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](../problems/1-499/26.py) |
-| 27 | Easy | Remove Element | [Link](https://leetcode.com/problems/remove-element/) | [Solution](../problems/1-499/27.py) |
-| 66 | Easy | Plus One | [Link](https://leetcode.com/problems/plus-one/) | [Solution](../problems/1-499/66.py) |
-| 88 | Easy | Merge Sorted Array | [Link](https://leetcode.com/problems/merge-sorted-array/) | - |
-| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/1-499/268.py) |
-| 448 | Easy | Find All Numbers Disappeared in an Array | [Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Solution](../problems/1-499/448.py) |
+| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../problems/0001-0499/1.py) |
+| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/0001-0499/217.py) |
+| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/0001-0499/242.py) |
+| 14 | Easy | Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Solution](../problems/0001-0499/14.py) |
+| 169 | Easy | Majority Element | [Link](https://leetcode.com/problems/majority-element/) | [Solution](../problems/0001-0499/169.py) |
+| 26 | Easy | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](../problems/0001-0499/26.py) |
+| 27 | Easy | Remove Element | [Link](https://leetcode.com/problems/remove-element/) | [Solution](../problems/0001-0499/27.py) |
+| 66 | Easy | Plus One | [Link](https://leetcode.com/problems/plus-one/) | [Solution](../problems/0001-0499/66.py) |
+| 88 | Easy | Merge Sorted Array | [Link](https://leetcode.com/problems/merge-sorted-array/) | [Solution](../problems/0001-0499/88.py) |
+| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/0001-0499/268.py) |
+| 448 | Easy | Find All Numbers Disappeared in an Array | [Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Solution](../problems/0001-0499/448.py) |
 | 1929 | Easy | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/) | [Solution](../problems/1500-1999/1929.py) |
-| 303 | Easy | Range Sum Query - Immutable | [Link](https://leetcode.com/problems/range-sum-query-immutable/) | - |
-| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../problems/1-499/49.py) |
-| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../problems/1-499/347.py) |
-| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../problems/1-499/238.py) |
-| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../problems/1-499/271.py) |
-| 36 | Medium | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/) | [Solution](../problems/1-499/36.py) |
-| 380 | Medium | Insert Delete GetRandom O(1) | [Link](https://leetcode.com/problems/insert-delete-getrandom-o1/) | - |
-| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../problems/1-499/128.py) |
-| 560 | Medium | Subarray Sum Equals K | [Link](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](../problems/500-999/560.py) |
-| 525 | Medium | Contiguous Array | [Link](https://leetcode.com/problems/contiguous-array/) | - |
-| 274 | Medium | H-Index | [Link](https://leetcode.com/problems/h-index/) | - |
-| 41 | Hard | First Missing Positive | [Link](https://leetcode.com/problems/first-missing-positive/) | [Solution](../problems/1-499/41.py) |
+| 303 | Easy | Range Sum Query - Immutable | [Link](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](../problems/0001-0499/303.py) |
+| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../problems/0001-0499/49.py) |
+| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../problems/0001-0499/347.py) |
+| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../problems/0001-0499/238.py) |
+| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../problems/0001-0499/271.py) |
+| 36 | Medium | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/) | [Solution](../problems/0001-0499/36.py) |
+| 380 | Medium | Insert Delete GetRandom O(1) | [Link](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](../problems/0001-0499/380.py) |
+| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../problems/0001-0499/128.py) |
+| 560 | Medium | Subarray Sum Equals K | [Link](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](../problems/0500-0999/560.py) |
+| 525 | Medium | Contiguous Array | [Link](https://leetcode.com/problems/contiguous-array/) | [Solution](../problems/0500-0999/525.py) |
+| 274 | Medium | H-Index | [Link](https://leetcode.com/problems/h-index/) | [Solution](../problems/0001-0499/274.py) |
+| 41 | Hard | First Missing Positive | [Link](https://leetcode.com/problems/first-missing-positive/) | [Solution](../problems/0001-0499/41.py) |
 
 ## 2. Two Pointers (14 problems)
 
@@ -47,20 +47,20 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/1-499/125.py) |
+| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/0001-0499/125.py) |
 | 680 | Easy | Valid Palindrome II | [Link](https://leetcode.com/problems/valid-palindrome-ii/) | - |
 | 283 | Easy | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | - |
-| 977 | Easy | Squares of a Sorted Array | [Link](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](../problems/500-999/977.py) |
-| 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../problems/1-499/344.py) |
+| 977 | Easy | Squares of a Sorted Array | [Link](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](../problems/0500-0999/977.py) |
+| 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../problems/0001-0499/344.py) |
 | 392 | Easy | Is Subsequence | [Link](https://leetcode.com/problems/is-subsequence/) | - |
 | 1768 | Easy | Merge Strings Alternately | [Link](https://leetcode.com/problems/merge-strings-alternately/) | - |
-| 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/1-499/167.py) |
-| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/1-499/15.py) |
+| 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/0001-0499/167.py) |
+| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
 | 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | - |
 | 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | - |
-| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/1-499/11.py) |
-| 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../problems/1-499/75.py) |
-| 42 | Hard | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Solution](../problems/1-499/42.py) |
+| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/0001-0499/11.py) |
+| 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../problems/0001-0499/75.py) |
+| 42 | Hard | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Solution](../problems/0001-0499/42.py) |
 
 ## 3. Sliding Window (14 problems)
 
@@ -70,11 +70,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/1-499/121.py) |
+| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/0001-0499/121.py) |
 | 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | - |
 | 643 | Easy | Maximum Average Subarray I | [Link](https://leetcode.com/problems/maximum-average-subarray-i/) | - |
-| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/1-499/3.py) |
-| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/1-499/424.py) |
+| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
+| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
 | 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | - |
 | 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | - |
 | 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | - |
@@ -93,12 +93,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/1-499/20.py) |
-| 682 | Easy | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/) | [Solution](../problems/500-999/682.py) |
+| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/0001-0499/20.py) |
+| 682 | Easy | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/) | [Solution](../problems/0500-0999/682.py) |
 | 496 | Easy | Next Greater Element I | [Link](https://leetcode.com/problems/next-greater-element-i/) | - |
 | 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | - |
 | 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | - |
-| 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/1-499/155.py) |
+| 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/0001-0499/155.py) |
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | - |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | - |
@@ -118,13 +118,13 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/500-999/704.py) |
-| 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../problems/1-499/374.py) |
-| 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../problems/1-499/35.py) |
+| 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/0500-0999/704.py) |
+| 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../problems/0001-0499/374.py) |
+| 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../problems/0001-0499/35.py) |
 | 278 | Easy | First Bad Version | [Link](https://leetcode.com/problems/first-bad-version/) | - |
-| 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/1-499/69.py) |
+| 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/0001-0499/69.py) |
 | 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | - |
-| 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/1-499/74.py) |
+| 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | - |
@@ -145,7 +145,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/1-499/206.py) |
+| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | - |
 | 876 | Easy | Middle of the Linked List | [Link](https://leetcode.com/problems/middle-of-the-linked-list/) | - |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | - |
@@ -185,7 +185,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | - |
 | 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | - |
 | 700 | Easy | Search in a Binary Search Tree | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree/) | - |
-| 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/1-499/94.py) |
+| 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/0001-0499/94.py) |
 | 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - |
 | 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
 | 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | - |
@@ -327,7 +327,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/1-499/70.py) |
+| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | - |
 | 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
@@ -392,7 +392,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
 | 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |
 | 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | - |
-| 122 | Medium | Best Time to Buy and Sell Stock II | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](../problems/1-499/122.py) |
+| 122 | Medium | Best Time to Buy and Sell Stock II | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](../problems/0001-0499/122.py) |
 | 134 | Medium | Gas Station | [Link](https://leetcode.com/problems/gas-station/) | - |
 | 846 | Medium | Hand of Straights | [Link](https://leetcode.com/problems/hand-of-straights/) | - |
 | 1899 | Medium | Merge Triplets to Form Target Triplet | [Link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | - |
@@ -430,7 +430,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 9 | Easy | Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | - |
-| 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../problems/1-499/13.py) |
+| 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../problems/0001-0499/13.py) |
 | 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |
 | 263 | Easy | Ugly Number | [Link](https://leetcode.com/problems/ugly-number/) | - |
 | 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | - |
@@ -438,7 +438,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | - |
 | 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | - |
 | 12 | Medium | Integer to Roman | [Link](https://leetcode.com/problems/integer-to-roman/) | - |
-| 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/1-499/50.py) |
+| 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/0001-0499/50.py) |
 | 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | - |
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
@@ -454,9 +454,9 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../problems/1-499/136.py) |
-| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/1-499/191.py) |
-| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/1-499/338.py) |
+| 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../problems/0001-0499/136.py) |
+| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/0001-0499/191.py) |
+| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |
 | 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | - |
 | 67 | Easy | Add Binary | [Link](https://leetcode.com/problems/add-binary/) | - |
 | 461 | Easy | Hamming Distance | [Link](https://leetcode.com/problems/hamming-distance/) | - |
