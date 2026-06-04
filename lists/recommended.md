@@ -48,8 +48,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/0001-0499/125.py) |
-| 680 | Easy | Valid Palindrome II | [Link](https://leetcode.com/problems/valid-palindrome-ii/) | - |
-| 283 | Easy | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | - |
+| 680 | Easy | Valid Palindrome II | [Link](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](../problems/0500-0999/680.py) |
+| 283 | Easy | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | [Solution](../problems/0001-0499/283.py) |
 | 977 | Easy | Squares of a Sorted Array | [Link](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](../problems/0500-0999/977.py) |
 | 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../problems/0001-0499/344.py) |
 | 392 | Easy | Is Subsequence | [Link](https://leetcode.com/problems/is-subsequence/) | - |
