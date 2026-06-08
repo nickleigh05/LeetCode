@@ -57,7 +57,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/0001-0499/167.py) |
 | 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
 | 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | [Solution](../problems/0001-0499/16.py) |
-| 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | - |
+| 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | [Solution](../problems/0001-0499/18.py) |
 | 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/0001-0499/11.py) |
 | 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../problems/0001-0499/75.py) |
 | 42 | Hard | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Solution](../problems/0001-0499/42.py) |
@@ -71,7 +71,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/0001-0499/121.py) |
-| 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | - |
+| 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](../problems/0001-0499/219.py) |
 | 643 | Easy | Maximum Average Subarray I | [Link](https://leetcode.com/problems/maximum-average-subarray-i/) | - |
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |

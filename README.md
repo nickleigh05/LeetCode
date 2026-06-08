@@ -7,8 +7,8 @@ A collection of my solutions to LeetCode problems, organized by topic and diffic
 ```
 leetcode/
 ├── problems/
-│   ├── 1-499/
-│   ├── 500-999/
+│   ├── 0001-0499/
+│   ├── 0500-0999/
 │   ├── 1000-1499/
 │   ├── 1500-1999/
 │   ├── 2000-2499/
