@@ -52,8 +52,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 283 | Easy | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | [Solution](../problems/0001-0499/283.py) |
 | 977 | Easy | Squares of a Sorted Array | [Link](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](../problems/0500-0999/977.py) |
 | 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../problems/0001-0499/344.py) |
-| 392 | Easy | Is Subsequence | [Link](https://leetcode.com/problems/is-subsequence/) | - |
-| 1768 | Easy | Merge Strings Alternately | [Link](https://leetcode.com/problems/merge-strings-alternately/) | - |
+| 392 | Easy | Is Subsequence | [Link](https://leetcode.com/problems/is-subsequence/) | [Solution](../problems/0001-0499/392.py) |
+| 1768 | Easy | Merge Strings Alternately | [Link](https://leetcode.com/problems/merge-strings-alternately/) | [Solution](../problems/1500-1999/1768.py) |
 | 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/0001-0499/167.py) |
 | 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
 | 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | [Solution](../problems/0001-0499/16.py) |
