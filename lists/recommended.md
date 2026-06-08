@@ -56,7 +56,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 1768 | Easy | Merge Strings Alternately | [Link](https://leetcode.com/problems/merge-strings-alternately/) | - |
 | 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/0001-0499/167.py) |
 | 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
-| 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | - |
+| 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | [Solution](../problems/0001-0499/16.py) |
 | 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | - |
 | 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/0001-0499/11.py) |
 | 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../problems/0001-0499/75.py) |
