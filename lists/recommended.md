@@ -72,10 +72,10 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/0001-0499/121.py) |
 | 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](../problems/0001-0499/219.py) |
-| 643 | Easy | Maximum Average Subarray I | [Link](https://leetcode.com/problems/maximum-average-subarray-i/) | - |
+| 643 | Easy | Maximum Average Subarray I | [Link](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](../problems/0500-0999/643.py) |
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
-| 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | - |
+| 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../problems/0500-0999/567.py) |
 | 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | - |
 | 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | - |
 | 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | - |
