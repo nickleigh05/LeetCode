@@ -76,8 +76,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
 | 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../problems/0500-0999/567.py) |
-| 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | - |
-| 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | - |
+| 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](../problems/0001-0499/438.py) |
+| 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../problems/0001-0499/209.py) |
 | 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | - |
 | 1456 | Medium | Maximum Number of Vowels in a Substring of Given Length | [Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | - |
 | 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | - |

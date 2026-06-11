@@ -56,7 +56,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/1-499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/1-499/424.py) |
 | 567 | Medium | Permutation In String | [Link](https://leetcode.com/problems/permutation-in-string/) | - |
-| 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | - |
+| 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../problems/0001-0499/209.py) |
 | 658 | Medium | Find K Closest Elements | [Link](https://leetcode.com/problems/find-k-closest-elements/) | - |
 | 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
 | 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | - |
