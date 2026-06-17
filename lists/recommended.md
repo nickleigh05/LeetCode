@@ -78,7 +78,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../problems/0500-0999/567.py) |
 | 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](../problems/0001-0499/438.py) |
 | 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../problems/0001-0499/209.py) |
-| 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | - |
+| 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | [Solution](../problems/0500-0999/904.py) |
 | 1456 | Medium | Maximum Number of Vowels in a Substring of Given Length | [Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | - |
 | 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | - |
 | 1493 | Medium | Longest Subarray of 1's After Deleting One Element | [Link](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | - |
@@ -121,7 +121,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/0500-0999/704.py) |
 | 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../problems/0001-0499/374.py) |
 | 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../problems/0001-0499/35.py) |
-| 278 | Easy | First Bad Version | [Link](https://leetcode.com/problems/first-bad-version/) | - |
+| 278 | Easy | First Bad Version | [Link](https://leetcode.com/problems/first-bad-version/) | [Solution](../problems/0001-0499/278.py) |
 | 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/0001-0499/69.py) |
 | 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | - |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
