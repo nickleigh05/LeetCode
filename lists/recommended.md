@@ -95,9 +95,9 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/0001-0499/20.py) |
 | 682 | Easy | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/) | [Solution](../problems/0500-0999/682.py) |
-| 496 | Easy | Next Greater Element I | [Link](https://leetcode.com/problems/next-greater-element-i/) | - |
-| 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | - |
-| 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | - |
+| 496 | Easy | Next Greater Element I | [Link](https://leetcode.com/problems/next-greater-element-i/) | [Solution](../problems/0001-0499/496.py) |
+| 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](../problems/0001-0499/225.py) |
+| 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](../problems/0001-0499/232.py) |
 | 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/0001-0499/155.py) |
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | - |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
