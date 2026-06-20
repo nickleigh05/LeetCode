@@ -99,7 +99,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](../problems/0001-0499/225.py) |
 | 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](../problems/0001-0499/232.py) |
 | 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/0001-0499/155.py) |
-| 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | - |
+| 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../problems/0001-0499/150.py) |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | - |
 | 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
@@ -123,7 +123,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../problems/0001-0499/35.py) |
 | 278 | Easy | First Bad Version | [Link](https://leetcode.com/problems/first-bad-version/) | [Solution](../problems/0001-0499/278.py) |
 | 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/0001-0499/69.py) |
-| 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | - |
+| 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | [Solution](../problems/0001-0499/367.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - |
@@ -146,11 +146,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
-| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | - |
-| 876 | Easy | Middle of the Linked List | [Link](https://leetcode.com/problems/middle-of-the-linked-list/) | - |
-| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | - |
-| 234 | Easy | Palindrome Linked List | [Link](https://leetcode.com/problems/palindrome-linked-list/) | - |
-| 203 | Easy | Remove Linked List Elements | [Link](https://leetcode.com/problems/remove-linked-list-elements/) | - |
+| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
+| 876 | Easy | Middle of the Linked List | [Link](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](../problems/0500-0999/876.py) |
+| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
+| 234 | Easy | Palindrome Linked List | [Link](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](../problems/0001-0499/234.py) |
+| 203 | Easy | Remove Linked List Elements | [Link](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](../problems/0001-0499/203.py) |
 | 83 | Easy | Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | - |
 | 160 | Easy | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | - |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
