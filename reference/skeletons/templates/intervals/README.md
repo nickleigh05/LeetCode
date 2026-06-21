@@ -37,3 +37,6 @@
 - **Greedy by start, not end.** "Keep the most non-overlapping intervals" only works greedily when you sort by finish time.
 - **Sweep line losing pairing.** Sorting starts and ends separately is fine for *counting*, but if you need *which* interval, keep `(time, +1/-1)` events instead.
 - **Empty input.** Return `[]` / `0` before indexing `intervals[0]`.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

@@ -23,7 +23,7 @@
 | # | Difficulty | Problem |
 |---|------------|---------|
 | 104 | Easy | Maximum Depth of Binary Tree |
-| 226 | Easy | Invert Binary Tree |
+| 226 | Easy | [Invert Binary Tree](../../../../problems/0001-0499/226.py) |
 | 543 | Easy | Diameter of Binary Tree |
 | 102 | Medium | Binary Tree Level Order Traversal |
 | 98 | Medium | Validate Binary Search Tree |
@@ -37,3 +37,6 @@
 - **BFS level size captured too late.** Read `len(queue)` *before* you enqueue children, or the loop bleeds into the next level.
 - **Missing None checks.** Guard `node is None` at the top of DFS and before appending children in BFS.
 - **Forgetting empty input.** A `None` root should usually return `0` / `[]`, not crash.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

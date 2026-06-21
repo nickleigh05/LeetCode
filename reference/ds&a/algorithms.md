@@ -20,7 +20,7 @@ A complete reference for every major algorithm used in LeetCode and technical in
 | 10 | Greedy | [→ Greedy](#greedy) |
 | 11 | Bit Manipulation | [→ Bit Manipulation](#bit-manipulation) |
 
-**Other files:** [datastructures.md](datastructures.md) · [patterns.md](patterns.md)
+**Other files:** [datastructures.md](datastructures.md) · [patterns.md](../skeletons/patterns.md) · [templates/](../skeletons/templates/) · [lists/](../../lists/)
 
 ---
 
@@ -105,7 +105,7 @@ bisect.bisect_right(nums, target)  # rightmost insertion point
 [Array](datastructures.md#array) · [Binary Search Tree](datastructures.md#binary-search-tree)
 
 **Patterns it enables:**
-[Binary Search on Answer](patterns.md#binary-search-on-answer)
+[Binary Search on Answer](../skeletons/patterns.md#binary-search-on-answer)
 
 ---
 
@@ -198,7 +198,7 @@ def merge_count(arr):
 [Array](datastructures.md#array) · [Linked List](datastructures.md#linked-list) (natural merge step)
 
 **Patterns it enables:**
-[Merge Intervals](patterns.md#merge-intervals) (sort + process) · [Top K Elements](patterns.md#top-k-elements) (merge K sorted)
+[Merge Intervals](../skeletons/patterns.md#merge-intervals) (sort + process) · [Top K Elements](../skeletons/patterns.md#top-k-elements) (merge K sorted)
 
 ---
 
@@ -281,7 +281,7 @@ def quick_select(arr, lo, hi, k):
 [Array](datastructures.md#array)
 
 **Patterns it enables:**
-[Top K Elements](patterns.md#top-k-elements) (QuickSelect alternative)
+[Top K Elements](../skeletons/patterns.md#top-k-elements) (QuickSelect alternative)
 
 ---
 
@@ -371,7 +371,7 @@ for r in range(rows):
 [Queue and Deque](datastructures.md#queue-and-deque) · [Graph](datastructures.md#graph) · [Binary Tree](datastructures.md#binary-tree)
 
 **Patterns it enables:**
-[BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) · [Topological Sort](patterns.md#topological-sort) (Kahn's)
+[BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) · [Topological Sort](../skeletons/patterns.md#topological-sort) (Kahn's)
 
 ---
 
@@ -462,7 +462,7 @@ def dfs_grid(grid, r, c, visited):
 [Stack](datastructures.md#stack) · [Graph](datastructures.md#graph) · [Binary Tree](datastructures.md#binary-tree) · [Trie](datastructures.md#trie)
 
 **Patterns it enables:**
-[DFS and Backtracking](patterns.md#dfs-and-backtracking) · [Trie Search](patterns.md#trie-search) · [Topological Sort](patterns.md#topological-sort)
+[DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking) · [Trie Search](../skeletons/patterns.md#trie-search) · [Topological Sort](../skeletons/patterns.md#topological-sort)
 
 ---
 
@@ -559,7 +559,7 @@ def dijkstra_grid(grid):
 [Heap and Priority Queue](datastructures.md#heap-and-priority-queue) · [Graph](datastructures.md#graph) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set)
 
 **Patterns it enables:**
-[BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) (weighted variant) · [Top K Elements](patterns.md#top-k-elements) (heap usage)
+[BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) (weighted variant) · [Top K Elements](../skeletons/patterns.md#top-k-elements) (heap usage)
 
 ---
 
@@ -657,7 +657,7 @@ def topo_sort_dfs(n, graph):
 [Graph](datastructures.md#graph) · [Queue and Deque](datastructures.md#queue-and-deque) · [Stack](datastructures.md#stack) (DFS version)
 
 **Patterns it enables:**
-[Topological Sort](patterns.md#topological-sort)
+[Topological Sort](../skeletons/patterns.md#topological-sort)
 
 ---
 
@@ -765,7 +765,7 @@ def coin_change(coins, amount):
 [Array](datastructures.md#array) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set) (memoization)
 
 **Patterns it enables:**
-[Dynamic Programming](patterns.md#dynamic-programming)
+[Dynamic Programming](../skeletons/patterns.md#dynamic-programming)
 
 ---
 
@@ -847,7 +847,7 @@ def combination_sum(candidates, target):
 [Stack](datastructures.md#stack) (call stack) · [Array](datastructures.md#array) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set) (for visited/used tracking)
 
 **Patterns it enables:**
-[DFS and Backtracking](patterns.md#dfs-and-backtracking)
+[DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking)
 
 ---
 
@@ -926,7 +926,7 @@ def max_activities(intervals):
 [Array](datastructures.md#array) · [Heap and Priority Queue](datastructures.md#heap-and-priority-queue) (for some greedy problems)
 
 **Patterns it enables:**
-[Merge Intervals](patterns.md#merge-intervals) · [Top K Elements](patterns.md#top-k-elements) (partial)
+[Merge Intervals](../skeletons/patterns.md#merge-intervals) · [Top K Elements](../skeletons/patterns.md#top-k-elements) (partial)
 
 ---
 
@@ -1017,8 +1017,8 @@ for mask in range(1 << n):   # 0 to 2^n - 1
 [Array](datastructures.md#array) (of integers)
 
 **Patterns it enables:**
-[Bit Manipulation and XOR](patterns.md#bit-manipulation-and-xor)
+[Bit Manipulation and XOR](../skeletons/patterns.md#bit-manipulation-and-xor)
 
 ---
 
-*Back to [Table of Contents](#table-of-contents) · See also: [datastructures.md](datastructures.md) · [patterns.md](patterns.md)*
+*Back to [Table of Contents](#table-of-contents) · See also: [datastructures.md](datastructures.md) · [patterns.md](../skeletons/patterns.md)*

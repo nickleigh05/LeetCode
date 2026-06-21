@@ -22,7 +22,7 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 70 | Easy | Climbing Stairs |
+| 70 | Easy | [Climbing Stairs](../../../../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs |
 | 198 | Medium | House Robber |
 | 322 | Medium | Coin Change |
@@ -37,3 +37,6 @@
 - **Reachability vs. value.** For Coin Change, initialize with `inf` and treat "still `inf`" as "impossible", returning `-1`.
 - **Over-eager space optimization.** When collapsing to rolling variables, update them in an order that doesn't clobber a value you still need.
 - **Reading the wrong cell as the answer.** `dp[-1]`, `max(dp)`, and `dp[0]` are all common finals — match it to your state definition.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

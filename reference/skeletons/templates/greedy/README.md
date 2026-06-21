@@ -37,3 +37,6 @@
 - **Reset vs. running totals.** Gas Station needs both a *total* feasibility check and a *running* tank that resets the start index.
 - **Off-by-one on reach.** You can only extend from index `i` if `i <= furthest_reachable`.
 - **Initial value.** Seeding `best` with `nums[0]` (not `0` or `-inf`) matters when all values are negative.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

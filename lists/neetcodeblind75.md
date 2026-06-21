@@ -6,37 +6,37 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/1-499/217.py) |
-| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/1-499/242.py) |
-| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../problems/1-499/1.py) |
-| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../problems/1-499/49.py) |
-| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../problems/1-499/347.py) |
-| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../problems/1-499/271.py) |
-| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../problems/1-499/238.py) |
-| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../problems/1-499/128.py) |
+| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../problems/0001-0499/217.py) |
+| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../problems/0001-0499/242.py) |
+| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../problems/0001-0499/1.py) |
+| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../problems/0001-0499/49.py) |
+| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../problems/0001-0499/347.py) |
+| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../problems/0001-0499/271.py) |
+| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../problems/0001-0499/238.py) |
+| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../problems/0001-0499/128.py) |
 
 ## 2. Two Pointers (3 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/1-499/125.py) |
-| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/1-499/15.py) |
-| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/1-499/11.py) |
+| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../problems/0001-0499/125.py) |
+| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
+| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/0001-0499/11.py) |
 
 ## 3. Sliding Window (4 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/1-499/121.py) |
-| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/1-499/3.py) |
-| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/1-499/424.py) |
+| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/0001-0499/121.py) |
+| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
+| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
 | 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
 
 ## 4. Stack (1 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/1-499/20.py) |
+| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/0001-0499/20.py) |
 
 ## 5. Binary Search (2 problems)
 
@@ -49,9 +49,9 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/1-499/206.py) |
-| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | - |
-| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | - |
+| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
+| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
+| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - |
 | 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | - |
@@ -60,7 +60,7 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | - |
+| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | - |
 | 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | - |
@@ -114,7 +114,7 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/1-499/70.py) |
+| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
 | 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
 | 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
@@ -161,10 +161,10 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/1-499/191.py) |
-| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/1-499/338.py) |
-| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | - |
-| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/1-499/268.py) |
+| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/0001-0499/191.py) |
+| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |
+| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | [Solution](../problems/0001-0499/190.py) |
+| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/0001-0499/268.py) |
 | 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | - |
 
 ---

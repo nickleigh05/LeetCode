@@ -38,3 +38,6 @@
 - **Mutating the grid vs. a separate set.** Either is fine, but pick one and be consistent — half-and-half causes double counting.
 - **Single-source when you need multi-source.** "Rot all oranges simultaneously" requires seeding every source first.
 - **Deep recursion on large grids.** A 10⁶-cell grid can blow the recursion stack — switch to an explicit stack or BFS.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

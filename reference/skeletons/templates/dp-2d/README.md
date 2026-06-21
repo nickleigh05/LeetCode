@@ -37,3 +37,6 @@
 - **Knapsack capacity direction.** 0/1 knapsack with a rolling array iterates capacity **high → low**; unbounded iterates **low → high**.
 - **Out-of-bounds without padding.** `dp[i-1][j-1]` needs the extra row/column, or `i = 0` / `j = 0` crashes.
 - **Space optimization clobbering the diagonal.** When collapsing to one row, cache `dp[i-1][j-1]` before you overwrite it.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

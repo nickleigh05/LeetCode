@@ -43,4 +43,22 @@ Follow up: If this function is called many times, how would you optimize it?
 
 class Solution:
     def reverseBits(self, n: int) -> int:
+
+        result: int = 0
         
+        for i in range(32):
+            bit: int = (n >> i) & 1
+            result = result | (bit << (31 - i))
+        return result
+    
+
+
+
+
+
+
+
+
+
+
+

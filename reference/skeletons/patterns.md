@@ -25,7 +25,7 @@ The 16 core problem-solving patterns that appear across nearly every LeetCode ca
 | 15 | Dynamic Programming | [→ Dynamic Programming](#dynamic-programming) |
 | 16 | Bit Manipulation and XOR | [→ Bit Manipulation and XOR](#bit-manipulation-and-xor) |
 
-**Other files:** [datastructures.md](datastructures.md) · [algorithms.md](algorithms.md)
+**Other files:** [datastructures.md](../ds&a/datastructures.md) · [algorithms.md](../ds&a/algorithms.md) · [templates/](templates/) · [lists/](../../lists/)
 
 ---
 
@@ -121,10 +121,10 @@ def three_sum(nums):
 **Blind 75 examples:** Valid Palindrome · 3Sum · Container With Most Water
 
 **Data structures used:**
-[Array](datastructures.md#array) · [Linked List](datastructures.md#linked-list) · [String](datastructures.md#string)
+[Array](../ds&a/datastructures.md#array) · [Linked List](../ds&a/datastructures.md#linked-list) · [String](../ds&a/datastructures.md#string)
 
 **Algorithms used:**
-[Merge Sort](algorithms.md#merge-sort) (often sort first) · [Binary Search](algorithms.md#binary-search) (combined in advanced variants)
+[Merge Sort](../ds&a/algorithms.md#merge-sort) (often sort first) · [Binary Search](../ds&a/algorithms.md#binary-search) (combined in advanced variants)
 
 ---
 
@@ -226,10 +226,10 @@ def min_window(s, t):
 **Blind 75 examples:** Best Time to Buy and Sell Stock · Longest Substring Without Repeating Characters · Minimum Window Substring · Longest Repeating Character Replacement
 
 **Data structures used:**
-[Array](datastructures.md#array) · [String](datastructures.md#string) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set) · [Queue and Deque](datastructures.md#queue-and-deque) (for sliding window max)
+[Array](../ds&a/datastructures.md#array) · [String](../ds&a/datastructures.md#string) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set) · [Queue and Deque](../ds&a/datastructures.md#queue-and-deque) (for sliding window max)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) (not here) · [Bit Manipulation](algorithms.md#bit-manipulation) (some variants)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) (not here) · [Bit Manipulation](../ds&a/algorithms.md#bit-manipulation) (some variants)
 
 ---
 
@@ -323,10 +323,10 @@ def is_happy(n):
 **Blind 75 examples:** Linked List Cycle · (Reorder List uses find middle)
 
 **Data structures used:**
-[Linked List](datastructures.md#linked-list)
+[Linked List](../ds&a/datastructures.md#linked-list)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) (conceptually similar exploration)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) (conceptually similar exploration)
 
 ---
 
@@ -413,10 +413,10 @@ def min_meeting_rooms(intervals):
 **Blind 75 examples:** Merge Intervals · Insert Interval · Non-overlapping Intervals · Meeting Rooms · Meeting Rooms II
 
 **Data structures used:**
-[Array](datastructures.md#array) · [Heap and Priority Queue](datastructures.md#heap-and-priority-queue) (meeting rooms II)
+[Array](../ds&a/datastructures.md#array) · [Heap and Priority Queue](../ds&a/datastructures.md#heap-and-priority-queue) (meeting rooms II)
 
 **Algorithms used:**
-[Merge Sort](algorithms.md#merge-sort) (sort step) · [Greedy](algorithms.md#greedy) (greedy merge)
+[Merge Sort](../ds&a/algorithms.md#merge-sort) (sort step) · [Greedy](../ds&a/algorithms.md#greedy) (greedy merge)
 
 ---
 
@@ -514,10 +514,10 @@ def min_eating_speed(piles, h):
 **Blind 75 examples:** Find Minimum in Rotated Sorted Array · Search in Rotated Sorted Array
 
 **Data structures used:**
-[Array](datastructures.md#array)
+[Array](../ds&a/datastructures.md#array)
 
 **Algorithms used:**
-[Binary Search](algorithms.md#binary-search)
+[Binary Search](../ds&a/algorithms.md#binary-search)
 
 ---
 
@@ -601,10 +601,10 @@ def product_except_self(nums):
 **Blind 75 examples:** Product of Array Except Self · (Subarray Sum Equals K is a common extension)
 
 **Data structures used:**
-[Array](datastructures.md#array) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set)
+[Array](../ds&a/datastructures.md#array) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set)
 
 **Algorithms used:**
-[Dynamic Programming](algorithms.md#dynamic-programming) (conceptually related — precompute and reuse)
+[Dynamic Programming](../ds&a/algorithms.md#dynamic-programming) (conceptually related — precompute and reuse)
 
 ---
 
@@ -703,10 +703,10 @@ def trap(height):
 **Blind 75 examples:** (Directly used in Largest Rectangle in Histogram, Daily Temperatures)
 
 **Data structures used:**
-[Stack](datastructures.md#stack) · [Array](datastructures.md#array) · [Monotonic Stack](datastructures.md#monotonic-stack)
+[Stack](../ds&a/datastructures.md#stack) · [Array](../ds&a/datastructures.md#array) · [Monotonic Stack](../ds&a/datastructures.md#monotonic-stack)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) (conceptual similarity — explore and backtrack)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) (conceptual similarity — explore and backtrack)
 
 ---
 
@@ -813,10 +813,10 @@ def level_order(root):
 **Blind 75 examples:** Binary Tree Level Order Traversal · Number of Islands (BFS variant) · Course Schedule (BFS topo sort)
 
 **Data structures used:**
-[Queue and Deque](datastructures.md#queue-and-deque) · [Graph](datastructures.md#graph) · [Binary Tree](datastructures.md#binary-tree)
+[Queue and Deque](../ds&a/datastructures.md#queue-and-deque) · [Graph](../ds&a/datastructures.md#graph) · [Binary Tree](../ds&a/datastructures.md#binary-tree)
 
 **Algorithms used:**
-[Breadth-First Search](algorithms.md#breadth-first-search) · [Topological Sort](algorithms.md#topological-sort) (Kahn's is BFS)
+[Breadth-First Search](../ds&a/algorithms.md#breadth-first-search) · [Topological Sort](../ds&a/algorithms.md#topological-sort) (Kahn's is BFS)
 
 ---
 
@@ -909,10 +909,10 @@ def combine(n, k):
 **Blind 75 examples:** Number of Islands · Clone Graph · Word Search · Combination Sum · Pacific Atlantic Water Flow
 
 **Data structures used:**
-[Stack](datastructures.md#stack) · [Graph](datastructures.md#graph) · [Array](datastructures.md#array) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set)
+[Stack](../ds&a/datastructures.md#stack) · [Graph](../ds&a/datastructures.md#graph) · [Array](../ds&a/datastructures.md#array) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) · [Backtracking](algorithms.md#backtracking)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) · [Backtracking](../ds&a/algorithms.md#backtracking)
 
 ---
 
@@ -1005,10 +1005,10 @@ class KthLargestStream:
 **Blind 75 examples:** Top K Frequent Elements · (Kth Largest in Stream is a classic extension)
 
 **Data structures used:**
-[Heap and Priority Queue](datastructures.md#heap-and-priority-queue) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set)
+[Heap and Priority Queue](../ds&a/datastructures.md#heap-and-priority-queue) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set)
 
 **Algorithms used:**
-[Quick Sort](algorithms.md#quick-sort) (QuickSelect alternative) · [Greedy](algorithms.md#greedy)
+[Quick Sort](../ds&a/algorithms.md#quick-sort) (QuickSelect alternative) · [Greedy](../ds&a/algorithms.md#greedy)
 
 ---
 
@@ -1079,10 +1079,10 @@ class MedianFinder:
 **Blind 75 examples:** Find Median from Data Stream
 
 **Data structures used:**
-[Heap and Priority Queue](datastructures.md#heap-and-priority-queue) (two of them)
+[Heap and Priority Queue](../ds&a/datastructures.md#heap-and-priority-queue) (two of them)
 
 **Algorithms used:**
-[Greedy](algorithms.md#greedy) (balancing decision) · [Merge Sort](algorithms.md#merge-sort) (conceptual — dividing into two sorted halves)
+[Greedy](../ds&a/algorithms.md#greedy) (balancing decision) · [Merge Sort](../ds&a/algorithms.md#merge-sort) (conceptual — dividing into two sorted halves)
 
 ---
 
@@ -1160,10 +1160,10 @@ def has_cycle(n, edges):
 **Blind 75 examples:** Graph Valid Tree · Number of Connected Components · (Redundant Connection)
 
 **Data structures used:**
-[Disjoint Set Union](datastructures.md#disjoint-set-union) · [Array](datastructures.md#array)
+[Disjoint Set Union](../ds&a/datastructures.md#disjoint-set-union) · [Array](../ds&a/datastructures.md#array)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) (alternative for same problems) · [Breadth-First Search](algorithms.md#breadth-first-search) (alternative)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) (alternative for same problems) · [Breadth-First Search](../ds&a/algorithms.md#breadth-first-search) (alternative)
 
 ---
 
@@ -1241,10 +1241,10 @@ def find_order(num_courses, prerequisites):
 **Blind 75 examples:** Course Schedule · Course Schedule II · Alien Dictionary
 
 **Data structures used:**
-[Graph](datastructures.md#graph) · [Queue and Deque](datastructures.md#queue-and-deque) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set)
+[Graph](../ds&a/datastructures.md#graph) · [Queue and Deque](../ds&a/datastructures.md#queue-and-deque) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set)
 
 **Algorithms used:**
-[Breadth-First Search](algorithms.md#breadth-first-search) (Kahn's) · [Depth-First Search](algorithms.md#depth-first-search) (DFS-based topo) · [Topological Sort](algorithms.md#topological-sort)
+[Breadth-First Search](../ds&a/algorithms.md#breadth-first-search) (Kahn's) · [Depth-First Search](../ds&a/algorithms.md#depth-first-search) (DFS-based topo) · [Topological Sort](../ds&a/algorithms.md#topological-sort)
 
 ---
 
@@ -1350,10 +1350,10 @@ def find_words(board, words):
 **Blind 75 examples:** Implement Trie · Design Add and Search Words · Word Search II
 
 **Data structures used:**
-[Trie](datastructures.md#trie) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set) (children dict)
+[Trie](../ds&a/datastructures.md#trie) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set) (children dict)
 
 **Algorithms used:**
-[Depth-First Search](algorithms.md#depth-first-search) (DFS through trie + grid) · [Backtracking](algorithms.md#backtracking)
+[Depth-First Search](../ds&a/algorithms.md#depth-first-search) (DFS through trie + grid) · [Backtracking](../ds&a/algorithms.md#backtracking)
 
 ---
 
@@ -1453,10 +1453,10 @@ def word_break(s, word_dict):
 **Blind 75 examples:** Climbing Stairs · House Robber · Coin Change · LCS · Longest Increasing Subsequence · Word Break · Decode Ways · Unique Paths
 
 **Data structures used:**
-[Array](datastructures.md#array) · [Hash Map and Hash Set](datastructures.md#hash-map-and-hash-set) (memoization cache)
+[Array](../ds&a/datastructures.md#array) · [Hash Map and Hash Set](../ds&a/datastructures.md#hash-map-and-hash-set) (memoization cache)
 
 **Algorithms used:**
-[Dynamic Programming](algorithms.md#dynamic-programming) · [Backtracking](algorithms.md#backtracking) (DP vs backtracking tradeoff)
+[Dynamic Programming](../ds&a/algorithms.md#dynamic-programming) · [Backtracking](../ds&a/algorithms.md#backtracking) (DP vs backtracking tradeoff)
 
 ---
 
@@ -1576,11 +1576,11 @@ def all_subsets(nums):
 **Blind 75 examples:** Number of 1 Bits · Counting Bits · Reverse Bits · Missing Number · Sum of Two Integers
 
 **Data structures used:**
-[Array](datastructures.md#array) (of integers)
+[Array](../ds&a/datastructures.md#array) (of integers)
 
 **Algorithms used:**
-[Bit Manipulation](algorithms.md#bit-manipulation) · [Dynamic Programming](algorithms.md#dynamic-programming) (Counting Bits: `dp[i] = dp[i >> 1] + (i & 1)`)
+[Bit Manipulation](../ds&a/algorithms.md#bit-manipulation) · [Dynamic Programming](../ds&a/algorithms.md#dynamic-programming) (Counting Bits: `dp[i] = dp[i >> 1] + (i & 1)`)
 
 ---
 
-*Back to [Table of Contents](#table-of-contents) · See also: [datastructures.md](datastructures.md) · [algorithms.md](algorithms.md)*
+*Back to [Table of Contents](#table-of-contents) · See also: [datastructures.md](../ds&a/datastructures.md) · [algorithms.md](../ds&a/algorithms.md)*

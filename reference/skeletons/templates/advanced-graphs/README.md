@@ -37,3 +37,6 @@
 - **Topological sort cycle check.** If the emitted order is shorter than `num_nodes`, a cycle exists — return `[]` / `False` as required.
 - **In-degree direction.** Edge `(prereq → dependent)` increments the *dependent's* in-degree. Reversing it inverts the whole order.
 - **MST: re-adding settled nodes.** In Prim's, skip heap entries for nodes already in the tree, or you double-count edges.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

@@ -37,3 +37,6 @@
 - **Decrementing count on a no-op union.** Only decrement when the two were in *different* sets.
 - **Comparing `parent[x] == x` instead of calling `find`.** Parents can be stale; only `find` resolves the true root.
 - **Non-integer elements.** Map labels (emails, coordinates) to indices via a dict before using the array-backed DSU.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

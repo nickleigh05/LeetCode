@@ -22,12 +22,12 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 217 | Easy | Contains Duplicate |
-| 242 | Easy | Valid Anagram |
-| 1 | Easy | Two Sum |
-| 49 | Medium | Group Anagrams |
-| 347 | Medium | Top K Frequent Elements |
-| 128 | Medium | Longest Consecutive Sequence |
+| 217 | Easy | [Contains Duplicate](../../../../problems/0001-0499/217.py) |
+| 242 | Easy | [Valid Anagram](../../../../problems/0001-0499/242.py) |
+| 1 | Easy | [Two Sum](../../../../problems/0001-0499/1.py) |
+| 49 | Medium | [Group Anagrams](../../../../problems/0001-0499/49.py) |
+| 347 | Medium | [Top K Frequent Elements](../../../../problems/0001-0499/347.py) |
+| 128 | Medium | [Longest Consecutive Sequence](../../../../problems/0001-0499/128.py) |
 
 ## Common bugs & traps
 
@@ -37,3 +37,6 @@
 - **Comparing maps wrong.** Two frequency maps are equal only if every key *and* count matches; don't just compare key sets.
 - **Unhashable keys.** Lists can't be dict keys — convert to `tuple(...)` first when grouping.
 - **Mutating while iterating.** Don't add/remove dict keys inside a `for key in d:` loop; iterate over a snapshot (`list(d)`).
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

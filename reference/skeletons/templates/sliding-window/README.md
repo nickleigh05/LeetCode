@@ -22,11 +22,11 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 121 | Easy | Best Time to Buy and Sell Stock |
-| 643 | Easy | Maximum Average Subarray I |
-| 3 | Medium | Longest Substring Without Repeating Characters |
-| 424 | Medium | Longest Repeating Character Replacement |
-| 209 | Medium | Minimum Size Subarray Sum |
+| 121 | Easy | [Best Time to Buy and Sell Stock](../../../../problems/0001-0499/121.py) |
+| 643 | Easy | [Maximum Average Subarray I](../../../../problems/0500-0999/643.py) |
+| 3 | Medium | [Longest Substring Without Repeating Characters](../../../../problems/0001-0499/3.py) |
+| 424 | Medium | [Longest Repeating Character Replacement](../../../../problems/0001-0499/424.py) |
+| 209 | Medium | [Minimum Size Subarray Sum](../../../../problems/0001-0499/209.py) |
 | 76 | Hard | Minimum Window Substring |
 
 ## Common bugs & traps
@@ -37,3 +37,6 @@
 - **Fixed window subtracting the wrong index.** The element leaving is `nums[right - k + 1]`; act only once `right >= k - 1`.
 - **`if` vs `while` on the shrink.** One eviction often isn't enough — shrink in a loop until the window is valid again.
 - **Negative numbers break the monotonic assumption.** "Shrink when sum too big" only works when all values are non-negative; otherwise reach for prefix sums + a hash map instead.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

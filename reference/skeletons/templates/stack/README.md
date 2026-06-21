@@ -22,9 +22,9 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 20 | Easy | Valid Parentheses |
-| 155 | Medium | Min Stack |
-| 150 | Medium | Evaluate Reverse Polish Notation |
+| 20 | Easy | [Valid Parentheses](../../../../problems/0001-0499/20.py) |
+| 155 | Medium | [Min Stack](../../../../problems/0001-0499/155.py) |
+| 150 | Medium | [Evaluate Reverse Polish Notation](../../../../problems/0001-0499/150.py) |
 | 739 | Medium | Daily Temperatures |
 | 853 | Medium | Car Fleet |
 | 84 | Hard | Largest Rectangle in Histogram |
@@ -37,3 +37,6 @@
 - **Forgetting the leftover stack.** Elements never resolved must keep their default answer — don't assume the stack empties.
 - **Histogram width off-by-one.** After popping, the width is bounded by the *new* top, not the popped index; a sentinel `0` appended at the end flushes the stack cleanly.
 - **Order of operands.** In expression evaluation, the *second* pop is the left operand for non-commutative ops (`a - b`, `a / b`).
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

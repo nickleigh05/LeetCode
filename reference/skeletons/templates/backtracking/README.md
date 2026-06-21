@@ -38,3 +38,6 @@
 - **Duplicate skipping without sorting.** The `nums[i] == nums[i-1]` skip only works on a *sorted* input.
 - **Permutations reusing elements.** Without a `used` set you'll emit `[1,1]` from `[1,2]`.
 - **Grid: not restoring the visited mark.** Unmark the cell after exploring, or later paths can't legally cross it.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

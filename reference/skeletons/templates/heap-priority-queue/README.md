@@ -38,3 +38,6 @@
 - **Two-heap imbalance.** After every insert, rebalance so the heap sizes differ by at most 1, or the median read is wrong.
 - **`heapify` vs n pushes.** Building from a list is O(n) with `heapify`; n separate pushes is O(n log n).
 - **Reading the root without checking emptiness.** `heap[0]` on an empty heap raises — guard with `if heap`.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

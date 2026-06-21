@@ -24,7 +24,7 @@
 |---|------------|---------|
 | 9 | Easy | Palindrome Number |
 | 202 | Easy | Happy Number |
-| 50 | Medium | Pow(x, n) |
+| 50 | Medium | [Pow(x, n)](../../../../problems/0001-0499/50.py) |
 | 48 | Medium | Rotate Image |
 | 54 | Medium | Spiral Matrix |
 | 149 | Hard | Max Points on a Line |
@@ -37,3 +37,6 @@
 - **Transpose swapping twice.** Start the inner loop at `j = i + 1`; iterating the full grid swaps each pair back to where it started.
 - **Spiral boundary off-by-one.** Shrink top/bottom/left/right after each edge and re-check bounds before the vertical passes, or you revisit a row.
 - **Float slopes lose precision.** Compare slopes as reduced integer fractions `(dy // g, dx // g)`, not floating-point division.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

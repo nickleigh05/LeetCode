@@ -22,10 +22,10 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 136 | Easy | Single Number |
-| 191 | Easy | Number of 1 Bits |
-| 338 | Easy | Counting Bits |
-| 190 | Easy | Reverse Bits |
+| 136 | Easy | [Single Number](../../../../problems/0001-0499/136.py) |
+| 191 | Easy | [Number of 1 Bits](../../../../problems/0001-0499/191.py) |
+| 338 | Easy | [Counting Bits](../../../../problems/0001-0499/338.py) |
+| 190 | Easy | [Reverse Bits](../../../../problems/0001-0499/190.py) |
 | 371 | Medium | Sum of Two Integers |
 | 137 | Medium | Single Number II |
 
@@ -37,3 +37,6 @@
 - **XOR variants.** Plain XOR only solves "everything paired but one." Three-of-a-kind or two-singles need bit-by-bit counts or splitting on a distinguishing bit.
 - **`n & (n - 1)` on negatives.** In Python negatives have infinite leading 1s — mask to a fixed width first.
 - **Signed reverse/rotate.** Watch the sign bit when reversing 32-bit integers; pad and mask explicitly.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

@@ -22,8 +22,8 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 704 | Easy | Binary Search |
-| 35 | Easy | Search Insert Position |
+| 704 | Easy | [Binary Search](../../../../problems/0500-0999/704.py) |
+| 35 | Easy | [Search Insert Position](../../../../problems/0001-0499/35.py) |
 | 153 | Medium | Find Minimum in Rotated Sorted Array |
 | 33 | Medium | Search in Rotated Sorted Array |
 | 875 | Medium | Koko Eating Bananas |
@@ -37,3 +37,6 @@
 - **Wrong return for "insert position".** When the target is absent, `left` (not `left - 1`) is where it would go.
 - **Rotated array: picking the sorted half wrong.** Compare `nums[mid]` against `nums[left]` (or `nums[right]`) consistently to identify the sorted side before deciding where the target is.
 - **Forgetting duplicates.** In a rotated array with duplicates, `nums[left] == nums[mid] == nums[right]` forces a linear shrink (`left += 1`) — the clean O(log n) guarantee is lost.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

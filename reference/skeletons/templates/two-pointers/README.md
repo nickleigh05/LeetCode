@@ -22,12 +22,12 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 125 | Easy | Valid Palindrome |
-| 283 | Easy | Move Zeroes |
-| 167 | Medium | Two Sum II — Input Array Is Sorted |
-| 15 | Medium | 3Sum |
-| 11 | Medium | Container With Most Water |
-| 42 | Hard | Trapping Rain Water |
+| 125 | Easy | [Valid Palindrome](../../../../problems/0001-0499/125.py) |
+| 283 | Easy | [Move Zeroes](../../../../problems/0001-0499/283.py) |
+| 167 | Medium | [Two Sum II — Input Array Is Sorted](../../../../problems/0001-0499/167.py) |
+| 15 | Medium | [3Sum](../../../../problems/0001-0499/15.py) |
+| 11 | Medium | [Container With Most Water](../../../../problems/0001-0499/11.py) |
+| 42 | Hard | [Trapping Rain Water](../../../../problems/0001-0499/42.py) |
 
 ## Common bugs & traps
 
@@ -37,3 +37,6 @@
 - **Duplicate triplets in 3Sum.** After recording a hit, skip over equal neighbors on *both* pointers, and skip duplicate values for the pinned index too.
 - **Off-by-one on `right`.** It starts at `len(nums) - 1`, not `len(nums)`.
 - **In-place writes clobbering data.** The slow/fast form is safe because `slow <= fast` always; don't reorder the read and write.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

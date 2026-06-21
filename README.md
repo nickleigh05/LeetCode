@@ -17,14 +17,20 @@ leetcode/
 ├── lists/
 │   ├── neetcodeblind75.md
 │   ├── neetcode150.md
-│   └── neetcode250.md
+│   ├── neetcode250.md
+│   └── recommended.md
 ├── reference/
-│   ├── algorithms.md
-│   ├── cheatsheet1.md
-│   ├── cheatsheet2.md
-│   ├── datastructures.md
-│   ├── patterns.md
-│   └── syntaxreference.md
+│   ├── ds&a/
+│   │   ├── algorithms.md
+│   │   └── datastructures.md
+│   ├── skeletons/
+│   │   ├── patterns.md
+│   │   └── templates/          ← per-pattern template.py + README
+│   ├── cheatsheets/
+│   │   ├── cheatsheet1.md
+│   │   └── cheatsheet2.md
+│   └── syntax/
+│       └── python.md
 └── README.md
 ```
 
@@ -59,7 +65,19 @@ Browse problems by topic — each list has a Solution column linking directly to
 - Backtracking
 - Bit Manipulation
 
-## Resources
+## Reference
+
+| File | Description |
+|------|-------------|
+| [patterns.md](reference/skeletons/patterns.md) | 16 core patterns with visual traces, templates, and when-to-use checklists |
+| [datastructures.md](reference/ds&a/datastructures.md) | Every major data structure — complexity, visuals, and pattern links |
+| [algorithms.md](reference/ds&a/algorithms.md) | Binary search, DFS/BFS, DP, sorting, Dijkstra, and more |
+| [cheatsheet1.md](reference/cheatsheets/cheatsheet1.md) | Python syntax quick reference — arrays, strings, dicts, trees, graphs |
+| [cheatsheet2.md](reference/cheatsheets/cheatsheet2.md) | Advanced patterns cheat sheet |
+| [python.md](reference/syntax/python.md) | Python language reference for interviews |
+| [templates/](reference/skeletons/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
+
+## External Links
 
 - [LeetCode](https://leetcode.com)
 - [NeetCode](https://neetcode.io)

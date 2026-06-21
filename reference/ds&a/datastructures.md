@@ -22,7 +22,7 @@ A complete reference for every major data structure you will encounter in LeetCo
 | 12 | Disjoint Set Union | [→ Disjoint Set Union](#disjoint-set-union) |
 | 13 | Monotonic Stack | [→ Monotonic Stack](#monotonic-stack) |
 
-**Other files:** [algorithms.md](algorithms.md) · [patterns.md](patterns.md)
+**Other files:** [algorithms.md](algorithms.md) · [patterns.md](../skeletons/patterns.md) · [templates/](../skeletons/templates/) · [lists/](../../lists/)
 
 ---
 
@@ -76,7 +76,7 @@ arr[1:4]               # O(k) - slice, k = length of slice
 ```
 
 **Patterns that use Arrays:**
-[Two Pointers](patterns.md#two-pointers) · [Sliding Window](patterns.md#sliding-window) · [Prefix Sum](patterns.md#prefix-sum) · [Binary Search on Answer](patterns.md#binary-search-on-answer) · [Monotonic Stack](patterns.md#monotonic-stack) · [Dynamic Programming](patterns.md#dynamic-programming)
+[Two Pointers](../skeletons/patterns.md#two-pointers) · [Sliding Window](../skeletons/patterns.md#sliding-window) · [Prefix Sum](../skeletons/patterns.md#prefix-sum) · [Binary Search on Answer](../skeletons/patterns.md#binary-search-on-answer) · [Monotonic Stack](../skeletons/patterns.md#monotonic-stack) · [Dynamic Programming](../skeletons/patterns.md#dynamic-programming)
 
 **Algorithms that operate on Arrays:**
 [Binary Search](algorithms.md#binary-search) · [Merge Sort](algorithms.md#merge-sort) · [Quick Sort](algorithms.md#quick-sort)
@@ -139,7 +139,7 @@ Counter("banana")      # {'a': 3, 'n': 2, 'b': 1}
 ```
 
 **Patterns that use Strings:**
-[Sliding Window](patterns.md#sliding-window) · [Two Pointers](patterns.md#two-pointers) · [Dynamic Programming](patterns.md#dynamic-programming) · [Trie Search](patterns.md#trie-search)
+[Sliding Window](../skeletons/patterns.md#sliding-window) · [Two Pointers](../skeletons/patterns.md#two-pointers) · [Dynamic Programming](../skeletons/patterns.md#dynamic-programming) · [Trie Search](../skeletons/patterns.md#trie-search)
 
 **Algorithms that operate on Strings:**
 [Binary Search](algorithms.md#binary-search) (on sorted char arrays) · [Backtracking](algorithms.md#backtracking) (word search, permutations)
@@ -220,7 +220,7 @@ for i, n in enumerate(nums):
 ```
 
 **Patterns that use Hash Maps/Sets:**
-[Two Pointers](patterns.md#two-pointers) · [Sliding Window](patterns.md#sliding-window) · [Prefix Sum](patterns.md#prefix-sum) · [Top K Elements](patterns.md#top-k-elements) · [Union Find](patterns.md#union-find)
+[Two Pointers](../skeletons/patterns.md#two-pointers) · [Sliding Window](../skeletons/patterns.md#sliding-window) · [Prefix Sum](../skeletons/patterns.md#prefix-sum) · [Top K Elements](../skeletons/patterns.md#top-k-elements) · [Union Find](../skeletons/patterns.md#union-find)
 
 **Algorithms that use Hash Maps/Sets:**
 [Dynamic Programming](algorithms.md#dynamic-programming) (memoization) · [Topological Sort](algorithms.md#topological-sort) (in-degree table)
@@ -281,7 +281,7 @@ if stack:         # check not empty
 ```
 
 **Patterns that use Stacks:**
-[Monotonic Stack](patterns.md#monotonic-stack) · [DFS and Backtracking](patterns.md#dfs-and-backtracking)
+[Monotonic Stack](../skeletons/patterns.md#monotonic-stack) · [DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking)
 
 **Algorithms that use Stacks:**
 [Depth-First Search](algorithms.md#depth-first-search) (iterative) · [Topological Sort](algorithms.md#topological-sort) (DFS version) · [Backtracking](algorithms.md#backtracking)
@@ -352,7 +352,7 @@ while q:
 ```
 
 **Patterns that use Queues/Deques:**
-[BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) · [Sliding Window](patterns.md#sliding-window) · [Topological Sort](patterns.md#topological-sort)
+[BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) · [Sliding Window](../skeletons/patterns.md#sliding-window) · [Topological Sort](../skeletons/patterns.md#topological-sort)
 
 **Algorithms that use Queues/Deques:**
 [Breadth-First Search](algorithms.md#breadth-first-search) · [Topological Sort](algorithms.md#topological-sort) (Kahn's algorithm)
@@ -433,7 +433,7 @@ dummy.next = head
 ```
 
 **Patterns that use Linked Lists:**
-[Fast and Slow Pointers](patterns.md#fast-and-slow-pointers) · [Two Pointers](patterns.md#two-pointers)
+[Fast and Slow Pointers](../skeletons/patterns.md#fast-and-slow-pointers) · [Two Pointers](../skeletons/patterns.md#two-pointers)
 
 **Algorithms that use Linked Lists:**
 [Merge Sort](algorithms.md#merge-sort) (merge step works naturally on linked lists)
@@ -518,7 +518,7 @@ def level_order(root):
 ```
 
 **Patterns that use Binary Trees:**
-[BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) · [DFS and Backtracking](patterns.md#dfs-and-backtracking) · [Dynamic Programming](patterns.md#dynamic-programming) (tree DP)
+[BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) · [DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking) · [Dynamic Programming](../skeletons/patterns.md#dynamic-programming) (tree DP)
 
 **Algorithms that use Binary Trees:**
 [Breadth-First Search](algorithms.md#breadth-first-search) · [Depth-First Search](algorithms.md#depth-first-search)
@@ -585,7 +585,7 @@ def inorder(root, result=[]):
 ```
 
 **Patterns that use BSTs:**
-[DFS and Backtracking](patterns.md#dfs-and-backtracking) · [Binary Search on Answer](patterns.md#binary-search-on-answer)
+[DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking) · [Binary Search on Answer](../skeletons/patterns.md#binary-search-on-answer)
 
 **Algorithms that use BSTs:**
 [Depth-First Search](algorithms.md#depth-first-search)
@@ -672,7 +672,7 @@ def kth_largest(nums, k):
 ```
 
 **Patterns that use Heaps:**
-[Top K Elements](patterns.md#top-k-elements) · [Two Heaps](patterns.md#two-heaps) · [BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) (Dijkstra variant)
+[Top K Elements](../skeletons/patterns.md#top-k-elements) · [Two Heaps](../skeletons/patterns.md#two-heaps) · [BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) (Dijkstra variant)
 
 **Algorithms that use Heaps:**
 [Dijkstras Algorithm](algorithms.md#dijkstras-algorithm) · [Merge Sort](algorithms.md#merge-sort) (merge K sorted lists variant)
@@ -766,7 +766,7 @@ class Trie:
 ```
 
 **Patterns that use Tries:**
-[Trie Search](patterns.md#trie-search) · [DFS and Backtracking](patterns.md#dfs-and-backtracking) (word search on grid)
+[Trie Search](../skeletons/patterns.md#trie-search) · [DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking) (word search on grid)
 
 **Algorithms that use Tries:**
 [Depth-First Search](algorithms.md#depth-first-search) (searching paths in the trie)
@@ -850,7 +850,7 @@ def neighbors(r, c, rows, cols):
 ```
 
 **Patterns that use Graphs:**
-[BFS on Grid and Tree](patterns.md#bfs-on-grid-and-tree) · [DFS and Backtracking](patterns.md#dfs-and-backtracking) · [Union Find](patterns.md#union-find) · [Topological Sort](patterns.md#topological-sort)
+[BFS on Grid and Tree](../skeletons/patterns.md#bfs-on-grid-and-tree) · [DFS and Backtracking](../skeletons/patterns.md#dfs-and-backtracking) · [Union Find](../skeletons/patterns.md#union-find) · [Topological Sort](../skeletons/patterns.md#topological-sort)
 
 **Algorithms that use Graphs:**
 [Breadth-First Search](algorithms.md#breadth-first-search) · [Depth-First Search](algorithms.md#depth-first-search) · [Dijkstras Algorithm](algorithms.md#dijkstras-algorithm) · [Topological Sort](algorithms.md#topological-sort)
@@ -933,7 +933,7 @@ class UnionFind:
 ```
 
 **Patterns that use Disjoint Set Union:**
-[Union Find](patterns.md#union-find)
+[Union Find](../skeletons/patterns.md#union-find)
 
 **Algorithms that relate to DSU:**
 [Depth-First Search](algorithms.md#depth-first-search) (alternative for connectivity) · [Breadth-First Search](algorithms.md#breadth-first-search) (alternative for connectivity)
@@ -1014,11 +1014,11 @@ def next_smaller(nums):
 ```
 
 **Patterns that use Monotonic Stack:**
-[Monotonic Stack](patterns.md#monotonic-stack) · [Sliding Window](patterns.md#sliding-window) (deque variant for max/min)
+[Monotonic Stack](../skeletons/patterns.md#monotonic-stack) · [Sliding Window](../skeletons/patterns.md#sliding-window) (deque variant for max/min)
 
 **Algorithms that use Monotonic Stack:**
 [Depth-First Search](algorithms.md#depth-first-search) (conceptually similar stack-based traversal)
 
 ---
 
-*Back to [Table of Contents](#table-of-contents) · See also: [algorithms.md](algorithms.md) · [patterns.md](patterns.md)*
+*Back to [Table of Contents](#table-of-contents) · See also: [algorithms.md](algorithms.md) · [patterns.md](../skeletons/patterns.md)*

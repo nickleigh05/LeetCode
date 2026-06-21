@@ -10,7 +10,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *The foundation. Hash maps unlock O(1) lookups and show up everywhere — master these first.*
 
-**Reference:** [Arrays](../reference/datastructures.md#array) · [Hash Maps & Sets](../reference/datastructures.md#hash-map-and-hash-set) · [Lists & Arrays Cheatsheet](../reference/cheatsheet1.md#01-lists--arrays) · [Dicts & Sets Cheatsheet](../reference/cheatsheet1.md#03-dicts--sets)
+**Reference:** [Arrays](../reference/ds&a/datastructures.md#array) · [Hash Maps & Sets](../reference/ds&a/datastructures.md#hash-map-and-hash-set) · [Lists & Arrays Cheatsheet](../reference/cheatsheets/cheatsheet1.md#01-lists--arrays) · [Dicts & Sets Cheatsheet](../reference/cheatsheets/cheatsheet1.md#03-dicts--sets)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -43,7 +43,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *One scan, two cursors. The trick is knowing which condition moves which pointer.*
 
-**Reference:** [Two Pointers Pattern](../reference/patterns.md#two-pointers) · [Two Pointers Cheatsheet](../reference/cheatsheet1.md#04-two-pointers)
+**Reference:** [Two Pointers Pattern](../reference/skeletons/patterns.md#two-pointers) · [Two Pointers Cheatsheet](../reference/cheatsheets/cheatsheet1.md#04-two-pointers)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -66,7 +66,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Contiguous subarrays / substrings with a moving boundary — brute force is O(n²), this is O(n).*
 
-**Reference:** [Sliding Window Pattern](../reference/patterns.md#sliding-window) · [Sliding Window Cheatsheet](../reference/cheatsheet1.md#05-sliding-window)
+**Reference:** [Sliding Window Pattern](../reference/skeletons/patterns.md#sliding-window) · [Sliding Window Cheatsheet](../reference/cheatsheets/cheatsheet1.md#05-sliding-window)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -89,7 +89,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *LIFO wins whenever you need to track 'most recent unseen' — parentheses, temperatures, histograms.*
 
-**Reference:** [Stack Data Structure](../reference/datastructures.md#stack) · [Monotonic Stack](../reference/datastructures.md#monotonic-stack) · [Stack & Queue Cheatsheet](../reference/cheatsheet1.md#07-stack--queue)
+**Reference:** [Stack Data Structure](../reference/ds&a/datastructures.md#stack) · [Monotonic Stack](../reference/ds&a/datastructures.md#monotonic-stack) · [Stack & Queue Cheatsheet](../reference/cheatsheets/cheatsheet1.md#07-stack--queue)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -114,7 +114,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *If the search space is ordered, binary search it. Works on answers, not just arrays.*
 
-**Reference:** [Binary Search Algorithm](../reference/algorithms.md#binary-search) · [Binary Search on Answer Pattern](../reference/patterns.md#binary-search-on-answer) · [Binary Search Cheatsheet](../reference/cheatsheet1.md#06-binary-search)
+**Reference:** [Binary Search Algorithm](../reference/ds&a/algorithms.md#binary-search) · [Binary Search on Answer Pattern](../reference/skeletons/patterns.md#binary-search-on-answer) · [Binary Search Cheatsheet](../reference/cheatsheets/cheatsheet1.md#06-binary-search)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -141,7 +141,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Pointer arithmetic and in-place manipulation. Draw it out — every single time.*
 
-**Reference:** [Linked List Data Structure](../reference/datastructures.md#linked-list) · [Fast and Slow Pointers Pattern](../reference/patterns.md#fast-and-slow-pointers) · [Linked List Cheatsheet](../reference/cheatsheet1.md#09-linked-list)
+**Reference:** [Linked List Data Structure](../reference/ds&a/datastructures.md#linked-list) · [Fast and Slow Pointers Pattern](../reference/skeletons/patterns.md#fast-and-slow-pointers) · [Linked List Cheatsheet](../reference/cheatsheets/cheatsheet1.md#09-linked-list)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -151,8 +151,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
 | 234 | Easy | Palindrome Linked List | [Link](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](../problems/0001-0499/234.py) |
 | 203 | Easy | Remove Linked List Elements | [Link](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](../problems/0001-0499/203.py) |
-| 83 | Easy | Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | - |
-| 160 | Easy | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | - |
+| 83 | Easy | Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](../problems/0001-0499/83.py) |
+| 160 | Easy | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Solution](../problems/0001-0499/160.py) |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - |
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
@@ -170,11 +170,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
 
-**Reference:** [Binary Tree Data Structure](../reference/datastructures.md#binary-tree) · [Binary Search Tree](../reference/datastructures.md#binary-search-tree) · [DFS Algorithm](../reference/algorithms.md#depth-first-search) · [BFS Algorithm](../reference/algorithms.md#breadth-first-search) · [Trees Cheatsheet](../reference/cheatsheet1.md#10-trees)
+**Reference:** [Binary Tree Data Structure](../reference/ds&a/datastructures.md#binary-tree) · [Binary Search Tree](../reference/ds&a/datastructures.md#binary-search-tree) · [DFS Algorithm](../reference/ds&a/algorithms.md#depth-first-search) · [BFS Algorithm](../reference/ds&a/algorithms.md#breadth-first-search) · [Trees Cheatsheet](../reference/cheatsheets/cheatsheet1.md#10-trees)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | - |
+| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
 | 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | - |
 | 110 | Easy | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | - |
@@ -208,7 +208,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Whenever you hear 'top K' or 'running median', reach for a heap.*
 
-**Reference:** [Heap & Priority Queue](../reference/datastructures.md#heap-and-priority-queue) · [Top K Elements Pattern](../reference/patterns.md#top-k-elements) · [Two Heaps Pattern](../reference/patterns.md#two-heaps) · [Heap Cheatsheet](../reference/cheatsheet1.md#08-heap--priority-queue)
+**Reference:** [Heap & Priority Queue](../reference/ds&a/datastructures.md#heap-and-priority-queue) · [Top K Elements Pattern](../reference/skeletons/patterns.md#top-k-elements) · [Two Heaps Pattern](../reference/skeletons/patterns.md#two-heaps) · [Heap Cheatsheet](../reference/cheatsheets/cheatsheet1.md#08-heap--priority-queue)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -231,7 +231,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
 
-**Reference:** [Backtracking Algorithm](../reference/algorithms.md#backtracking) · [DFS and Backtracking Pattern](../reference/patterns.md#dfs-and-backtracking) · [Backtracking Cheatsheet](../reference/cheatsheet2.md#01-backtracking)
+**Reference:** [Backtracking Algorithm](../reference/ds&a/algorithms.md#backtracking) · [DFS and Backtracking Pattern](../reference/skeletons/patterns.md#dfs-and-backtracking) · [Backtracking Cheatsheet](../reference/cheatsheets/cheatsheet2.md#01-backtracking)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -256,7 +256,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
 
-**Reference:** [Trie Data Structure](../reference/datastructures.md#trie) · [Trie Search Pattern](../reference/patterns.md#trie-search) · [Tries Cheatsheet](../reference/cheatsheet2.md#02-tries)
+**Reference:** [Trie Data Structure](../reference/ds&a/datastructures.md#trie) · [Trie Search Pattern](../reference/skeletons/patterns.md#trie-search) · [Tries Cheatsheet](../reference/cheatsheets/cheatsheet2.md#02-tries)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -271,7 +271,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *BFS for shortest path, DFS for connectivity. Union-Find for components. Know all three.*
 
-**Reference:** [Graph Data Structure](../reference/datastructures.md#graph) · [BFS Algorithm](../reference/algorithms.md#breadth-first-search) · [DFS Algorithm](../reference/algorithms.md#depth-first-search) · [Union Find](../reference/datastructures.md#disjoint-set-union) · [Graphs Cheatsheet](../reference/cheatsheet1.md#11-graphs)
+**Reference:** [Graph Data Structure](../reference/ds&a/datastructures.md#graph) · [BFS Algorithm](../reference/ds&a/algorithms.md#breadth-first-search) · [DFS Algorithm](../reference/ds&a/algorithms.md#depth-first-search) · [Union Find](../reference/ds&a/datastructures.md#disjoint-set-union) · [Graphs Cheatsheet](../reference/cheatsheets/cheatsheet1.md#11-graphs)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -303,7 +303,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Weighted shortest paths, MST, Euler paths. High effort, high signal for senior roles.*
 
-**Reference:** [Dijkstra's Algorithm](../reference/algorithms.md#dijkstras-algorithm) · [Topological Sort](../reference/algorithms.md#topological-sort) · [Advanced Graphs Cheatsheet](../reference/cheatsheet2.md#07-advanced-graphs)
+**Reference:** [Dijkstra's Algorithm](../reference/ds&a/algorithms.md#dijkstras-algorithm) · [Topological Sort](../reference/ds&a/algorithms.md#topological-sort) · [Advanced Graphs Cheatsheet](../reference/cheatsheets/cheatsheet2.md#07-advanced-graphs)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -323,7 +323,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Break the problem into overlapping subproblems. Define state, write recurrence, add memoization.*
 
-**Reference:** [Dynamic Programming Algorithm](../reference/algorithms.md#dynamic-programming) · [DP Pattern](../reference/patterns.md#dynamic-programming) · [DP Cheatsheet](../reference/cheatsheet1.md#12-dynamic-programming)
+**Reference:** [Dynamic Programming Algorithm](../reference/ds&a/algorithms.md#dynamic-programming) · [DP Pattern](../reference/skeletons/patterns.md#dynamic-programming) · [DP Cheatsheet](../reference/cheatsheets/cheatsheet1.md#12-dynamic-programming)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -354,7 +354,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Same idea as 1-D but your state is a grid. Usually string matching or path problems.*
 
-**Reference:** [Dynamic Programming Algorithm](../reference/algorithms.md#dynamic-programming) · [DP Pattern](../reference/patterns.md#dynamic-programming) · [Advanced DP Cheatsheet](../reference/cheatsheet2.md#08-advanced-dp)
+**Reference:** [Dynamic Programming Algorithm](../reference/ds&a/algorithms.md#dynamic-programming) · [DP Pattern](../reference/skeletons/patterns.md#dynamic-programming) · [Advanced DP Cheatsheet](../reference/cheatsheets/cheatsheet2.md#08-advanced-dp)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -383,7 +383,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Take the locally optimal choice and trust it's globally optimal. Proving why is the hard part.*
 
-**Reference:** [Greedy Algorithm](../reference/algorithms.md#greedy) · [Greedy Cheatsheet](../reference/cheatsheet2.md#04-greedy)
+**Reference:** [Greedy Algorithm](../reference/ds&a/algorithms.md#greedy) · [Greedy Cheatsheet](../reference/cheatsheets/cheatsheet2.md#04-greedy)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -406,7 +406,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Sort by start time. Merge, count, or query — the pattern is always sort-first.*
 
-**Reference:** [Merge Intervals Pattern](../reference/patterns.md#merge-intervals) · [Intervals Cheatsheet](../reference/cheatsheet2.md#03-intervals)
+**Reference:** [Merge Intervals Pattern](../reference/skeletons/patterns.md#merge-intervals) · [Intervals Cheatsheet](../reference/cheatsheets/cheatsheet2.md#03-intervals)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -425,7 +425,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Modular arithmetic, GCD, matrix ops. Usually a 5-liner once you remember the trick.*
 
-**Reference:** [Sorting & Math Cheatsheet](../reference/cheatsheet1.md#13-sorting--math) · [Math & Number Theory Cheatsheet](../reference/cheatsheet2.md#10-math--number-theory)
+**Reference:** [Sorting & Math Cheatsheet](../reference/cheatsheets/cheatsheet1.md#13-sorting--math) · [Math & Number Theory Cheatsheet](../reference/cheatsheets/cheatsheet2.md#10-math--number-theory)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -450,15 +450,15 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *XOR, shifts, and masks. Weird-looking but fast — and interviewers love asking them.*
 
-**Reference:** [Bit Manipulation Algorithm](../reference/algorithms.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../reference/patterns.md#bit-manipulation-and-xor) · [Bit Tricks Cheatsheet](../reference/cheatsheet1.md#14-bit-tricks)
+**Reference:** [Bit Manipulation Algorithm](../reference/ds&a/algorithms.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../reference/skeletons/patterns.md#bit-manipulation-and-xor) · [Bit Tricks Cheatsheet](../reference/cheatsheets/cheatsheet1.md#14-bit-tricks)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../problems/0001-0499/136.py) |
 | 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../problems/0001-0499/191.py) |
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |
-| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | - |
-| 67 | Easy | Add Binary | [Link](https://leetcode.com/problems/add-binary/) | - |
+| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | [Solution](../problems/0001-0499/190.py) |
+| 67 | Easy | Add Binary | [Link](https://leetcode.com/problems/add-binary/) | [Solution](../problems/0001-0499/67.py) |
 | 461 | Easy | Hamming Distance | [Link](https://leetcode.com/problems/hamming-distance/) | - |
 | 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | - |
 | 137 | Medium | Single Number II | [Link](https://leetcode.com/problems/single-number-ii/) | - |

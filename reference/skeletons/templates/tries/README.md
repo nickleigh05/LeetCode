@@ -37,3 +37,6 @@
 - **Shared mutable default.** Build `children` in `__init__`, never as a default argument, or all nodes alias one dict.
 - **Word Search II duplicates / re-walks.** De-dupe results (use a set or unset `is_end` once found) and prune branches with no matching child to stay fast.
 - **Case / alphabet assumptions.** A fixed-size `[26]` array is faster but breaks on uppercase, digits, or unicode — a dict is the safe default.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*

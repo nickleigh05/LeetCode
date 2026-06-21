@@ -22,9 +22,9 @@
 
 | # | Difficulty | Problem |
 |---|------------|---------|
-| 206 | Easy | Reverse Linked List |
-| 21 | Easy | Merge Two Sorted Lists |
-| 141 | Easy | Linked List Cycle |
+| 206 | Easy | [Reverse Linked List](../../../../problems/0001-0499/206.py) |
+| 21 | Easy | [Merge Two Sorted Lists](../../../../problems/0001-0499/21.py) |
+| 141 | Easy | [Linked List Cycle](../../../../problems/0001-0499/141.py) |
 | 19 | Medium | Remove Nth Node From End of List |
 | 143 | Medium | Reorder List |
 | 25 | Hard | Reverse Nodes in k-Group |
@@ -37,3 +37,6 @@
 - **Returning the sentinel.** Return `dummy.next`, never `dummy`.
 - **Forgetting `tail.next = None`.** A filtered/built list can keep pointing into skipped nodes and accidentally form a cycle.
 - **First vs second middle.** Initializing `fast = head` lands on the second middle for even length; `fast = head.next` lands on the first. Pick deliberately.
+---
+
+*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
