@@ -42,8 +42,8 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - |
-| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | - |
+| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 
 ## 6. Linked List (6 problems)
 
@@ -52,9 +52,9 @@
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
-| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
-| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - |
-| 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | - |
+| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
+| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
+| 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
 
 ## 7. Trees (11 problems)
 
@@ -63,7 +63,7 @@
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | - |
-| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | - |
+| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | - |
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | - |

@@ -91,8 +91,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
 | 1011 | Medium | Capacity to Ship Packages Within D Days | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - |
-| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - |
-| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | - |
+| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 | 81 | Medium | Search in Rotated Sorted Array II | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | - |
 | 981 | Medium | Time Based Key Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | - |
 | 410 | Hard | Split Array Largest Sum | [Link](https://leetcode.com/problems/split-array-largest-sum/) | - |
@@ -106,8 +106,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
-| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
-| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - |
+| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
+| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
 | 138 | Medium | Copy List With Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
 | 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | - |
 | 287 | Medium | Find The Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
@@ -115,7 +115,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 622 | Medium | Design Circular Queue | [Link](https://leetcode.com/problems/design-circular-queue/) | - |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | - |
 | 460 | Hard | LFU Cache | [Link](https://leetcode.com/problems/lfu-cache/) | - |
-| 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | - |
+| 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
 | 25 | Hard | Reverse Nodes In K Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - |
 
 ## 7. Trees (23 problems)
@@ -127,10 +127,10 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
-| 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | - |
+| 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](../problems/0500-0999/543.py) |
 | 110 | Easy | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | - |
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | - |
-| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | - |
+| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - |
 | 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - |
 | 450 | Medium | Delete Node in a BST | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | - |
@@ -160,7 +160,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element In a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | - |
-| 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | - |
+| 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
 | 215 | Medium | Kth Largest Element In An Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - |
 | 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |

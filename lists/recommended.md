@@ -80,7 +80,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../problems/0001-0499/209.py) |
 | 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | [Solution](../problems/0500-0999/904.py) |
 | 1456 | Medium | Maximum Number of Vowels in a Substring of Given Length | [Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | - |
-| 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | - |
+| 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Solution](../problems/1000-1499/1004.py) |
 | 1493 | Medium | Longest Subarray of 1's After Deleting One Element | [Link](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | - |
 | 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
 | 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | - |
@@ -126,8 +126,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | [Solution](../problems/0001-0499/367.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
-| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - |
-| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | - |
+| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 | 34 | Medium | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | - |
 | 162 | Medium | Find Peak Element | [Link](https://leetcode.com/problems/find-peak-element/) | - |
 | 540 | Medium | Single Element in a Sorted Array | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array/) | - |
@@ -153,8 +153,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 203 | Easy | Remove Linked List Elements | [Link](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](../problems/0001-0499/203.py) |
 | 83 | Easy | Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](../problems/0001-0499/83.py) |
 | 160 | Easy | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Solution](../problems/0001-0499/160.py) |
-| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | - |
-| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - |
+| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
+| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
 | 24 | Medium | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | - |
 | 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | - |
@@ -163,7 +163,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | - |
 | 61 | Medium | Rotate List | [Link](https://leetcode.com/problems/rotate-list/) | - |
 | 86 | Medium | Partition List | [Link](https://leetcode.com/problems/partition-list/) | - |
-| 23 | Hard | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | - |
+| 23 | Hard | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
 | 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - |
 
 ## 7. Trees (29 problems)
@@ -176,11 +176,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - |
-| 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | - |
+| 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](../problems/0500-0999/543.py) |
 | 110 | Easy | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | - |
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | - |
-| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | - |
-| 112 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | - |
+| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
+| 112 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | [Solution](../problems/0001-0499/112.py) |
 | 111 | Easy | Minimum Depth of Binary Tree | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | - |
 | 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | - |
 | 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | - |
@@ -213,7 +213,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element in a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | - |
-| 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | - |
+| 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
 | 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
