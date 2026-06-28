@@ -131,14 +131,14 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 110 | Easy | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | [Solution](../problems/0001-0499/110.py) |
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | [Solution](../problems/0001-0499/100.py) |
 | 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
-| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 | 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - |
 | 450 | Medium | Delete Node in a BST | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | - |
-| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | - |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
 | 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | - |
 | 427 | Medium | Construct Quad Tree | [Link](https://leetcode.com/problems/construct-quad-tree/) | - |
 | 1448 | Medium | Count Good Nodes In Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | - |
-| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | - |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
 | 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
 | 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
 | 337 | Medium | House Robber III | [Link](https://leetcode.com/problems/house-robber-iii/) | - |
@@ -150,7 +150,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | - |
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
 | 2707 | Medium | Extra Characters in a String | [Link](https://leetcode.com/problems/extra-characters-in-a-string/) | - |
 | 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
@@ -162,14 +162,14 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 703 | Easy | Kth Largest Element In a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Solution](../problems/0500-0999/703.py) |
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
-| 215 | Medium | Kth Largest Element In An Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - |
+| 215 | Medium | Kth Largest Element In An Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
 | 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
 | 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
 | 1834 | Medium | Single-Threaded CPU | [Link](https://leetcode.com/problems/single-threaded-cpu/) | - |
 | 767 | Medium | Reorganize String | [Link](https://leetcode.com/problems/reorganize-string/) | - |
 | 1405 | Medium | Longest Happy String | [Link](https://leetcode.com/problems/longest-happy-string/) | - |
 | 1094 | Medium | Car Pooling | [Link](https://leetcode.com/problems/car-pooling/) | - |
-| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | - |
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 | 502 | Hard | IPO | [Link](https://leetcode.com/problems/ipo/) | - |
 
 ## 10. Backtracking (17 problems)
@@ -177,11 +177,11 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 1863 | Easy | Sum of All Subset XOR Totals | [Link](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | [Solution](../problems/1500-1999/1863.py) |
-| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | - |
-| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | - |
+| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
 | 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | - |
 | 77 | Medium | Combinations | [Link](https://leetcode.com/problems/combinations/) | - |
-| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | - |
+| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 | 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | - |
 | 47 | Medium | Permutations II | [Link](https://leetcode.com/problems/permutations-ii/) | - |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
@@ -201,7 +201,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | - |
 | 953 | Easy | Verifying an Alien Dictionary | [Link](https://leetcode.com/problems/verifying-an-alien-dictionary/) | - |
 | 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | - |
-| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | - |
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
 | 286 | Medium | Walls And Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
@@ -209,7 +209,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
 | 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | - |
 | 752 | Medium | Open the Lock | [Link](https://leetcode.com/problems/open-the-lock/) | - |
-| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | - |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | - |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
@@ -242,12 +242,12 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
 | 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
-| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
 | 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
 | 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
 | 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | - |
 | 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | - |
-| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | - |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 | 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
 | 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
 | 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | - |
@@ -264,7 +264,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
 | 63 | Medium | Unique Paths II | [Link](https://leetcode.com/problems/unique-paths-ii/) | - |
 | 64 | Medium | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | - |
-| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | - |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 | 1049 | Medium | Last Stone Weight II | [Link](https://leetcode.com/problems/last-stone-weight-ii/) | - |
 | 309 | Medium | Best Time to Buy And Sell Stock With Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | - |
 | 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | - |
@@ -283,7 +283,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 860 | Easy | Lemonade Change | [Link](https://leetcode.com/problems/lemonade-change/) | [Solution](../problems/0500-0999/860.py) |
-| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../problems/0001-0499/53.py) |
 | 918 | Medium | Maximum Sum Circular Subarray | [Link](https://leetcode.com/problems/maximum-sum-circular-subarray/) | - |
 | 978 | Medium | Longest Turbulent Array | [Link](https://leetcode.com/problems/longest-turbulent-subarray/) | - |
 | 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |

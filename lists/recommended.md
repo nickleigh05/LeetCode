@@ -189,11 +189,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - |
 | 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
 | 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | - |
-| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - |
-| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | - |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
 | 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | - |
 | 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | - |
-| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | - |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
 | 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
 | 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
 | 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - |
@@ -214,7 +214,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element in a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Solution](../problems/0500-0999/703.py) |
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
-| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - |
+| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
 | 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
 | 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
@@ -224,7 +224,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 1985 | Medium | Find the Kth Largest Integer in the Array | [Link](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) | - |
 | 2542 | Medium | Maximum Subsequence Score | [Link](https://leetcode.com/problems/maximum-subsequence-score/) | - |
 | 1962 | Medium | Remove Stones to Minimize the Total | [Link](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | - |
-| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | - |
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 | 502 | Hard | IPO | [Link](https://leetcode.com/problems/ipo/) | - |
 
 ## 9. Backtracking (16 problems)
@@ -235,12 +235,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | - |
+| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
 | 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | - |
-| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | - |
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
 | 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | - |
 | 216 | Medium | Combination Sum III | [Link](https://leetcode.com/problems/combination-sum-iii/) | - |
-| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | - |
+| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 | 47 | Medium | Permutations II | [Link](https://leetcode.com/problems/permutations-ii/) | - |
 | 77 | Medium | Combinations | [Link](https://leetcode.com/problems/combinations/) | - |
 | 17 | Medium | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | - |
@@ -260,7 +260,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | - |
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
 | 648 | Medium | Replace Words | [Link](https://leetcode.com/problems/replace-words/) | - |
 | 677 | Medium | Map Sum Pairs | [Link](https://leetcode.com/problems/map-sum-pairs/) | - |
@@ -278,14 +278,14 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 733 | Easy | Flood Fill | [Link](https://leetcode.com/problems/flood-fill/) | - |
 | 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | - |
 | 1971 | Easy | Find if Path Exists in Graph | [Link](https://leetcode.com/problems/find-if-path-exists-in-graph/) | - |
-| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | - |
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
 | 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | - |
 | 286 | Medium | Walls and Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
 | 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | - |
-| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | - |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | - |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | - |
@@ -330,12 +330,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
 | 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
-| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
 | 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
 | 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
 | 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | - |
 | 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | - |
-| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | - |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 | 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | - |
 | 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
 | 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
@@ -364,7 +364,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 120 | Medium | Triangle | [Link](https://leetcode.com/problems/triangle/) | - |
 | 931 | Medium | Minimum Falling Path Sum | [Link](https://leetcode.com/problems/minimum-falling-path-sum/) | - |
 | 221 | Medium | Maximal Square | [Link](https://leetcode.com/problems/maximal-square/) | - |
-| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | - |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 | 1035 | Medium | Uncrossed Lines | [Link](https://leetcode.com/problems/uncrossed-lines/) | - |
 | 516 | Medium | Longest Palindromic Subsequence | [Link](https://leetcode.com/problems/longest-palindromic-subsequence/) | - |
 | 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | - |
@@ -389,7 +389,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 561 | Easy | Array Partition | [Link](https://leetcode.com/problems/array-partition/) | - |
 | 1005 | Easy | Maximize Sum Of Array After K Negations | [Link](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | - |
-| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../problems/0001-0499/53.py) |
 | 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |
 | 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | - |
 | 122 | Medium | Best Time to Buy and Sell Stock II | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](../problems/0001-0499/122.py) |

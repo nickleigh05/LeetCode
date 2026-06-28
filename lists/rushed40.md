@@ -48,45 +48,45 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
-| 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | - |
+| 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
 ## 7. Trees (4 problems)
 *Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
 **Reference:** [Binary Tree Data Structure](../reference/ds&a/datastructures.md#binary-tree) · [Binary Search Tree](../reference/ds&a/datastructures.md#binary-search-tree) · [DFS Algorithm](../reference/ds&a/algorithms.md#depth-first-search) · [BFS Algorithm](../reference/ds&a/algorithms.md#breadth-first-search) · [Trees Cheatsheet](../reference/cheatsheets/cheatsheet1.md#10-trees)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
-| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | - |
-| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | - |
-| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 ## 8. Tries (1 problem)
 *Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
 **Reference:** [Trie Data Structure](../reference/ds&a/datastructures.md#trie) · [Trie Search Pattern](../reference/skeletons/patterns.md#trie-search) · [Tries Cheatsheet](../reference/cheatsheets/cheatsheet2.md#02-tries)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | - |
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 ## 9. Heap / Priority Queue (2 problems)
 *Whenever you hear 'top K' or 'running median', reach for a heap.*
 **Reference:** [Heap & Priority Queue](../reference/ds&a/datastructures.md#heap-and-priority-queue) · [Top K Elements Pattern](../reference/skeletons/patterns.md#top-k-elements) · [Two Heaps Pattern](../reference/skeletons/patterns.md#two-heaps) · [Heap Cheatsheet](../reference/cheatsheets/cheatsheet1.md#08-heap--priority-queue)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - |
-| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | - |
+| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 ## 10. Backtracking (3 problems)
 *Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
 **Reference:** [Backtracking Algorithm](../reference/ds&a/algorithms.md#backtracking) · [DFS and Backtracking Pattern](../reference/skeletons/patterns.md#dfs-and-backtracking) · [Backtracking Cheatsheet](../reference/cheatsheets/cheatsheet2.md#01-backtracking)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | - |
-| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | - |
-| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | - |
+| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
+| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 ## 11. Graphs (3 problems)
 *BFS for shortest path, DFS for connectivity. Grid traversal and cycle detection live here too.*
 **Reference:** [Graph Data Structure](../reference/ds&a/datastructures.md#graph) · [BFS Algorithm](../reference/ds&a/algorithms.md#breadth-first-search) · [DFS Algorithm](../reference/ds&a/algorithms.md#depth-first-search) · [Topological Sort](../reference/ds&a/algorithms.md#topological-sort) · [Graphs Cheatsheet](../reference/cheatsheets/cheatsheet1.md#11-graphs)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | - |
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
-| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | - |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 ## 12. Advanced Graphs (1 problem)
 *Union-Find merges and queries connected components in near-constant time — the one advanced-graph tool worth memorizing.*
 **Reference:** [Union Find](../reference/ds&a/datastructures.md#disjoint-set-union) · [Topological Sort](../reference/ds&a/algorithms.md#topological-sort) · [Advanced Graphs Cheatsheet](../reference/cheatsheets/cheatsheet2.md#07-advanced-graphs)
@@ -99,21 +99,21 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
-| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | - |
-| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | - |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 ## 14. 2-D Dynamic Programming (2 problems)
 *Same idea as 1-D but your state is a grid. Usually string matching or path problems.*
 **Reference:** [Dynamic Programming Algorithm](../reference/ds&a/algorithms.md#dynamic-programming) · [DP Pattern](../reference/skeletons/patterns.md#dynamic-programming) · [Advanced DP Cheatsheet](../reference/cheatsheets/cheatsheet2.md#08-advanced-dp)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
-| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | - |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 ## 15. Greedy (1 problem)
 *Take the locally optimal choice and trust it's globally optimal. Proving why is the hard part.*
 **Reference:** [Greedy Algorithm](../reference/ds&a/algorithms.md#greedy) · [Greedy Cheatsheet](../reference/cheatsheets/cheatsheet2.md#04-greedy)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | - |
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../problems/0001-0499/53.py) |
 ## 16. Intervals (1 problem)
 *Sort by start time. Merge, count, or query — the pattern is always sort-first.*
 **Reference:** [Merge Intervals Pattern](../reference/skeletons/patterns.md#merge-intervals) · [Intervals Cheatsheet](../reference/cheatsheets/cheatsheet2.md#03-intervals)
