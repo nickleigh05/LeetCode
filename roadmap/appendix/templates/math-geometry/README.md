@@ -39,4 +39,4 @@
 - **Float slopes lose precision.** Compare slopes as reduced integer fractions `(dy // g, dx // g)`, not floating-point division.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 19 →](../../../learning/19-math-geometry.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

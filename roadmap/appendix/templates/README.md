@@ -65,4 +65,4 @@ Work top to bottom — each tier builds on the last. Don't jump to graphs before
 
 ---
 
-*Categories follow the NeetCode 150/250 taxonomy. For the curated problem sets that pair with these skeletons, see [lists/](../../../lists/); for deeper conceptual notes, see [patterns](../../skeletons/patterns.md) · [data structures](../../ds&a/datastructures.md) · [algorithms](../../ds&a/algorithms.md).*
+*Categories follow the NeetCode 150/250 taxonomy. For the curated problem sets that pair with these skeletons, see [lists/](../../../lists/); to learn each pattern in depth, follow the [🗺 Roadmap](../../roadmap.md).*

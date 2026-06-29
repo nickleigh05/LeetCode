@@ -39,4 +39,4 @@
 - **Mutating while iterating.** Don't add/remove dict keys inside a `for key in d:` loop; iterate over a snapshot (`list(d)`).
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 01 →](../../../learning/01-arrays-hashing.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

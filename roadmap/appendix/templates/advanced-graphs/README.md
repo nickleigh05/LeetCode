@@ -39,4 +39,4 @@
 - **MST: re-adding settled nodes.** In Prim's, skip heap entries for nodes already in the tree, or you double-count edges.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 13 →](../../../learning/13-advanced-graphs.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

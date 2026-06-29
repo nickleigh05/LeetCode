@@ -39,4 +39,4 @@
 - **Order of operands.** In expression evaluation, the *second* pop is the left operand for non-commutative ops (`a - b`, `a / b`).
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 04 →](../../../learning/04-stack.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

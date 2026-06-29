@@ -39,4 +39,4 @@
 - **Negative numbers break the monotonic assumption.** "Shrink when sum too big" only works when all values are non-negative; otherwise reach for prefix sums + a hash map instead.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 03 →](../../../learning/03-sliding-window.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

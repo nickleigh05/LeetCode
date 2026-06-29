@@ -39,4 +39,4 @@
 - **Forgetting duplicates.** In a rotated array with duplicates, `nums[left] == nums[mid] == nums[right]` forces a linear shrink (`left += 1`) — the clean O(log n) guarantee is lost.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 05 →](../../../learning/05-binary-search.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

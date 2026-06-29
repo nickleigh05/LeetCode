@@ -39,4 +39,4 @@
 - **Initial value.** Seeding `best` with `nums[0]` (not `0` or `-inf`) matters when all values are negative.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 16 →](../../../learning/16-greedy.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

@@ -39,4 +39,4 @@
 - **Empty input.** Return `[]` / `0` before indexing `intervals[0]`.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 17 →](../../../learning/17-intervals.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

@@ -39,4 +39,4 @@
 - **Signed reverse/rotate.** Watch the sign bit when reversing 32-bit integers; pad and mask explicitly.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 18 →](../../../learning/18-bit-manipulation.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

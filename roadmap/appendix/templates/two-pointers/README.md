@@ -39,4 +39,4 @@
 - **In-place writes clobbering data.** The slow/fast form is safe because `slow <= fast` always; don't reorder the read and write.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 02 →](../../../learning/02-two-pointers.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

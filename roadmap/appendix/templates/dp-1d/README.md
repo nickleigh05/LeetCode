@@ -39,4 +39,4 @@
 - **Reading the wrong cell as the answer.** `dp[-1]`, `max(dp)`, and `dp[0]` are all common finals — match it to your state definition.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 14 →](../../../learning/14-dp-1d.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

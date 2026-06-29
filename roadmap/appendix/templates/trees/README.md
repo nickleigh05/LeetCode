@@ -39,4 +39,4 @@
 - **Forgetting empty input.** A `None` root should usually return `0` / `[]`, not crash.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 07 →](../../../learning/07-trees.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

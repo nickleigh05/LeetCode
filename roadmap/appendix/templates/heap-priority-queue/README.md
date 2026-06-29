@@ -40,4 +40,4 @@
 - **Reading the root without checking emptiness.** `heap[0]` on an empty heap raises — guard with `if heap`.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 09 →](../../../learning/09-heap-priority-queue.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

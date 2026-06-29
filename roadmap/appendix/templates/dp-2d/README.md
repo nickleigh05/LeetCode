@@ -39,4 +39,4 @@
 - **Space optimization clobbering the diagonal.** When collapsing to one row, cache `dp[i-1][j-1]` before you overwrite it.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 15 →](../../../learning/15-dp-2d.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

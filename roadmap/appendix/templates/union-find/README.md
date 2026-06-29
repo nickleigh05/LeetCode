@@ -39,4 +39,4 @@
 - **Non-integer elements.** Map labels (emails, coordinates) to indices via a dict before using the array-backed DSU.
 ---
 
-*See also: [patterns.md](../../patterns.md) · [datastructures.md](../../../ds&a/datastructures.md) · [algorithms.md](../../../ds&a/algorithms.md) · [lists/](../../../../lists/)*
+*See also: [Lesson 12 →](../../../learning/12-union-find.md) · [🗺 Roadmap](../../../roadmap.md) · [problem lists](../../../../lists/)*

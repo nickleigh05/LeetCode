@@ -705,4 +705,4 @@ if x is None:    # ✅ correct
 
 ---
 
-*Start here, then move on to [Vol. 1](python_cheatsheet.md) for core DSA patterns and [Vol. 2](python_cheatsheet_v2.md) for advanced topics.*
+*Start here, then move on to [the core cheatsheet](cheatsheet-core.md) for core DSA patterns and [the advanced cheatsheet](cheatsheet-advanced.md) for advanced topics.*
