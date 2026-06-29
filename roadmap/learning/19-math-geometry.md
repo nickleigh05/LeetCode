@@ -5,6 +5,8 @@
 
 ---
 
+> **Read first if rusty:** [Grids Primer](10b-grids-primer.md) — the matrix half of this lesson (rotate, spiral, set-zeroes) builds directly on the 2-D indexing and transform idioms there.
+
 The grab-bag finale: number theory (GCD, primes, fast exponentiation) and grid/matrix manipulation (rotate in place, spiral order, set-zeroes). Less about a single pattern, more about a toolbox of tricks — lean on the template and the [core cheatsheet](../appendix/cheatsheet-core.md) and learn them as they come up.
 
 ## Concept
@@ -66,13 +68,14 @@ Work the matching set in the curated list: [**Math & Geometry problems →**](..
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write GCD (Euclid) and fast modular exponentiation from memory.
+- [ ] I can do the in-place matrix transforms (rotate 90°, spiral, set-zeroes) without scratch space.
+- [ ] I know the common overflow / modulo pitfalls (less in Python, but I can articulate them).
+- [ ] I solved a 🔴 Hard math/geometry problem (e.g. Max Points on a Line or Basic Calculator).
 
 ---
 
-*That's the whole roadmap. Go forth and grind. 🎯*
+*That's the core roadmap. For mastery-level range-query problems, continue with [Segment & Fenwick Trees →](20-segment-trees.md).*
 
-[← Prev](18-bit-manipulation.md) · [🗺 Roadmap](../roadmap.md)
+[← Prev](18-bit-manipulation.md) · [🗺 Roadmap](../roadmap.md) · [Next (mastery) →](20-segment-trees.md)
 

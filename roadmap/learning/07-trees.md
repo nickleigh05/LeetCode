@@ -5,6 +5,8 @@
 
 ---
 
+> **Builds on:** [recursion & the call stack (04b)](04b-recursion.md). Every tree algorithm below is the branching-recursion skeleton from that lesson — review it first if base case / recurse / combine doesn't feel automatic.
+
 Trees are where recursion finally clicks. Almost every tree problem follows the same shape: handle the base case (usually `None`), recurse on the children, then combine their results. A **binary search tree** adds an ordering invariant that turns search into a form of binary search. Learn to *see* the recursion and the code writes itself.
 
 ## Concept
@@ -166,6 +168,73 @@ Max depth, "is this balanced", path sums, and subtree checks are all just differ
 steps. When you instead need to go **level by level** (e.g. level-order, shortest path), reach for
 **BFS with a queue** (see [Lesson 11 — Graphs](11-graphs.md)).
 
+## Iterative Traversals — When Recursion Isn't an Option
+
+Two scenarios force you to go iterative: (1) Python's ~1000-frame recursion limit on a deeply skewed tree, and (2) an interviewer who explicitly says "no recursion." The call stack *is* a stack (see [Lesson 04b](04b-recursion.md)), so the translation is mechanical — you just manage it yourself.
+
+### Iterative Inorder (most commonly asked)
+
+```
+  Tree:       Inorder: 1, 3, 4, 6, 7, 8, 10, 13, 14
+       8
+      / \
+     3   10
+    / \    \
+   1   6    14
+      / \   /
+     4   7 13
+
+  Simulate the call stack:
+  Push left spine (8→3→1), then process, then go right.
+```
+
+```python
+def inorder_iterative(root):
+    result, stack = [], []
+    curr = root
+    while curr or stack:
+        # go as far left as possible
+        while curr:
+            stack.append(curr)
+            curr = curr.left
+        # process the node
+        curr = stack.pop()
+        result.append(curr.val)
+        # move to right subtree
+        curr = curr.right
+    return result
+```
+
+### Iterative Preorder (root → left → right)
+
+```python
+def preorder_iterative(root):
+    if not root: return []
+    result, stack = [], [root]
+    while stack:
+        node = stack.pop()
+        result.append(node.val)
+        if node.right: stack.append(node.right)   # right first — stack reverses order
+        if node.left:  stack.append(node.left)
+    return result
+```
+
+### Iterative Postorder (left → right → root)
+
+```python
+def postorder_iterative(root):
+    if not root: return []
+    result, stack = [], [root]
+    while stack:
+        node = stack.pop()
+        result.append(node.val)
+        if node.left:  stack.append(node.left)
+        if node.right: stack.append(node.right)
+    return result[::-1]   # reverse: root was appended first, should be last
+```
+
+**Memory aid:** inorder requires tracking `curr` because you need to descend before processing. Preorder and postorder can use a plain push-and-process loop. Postorder = preorder (root→right→left) reversed.
+
 ## The Template
 
 The reusable code skeleton for this pattern lives in [`appendix/templates/trees/`](../appendix/templates/trees/). Read the README (when to reach for it, variations, common bugs), then type out [`template.py`](../appendix/templates/trees/template.py) from memory before you drill problems.
@@ -176,9 +245,10 @@ Work the matching set in the curated list: [**Trees & Binary Search Trees proble
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write DFS (base → recurse → combine) and BFS level-order from memory.
+- [ ] I can explain when a problem needs preorder vs. inorder vs. postorder.
+- [ ] I know what makes a BST special and how inorder traversal exploits it.
+- [ ] I solved a 🔴 Hard tree problem (e.g. Binary Tree Maximum Path Sum or Serialize/Deserialize).
 
 ---
 

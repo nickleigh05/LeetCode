@@ -208,9 +208,10 @@ Work the matching set in the curated list: [**Tries problems →**](../../lists/
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can build a trie node and insert/search from memory.
+- [ ] I can explain why a trie gives O(k) prefix queries where a hash set can't.
+- [ ] I can implement prefix search (startsWith) and wildcard matching.
+- [ ] I solved a 🔴 Hard trie problem (e.g. Word Search II).
 
 ---
 

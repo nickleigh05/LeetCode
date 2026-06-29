@@ -1,7 +1,7 @@
 # 05. Binary Search & Sorting
 *Halve any ordered search space — including the answer itself.*
 
-[← Prev](04-stack.md) · [🗺 Roadmap](../roadmap.md) · [Next →](06-linked-list.md)
+[← Prev](04b-recursion.md) · [🗺 Roadmap](../roadmap.md) · [Next →](05b-sorting.md)
 
 ---
 
@@ -362,13 +362,14 @@ Work the matching set in the curated list: [**Binary Search & Sorting problems �
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write a binary search with no off-by-one or infinite-loop bugs (I know my loop invariant).
+- [ ] I can explain "binary search on the answer" and recognize when the search space isn't the array itself.
+- [ ] I can adapt the template to find leftmost/rightmost occurrence.
+- [ ] I solved a 🔴 Hard binary-search problem (e.g. Median of Two Sorted Arrays).
 
 ---
 
-**Up next:** [Linked Lists](06-linked-list.md) — pointer surgery: reverse, dummy head, fast/slow.
+**Up next:** [Sorting](05b-sorting.md) — how the `sorted()` you lean on actually works, and the n·log n floor.
 
-[← Prev](04-stack.md) · [🗺 Roadmap](../roadmap.md) · [Next →](06-linked-list.md)
+[← Prev](04b-recursion.md) · [🗺 Roadmap](../roadmap.md) · [Next →](05b-sorting.md)
 

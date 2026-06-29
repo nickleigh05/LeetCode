@@ -103,9 +103,10 @@ Work the matching set in the curated list: [**Intervals problems →**](../../li
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] My reflex on an interval problem is "sort first" — by start or by end as the problem needs.
+- [ ] I can write the merge-overlapping-intervals sweep from memory.
+- [ ] I can use a heap to track active intervals (meeting rooms / minimum platforms).
+- [ ] I solved a 🔴 Hard interval problem (e.g. Employee Free Time or Minimum Interval to Include Query).
 
 ---
 

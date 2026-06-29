@@ -165,13 +165,14 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/union-
 
 ## Practice
 
-Work the matching set in the curated list: [**Union-Find (Disjoint Set Union) problems →**](../../lists/recommended.md#12-advanced-graphs-11-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+The union-find problems live in the [**Graphs section →**](../../lists/recommended.md#11-graphs-23-problems) — focus on the connectivity ones: Number of Connected Components (323), Number of Provinces (547), Graph Valid Tree (261), Redundant Connection (684), Find if Path Exists (1971). Then carry the structure into the [Advanced Graphs set](../../lists/recommended.md#12-advanced-graphs-11-problems) (e.g. Min Cost to Connect All Points / Kruskal's MST).
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write find (with path compression) and union (by rank/size) from memory.
+- [ ] I can explain why Union-Find beats DFS for incremental connectivity / cycle detection.
+- [ ] I know roughly why the amortized cost is near-O(1) (inverse Ackermann).
+- [ ] I solved a 🔴 Hard Union-Find problem (e.g. Redundant Connection II or Accounts Merge).
 
 ---
 

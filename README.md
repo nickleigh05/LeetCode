@@ -2,10 +2,21 @@
 
 A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem solving and data structures practice.
 
+> ### 🚀 Start here → [**The DSA Roadmap**](roadmap/roadmap.md)
+> A self-paced course that takes you from *"what even is a data structure?"* to advanced algorithm problems — concept lessons, code templates, and curated practice for every pattern.
+
 ## Repository Structure
 
 ```
 leetcode/
+├── roadmap/
+│   ├── roadmap.md              ← the course spine (start here)
+│   ├── learning/               ← 00-foundations … 19-math-geometry lessons
+│   └── appendix/
+│       ├── python-syntax.md
+│       ├── cheatsheet-core.md
+│       ├── cheatsheet-advanced.md
+│       └── templates/          ← per-pattern template.py + README
 ├── problems/
 │   ├── 0001-0499/
 │   ├── 0500-0999/
@@ -18,19 +29,8 @@ leetcode/
 │   ├── neetcodeblind75.md
 │   ├── neetcode150.md
 │   ├── neetcode250.md
-│   └── recommended.md
-├── reference/
-│   ├── ds&a/
-│   │   ├── algorithms.md
-│   │   └── datastructures.md
-│   ├── skeletons/
-│   │   ├── patterns.md
-│   │   └── templates/          ← per-pattern template.py + README
-│   ├── cheatsheets/
-│   │   ├── cheatsheet1.md
-│   │   └── cheatsheet2.md
-│   └── syntax/
-│       └── python.md
+│   ├── recommended.md
+│   └── rushed40.md
 └── README.md
 ```
 
@@ -44,6 +44,7 @@ Browse problems by topic — each list has a Solution column linking directly to
 | [NeetCode 150](lists/neetcode150.md) | 150 | Expanded core list covering all major patterns |
 | [NeetCode 250](lists/neetcode250.md) | 250 | Full extended list with deeper category coverage |
 | [Recommended](lists/recommended.md) | 300 | Comprehensive interview prep list (81 Easy, 187 Medium, 32 Hard) |
+| [Rushed 40](lists/rushed40.md) | 40 | Minimal set for a fast, last-minute pass |
 
 ## Languages
 
@@ -65,17 +66,20 @@ Browse problems by topic — each list has a Solution column linking directly to
 - Backtracking
 - Bit Manipulation
 
-## Reference
+## Roadmap & Reference
+
+The [**roadmap**](roadmap/roadmap.md) is the guided learning path. Its lessons fold in the
+data-structure, algorithm, and pattern explanations (with visual traces and complexity tables);
+the appendix holds quick-reference material.
 
 | File | Description |
 |------|-------------|
-| [patterns.md](reference/skeletons/patterns.md) | 16 core patterns with visual traces, templates, and when-to-use checklists |
-| [datastructures.md](reference/ds&a/datastructures.md) | Every major data structure — complexity, visuals, and pattern links |
-| [algorithms.md](reference/ds&a/algorithms.md) | Binary search, DFS/BFS, DP, sorting, Dijkstra, and more |
-| [cheatsheet1.md](reference/cheatsheets/cheatsheet1.md) | Python syntax quick reference — arrays, strings, dicts, trees, graphs |
-| [cheatsheet2.md](reference/cheatsheets/cheatsheet2.md) | Advanced patterns cheat sheet |
-| [python.md](reference/syntax/python.md) | Python language reference for interviews |
-| [templates/](reference/skeletons/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
+| [roadmap.md](roadmap/roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
+| [learning/](roadmap/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
+| [templates/](roadmap/appendix/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
+| [cheatsheet-core.md](roadmap/appendix/cheatsheet-core.md) | Python syntax quick reference — arrays, strings, dicts, trees, graphs |
+| [cheatsheet-advanced.md](roadmap/appendix/cheatsheet-advanced.md) | Advanced patterns cheat sheet |
+| [python-syntax.md](roadmap/appendix/python-syntax.md) | Python language reference for interviews |
 
 ## External Links
 

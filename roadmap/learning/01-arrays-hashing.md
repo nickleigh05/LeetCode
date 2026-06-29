@@ -1,7 +1,7 @@
 # 01. Arrays & Hashing
 *The foundation. Hash maps trade memory for O(1) lookups and quietly power half of all interview solutions.*
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../roadmap.md) · [Next →](02-two-pointers.md)
+[← Prev](00-foundations.md) · [🗺 Roadmap](../roadmap.md) · [Next →](01b-prefix-sums.md)
 
 ---
 
@@ -60,58 +60,12 @@ arr[1:4]               # O(k) - slice, k = length of slice
 
 ### String
 
-```
-  s = "h  e  l  l  o"
-       0  1  2  3  4    ← indices
-       ↑              ↑
-     s[0]='h'       s[4]='o'
-     s[-1]='o'  (negative indexing wraps around)
+A string is an **immutable** array of characters — indexing and slicing work exactly like a list (`s[i]`, `s[1:4]`, `s[::-1]`), but you can't assign to `s[i]`. Two gotchas matter for interviews:
 
-  Slicing:
-  s[1:4]  →  "ell"   (start inclusive, end exclusive)
-  s[::-1] →  "olleh" (reverse)
-```
+- **Building strings:** `+=` in a loop is O(n²) because each concat copies the whole string. Collect characters in a list and `"".join(list)` once — O(n).
+- **Char ↔ int:** `ord('a') → 97` and `chr(97) → 'a'`, used constantly for frequency arrays and alphabet indexing.
 
-**What it is:** An immutable sequence of characters. In Python, strings cannot be modified in place — any "change" creates a new string.
-
-**Key Properties:**
-- Immutable: `s[0] = 'x'` raises `TypeError`
-- Concatenation with `+` is O(n+m) — avoid in loops; use `''.join(list)` instead
-- String comparison is O(n) (character by character)
-- `ord(c)` converts char to integer; `chr(n)` converts back
-
-**Complexity:**
-
-| Operation | Time | Notes |
-|-----------|------|-------|
-| Access `s[i]` | O(1) | |
-| Slice `s[i:j]` | O(j-i) | Creates new string |
-| Concat `s + t` | O(n+m) | Avoid in loops |
-| `''.join(lst)` | O(n) | Preferred for building strings |
-| `in` / `find` | O(n·m) | Naive substring search |
-| Split / Strip | O(n) | |
-
-**Use when:**
-- Working with character frequency (anagrams, permutations)
-- Palindrome checks
-- Substring matching or extraction
-- Encoding/decoding problems
-
-**Python:**
-```python
-s = "hello world"
-s.lower()              # "hello world"
-s.upper()              # "HELLO WORLD"
-s.split(" ")           # ["hello", "world"]
-s.replace("l", "r")   # "herro worrd"
-s[::-1]                # "dlrow olleh"  (reverse)
-"".join(["a","b","c"]) # "abc"
-ord("a")               # 97
-chr(97)                # "a"
-
-from collections import Counter
-Counter("banana")      # {'a': 3, 'n': 2, 'b': 1}
-```
+For the full string method reference (split, strip, replace, f-strings, `Counter`), see [Python syntax → Strings](../appendix/python-syntax.md#04-strings). Everything else about strings *is* the array material above.
 
 ### Hash Map and Hash Set
 
@@ -186,86 +140,9 @@ for i, n in enumerate(nums):
     lookup[n] = i
 ```
 
-## The Pattern
+## The Pattern — Prefix Sums
 
-### Prefix Sum
-
-```
-  Array: [1, 2, 3, 4, 5]
-  Prefix: [0, 1, 3, 6, 10, 15]
-           ↑  ↑  ↑  ↑   ↑   ↑
-           0  1  2  3   4   5  ← index in prefix array
-
-  Range sum query [l, r] (0-indexed, inclusive):
-  sum(2..4) = prefix[5] - prefix[2] = 15 - 3 = 12 ✓
-  (3 + 4 + 5 = 12)
-
-  General formula:
-  prefix[i] = arr[0] + arr[1] + ... + arr[i-1]
-  sum(l, r) = prefix[r+1] - prefix[l]    ← O(1)!
-
-  Subarray sum equals k (use HashMap):
-  arr = [1, 2, 3], k = 3
-  prefix sums seen: {0: 1}
-  i=0: prefix=1,  need=1-3=-2,  count += seen[-2] = 0
-  i=1: prefix=3,  need=3-3=0,   count += seen[0] = 1   ← [1,2]
-  i=2: prefix=6,  need=6-3=3,   count += seen[3] = 1   ← [3]
-  Total = 2
-```
-
-**What it is:** Precompute cumulative sums so that any range sum query answers in O(1) instead of O(n). When combined with a hash map, it finds subarrays with a target sum in O(n).
-
-**Use this when:**
-- [ ] "Sum of subarray from index l to r" (multiple queries)
-- [ ] "Number of subarrays with sum equal to k"
-- [ ] "Product of array except self" (prefix + suffix products)
-- [ ] 2D matrix range queries (2D prefix sum)
-- [ ] Balance point / pivot index problems
-
-**Python:**
-```python
-# Build prefix sum
-def build_prefix(arr):
-    prefix = [0] * (len(arr) + 1)
-    for i, val in enumerate(arr):
-        prefix[i+1] = prefix[i] + val
-    return prefix
-
-# Range sum query — O(1)
-def range_sum(prefix, l, r):
-    return prefix[r+1] - prefix[l]
-
-# Subarray sum equals k — O(n)
-from collections import defaultdict
-def subarray_sum(nums, k):
-    count = 0
-    prefix = 0
-    seen = defaultdict(int)
-    seen[0] = 1
-    for num in nums:
-        prefix += num
-        count += seen[prefix - k]   # how many times (prefix - k) appeared before
-        seen[prefix] += 1
-    return count
-
-# Product of array except self (prefix × suffix)
-def product_except_self(nums):
-    n = len(nums)
-    result = [1] * n
-    prefix = 1
-    for i in range(n):
-        result[i] = prefix
-        prefix *= nums[i]
-    suffix = 1
-    for i in range(n-1, -1, -1):
-        result[i] *= suffix
-        suffix *= nums[i]
-    return result
-```
-
-**Complexity:** O(n) build, O(1) query. Subarray sum k: O(n) time, O(n) space.
-
-**Blind 75 examples:** Product of Array Except Self · (Subarray Sum Equals K is a common extension)
+The classic memory-for-speed pattern built on arrays — precompute cumulative sums so any range query is an O(1) subtraction, and pair it with a hash map to count subarrays summing to `k`— gets its own lesson next: [**01b · Prefix Sums**](01b-prefix-sums.md). It also covers difference arrays and 2-D prefix sums. Finish this lesson's hash-map practice first, then go there.
 
 ## The Template
 
@@ -277,13 +154,14 @@ Work the matching set in the curated list: [**Arrays & Hashing problems →**](.
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can explain *why* a hash map turns an O(n²) double loop into O(n) — what it trades and what it remembers.
+- [ ] I can write the Two Sum complement pattern from memory, plus frequency counting with `Counter`/`defaultdict`.
+- [ ] I know when a set beats a list for membership (`x in s`) and why.
+- [ ] I solved a 🔴 Hard array/hashing problem (e.g. Longest Consecutive Sequence).
 
 ---
 
-**Up next:** [Two Pointers](02-two-pointers.md) — one scan, two cursors closing in. The trick is knowing which condition moves which pointer.
+**Up next:** [Prefix Sums](01b-prefix-sums.md) — precompute once, answer range queries in O(1). The hidden engine behind subarray problems.
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../roadmap.md) · [Next →](02-two-pointers.md)
+[← Prev](00-foundations.md) · [🗺 Roadmap](../roadmap.md) · [Next →](01b-prefix-sums.md)
 

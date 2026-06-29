@@ -5,7 +5,7 @@
 
 ---
 
-> **Builds on:** recursion and DFS from [Lesson 07 — Trees](07-trees.md). Backtracking is DFS over a tree of *choices* instead of a tree of nodes.
+> **Builds on:** [recursion (04b)](04b-recursion.md) and DFS from [Lesson 07 — Trees](07-trees.md). Backtracking is DFS over a tree of *choices* instead of a tree of nodes.
 
 Backtracking is exhaustive search done cleanly: at each step make a choice, recurse, then **undo the choice** before trying the next. Subsets, permutations, combinations, word search, N-Queens — they're all the same skeleton over a decision tree. Get the choose/un-choose rhythm right and pruning becomes natural.
 
@@ -188,9 +188,10 @@ Work the matching set in the curated list: [**Backtracking problems →**](../..
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write the choose → explore → un-choose template from memory.
+- [ ] I can explain how pruning cuts the search tree and where to place the prune check.
+- [ ] I can handle the duplicate-skipping and used-set variants (subsets II, permutations).
+- [ ] I solved a 🔴 Hard backtracking problem (e.g. N-Queens or Sudoku Solver).
 
 ---
 

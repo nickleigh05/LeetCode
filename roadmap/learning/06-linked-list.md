@@ -1,7 +1,7 @@
 # 06. Linked Lists
 *Pointer surgery: reverse, dummy head, fast/slow.*
 
-[← Prev](05-binary-search.md) · [🗺 Roadmap](../roadmap.md) · [Next →](07-trees.md)
+[← Prev](05b-sorting.md) · [🗺 Roadmap](../roadmap.md) · [Next →](07-trees.md)
 
 ---
 
@@ -183,13 +183,14 @@ Work the matching set in the curated list: [**Linked Lists problems →**](../..
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can reverse a linked list iteratively from memory, tracking prev/curr/next.
+- [ ] I can explain the dummy-head trick and when it removes edge cases.
+- [ ] I can use fast/slow pointers to find the middle and detect a cycle.
+- [ ] I solved a 🔴 Hard linked-list problem (e.g. Merge k Sorted Lists or Reverse Nodes in k-Group).
 
 ---
 
 **Up next:** [Trees & Binary Search Trees](07-trees.md) — dFS = base → recurse → combine. BFS = level by level.
 
-[← Prev](05-binary-search.md) · [🗺 Roadmap](../roadmap.md) · [Next →](07-trees.md)
+[← Prev](05b-sorting.md) · [🗺 Roadmap](../roadmap.md) · [Next →](07-trees.md)
 

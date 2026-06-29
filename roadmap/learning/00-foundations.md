@@ -2,7 +2,7 @@
 
 *Start here even if you've never heard the words "data structure." By the end you'll know what they are, why Big O matters, and how to use this repo.*
 
-[← Roadmap](../roadmap.md) · [🗺 Roadmap](../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Roadmap](../roadmap.md) · [🗺 Roadmap](../roadmap.md) · [Next →](00b-foundations-practice.md)
 
 ---
 
@@ -93,8 +93,8 @@ Three rules that make it stick:
 - **The 30-minute rule.** Stuck for 30 minutes? Read the template's "common bugs" and hints rather than suffering for hours. Struggle is good; spinning is not.
 - **Spaced review.** Revisit a topic 3 days after it first clicks. Re-deriving it is what moves it to long-term memory.
 
-When you're ready, take a breath and open [**Lesson 01 — Arrays & Hashing →**](01-arrays-hashing.md).
+When you're ready, take a breath and do the [**Foundations Practice drills →**](00b-foundations-practice.md) to make Big O stick before the first real lesson.
 
 ---
 
-[← Roadmap](../roadmap.md) · [🗺 Roadmap](../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Roadmap](../roadmap.md) · [🗺 Roadmap](../roadmap.md) · [Next →](00b-foundations-practice.md)

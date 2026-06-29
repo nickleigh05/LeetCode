@@ -29,6 +29,18 @@ cols = len(grid[0])     # 3
 
 Always derive `rows` and `cols` from the grid itself — never hardcode them.
 
+### Building a grid (the one-line trap)
+
+```python
+# CORRECT — each row is its own fresh list
+grid = [[0] * cols for _ in range(rows)]
+
+# WRONG — every row is the SAME list object; editing one edits all
+grid = [[0] * cols] * rows      # ← classic aliasing bug
+```
+
+The wrong form bites constantly in 2-D DP table setup: `grid[0][0] = 5` ends up changing column 0 of *every* row. Always use the comprehension.
+
 ### Neighbor generation — the 4-directional idiom
 
 Most grid problems move **up, down, left, right**. Store these as direction deltas:
@@ -142,6 +154,13 @@ def bfs(start_r, start_c):
 ```
 
 **BFS gives the shortest path in an unweighted grid; DFS gives reachability.**
+
+### Useful matrix transforms (preview of Lesson 19)
+
+```python
+transposed = list(zip(*grid))          # rows ↔ columns
+for row in grid: row.reverse()         # then reverse each row → 90° clockwise rotation
+```
 
 ## Common Grid Patterns at a Glance
 

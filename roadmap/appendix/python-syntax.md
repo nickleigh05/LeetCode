@@ -22,6 +22,7 @@
 | 12 | [Useful Built-ins](#12-useful-built-ins) |
 | 13 | [Imports](#13-imports) |
 | 14 | [Common Beginner Mistakes](#14-common-beginner-mistakes) |
+| 15 | [Complexity of Common Operations](#15-complexity-of-common-operations) |
 
 ---
 
@@ -702,6 +703,69 @@ res.append(path[:])    # ✅ stores a snapshot copy
 if x == None:    # works but wrong style
 if x is None:    # ✅ correct
 ```
+
+---
+
+## 15 Complexity of Common Operations
+
+Know these cold — picking the wrong container (or the wrong operation on the right container) is the most common way an O(n) solution silently becomes O(n²). Times are average-case unless noted.
+
+### `list` (dynamic array)
+
+| Operation | Time | Notes |
+|-----------|------|-------|
+| `lst[i]` (index) | O(1) | |
+| `lst[i] = x` | O(1) | |
+| `lst.append(x)` | O(1) amortized | occasional resize doubles capacity |
+| `lst.pop()` (end) | O(1) | |
+| `lst.pop(0)` (front) | **O(n)** | shifts everything — use `deque` instead |
+| `lst.insert(i, x)` | O(n) | shifts the tail |
+| `x in lst` | O(n) | linear scan — use a `set` for membership |
+| `lst[a:b]` (slice) | O(b−a) | builds a new list |
+| `len(lst)` | O(1) | stored, not counted |
+| `lst.sort()` | O(n log n) | Timsort, in place, stable |
+| `min`/`max`/`sum` | O(n) | |
+
+### `dict` / `set` (hash table)
+
+| Operation | Average | Worst | Notes |
+|-----------|---------|-------|-------|
+| get / set / `in` | O(1) | O(n) | worst only with pathological hash collisions |
+| `del d[k]` | O(1) | O(n) | |
+| iterate | O(n) | O(n) | dicts preserve insertion order (3.7+) |
+
+Keys/elements must be **hashable** (immutable): `int`, `str`, `tuple` — not `list` or `set`.
+
+### `collections.deque` (double-ended queue)
+
+| Operation | Time |
+|-----------|------|
+| `append` / `pop` (right) | O(1) |
+| `appendleft` / `popleft` (left) | O(1) |
+| index in the middle | O(n) |
+
+Reach for `deque` for BFS queues and sliding-window-maximum — never `list.pop(0)`.
+
+### `heapq` (binary heap on a list)
+
+| Operation | Time |
+|-----------|------|
+| `heappush` / `heappop` | O(log n) |
+| `heap[0]` (peek min) | O(1) |
+| `heapify(lst)` | O(n) |
+
+Python's `heapq` is a **min-heap**; negate values for a max-heap.
+
+### `str` (immutable)
+
+| Operation | Time | Notes |
+|-----------|------|-------|
+| `s[i]` | O(1) | |
+| `s + t` | O(n+m) | builds a new string — never concat in a loop |
+| `"".join(parts)` | O(total length) | the right way to build strings |
+| `x in s` (substring) | O(n·m) | naive search |
+
+> **Rule of thumb:** need membership → `set`; need order + index → `list`; need FIFO/both-ends → `deque`; need the running min/max → `heapq`; need key→value → `dict`.
 
 ---
 

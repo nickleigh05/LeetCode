@@ -5,6 +5,8 @@
 
 ---
 
+> **Read first if rusty:** [Grids Primer](10b-grids-primer.md) — many problems here are grid flood-fills (Number of Islands, Rotting Oranges). The 2-D indexing, 4-neighbor, and bounds-check idioms live there.
+
 A graph is just nodes and edges — and grids, course prerequisites, and friend networks are all graphs in disguise. Two traversals do most of the work: **BFS** explores level by level (shortest path in an unweighted graph), **DFS** dives deep (connectivity, cycles, flood fill). Build the adjacency list, pick the traversal, and most graph problems fall.
 
 ## Concept
@@ -372,9 +374,10 @@ Work the matching set in the curated list: [**Graphs (BFS & DFS) problems →**]
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can build an adjacency list from an edge list and run BFS *and* DFS from memory.
+- [ ] I can explain why BFS gives shortest paths in an *unweighted* graph but DFS does not.
+- [ ] I can detect a cycle and count connected components.
+- [ ] I solved a 🔴 Hard graph problem (e.g. Word Ladder or Alien Dictionary).
 
 ---
 

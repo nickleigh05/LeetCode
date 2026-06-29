@@ -98,11 +98,11 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
-| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
+| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
-| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | - |
+| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
 
 ## 12. Advanced Graphs (1 problems)
 
@@ -129,7 +129,7 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
+| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | [Solution](../problems/0001-0499/62.py) |
 | 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 
 ## 15. Greedy (2 problems)
@@ -144,7 +144,7 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
-| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | - |
+| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
 | 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
 | 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
@@ -153,7 +153,7 @@
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | - |
+| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
 

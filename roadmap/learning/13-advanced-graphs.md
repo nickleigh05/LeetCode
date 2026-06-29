@@ -281,9 +281,10 @@ Work the matching set in the curated list: [**Advanced Graphs (Dijkstra & Topolo
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can write Dijkstra with a heap from memory and explain why it fails on negative edges.
+- [ ] I can produce a topological order (Kahn's or DFS) and use it to detect a cycle in a DAG.
+- [ ] I know which algorithm fits: BFS vs. Dijkstra vs. topo sort vs. MST.
+- [ ] I solved a 🔴 Hard advanced-graph problem (e.g. Cheapest Flights or Swim in Rising Water).
 
 ---
 

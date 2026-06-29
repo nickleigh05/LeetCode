@@ -254,9 +254,10 @@ Work the matching set in the curated list: [**Heaps & Priority Queues problems �
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can explain when a heap beats sorting (streaming / top-K without seeing all data at once).
+- [ ] I can write the top-K pattern with `heapq` from memory, and simulate a max-heap with negation.
+- [ ] I know the two-heap trick for a running median.
+- [ ] I solved a 🔴 Hard heap problem (e.g. Find Median from Data Stream).
 
 ---
 

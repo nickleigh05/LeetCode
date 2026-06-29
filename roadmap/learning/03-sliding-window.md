@@ -118,9 +118,10 @@ Work the matching set in the curated list: [**Sliding Window problems →**](../
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can explain when to grow vs. shrink the window, and what invariant the window maintains.
+- [ ] I can write both the fixed-size and variable-size window templates from memory.
+- [ ] I can track window state with a hash map (longest substring without repeats) without off-by-one bugs.
+- [ ] I solved a 🔴 Hard sliding-window problem (e.g. Minimum Window Substring).
 
 ---
 

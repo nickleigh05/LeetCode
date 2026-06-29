@@ -1,7 +1,7 @@
 # 04. Stacks, Queues & Monotonic Stacks
 *LIFO for "most recent unresolved"; a monotonic stack answers next-greater questions in one pass.*
 
-[← Prev](03-sliding-window.md) · [🗺 Roadmap](../roadmap.md) · [Next →](05-binary-search.md)
+[← Prev](03-sliding-window.md) · [🗺 Roadmap](../roadmap.md) · [Next →](04b-recursion.md)
 
 ---
 
@@ -294,6 +294,91 @@ def trap(height):
 
 **Blind 75 examples:** (Directly used in Largest Rectangle in Histogram, Daily Temperatures)
 
+## Algorithm Deep-Dive — Recognizing Monotonic Stack Problems
+
+The pattern looks the same in code every time. The skill is *recognizing when you need it*. Every monotonic stack problem is one of four questions:
+
+```
+                      ┌─────────────────────────────────────────┐
+                      │   For each element, find the nearest…    │
+                      ├──────────────────┬──────────────────────┤
+                      │   to the RIGHT   │   to the LEFT        │
+  ┌───────────────────┼──────────────────┼──────────────────────┤
+  │  element GREATER  │ Next Greater →   │ Previous Greater ←   │
+  │                   │ (decreasing stk) │ (decreasing stk)     │
+  ├───────────────────┼──────────────────┼──────────────────────┤
+  │  element SMALLER  │ Next Smaller →   │ Previous Smaller ←   │
+  │                   │ (increasing stk) │ (increasing stk)     │
+  └───────────────────┴──────────────────┴──────────────────────┘
+
+  → direction: scan left to right, push index, pop when condition met
+  ← direction: scan right to left (or use the stack's remaining elements
+    after a left-to-right pass — they're the "unanswered" questions)
+```
+
+**Four templates, one skeleton:**
+
+```python
+# Next Greater Element (right) — decreasing stack
+result = [-1] * n
+stack = []
+for i in range(n):
+    while stack and nums[i] > nums[stack[-1]]:
+        result[stack.pop()] = nums[i]     # nums[i] is the answer for popped element
+    stack.append(i)
+
+# Previous Greater Element (left) — decreasing stack, scan right
+result = [-1] * n
+stack = []
+for i in range(n):
+    while stack and nums[i] >= nums[stack[-1]]:
+        stack.pop()                        # pop smaller/equal elements, they can't be the answer
+    if stack: result[i] = nums[stack[-1]] # stack top is nearest greater to the left
+    stack.append(i)
+
+# Next Smaller (right) — increasing stack (flip the comparison)
+# Previous Smaller (left) — same shape, flip comparison
+```
+
+**Monotonic Deque — sliding window maximum:**
+
+When the window slides, you also need to *evict old elements from the front*. A deque gives you O(1) pop from both ends:
+
+```
+  nums=[1,3,-1,-3,5,3,6,7], k=3
+  Window max using a decreasing deque (stores indices):
+
+  i=0 (1):  dq=[0]
+  i=1 (3):  3>1 → pop 0,  dq=[1]
+  i=2 (-1): dq=[1,2],  window=[0..2]: max = nums[dq[0]] = nums[1] = 3
+  i=3 (-3): dq=[1,2,3], window=[1..3]: max = nums[1] = 3
+  i=4 (5):  pop 3,2,1 (all < 5), dq=[4], window=[2..4]: max = 5
+  i=5 (3):  dq=[4,5],  window=[3..5]: max = 5
+  i=6 (6):  pop 5,4, dq=[6], window=[4..6]: max = 6
+  i=7 (7):  pop 6, dq=[7], window=[5..7]: max = 7
+```
+
+```python
+from collections import deque
+
+def sliding_window_max(nums, k):
+    dq = deque()   # indices, decreasing by value
+    result = []
+    for i, n in enumerate(nums):
+        # evict indices outside the window
+        while dq and dq[0] < i - k + 1:
+            dq.popleft()
+        # maintain decreasing order
+        while dq and n > nums[dq[-1]]:
+            dq.pop()
+        dq.append(i)
+        if i >= k - 1:
+            result.append(nums[dq[0]])   # front is always the window max
+    return result
+```
+
+**Complexity:** O(n) — each index enters and leaves the deque at most once.
+
 ## The Template
 
 The reusable code skeleton for this pattern lives in [`appendix/templates/stack/`](../appendix/templates/stack/). Read the README (when to reach for it, variations, common bugs), then type out [`template.py`](../appendix/templates/stack/template.py) from memory before you drill problems.
@@ -304,13 +389,14 @@ Work the matching set in the curated list: [**Stacks, Queues & Monotonic Stacks 
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can explain when "most recent unresolved item" signals a stack, and why BFS needs a queue not a stack.
+- [ ] I can write the monotonic-stack next-greater-element template from memory.
+- [ ] I know to use `collections.deque` (not `list.pop(0)`) for a queue, and why.
+- [ ] I solved a 🔴 Hard stack problem (e.g. Largest Rectangle in Histogram).
 
 ---
 
-**Up next:** [Binary Search & Sorting](05-binary-search.md) — halve any ordered search space — including the answer itself.
+**Up next:** [Recursion & the Call Stack](04b-recursion.md) — the call stack *is* a stack; this is the bridge to trees, backtracking, and DP.
 
-[← Prev](03-sliding-window.md) · [🗺 Roadmap](../roadmap.md) · [Next →](05-binary-search.md)
+[← Prev](03-sliding-window.md) · [🗺 Roadmap](../roadmap.md) · [Next →](04b-recursion.md)
 

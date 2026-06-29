@@ -203,7 +203,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | - |
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
-| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | - |
+| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
 | 286 | Medium | Walls And Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
 | 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | - |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
@@ -213,7 +213,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | - |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
-| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | - |
+| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
 | 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | - |
 | 721 | Medium | Accounts Merge | [Link](https://leetcode.com/problems/accounts-merge/) | - |
 | 399 | Medium | Evaluate Division | [Link](https://leetcode.com/problems/evaluate-division/) | - |
@@ -261,7 +261,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | - |
+| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | [Solution](../problems/0001-0499/62.py) |
 | 63 | Medium | Unique Paths II | [Link](https://leetcode.com/problems/unique-paths-ii/) | - |
 | 64 | Medium | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | - |
 | 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
@@ -302,7 +302,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
-| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | - |
+| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
 | 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
 | 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
@@ -317,7 +317,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | - |
 | 2807 | Medium | Insert Greatest Common Divisors in Linked List | [Link](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | - |
 | 867 | Easy | Transpose Matrix | [Link](https://leetcode.com/problems/transpose-matrix/) | - |
-| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | - |
+| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
 | 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |

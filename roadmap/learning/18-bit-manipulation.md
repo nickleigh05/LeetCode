@@ -224,9 +224,10 @@ Work the matching set in the curated list: [**Bit Manipulation problems →**](.
 
 ## Check Yourself
 
-- [ ] I can explain this topic simply, in my own words.
-- [ ] I can write the template from scratch without looking.
-- [ ] I solved a 🔴 Hard variant of this pattern.
+- [ ] I can explain AND/OR/XOR/shift at the bit level and the XOR self-cancellation trick.
+- [ ] I can write get/set/clear/toggle bit and `n & (n-1)` (clear lowest set bit) from memory.
+- [ ] I can use a bitmask to represent a subset/state (e.g. for bitmask DP).
+- [ ] I solved a 🔴 Hard bit problem (e.g. Single Number III or Maximum XOR of Two Numbers).
 
 ---
 

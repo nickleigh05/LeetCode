@@ -6,7 +6,9 @@
 
 ---
 
-Lesson 00 explained what Big-O means. This one makes you compute it — on loops, on recursion, on Python's built-ins — until estimating complexity becomes a reflex. Do these before moving into Phase 1. They will save you hours of confusion later.
+Lesson 00 explained what Big-O means. This one makes you compute it — on loops, on recursion, on Python's built-ins — until estimating complexity becomes a reflex.
+
+> **How much to do now:** Work the **Analyzing Loops** and **built-in costs** drills before Phase 1 — that's the part you need immediately. The **recursion** and **amortized analysis** sections are here for completeness; if they feel abstract before you've written recursive code, skim them now and come back after [Recursion (04b)](04b-recursion.md). Don't let this page become a wall that blocks you from starting Lesson 01.
 
 ## Analyzing Loops
 
