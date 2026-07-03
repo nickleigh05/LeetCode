@@ -2,20 +2,23 @@
 
 A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem solving and data structures practice.
 
-> ### 🚀 Start here → [**The DSA Roadmap**](roadmap/roadmap.md)
+> ### 🚀 Start here → [**The DSA Roadmap**](roadmap.md)
 > A self-paced course that takes you from *"what even is a data structure?"* to advanced algorithm problems — concept lessons, code templates, and curated practice for every pattern.
 
 ## Repository Structure
 
 ```
 leetcode/
-├── roadmap/
-│   ├── roadmap.md              ← the course spine (start here)
-│   ├── learning/               ← 00-foundations … 19-math-geometry lessons
+├── roadmap.md                  ← the course spine (start here)
+├── materials/                   ← reference material the roadmap hyperlinks into
+│   ├── learning/                ← 00-foundations … 19-math-geometry lessons
+│   ├── data-structures/         ← atomic, one-structure-per-file reference pages
+│   ├── algorithms/               ← atomic, one-algorithm-per-file reference pages
+│   ├── patterns/                 ← atomic, one-technique-per-file pages (ties structures/algos to problems)
+│   ├── syntax/                   ← atomic Python syntax reference pages
+│   ├── practice/
+│   │   └── 01-arrays-hashing/   ← per-problem walkthrough pages (more topics coming)
 │   └── appendix/
-│       ├── python-syntax.md
-│       ├── cheatsheet-core.md
-│       ├── cheatsheet-advanced.md
 │       └── templates/          ← per-pattern template.py + README
 ├── problems/
 │   ├── 0001-0499/
@@ -68,18 +71,19 @@ Browse problems by topic — each list has a Solution column linking directly to
 
 ## Roadmap & Reference
 
-The [**roadmap**](roadmap/roadmap.md) is the guided learning path. Its lessons fold in the
+The [**roadmap**](roadmap.md) is the guided learning path. Its lessons fold in the
 data-structure, algorithm, and pattern explanations (with visual traces and complexity tables);
 the appendix holds quick-reference material.
 
 | File | Description |
 |------|-------------|
-| [roadmap.md](roadmap/roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
-| [learning/](roadmap/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
-| [templates/](roadmap/appendix/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
-| [cheatsheet-core.md](roadmap/appendix/cheatsheet-core.md) | Python syntax quick reference — arrays, strings, dicts, trees, graphs |
-| [cheatsheet-advanced.md](roadmap/appendix/cheatsheet-advanced.md) | Advanced patterns cheat sheet |
-| [python-syntax.md](roadmap/appendix/python-syntax.md) | Python language reference for interviews |
+| [roadmap.md](roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
+| [learning/](materials/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
+| [data-structures/](materials/data-structures/) | Atomic, one-structure-per-file reference pages |
+| [algorithms/](materials/algorithms/) | Atomic, one-algorithm-per-file reference pages |
+| [patterns/](materials/patterns/) | Atomic, one-technique-per-file pages linked from practice walkthroughs |
+| [syntax/](materials/syntax/) | Atomic Python syntax reference pages linked from practice walkthroughs |
+| [templates/](materials/appendix/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
 
 ## External Links
 

@@ -10,7 +10,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *The foundation. Hash maps unlock O(1) lookups and show up everywhere — master these first.*
 
-**Reference:** [Arrays](../roadmap/learning/01-arrays-hashing.md#array) · [Hash Maps & Sets](../roadmap/learning/01-arrays-hashing.md#hash-map-and-hash-set) · [Lists & Arrays Cheatsheet](../roadmap/appendix/cheatsheet-core.md#01-lists--arrays) · [Dicts & Sets Cheatsheet](../roadmap/appendix/cheatsheet-core.md#03-dicts--sets)
+**Reference:** [Arrays](../materials/learning/01-arrays-hashing.md#array) · [Hash Maps & Sets](../materials/learning/01-arrays-hashing.md#hash-map-and-hash-set) · [Lists & Arrays Cheatsheet](../materials/appendix/cheatsheet-core.md#01-lists--arrays) · [Dicts & Sets Cheatsheet](../materials/appendix/cheatsheet-core.md#03-dicts--sets)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -43,7 +43,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *One scan, two cursors. The trick is knowing which condition moves which pointer.*
 
-**Reference:** [Two Pointers Pattern](../roadmap/learning/02-two-pointers.md#two-pointers) · [Two Pointers Cheatsheet](../roadmap/appendix/cheatsheet-core.md#04-two-pointers)
+**Reference:** [Two Pointers Pattern](../materials/learning/02-two-pointers.md#two-pointers) · [Two Pointers Cheatsheet](../materials/appendix/cheatsheet-core.md#04-two-pointers)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -66,7 +66,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Contiguous subarrays / substrings with a moving boundary — brute force is O(n²), this is O(n).*
 
-**Reference:** [Sliding Window Pattern](../roadmap/learning/03-sliding-window.md#sliding-window) · [Sliding Window Cheatsheet](../roadmap/appendix/cheatsheet-core.md#05-sliding-window)
+**Reference:** [Sliding Window Pattern](../materials/learning/03-sliding-window.md#sliding-window) · [Sliding Window Cheatsheet](../materials/appendix/cheatsheet-core.md#05-sliding-window)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -89,7 +89,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *LIFO wins whenever you need to track 'most recent unseen' — parentheses, temperatures, histograms.*
 
-**Reference:** [Stack Data Structure](../roadmap/learning/04-stack.md#stack) · [Monotonic Stack](../roadmap/learning/04-stack.md#monotonic-stack) · [Stack & Queue Cheatsheet](../roadmap/appendix/cheatsheet-core.md#07-stack--queue)
+**Reference:** [Stack Data Structure](../materials/learning/04-stack.md#stack) · [Monotonic Stack](../materials/learning/04-stack.md#monotonic-stack) · [Stack & Queue Cheatsheet](../materials/appendix/cheatsheet-core.md#07-stack--queue)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -114,7 +114,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *If the search space is ordered, binary search it. Works on answers, not just arrays.*
 
-**Reference:** [Binary Search Algorithm](../roadmap/learning/05-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../roadmap/learning/05-binary-search.md#binary-search-on-answer) · [Binary Search Cheatsheet](../roadmap/appendix/cheatsheet-core.md#06-binary-search)
+**Reference:** [Binary Search Algorithm](../materials/learning/05-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../materials/learning/05-binary-search.md#binary-search-on-answer) · [Binary Search Cheatsheet](../materials/appendix/cheatsheet-core.md#06-binary-search)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -141,7 +141,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Pointer arithmetic and in-place manipulation. Draw it out — every single time.*
 
-**Reference:** [Linked List Data Structure](../roadmap/learning/06-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../roadmap/learning/06-linked-list.md#fast-and-slow-pointers) · [Linked List Cheatsheet](../roadmap/appendix/cheatsheet-core.md#09-linked-list)
+**Reference:** [Linked List Data Structure](../materials/learning/06-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../materials/learning/06-linked-list.md#fast-and-slow-pointers) · [Linked List Cheatsheet](../materials/appendix/cheatsheet-core.md#09-linked-list)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -170,7 +170,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
 
-**Reference:** [Binary Tree Data Structure](../roadmap/learning/07-trees.md#binary-tree) · [Binary Search Tree](../roadmap/learning/07-trees.md#binary-search-tree) · [DFS Algorithm](../roadmap/learning/11-graphs.md#depth-first-search) · [BFS Algorithm](../roadmap/learning/11-graphs.md#breadth-first-search) · [Trees Cheatsheet](../roadmap/appendix/cheatsheet-core.md#10-trees)
+**Reference:** [Binary Tree Data Structure](../materials/learning/07-trees.md#binary-tree) · [Binary Search Tree](../materials/learning/07-trees.md#binary-search-tree) · [DFS Algorithm](../materials/learning/11-graphs.md#depth-first-search) · [BFS Algorithm](../materials/learning/11-graphs.md#breadth-first-search) · [Trees Cheatsheet](../materials/appendix/cheatsheet-core.md#10-trees)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -208,7 +208,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Whenever you hear 'top K' or 'running median', reach for a heap.*
 
-**Reference:** [Heap & Priority Queue](../roadmap/learning/09-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../roadmap/learning/09-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../roadmap/learning/09-heap-priority-queue.md#two-heaps) · [Heap Cheatsheet](../roadmap/appendix/cheatsheet-core.md#08-heap--priority-queue)
+**Reference:** [Heap & Priority Queue](../materials/learning/09-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../materials/learning/09-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../materials/learning/09-heap-priority-queue.md#two-heaps) · [Heap Cheatsheet](../materials/appendix/cheatsheet-core.md#08-heap--priority-queue)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -231,7 +231,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
 
-**Reference:** [Backtracking Algorithm](../roadmap/learning/10-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../roadmap/learning/10-backtracking.md#dfs-and-backtracking) · [Backtracking Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#01-backtracking)
+**Reference:** [Backtracking Algorithm](../materials/learning/10-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../materials/learning/10-backtracking.md#dfs-and-backtracking) · [Backtracking Cheatsheet](../materials/appendix/cheatsheet-advanced.md#01-backtracking)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -256,7 +256,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
 
-**Reference:** [Trie Data Structure](../roadmap/learning/08-tries.md#trie) · [Trie Search Pattern](../roadmap/learning/08-tries.md#trie-search) · [Tries Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#02-tries)
+**Reference:** [Trie Data Structure](../materials/learning/08-tries.md#trie) · [Trie Search Pattern](../materials/learning/08-tries.md#trie-search) · [Tries Cheatsheet](../materials/appendix/cheatsheet-advanced.md#02-tries)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -271,7 +271,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *BFS for shortest path, DFS for connectivity. Union-Find for components. Know all three.*
 
-**Reference:** [Graph Data Structure](../roadmap/learning/11-graphs.md#graph) · [BFS Algorithm](../roadmap/learning/11-graphs.md#breadth-first-search) · [DFS Algorithm](../roadmap/learning/11-graphs.md#depth-first-search) · [Union Find](../roadmap/learning/12-union-find.md#disjoint-set-union) · [Graphs Cheatsheet](../roadmap/appendix/cheatsheet-core.md#11-graphs)
+**Reference:** [Graph Data Structure](../materials/learning/11-graphs.md#graph) · [BFS Algorithm](../materials/learning/11-graphs.md#breadth-first-search) · [DFS Algorithm](../materials/learning/11-graphs.md#depth-first-search) · [Union Find](../materials/learning/12-union-find.md#disjoint-set-union) · [Graphs Cheatsheet](../materials/appendix/cheatsheet-core.md#11-graphs)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -303,7 +303,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Weighted shortest paths, MST, Euler paths. High effort, high signal for senior roles.*
 
-**Reference:** [Dijkstra's Algorithm](../roadmap/learning/13-advanced-graphs.md#dijkstras-algorithm) · [Topological Sort](../roadmap/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#07-advanced-graphs)
+**Reference:** [Dijkstra's Algorithm](../materials/learning/13-advanced-graphs.md#dijkstras-algorithm) · [Topological Sort](../materials/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Cheatsheet](../materials/appendix/cheatsheet-advanced.md#07-advanced-graphs)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -323,7 +323,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Break the problem into overlapping subproblems. Define state, write recurrence, add memoization.*
 
-**Reference:** [Dynamic Programming Algorithm](../roadmap/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../roadmap/learning/14-dp-1d.md#dynamic-programming) · [DP Cheatsheet](../roadmap/appendix/cheatsheet-core.md#12-dynamic-programming)
+**Reference:** [Dynamic Programming Algorithm](../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Cheatsheet](../materials/appendix/cheatsheet-core.md#12-dynamic-programming)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -354,7 +354,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Same idea as 1-D but your state is a grid. Usually string matching or path problems.*
 
-**Reference:** [Dynamic Programming Algorithm](../roadmap/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../roadmap/learning/14-dp-1d.md#dynamic-programming) · [Advanced DP Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#08-advanced-dp)
+**Reference:** [Dynamic Programming Algorithm](../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../materials/learning/14-dp-1d.md#dynamic-programming) · [Advanced DP Cheatsheet](../materials/appendix/cheatsheet-advanced.md#08-advanced-dp)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -383,7 +383,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Take the locally optimal choice and trust it's globally optimal. Proving why is the hard part.*
 
-**Reference:** [Greedy Algorithm](../roadmap/learning/16-greedy.md#greedy) · [Greedy Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#04-greedy)
+**Reference:** [Greedy Algorithm](../materials/learning/16-greedy.md#greedy) · [Greedy Cheatsheet](../materials/appendix/cheatsheet-advanced.md#04-greedy)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -406,7 +406,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Sort by start time. Merge, count, or query — the pattern is always sort-first.*
 
-**Reference:** [Merge Intervals Pattern](../roadmap/learning/17-intervals.md#merge-intervals) · [Intervals Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#03-intervals)
+**Reference:** [Merge Intervals Pattern](../materials/learning/17-intervals.md#merge-intervals) · [Intervals Cheatsheet](../materials/appendix/cheatsheet-advanced.md#03-intervals)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -425,7 +425,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *Modular arithmetic, GCD, matrix ops. Usually a 5-liner once you remember the trick.*
 
-**Reference:** [Sorting & Math Cheatsheet](../roadmap/appendix/cheatsheet-core.md#13-sorting--math) · [Math & Number Theory Cheatsheet](../roadmap/appendix/cheatsheet-advanced.md#10-math--number-theory)
+**Reference:** [Sorting & Math Cheatsheet](../materials/appendix/cheatsheet-core.md#13-sorting--math) · [Math & Number Theory Cheatsheet](../materials/appendix/cheatsheet-advanced.md#10-math--number-theory)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
@@ -450,7 +450,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 *XOR, shifts, and masks. Weird-looking but fast — and interviewers love asking them.*
 
-**Reference:** [Bit Manipulation Algorithm](../roadmap/learning/18-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../roadmap/learning/18-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Tricks Cheatsheet](../roadmap/appendix/cheatsheet-core.md#14-bit-tricks)
+**Reference:** [Bit Manipulation Algorithm](../materials/learning/18-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../materials/learning/18-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Tricks Cheatsheet](../materials/appendix/cheatsheet-core.md#14-bit-tricks)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
