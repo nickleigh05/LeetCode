@@ -110,7 +110,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/two-po
 
 ## Practice
 
-Work the matching set in the curated list: [**Two Pointers problems →**](../../lists/recommended.md#2-two-pointers-14-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Two Pointers — Practice →**](../rmap-practice/02-two-pointers.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#2-two-pointers-14-problems).
 
 ## Check Yourself
 

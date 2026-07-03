@@ -99,7 +99,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/interv
 
 ## Practice
 
-Work the matching set in the curated list: [**Intervals problems →**](../../lists/recommended.md#16-intervals-10-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Intervals — Practice →**](../rmap-practice/16-intervals.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#16-intervals-10-problems).
 
 ## Check Yourself
 

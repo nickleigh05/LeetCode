@@ -165,7 +165,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/union-
 
 ## Practice
 
-The union-find problems live in the [**Graphs section →**](../../lists/recommended.md#11-graphs-23-problems) — focus on the connectivity ones: Number of Connected Components (323), Number of Provinces (547), Graph Valid Tree (261), Redundant Connection (684), Find if Path Exists (1971). Then carry the structure into the [Advanced Graphs set](../../lists/recommended.md#12-advanced-graphs-11-problems) (e.g. Min Cost to Connect All Points / Kruskal's MST).
+The union-find problems live in the [**Graphs practice set →**](../rmap-practice/11-graphs.md) — focus on the connectivity ones: Number of Connected Components (323), Graph Valid Tree (261), Redundant Connection (684). Want more volume? The [recommended list's Graphs section](../../lists/recommended.md#11-graphs-23-problems) adds Number of Provinces (547) and Find if Path Exists (1971). Then carry the structure into the [Advanced Graphs practice set](../rmap-practice/12-advanced-graphs.md) (e.g. Min Cost to Connect All Points / Kruskal's MST).
 
 ## Check Yourself
 

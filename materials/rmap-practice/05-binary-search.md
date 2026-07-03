@@ -2,6 +2,8 @@
 
 The Roadmap follows a curated list called the NeetCode 150 for practice problems. If you want more or fewer problems, check the other lists in [lists/](../../lists/).
 
+[← Back to the lesson](../learning/05-binary-search.md) · [🗺 Roadmap](../../roadmap.md)
+
 ---
 
 ### 704. Binary Search — Easy

@@ -11,13 +11,11 @@ A collection of my solutions to LeetCode problems, organized by topic and diffic
 leetcode/
 ├── roadmap.md                  ← the course spine (start here)
 ├── materials/                   ← reference material the roadmap hyperlinks into
-│   ├── learning/                ← 00-foundations … 19-math-geometry lessons
+│   ├── learning/                ← 00-foundations … 20-segment-trees lessons
+│   ├── rmap-practice/           ← per-topic practice sets with hints & solutions
 │   ├── data-structures/         ← atomic, one-structure-per-file reference pages
 │   ├── algorithms/               ← atomic, one-algorithm-per-file reference pages
-│   ├── patterns/                 ← atomic, one-technique-per-file pages (ties structures/algos to problems)
 │   ├── syntax/                   ← atomic Python syntax reference pages
-│   ├── practice/
-│   │   └── 01-arrays-hashing/   ← per-problem walkthrough pages (more topics coming)
 │   └── appendix/
 │       └── templates/          ← per-pattern template.py + README
 ├── problems/
@@ -79,9 +77,9 @@ the appendix holds quick-reference material.
 |------|-------------|
 | [roadmap.md](roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
 | [learning/](materials/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
+| [rmap-practice/](materials/rmap-practice/) | Per-topic practice sets: curated problems with collapsible hints, solutions & complexity |
 | [data-structures/](materials/data-structures/) | Atomic, one-structure-per-file reference pages |
 | [algorithms/](materials/algorithms/) | Atomic, one-algorithm-per-file reference pages |
-| [patterns/](materials/patterns/) | Atomic, one-technique-per-file pages linked from practice walkthroughs |
 | [syntax/](materials/syntax/) | Atomic Python syntax reference pages linked from practice walkthroughs |
 | [templates/](materials/appendix/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
 

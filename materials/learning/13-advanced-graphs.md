@@ -277,7 +277,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/advanc
 
 ## Practice
 
-Work the matching set in the curated list: [**Advanced Graphs (Dijkstra & Topological Sort) problems →**](../../lists/recommended.md#12-advanced-graphs-11-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Advanced Graphs — Practice →**](../rmap-practice/12-advanced-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#12-advanced-graphs-11-problems).
 
 ## Check Yourself
 

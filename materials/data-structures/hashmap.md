@@ -13,6 +13,6 @@ Collisions (two keys hashing to the same bucket) are handled internally (chainin
 
 **Complexity:** insert/read/delete/membership O(1) average, O(n) worst case (pathological collisions, effectively never hit in practice).
 
-**Used to solve:** [Two Sum](../practice/01-arrays-hashing/two-sum.md), [Group Anagrams](../practice/01-arrays-hashing/group-anagrams.md), [Top K Frequent Elements](../practice/01-arrays-hashing/top-k-frequent-elements.md), [Subarray Sum Equals K](../practice/01-arrays-hashing/subarray-sum-equals-k.md), and more.
+**Used to solve:** [Two Sum](../rmap-practice/01-arrays-hashing.md#1-two-sum--easy), [Group Anagrams](../rmap-practice/01-arrays-hashing.md#49-group-anagrams--medium), [Top K Frequent Elements](../rmap-practice/01-arrays-hashing.md#347-top-k-frequent-elements--medium), [Subarray Sum Equals K](../../problems/0500-0999/560.py), and more.
 
-**Related:** [dict-basics (syntax)](../syntax/dict-basics.md) · [hashset](hashset.md) · [complement pattern](../patterns/hashing/two-sum-complement-pattern.md) · [frequency counting](../patterns/hashing/frequency-counting.md)
+**Related:** [dict-basics (syntax)](../syntax/dict-basics.md) · [hashset](hashset.md) · [Counter for frequency counting (syntax)](../syntax/counter.md)

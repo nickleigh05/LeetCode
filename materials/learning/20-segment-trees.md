@@ -182,16 +182,13 @@ A classic application: given `nums`, for each element count how many elements to
 | "Count elements in range [l, r] smaller than x" | Fenwick + coordinate compression |
 | Range updates + range queries | Segment tree with lazy propagation |
 
+## The Template
+
+The reusable code skeleton for this pattern lives in [`appendix/templates/segment-tree/`](../appendix/templates/segment-tree/). Read the README (when to reach for it, variations, common bugs), then type out [`template.py`](../appendix/templates/segment-tree/template.py) from memory before you drill problems.
+
 ## Practice
 
-| # | Difficulty | Problem |
-|---|------------|---------|
-| 307 | Medium | [Range Sum Query — Mutable](https://leetcode.com/problems/range-sum-query-mutable/) |
-| 315 | Hard | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |
-| 493 | Hard | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) |
-| 327 | Hard | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) |
-
-Start with 307 (the direct "update + query" problem that forces you off prefix sums), then 315.
+Work the guided set with hints & solutions: [**Segment Trees & Fenwick Trees — Practice →**](../rmap-practice/19-segment-trees.md) (LC 307, 315, 493, 327). Start with 307 (the direct "update + query" problem that forces you off prefix sums), then 315.
 
 ## Check Yourself
 

@@ -58,6 +58,16 @@
 ### Phase 7 — Mastery Track *(optional — for hard-level & competitive programming)*
 | # | Lesson | One-line idea | Practice |
 |---|--------|---------------|----------|
-| 20 | [Segment Trees & Fenwick Trees](materials/learning/20-segment-trees.md) | Range queries + point updates in O(log n). The upgrade from prefix sums when the array changes. | LC 307, 315, 493 |
+| 20 | [Segment Trees & Fenwick Trees](materials/learning/20-segment-trees.md) | Range queries + point updates in O(log n). The upgrade from prefix sums when the array changes. | [→](materials/rmap-practice/19-segment-trees.md) |
 
 ### Materials
+
+Reference layers the lessons and practice sets draw on — dip in whenever a building block feels shaky.
+
+| Hub | What's inside |
+|-----|---------------|
+| [Data Structures](materials/data-structures/_index.md) | Atomic, one-structure-per-file reference pages (array → segment tree) |
+| [Algorithms](materials/algorithms/_index.md) | Atomic, one-algorithm-per-file reference pages (binary search → Dijkstra) |
+| [Python Syntax Cookbook](materials/syntax/_index.md) | Atomic Python syntax pages — every construct the solutions lean on |
+| [Code Templates](materials/appendix/templates/README.md) | Per-pattern `template.py` + README skeletons to memorize |
+| [Problem Lists](lists/) | Curated sets: [recommended](lists/recommended.md) · [Blind 75](lists/neetcodeblind75.md) · [NeetCode 150](lists/neetcode150.md) · [NeetCode 250](lists/neetcode250.md) · [Rushed 40](lists/rushed40.md) |

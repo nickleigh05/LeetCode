@@ -63,7 +63,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/math-g
 
 ## Practice
 
-Work the matching set in the curated list: [**Math & Geometry problems →**](../../lists/recommended.md#17-math--geometry-16-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Math & Geometry — Practice →**](../rmap-practice/17-math-geometry.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#17-math--geometry-16-problems).
 
 ## Check Yourself
 

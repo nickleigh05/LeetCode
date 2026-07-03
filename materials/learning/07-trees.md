@@ -241,7 +241,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/trees/
 
 ## Practice
 
-Work the matching set in the curated list: [**Trees & Binary Search Trees problems →**](../../lists/recommended.md#7-trees-29-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](../rmap-practice/07-trees.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#7-trees-29-problems).
 
 ## Check Yourself
 

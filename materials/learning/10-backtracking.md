@@ -184,7 +184,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/backtr
 
 ## Practice
 
-Work the matching set in the curated list: [**Backtracking problems →**](../../lists/recommended.md#9-backtracking-16-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Backtracking — Practice →**](../rmap-practice/10-backtracking.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#9-backtracking-16-problems).
 
 ## Check Yourself
 

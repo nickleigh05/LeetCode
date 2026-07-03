@@ -179,7 +179,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/linked
 
 ## Practice
 
-Work the matching set in the curated list: [**Linked Lists problems →**](../../lists/recommended.md#6-linked-list-20-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Linked Lists — Practice →**](../rmap-practice/06-linked-list.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#6-linked-list-20-problems).
 
 ## Check Yourself
 

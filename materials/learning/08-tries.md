@@ -204,7 +204,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/tries/
 
 ## Practice
 
-Work the matching set in the curated list: [**Tries problems →**](../../lists/recommended.md#10-tries-6-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Tries — Practice →**](../rmap-practice/08-tries.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#10-tries-6-problems).
 
 ## Check Yourself
 

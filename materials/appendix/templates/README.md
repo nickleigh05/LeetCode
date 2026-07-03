@@ -63,6 +63,12 @@ Work top to bottom — each tier builds on the last. Don't jump to graphs before
 | 18 | [Bit Manipulation](bit-manipulation/README.md) | Masks, shifts, and XOR cancellation in O(1). |
 | 19 | [Math & Geometry](math-geometry/README.md) | GCD, fast power, in-place matrix transforms. |
 
+### Mastery track
+
+| # | Pattern | The one-line idea |
+|---|---------|-------------------|
+| 20 | [Segment Tree & Fenwick Tree](segment-tree/README.md) | Range queries + point updates in O(log n) — prefix sums for a changing array. |
+
 ---
 
 *Categories follow the NeetCode 150/250 taxonomy. For the curated problem sets that pair with these skeletons, see [lists/](../../../lists/); to learn each pattern in depth, follow the [🗺 Roadmap](../../../roadmap.md).*

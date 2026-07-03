@@ -370,7 +370,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/graphs
 
 ## Practice
 
-Work the matching set in the curated list: [**Graphs (BFS & DFS) problems →**](../../lists/recommended.md#11-graphs-23-problems). Easy → hard, top to bottom. When the pattern feels automatic, move on — don't grind it forever.
+Work the guided set with hints & solutions: [**Graphs (BFS & DFS) — Practice →**](../rmap-practice/11-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#11-graphs-23-problems).
 
 ## Check Yourself
 

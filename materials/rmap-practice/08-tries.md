@@ -2,6 +2,8 @@
 
 The Roadmap follows a curated list called the NeetCode 150 for practice problems. If you want more or fewer problems, check the other lists in [lists/](../../lists/).
 
+[← Back to the lesson](../learning/08-tries.md) · [🗺 Roadmap](../../roadmap.md)
+
 ---
 
 ### 208. Implement Trie (Prefix Tree) — Medium
