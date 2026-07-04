@@ -22,17 +22,24 @@ Walk two pointers inward from each end of the string (see [Two Pointers](../lear
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(s) - 1
-while l < r:                         # while loop closing the gap
-    while l < r and not s[l].isalnum():  # skip non-alphanumeric from the left
-        l += 1
-    while l < r and not s[r].isalnum():  # skip non-alphanumeric from the right
-        r -= 1
-    if s[l].lower() != s[r].lower():     # if the letters don't match, not a palindrome
-        return False
-    l += 1
-    r -= 1
-return True
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+
+        left = 0
+        right = len(s) - 1
+
+        while left < right:
+            while left < right and not s[left].isalnum():
+                left += 1
+            while right > left and not s[right].isalnum():
+                right -= 1
+
+            if s[left].lower() != s[right].lower():
+                return False
+            else:
+                left += 1
+                right -= 1
+        return True
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [string-methods](../syntax/string-methods.md) (`.isalnum()`, `.lower()`) · [if-return](../syntax/if-return.md)
@@ -63,15 +70,19 @@ Start pointers at both ends (see [Two Pointers](../learning/02-two-pointers.md))
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(numbers) - 1
-while l < r:                         # while loop until pointers meet
-    total = numbers[l] + numbers[r]
-    if total == target:                # if we found the pair
-        return [l + 1, r + 1]           # 1-indexed per problem spec
-    elif total < target:               # sum too small, need a bigger left value
-        l += 1
-    else:                              # sum too big, need a smaller right value
-        r -= 1
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+
+        left = 0
+        right = len(numbers) - 1
+
+        while left < right:
+            if numbers[left] + numbers[right] < target:
+                left += 1
+            elif numbers[left] + numbers[right] > target:
+                right -= 1
+            else:
+                return [left + 1, right + 1]
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [if-return](../syntax/if-return.md) · [elif-else](../syntax/elif-else.md) · [comparison-operators](../syntax/comparison-operators.md)
@@ -102,32 +113,37 @@ Sort the array. Fix each number `nums[i]` in turn, then run the two-pointer tech
 <summary>Solution</summary>
 
 ```python
-nums.sort()                          # sort so duplicates are adjacent and two-pointer works
-res = []
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
 
-for i in range(len(nums)):             # for loop fixing the first number
-    if i > 0 and nums[i] == nums[i - 1]:  # skip duplicate first numbers
-        continue
-    if nums[i] > 0:                      # sorted + positive means no triplet can sum to 0
-        break
+        nums.sort()
+        result = []
 
-    l, r = i + 1, len(nums) - 1
-    while l < r:                          # two-pointer search for the remaining pair
-        total = nums[i] + nums[l] + nums[r]
-        if total > 0:
-            r -= 1
-        elif total < 0:
-            l += 1
-        else:
-            res.append([nums[i], nums[l], nums[r]])
-            l += 1
-            while l < r and nums[l] == nums[l - 1]:  # skip duplicate second numbers
-                l += 1
+        for i in range(len(nums)):
 
-return res
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+
+            left = i + 1
+            right = len(nums) - 1
+
+            while left < right:
+                if nums[i] + nums[left] + nums[right] < 0:
+                    left += 1
+                elif nums[i] + nums[left] + nums[right] > 0:
+                    right -= 1
+                else:
+                    result.append([nums[i], nums[left], nums[right]])
+                    left += 1
+                    right -= 1
+
+                    while left < right and nums[left] == nums[left - 1]:
+                        left += 1
+
+        return result
 ```
 
-Building blocks: [list-methods](../syntax/list-methods.md) (`.sort()`, `.append()`) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md) · [while-loop](../syntax/while-loop.md) · [elif-else](../syntax/elif-else.md)
+Building blocks: [list-methods](../syntax/list-methods.md) (`.sort()`, `.append()`) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md) (`continue`) · [while-loop](../syntax/while-loop.md) · [elif-else](../syntax/elif-else.md)
 </details>
 
 <details>
@@ -155,19 +171,26 @@ Start with pointers at both ends (see [Two Pointers](../learning/02-two-pointers
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(height) - 1
-best = 0
-while l < r:                         # while loop until pointers meet
-    area = (r - l) * min(height[l], height[r])   # width * shorter wall
-    best = max(best, area)
-    if height[l] < height[r]:          # move the shorter wall inward
-        l += 1
-    else:
-        r -= 1
-return best
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+
+        left = 0
+        right = len(height) - 1
+        max_area = 0
+
+        while left < right:
+            area = (right - left) * min(height[left], height[right])
+            max_area = max(max_area, area)
+
+            if height[left] < height[right]:
+                left += 1
+            else:
+                right -= 1
+
+        return max_area
 ```
 
-Building blocks: [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`min()`, `max()`) · [if-return](../syntax/if-return.md)
+Building blocks: [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`min()`, `max()`) · [elif-else](../syntax/elif-else.md)
 </details>
 
 <details>
@@ -195,21 +218,26 @@ Track a running `left_max` and `right_max` while moving two pointers inward (see
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(height) - 1
-left_max, right_max = height[l], height[r]
-water = 0
+class Solution:
+    def trap(self, height: List[int]) -> int:
 
-while l < r:                          # while loop until pointers meet
-    if left_max < right_max:            # left wall is the limiting side
-        l += 1
-        left_max = max(left_max, height[l])
-        water += left_max - height[l]     # water trapped above this bar
-    else:                                # right wall is the limiting side
-        r -= 1
-        right_max = max(right_max, height[r])
-        water += right_max - height[r]
+        left = 0
+        right = len(height) - 1
+        left_max = height[left]
+        right_max = height[right]
+        rain = 0
 
-return water
+        while left < right:
+            if left_max < right_max:
+                left += 1
+                left_max = max(left_max, height[left])
+                rain += left_max - height[left]
+            else:
+                right -= 1
+                right_max = max(right_max, height[right])
+                rain += right_max - height[right]
+
+        return rain
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`) · [arithmetic-operators](../syntax/arithmetic-operators.md) (`+=`)

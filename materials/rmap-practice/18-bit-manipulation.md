@@ -22,10 +22,13 @@ XOR is its own inverse: `a ^ a = 0` and `a ^ 0 = a` (see [bitwise operators](../
 <summary>Solution</summary>
 
 ```python
-res = 0
-for num in nums:                         # for loop, one pass
-    res ^= num                              # pairs cancel out to 0
-return res
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+
+        res = 0
+        for num in nums:
+            res ^= num
+        return res
 ```
 
 Building blocks: [bitwise-operators](../syntax/bitwise-operators.md) (`^`) · [for-loop](../syntax/for-loop.md)
@@ -56,11 +59,14 @@ Brian Kernighan's trick: `n & (n - 1)` (see [bitwise operators](../syntax/bitwis
 <summary>Solution</summary>
 
 ```python
-count = 0
-while n:                                 # while loop, one iteration per set bit
-    n &= n - 1                              # clears the lowest set bit
-    count += 1
-return count
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+
+        count = 0
+        while n:
+            n &= n - 1   # clears the lowest set bit
+            count += 1
+        return count
 ```
 
 Building blocks: [bitwise-operators](../syntax/bitwise-operators.md) (`&`) · [while-loop](../syntax/while-loop.md)
@@ -84,20 +90,24 @@ For every number from 0 to n, count its set bits. Why does the set-bit count of 
 <details>
 <summary>Hint</summary>
 
-[DP](../algorithms/dynamic-programming.md) building on smaller answers: `bits(i) = bits(i >> 1) + (i & 1)` — shifting right drops the lowest bit, and you add it back in if it was a 1.
+[DP](../algorithms/dynamic-programming.md) building on smaller answers: `bits(i) = bits(i >> 1) + (i & 1)` (equivalently `bits(i // 2) + i % 2`) — dropping the lowest bit, then adding it back in if it was a 1.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-dp = [0] * (n + 1)
-for i in range(1, n + 1):                  # for loop building up from 1
-    dp[i] = dp[i >> 1] + (i & 1)              # bits in i//2, plus i's own lowest bit
-return dp
+class Solution:
+    def countBits(self, n: int) -> List[int]:
+
+        ans = [0] * (n + 1)
+
+        for i in range(1, n + 1):
+            ans[i] = ans[i // 2] + (i % 2)
+        return ans
 ```
 
-Building blocks: [list-basics](../syntax/list-basics.md) · [bitwise-operators](../syntax/bitwise-operators.md) (`>>`, `&`) · [for-loop](../syntax/for-loop.md)
+Building blocks: [list-basics](../syntax/list-basics.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`, `%`) · [for-loop](../syntax/for-loop.md)
 </details>
 
 <details>
@@ -125,11 +135,15 @@ Process 32 times: shift the result left to make room, then OR in the lowest bit 
 <summary>Solution</summary>
 
 ```python
-res = 0
-for i in range(32):                        # for loop, one bit at a time
-    bit = (n >> i) & 1                        # extract bit i of n
-    res |= bit << (31 - i)                    # place it in the mirrored position
-return res
+class Solution:
+    def reverseBits(self, n: int) -> int:
+
+        result = 0
+
+        for i in range(32):
+            bit = (n >> i) & 1
+            result = result | (bit << (31 - i))
+        return result
 ```
 
 Building blocks: [bitwise-operators](../syntax/bitwise-operators.md) (`>>`, `<<`, `&`, `|`) · [for-loop](../syntax/for-loop.md)
@@ -160,10 +174,14 @@ XOR every index `0..n` together with every value in `nums` (see [bitwise operato
 <summary>Solution</summary>
 
 ```python
-res = len(nums)                          # account for index n, which has no matching nums index
-for i, num in enumerate(nums):             # for loop pairing index i with nums[i]
-    res ^= i ^ num
-return res
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+
+        res = len(nums)   # accounts for index n, which has no matching nums index
+
+        for i, num in enumerate(nums):
+            res ^= i ^ num
+        return res
 ```
 
 Building blocks: [bitwise-operators](../syntax/bitwise-operators.md) (`^`) · [enumerate](../syntax/enumerate.md)
@@ -194,17 +212,20 @@ Add two integers without using `+` or `-`. Why does XOR give you the "sum withou
 <summary>Solution</summary>
 
 ```python
-mask = 0xFFFFFFFF                        # keep results within 32 bits
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
 
-while b & mask:                           # while loop until there's no carry left
-    carry = (a & b) << 1                    # bits that would carry
-    a = (a ^ b) & mask                      # sum without carrying
-    b = carry & mask
+        mask = 0xFFFFFFFF   # keep results within 32 bits
 
-if a > 0x7FFFFFFF:                        # interpret as a negative 32-bit signed number
-    a = ~(a ^ mask)
+        while b & mask:
+            carry = (a & b) << 1
+            a = (a ^ b) & mask
+            b = carry & mask
 
-return a
+        if a > 0x7FFFFFFF:   # reinterpret as a negative 32-bit signed number
+            a = ~(a ^ mask)
+
+        return a
 ```
 
 Building blocks: [bitwise-operators](../syntax/bitwise-operators.md) (`^`, `&`, `<<`, `~`) · [while-loop](../syntax/while-loop.md)
@@ -235,21 +256,26 @@ Repeatedly take the last digit with `x % 10` and remove it with integer division
 <summary>Solution</summary>
 
 ```python
-sign = -1 if x < 0 else 1
-x = abs(x)
+class Solution:
+    def reverse(self, x: int) -> int:
 
-res = 0
-while x:                                 # while loop peeling off digits
-    digit = x % 10
-    x //= 10
-    res = res * 10 + digit
+        sign = -1 if x < 0 else 1
+        x = abs(x)
 
-res *= sign
-INT_MIN, INT_MAX = -2**31, 2**31 - 1
-if res < INT_MIN or res > INT_MAX:          # overflow check
-    return 0
+        result = 0
+        while x:
+            digit = x % 10
+            x //= 10
+            result = result * 10 + digit
 
-return res
+        result *= sign
+
+        INT_MIN = -2**31
+        INT_MAX = 2**31 - 1
+        if result < INT_MIN or result > INT_MAX:
+            return 0
+
+        return result
 ```
 
 Building blocks: [integer-division-modulo](../syntax/integer-division-modulo.md) (`%`, `//`) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`abs()`)

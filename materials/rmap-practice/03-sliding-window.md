@@ -22,15 +22,23 @@ Keep a window anchored at the cheapest price seen so far (see [Sliding Window](.
 <summary>Solution</summary>
 
 ```python
-min_price = float("inf")             # cheapest price seen so far
-best = 0
-for price in prices:                   # for loop, one pass
-    min_price = min(min_price, price)    # update cheapest buy point
-    best = max(best, price - min_price)  # profit if we sold today
-return best
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+
+        left, right = 0, 1
+        max_profit = 0
+
+        while right < len(prices):
+            if prices[right] < prices[left]:
+                left = right
+            else:
+                max_profit = max(max_profit, prices[right] - prices[left])
+            right += 1
+
+        return max_profit
 ```
 
-Building blocks: [for-loop](../syntax/for-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`min()`, `max()`) · [int-float-basics](../syntax/int-float-basics.md) (`float("inf")`)
+Building blocks: [while-loop](../syntax/while-loop.md) · [tuple-unpacking](../syntax/tuple-unpacking.md) (`left, right = 0, 1`) · [comparison-operators](../syntax/comparison-operators.md) (`max()`) · [elif-else](../syntax/elif-else.md)
 </details>
 
 <details>
@@ -58,18 +66,21 @@ Use a growing/shrinking window with a [hashset](../data-structures/hashset.md) o
 <summary>Solution</summary>
 
 ```python
-window = set()                        # chars currently inside the window
-l = 0
-best = 0
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
 
-for r in range(len(s)):                 # for loop expanding the right edge
-    while s[r] in window:                  # shrink until the duplicate is removed
-        window.remove(s[l])
-        l += 1
-    window.add(s[r])
-    best = max(best, r - l + 1)             # current window size
+        window = set()
+        left = 0
+        longest = 0
 
-return best
+        for right in range(len(s)):
+            while s[right] in window:
+                window.remove(s[left])
+                left += 1
+            window.add(s[right])
+            longest = max(longest, right - left + 1)
+
+        return longest
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [for-loop](../syntax/for-loop.md) · [while-loop](../syntax/while-loop.md) · [set-operations](../syntax/set-operations.md) (`.remove()`, `.add()`)
@@ -100,22 +111,25 @@ Keep a [hashmap](../data-structures/hashmap.md) of character counts inside the w
 <summary>Solution</summary>
 
 ```python
-count = {}                            # char -> count inside window
-l = 0
-max_count = 0
-best = 0
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
 
-for r in range(len(s)):                 # for loop expanding the right edge
-    count[s[r]] = count.get(s[r], 0) + 1
-    max_count = max(max_count, count[s[r]])
+        count = {}
+        left = 0
+        max_count = 0
+        longest = 0
 
-    while (r - l + 1) - max_count > k:    # too many chars would need replacing
-        count[s[l]] -= 1                    # shrink from the left
-        l += 1
+        for right in range(len(s)):
+            count[s[right]] = count.get(s[right], 0) + 1
+            max_count = max(max_count, count[s[right]])
 
-    best = max(best, r - l + 1)
+            while (right - left + 1) - max_count > k:
+                count[s[left]] -= 1
+                left += 1
 
-return best
+            longest = max(longest, right - left + 1)
+
+        return longest
 ```
 
 Building blocks: [dict-methods](../syntax/dict-methods.md) (`.get()`) · [for-loop](../syntax/for-loop.md) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -146,29 +160,35 @@ Keep a 26-length count array for `s1` and for a same-size sliding window over `s
 <summary>Solution</summary>
 
 ```python
-if len(s1) > len(s2):
-    return False
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool:
 
-s1_count = [0] * 26                  # letter counts for s1
-window_count = [0] * 26              # letter counts for the current window
+        if len(s1) > len(s2):
+            return False
 
-for i in range(len(s1)):               # for loop building initial counts
-    s1_count[ord(s1[i]) - ord("a")] += 1
-    window_count[ord(s2[i]) - ord("a")] += 1
+        s1_count = [0] * 26
+        window = [0] * 26
 
-if s1_count == window_count:           # check the first window
-    return True
+        for ch in s1:
+            s1_count[ord(ch) - ord("a")] += 1
 
-for i in range(len(s1), len(s2)):      # for loop sliding the window forward
-    window_count[ord(s2[i]) - ord("a")] += 1              # add the new right char
-    window_count[ord(s2[i - len(s1)]) - ord("a")] -= 1     # drop the old left char
-    if s1_count == window_count:
-        return True
+        for ch in s2[:len(s1)]:
+            window[ord(ch) - ord("a")] += 1
 
-return False
+        if s1_count == window:
+            return True
+
+        for right in range(len(s1), len(s2)):
+            window[ord(s2[right]) - ord("a")] += 1
+            window[ord(s2[right - len(s1)]) - ord("a")] -= 1
+
+            if s1_count == window:
+                return True
+
+        return False
 ```
 
-Building blocks: [list-basics](../syntax/list-basics.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (list equality)
+Building blocks: [list-basics](../syntax/list-basics.md) · [for-loop](../syntax/for-loop.md) · [list-slicing](../syntax/list-slicing.md) (`s2[:len(s1)]`) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (list equality)
 </details>
 
 <details>
@@ -196,38 +216,44 @@ Keep a [hashmap](../data-structures/hashmap.md) of required counts from `t`, and
 <summary>Solution</summary>
 
 ```python
-if not t:
-    return ""
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
 
-need = {}                             # required counts from t
-for c in t:
-    need[c] = need.get(c, 0) + 1
+        if not t:
+            return ""
 
-have = {}                              # counts currently in the window
-have_count, need_count = 0, len(need)    # distinct chars satisfied vs required
-res, res_len = [-1, -1], float("inf")
-l = 0
+        need = {}
+        for ch in t:
+            need[ch] = need.get(ch, 0) + 1
 
-for r, c in enumerate(s):               # for loop expanding the right edge
-    have[c] = have.get(c, 0) + 1
+        window = {}
+        have = 0
+        need_count = len(need)
+        res = [-1, -1]
+        res_len = float("inf")
+        left = 0
 
-    if c in need and have[c] == need[c]:   # this character just became satisfied
-        have_count += 1
+        for right, ch in enumerate(s):
+            window[ch] = window.get(ch, 0) + 1
 
-    while have_count == need_count:          # window is valid, try to shrink it
-        if (r - l + 1) < res_len:              # record smallest valid window
-            res = [l, r]
-            res_len = r - l + 1
-        have[s[l]] -= 1
-        if s[l] in need and have[s[l]] < need[s[l]]:  # shrinking broke validity
-            have_count -= 1
-        l += 1
+            if ch in need and window[ch] == need[ch]:
+                have += 1
 
-l, r = res
-return s[l:r + 1] if res_len != float("inf") else ""
+            while have == need_count:
+                if (right - left + 1) < res_len:
+                    res = [left, right]
+                    res_len = right - left + 1
+
+                window[s[left]] -= 1
+                if s[left] in need and window[s[left]] < need[s[left]]:
+                    have -= 1
+                left += 1
+
+        left, right = res
+        return s[left:right + 1] if res_len != float("inf") else ""
 ```
 
-Building blocks: [dict-methods](../syntax/dict-methods.md) (`.get()`) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [membership-operators](../syntax/membership-operators.md) · [string-join-slice](../syntax/string-join-slice.md)
+Building blocks: [dict-methods](../syntax/dict-methods.md) (`.get()`) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [membership-operators](../syntax/membership-operators.md) · [string-join-slice](../syntax/string-join-slice.md) · [ternary-expression](../syntax/ternary-expression.md)
 </details>
 
 <details>
@@ -257,24 +283,27 @@ Keep a monotonically decreasing [deque](../data-structures/deque.md) of indices 
 ```python
 from collections import deque
 
-dq = deque()                          # stores indices, values decreasing
-res = []
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
 
-for i, num in enumerate(nums):          # for loop over the array
-    while dq and nums[dq[-1]] < num:      # drop smaller values from the back
-        dq.pop()
-    dq.append(i)
+        queue = deque()
+        result = []
 
-    if dq[0] <= i - k:                    # front index fell out of the window
-        dq.popleft()
+        for i, num in enumerate(nums):
+            while queue and nums[queue[-1]] < num:
+                queue.pop()
+            queue.append(i)
 
-    if i >= k - 1:                        # window is fully formed
-        res.append(nums[dq[0]])             # front of deque is the current max
+            if queue[0] <= i - k:
+                queue.popleft()
 
-return res
+            if i >= k - 1:
+                result.append(nums[queue[0]])
+
+        return result
 ```
 
-Building blocks: [deque](../data-structures/deque.md) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [if-return](../syntax/if-return.md)
+Building blocks: [deque](../data-structures/deque.md) · [from-import](../syntax/from-import.md) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [if-return](../syntax/if-return.md)
 </details>
 
 <details>

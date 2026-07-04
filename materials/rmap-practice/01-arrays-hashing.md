@@ -22,12 +22,16 @@ You want a [hashset](../data-structures/hashset.md) — O(1) average insert and 
 <summary>Solution</summary>
 
 ```python
-hashset = set()               # init the hashset
-for num in nums:               # for loop to iterate over data
-    if num in hashset:          # if to check the number against the hashset
-        return True
-    hashset.add(num)            # add num if never seen
-return False
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+
+        hashset = set()
+
+        for num in nums:
+            if num in hashset:
+                return True
+            hashset.add(num)
+        return False
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md) (the `in` check) · [if-return](../syntax/if-return.md) · [set-operations](../syntax/set-operations.md) (`.add()`)
@@ -58,16 +62,22 @@ Count each character's frequency with a [hashmap](../data-structures/hashmap.md)
 <summary>Solution</summary>
 
 ```python
-if len(s) != len(t):          # different lengths can't be anagrams
-    return False
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
 
-count = {}                     # init the hashmap
-for c in s:                     # for loop over the first string
-    count[c] = count.get(c, 0) + 1   # increment count for each char
-for c in t:                     # for loop over the second string
-    count[c] = count.get(c, 0) - 1   # decrement count for each char
+        if len(s) != len(t):
+            return False
 
-return all(v == 0 for v in count.values())   # every count balanced back to 0
+        count_s = {}
+        count_t = {}
+
+        for char in s:
+            count_s[char] = count_s.get(char, 0) + 1
+
+        for char in t:
+            count_t[char] = count_t.get(char, 0) + 1
+
+        return count_s == count_t
 ```
 
 Building blocks: [dict-basics](../syntax/dict-basics.md) · [dict-methods](../syntax/dict-methods.md) (`.get()`) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md)
@@ -98,12 +108,16 @@ Use a [hashmap](../data-structures/hashmap.md) to store each number's index as y
 <summary>Solution</summary>
 
 ```python
-seen = {}                       # init hashmap: value -> index
-for i, num in enumerate(nums):   # for loop with index and value
-    complement = target - num     # what we need to complete the pair
-    if complement in seen:         # if the complement was already seen
-        return [seen[complement], i]
-    seen[num] = i                  # remember this number's index
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+        hashmap = {}
+
+        for i, num in enumerate(nums):
+            diff = target - num
+            if diff in hashmap:
+                return [hashmap[diff], i]
+            hashmap[num] = i
 ```
 
 Building blocks: [dict-basics](../syntax/dict-basics.md) · [enumerate](../syntax/enumerate.md) · [membership-operators](../syntax/membership-operators.md) · [if-return](../syntax/if-return.md)
@@ -134,14 +148,23 @@ Anagrams share the same sorted-character signature (or the same 26-letter count)
 <summary>Solution</summary>
 
 ```python
-groups = defaultdict(list)      # init hashmap: signature -> list of words
-for word in strs:                 # for loop over every string
-    key = tuple(sorted(word))       # sorted letters as a hashable key
-    groups[key].append(word)         # bucket the word under its signature
-return list(groups.values())      # return the grouped lists
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+
+        hashmap = {}
+
+        for word in strs:
+            key = "".join(sorted(word))
+
+            if key not in hashmap:
+                hashmap[key] = []
+
+            hashmap[key].append(word)
+
+        return list(hashmap.values())
 ```
 
-Building blocks: [defaultdict](../syntax/defaultdict.md) · [for-loop](../syntax/for-loop.md) · [sorting-key](../syntax/sorting-key.md) · [tuple-basics](../syntax/tuple-basics.md) · [list-methods](../syntax/list-methods.md) (`.append()`)
+Building blocks: [dict-basics](../syntax/dict-basics.md) · [for-loop](../syntax/for-loop.md) · [sorting-key](../syntax/sorting-key.md) (`sorted()`) · [string-join-slice](../syntax/string-join-slice.md) (`"".join()`) · [list-methods](../syntax/list-methods.md) (`.append()`)
 </details>
 
 <details>
@@ -169,20 +192,23 @@ Count frequencies with a [hashmap](../data-structures/hashmap.md), then bucket e
 <summary>Solution</summary>
 
 ```python
-count = {}                       # init hashmap: value -> frequency
-for num in nums:                   # for loop to count frequencies
-    count[num] = count.get(num, 0) + 1
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
-buckets = [[] for _ in range(len(nums) + 1)]   # index = frequency
-for num, freq in count.items():     # for loop over counted values
-    buckets[freq].append(num)         # drop num into its frequency bucket
+        count = {}
+        for num in nums:
+            count[num] = count.get(num, 0) + 1
 
-result = []                       # collect answer highest-frequency first
-for freq in range(len(buckets) - 1, 0, -1):   # walk buckets from high to low
-    for num in buckets[freq]:
-        result.append(num)
-        if len(result) == k:            # stop once we have k elements
-            return result
+        buckets = [[] for _ in range(len(nums) + 1)]
+        for num, freq in count.items():
+            buckets[freq].append(num)
+
+        result = []
+        for freq in range(len(buckets) - 1, 0, -1):
+            for num in buckets[freq]:
+                result.append(num)
+                if len(result) == k:
+                    return result
 ```
 
 Building blocks: [dict-methods](../syntax/dict-methods.md) (`.get()`, `.items()`) · [list-comprehension](../syntax/list-comprehension.md) · [range-function](../syntax/range-function.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
@@ -213,20 +239,22 @@ For each index, the answer is `(product of everything to its left) × (product o
 <summary>Solution</summary>
 
 ```python
-n = len(nums)
-res = [1] * n                    # init result array, prefix product so far
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
 
-prefix = 1
-for i in range(n):                 # for loop left to right
-    res[i] = prefix                  # everything to the left of i
-    prefix *= nums[i]                 # extend the prefix product
+        answer = [1] * len(nums)
 
-postfix = 1
-for i in range(n - 1, -1, -1):      # for loop right to left
-    res[i] *= postfix                # fold in everything to the right of i
-    postfix *= nums[i]                # extend the postfix product
+        prefix = 1
+        for i in range(len(nums)):
+            answer[i] = prefix
+            prefix *= nums[i]
 
-return res
+        suffix = 1
+        for i in range(len(nums) - 1, -1, -1):
+            answer[i] *= suffix
+            suffix *= nums[i]
+
+        return answer
 ```
 
 Building blocks: [list-basics](../syntax/list-basics.md) · [range-function](../syntax/range-function.md) (reverse step) · [for-loop](../syntax/for-loop.md) · [arithmetic-operators](../syntax/arithmetic-operators.md) (`*=`)
@@ -250,35 +278,45 @@ Given a 9x9 board, determine if the filled cells satisfy Sudoku rules. How could
 <details>
 <summary>Hint</summary>
 
-Keep a [hashset](../data-structures/hashset.md) of seen digits for each row, each column, and each 3x3 box (indexed by `(r // 3, c // 3)`). While scanning cell by cell, if a digit is already in the relevant set, the board is invalid.
+Keep a [hashset](../data-structures/hashset.md) of seen digits for each row, each column, and each 3x3 box (indexed by `(row // 3) * 3 + (col // 3)`). While scanning cell by cell, if a digit is already in the relevant set, the board is invalid.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-rows = defaultdict(set)          # row index -> seen digits
-cols = defaultdict(set)          # col index -> seen digits
-boxes = defaultdict(set)         # (r//3, c//3) -> seen digits
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
 
-for r in range(9):                 # for loop over rows
-    for c in range(9):               # nested for loop over columns
-        val = board[r][c]
-        if val == ".":                 # skip empty cells
-            continue
-        box_id = (r // 3, c // 3)       # which 3x3 box this cell belongs to
-        if (val in rows[r] or             # if digit already seen in row/col/box
-            val in cols[c] or
-            val in boxes[box_id]):
-            return False
-        rows[r].add(val)                # mark digit as seen in all three
-        cols[c].add(val)
-        boxes[box_id].add(val)
+        row_sets = [set() for _ in range(9)]
+        col_sets = [set() for _ in range(9)]
+        box_sets = [set() for _ in range(9)]
 
-return True
+        for row in range(9):
+            for col in range(9):
+                cell = board[row][col]
+
+                if cell == ".":
+                    continue
+
+                box = (row // 3) * 3 + (col // 3)
+
+                if cell in row_sets[row]:
+                    return False
+                row_sets[row].add(cell)
+
+                if cell in col_sets[col]:
+                    return False
+                col_sets[col].add(cell)
+
+                if cell in box_sets[box]:
+                    return False
+                box_sets[box].add(cell)
+
+        return True
 ```
 
-Building blocks: [defaultdict](../syntax/defaultdict.md) · [nested-lists](../syntax/nested-lists.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`) · [break-continue](../syntax/break-continue.md) · [membership-operators](../syntax/membership-operators.md)
+Building blocks: [list-comprehension](../syntax/list-comprehension.md) · [nested-lists](../syntax/nested-lists.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`) · [break-continue](../syntax/break-continue.md) (`continue`) · [membership-operators](../syntax/membership-operators.md) · [set-operations](../syntax/set-operations.md) (`.add()`)
 </details>
 
 <details>
@@ -306,27 +344,23 @@ Prefix each string with its length and a delimiter the decoder can rely on struc
 <summary>Solution</summary>
 
 ```python
-def encode(strs):
-    res = ""
-    for s in strs:                   # for loop over each string
-        res += str(len(s)) + "#" + s   # "<length>#<string>"
-    return res
+class Solution:
 
-def decode(s):
-    res = []
-    i = 0
-    while i < len(s):                 # while loop scanning the encoded string
-        j = i
-        while s[j] != "#":               # find the delimiter
-            j += 1
-        length = int(s[i:j])              # read the length before "#"
-        start = j + 1
-        res.append(s[start:start + length])  # slice out exactly that many chars
-        i = start + length                 # jump past this string
-    return res
+    def encode(self, strs: list[str]) -> str:
+        return "".join(f"{len(s)}#{s}" for s in strs)
+
+    def decode(self, s: str) -> list[str]:
+        result = []
+        i = 0
+        while i < len(s):
+            j = s.index("#", i)
+            length = int(s[i:j])
+            result.append(s[j + 1 : j + 1 + length])
+            i = j + 1 + length
+        return result
 ```
 
-Building blocks: [string-formatting](../syntax/string-formatting.md) · [for-loop](../syntax/for-loop.md) · [while-loop](../syntax/while-loop.md) · [string-join-slice](../syntax/string-join-slice.md) · [type-conversion](../syntax/type-conversion.md) (`int()` / `str()`)
+Building blocks: [f-strings](../syntax/f-strings.md) · [generator-expressions](../syntax/generator-expressions.md) · [while-loop](../syntax/while-loop.md) · [string-methods](../syntax/string-methods.md) (`.index()`) · [string-join-slice](../syntax/string-join-slice.md) · [type-conversion](../syntax/type-conversion.md) (`int()`)
 </details>
 
 <details>
@@ -354,17 +388,19 @@ Put every number in a [hashset](../data-structures/hashset.md). A number is the 
 <summary>Solution</summary>
 
 ```python
-num_set = set(nums)              # init hashset for O(1) lookups
-longest = 0
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
 
-for num in num_set:                # for loop over unique values
-    if num - 1 not in num_set:        # only start counting at sequence starts
-        length = 1
-        while num + length in num_set:  # while loop extending the run
-            length += 1
-        longest = max(longest, length)
+        num_set = set(nums)
+        longest = 0
 
-return longest
+        for num in num_set:
+            if (num - 1) not in num_set:
+                length = 1
+                while (num + length) in num_set:
+                    length += 1
+                longest = max(longest, length)
+        return longest
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md) (`not in`) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)

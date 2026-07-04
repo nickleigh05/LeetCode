@@ -22,22 +22,25 @@ Return all possible subsets of a set of distinct integers. At each element, what
 <summary>Solution</summary>
 
 ```python
-res = []
-path = []
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
 
-def backtrack(i):
-    if i == len(nums):                  # base case: considered every element
-        res.append(path[:])              # copy, since path keeps mutating
-        return
+        result = []
+        subset = []
 
-    path.append(nums[i])                  # choice 1: include nums[i]
-    backtrack(i + 1)
-    path.pop()                              # un-choose
+        def backtrack(i):
+            if i == len(nums):
+                result.append(subset[:])
+                return
 
-    backtrack(i + 1)                       # choice 2: exclude nums[i]
+            subset.append(nums[i])
+            backtrack(i + 1)
+            subset.pop()
 
-backtrack(0)
-return res
+            backtrack(i + 1)
+
+        backtrack(0)
+        return result
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [list-slicing](../syntax/list-slicing.md) (`path[:]`) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`)
@@ -61,34 +64,36 @@ Given distinct candidates and a target, find all combinations that sum to target
 <details>
 <summary>Hint</summary>
 
-[Backtrack](../algorithms/backtracking.md) with a running remaining target: at index `i`, either take `candidates[i]` again (recurse without advancing `i`, since reuse is allowed) or move on to `i + 1`. Stop a branch once the remaining target goes negative or hits zero.
+Sort first, then [backtrack](../algorithms/backtracking.md) with a running remaining target: from index `i`, try each candidate at or after `i`, recursing *without* advancing the index (reuse is allowed). Because the list is sorted, you can stop the loop as soon as a candidate exceeds what remains.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-res = []
-path = []
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
 
-def backtrack(i, remaining):
-    if remaining == 0:                   # base case: exact sum reached
-        res.append(path[:])
-        return
-    if i >= len(candidates) or remaining < 0:  # out of candidates or overshot
-        return
+        result = []
+        candidates.sort()
 
-    path.append(candidates[i])             # choice 1: reuse candidates[i]
-    backtrack(i, remaining - candidates[i])
-    path.pop()                               # un-choose
+        def backtrack(start, remaining, path):
+            if remaining == 0:
+                result.append(path[:])
+                return
 
-    backtrack(i + 1, remaining)             # choice 2: move past candidates[i]
+            for i in range(start, len(candidates)):
+                if candidates[i] > remaining:
+                    break
+                path.append(candidates[i])
+                backtrack(i, remaining - candidates[i], path)
+                path.pop()
 
-backtrack(0, target)
-return res
+        backtrack(0, target, [])
+        return result
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [if-return](../syntax/if-return.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [list-methods](../syntax/list-methods.md) (`.sort()`, `.append()`, `.pop()`) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md) (`break`) · [if-return](../syntax/if-return.md)
 </details>
 
 <details>
@@ -116,26 +121,29 @@ Return all permutations of a list of distinct integers. Why do you need a "used"
 <summary>Solution</summary>
 
 ```python
-res = []
-path = []
-used = [False] * len(nums)
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
 
-def backtrack():
-    if len(path) == len(nums):           # base case: a full permutation
-        res.append(path[:])
-        return
+        res = []
+        path = []
+        used = [False] * len(nums)
 
-    for i in range(len(nums)):             # for loop trying every candidate
-        if used[i]:                          # already placed in this permutation
-            continue
-        used[i] = True
-        path.append(nums[i])
+        def backtrack():
+            if len(path) == len(nums):
+                res.append(path[:])
+                return
+
+            for i in range(len(nums)):
+                if used[i]:
+                    continue
+                used[i] = True
+                path.append(nums[i])
+                backtrack()
+                path.pop()
+                used[i] = False
+
         backtrack()
-        path.pop()                             # un-choose
-        used[i] = False
-
-backtrack()
-return res
+        return res
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md) · [list-basics](../syntax/list-basics.md)
@@ -166,22 +174,25 @@ Sort first so duplicates are adjacent. [Backtrack](../algorithms/backtracking.md
 <summary>Solution</summary>
 
 ```python
-nums.sort()                             # group duplicates together
-res = []
-path = []
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
 
-def backtrack(start):
-    res.append(path[:])                    # every path so far is a valid subset
+        nums.sort()
+        result = []
+        path = []
 
-    for i in range(start, len(nums)):        # for loop over remaining candidates
-        if i > start and nums[i] == nums[i - 1]:  # skip duplicates at this depth
-            continue
-        path.append(nums[i])
-        backtrack(i + 1)
-        path.pop()                             # un-choose
+        def backtrack(start):
+            result.append(path[:])
 
-backtrack(0)
-return res
+            for i in range(start, len(nums)):
+                if i > start and nums[i] == nums[i - 1]:
+                    continue
+                path.append(nums[i])
+                backtrack(i + 1)
+                path.pop()
+
+        backtrack(0)
+        return result
 ```
 
 Building blocks: [list-methods](../syntax/list-methods.md) (`.sort()`) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md)
@@ -212,28 +223,29 @@ Sort first. [Backtrack](../algorithms/backtracking.md) advancing the index every
 <summary>Solution</summary>
 
 ```python
-candidates.sort()
-res = []
-path = []
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
 
-def backtrack(start, remaining):
-    if remaining == 0:                    # base case: exact sum reached
-        res.append(path[:])
-        return
-    if remaining < 0:
-        return
+        candidates.sort()
+        result = []
+        path = []
 
-    for i in range(start, len(candidates)):  # for loop over remaining candidates
-        if i > start and candidates[i] == candidates[i - 1]:  # skip duplicates at this depth
-            continue
-        if candidates[i] > remaining:          # sorted: no point trying larger values
-            break
-        path.append(candidates[i])
-        backtrack(i + 1, remaining - candidates[i])   # advance past i: no reuse
-        path.pop()
+        def backtrack(start, remaining):
+            if remaining == 0:
+                result.append(path[:])
+                return
 
-backtrack(0, target)
-return res
+            for i in range(start, len(candidates)):
+                if i > start and candidates[i] == candidates[i - 1]:
+                    continue
+                if candidates[i] > remaining:
+                    break
+                path.append(candidates[i])
+                backtrack(i + 1, remaining - candidates[i])
+                path.pop()
+
+        backtrack(0, target)
+        return result
 ```
 
 Building blocks: [list-methods](../syntax/list-methods.md) (`.sort()`) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md) · [recursion-basics](../syntax/recursion-basics.md)
@@ -264,29 +276,36 @@ Given a grid and a word, determine if the word can be traced through adjacent ce
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(board), len(board[0])
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
 
-def dfs(r, c, i):                       # i = index into word we're trying to match
-    if i == len(word):                    # base case: matched the whole word
-        return True
-    if (r < 0 or r >= rows or c < 0 or c >= cols or
-            board[r][c] != word[i]):        # out of bounds or letter mismatch
+        rows = len(board)
+        cols = len(board[0])
+
+        def dfs(row, col, i):
+            if i == len(word):
+                return True
+            if row < 0 or row >= rows or col < 0 or col >= cols:
+                return False
+            if board[row][col] != word[i]:
+                return False
+
+            letter = board[row][col]
+            board[row][col] = "#"
+
+            found = (dfs(row + 1, col, i + 1) or
+                     dfs(row - 1, col, i + 1) or
+                     dfs(row, col + 1, i + 1) or
+                     dfs(row, col - 1, i + 1))
+
+            board[row][col] = letter
+            return found
+
+        for row in range(rows):
+            for col in range(cols):
+                if dfs(row, col, 0):
+                    return True
         return False
-
-    tmp = board[r][c]
-    board[r][c] = "#"                       # mark visited so this path can't reuse it
-
-    found = (dfs(r + 1, c, i + 1) or dfs(r - 1, c, i + 1) or
-             dfs(r, c + 1, i + 1) or dfs(r, c - 1, i + 1))
-
-    board[r][c] = tmp                        # un-mark (backtrack)
-    return found
-
-for r in range(rows):
-    for c in range(cols):
-        if dfs(r, c, 0):
-            return True
-return False
 ```
 
 Building blocks: [nested-lists](../syntax/nested-lists.md) · [recursion-basics](../syntax/recursion-basics.md) · [logical-operators](../syntax/logical-operators.md) (`or`) · [for-loop](../syntax/for-loop.md)
@@ -317,26 +336,29 @@ Partition a string so every substring is a palindrome; return all such partition
 <summary>Solution</summary>
 
 ```python
-res = []
-path = []
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
 
-def is_palindrome(sub):
-    return sub == sub[::-1]
+        result = []
+        path = []
 
-def backtrack(start):
-    if start == len(s):                  # base case: reached the end of the string
-        res.append(path[:])
-        return
+        def is_palindrome(piece):
+            return piece == piece[::-1]
 
-    for end in range(start + 1, len(s) + 1):  # for loop over every possible next piece
-        piece = s[start:end]
-        if is_palindrome(piece):              # only recurse on valid palindrome pieces
-            path.append(piece)
-            backtrack(end)
-            path.pop()
+        def backtrack(start):
+            if start == len(s):
+                result.append(path[:])
+                return
 
-backtrack(0)
-return res
+            for end in range(start + 1, len(s) + 1):
+                piece = s[start:end]
+                if is_palindrome(piece):
+                    path.append(piece)
+                    backtrack(end)
+                    path.pop()
+
+        backtrack(0)
+        return result
 ```
 
 Building blocks: [list-slicing](../syntax/list-slicing.md) (`sub[::-1]`) · [for-loop](../syntax/for-loop.md) · [recursion-basics](../syntax/recursion-basics.md)
@@ -367,28 +389,32 @@ Use a [hashmap](../data-structures/hashmap.md) of digit -> letters. [Backtrack](
 <summary>Solution</summary>
 
 ```python
-if not digits:
-    return []
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
 
-digit_to_letters = {
-    "2": "abc", "3": "def", "4": "ghi", "5": "jkl",
-    "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz",
-}
-res = []
-path = []
+        if not digits:
+            return []
 
-def backtrack(i):
-    if i == len(digits):                 # base case: one letter chosen per digit
-        res.append("".join(path))
-        return
+        digit_to_letters = {
+            "2": "abc", "3": "def", "4": "ghi", "5": "jkl",
+            "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz",
+        }
 
-    for letter in digit_to_letters[digits[i]]:  # for loop over this digit's letters
-        path.append(letter)
-        backtrack(i + 1)
-        path.pop()
+        result = []
+        path = []
 
-backtrack(0)
-return res
+        def backtrack(i):
+            if i == len(digits):
+                result.append("".join(path))
+                return
+
+            for letter in digit_to_letters[digits[i]]:
+                path.append(letter)
+                backtrack(i + 1)
+                path.pop()
+
+        backtrack(0)
+        return result
 ```
 
 Building blocks: [dict-basics](../syntax/dict-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [string-join-slice](../syntax/string-join-slice.md)
@@ -419,31 +445,38 @@ Place n queens on an n×n board so none attack each other; return all solutions.
 <summary>Solution</summary>
 
 ```python
-res = []
-cols = set()
-pos_diag = set()                        # r + c is constant along this diagonal
-neg_diag = set()                        # r - c is constant along this diagonal
-board = [["."] * n for _ in range(n)]
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
 
-def backtrack(r):
-    if r == n:                            # base case: placed a queen in every row
-        res.append(["".join(row) for row in board])
-        return
+        result = []
+        cols = set()
+        pos_diag = set()   # row + col is constant along this diagonal
+        neg_diag = set()   # row - col is constant along this diagonal
+        board = [["."] * n for _ in range(n)]
 
-    for c in range(n):                      # for loop trying every column in this row
-        if c in cols or (r + c) in pos_diag or (r - c) in neg_diag:
-            continue                          # under attack, skip
+        def backtrack(row):
+            if row == n:
+                result.append(["".join(r) for r in board])
+                return
 
-        cols.add(c); pos_diag.add(r + c); neg_diag.add(r - c)
-        board[r][c] = "Q"
+            for col in range(n):
+                if col in cols or (row + col) in pos_diag or (row - col) in neg_diag:
+                    continue
 
-        backtrack(r + 1)
+                cols.add(col)
+                pos_diag.add(row + col)
+                neg_diag.add(row - col)
+                board[row][col] = "Q"
 
-        cols.remove(c); pos_diag.remove(r + c); neg_diag.remove(r - c)  # un-choose
-        board[r][c] = "."
+                backtrack(row + 1)
 
-backtrack(0)
-return res
+                cols.remove(col)
+                pos_diag.remove(row + col)
+                neg_diag.remove(row - col)
+                board[row][col] = "."
+
+        backtrack(0)
+        return result
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [nested-lists](../syntax/nested-lists.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md)

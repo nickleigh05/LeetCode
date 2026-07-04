@@ -22,16 +22,22 @@ Keep `[l, r]` as the range that could still contain the target (see [Binary Sear
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(nums) - 1
-while l <= r:                        # while loop, search space still valid
-    mid = (l + r) // 2
-    if nums[mid] == target:
-        return mid
-    elif nums[mid] < target:           # target must be in the right half
-        l = mid + 1
-    else:                              # target must be in the left half
-        r = mid - 1
-return -1
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+
+        left = 0
+        right = len(nums) - 1
+
+        while left <= right:
+            mid = (left + right) // 2
+
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+        return -1
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`) · [if-return](../syntax/if-return.md) · [elif-else](../syntax/elif-else.md)
@@ -62,20 +68,29 @@ Run standard [binary search](../algorithms/binary-search.md) over a virtual inde
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(matrix), len(matrix[0])
-l, r = 0, rows * cols - 1
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
 
-while l <= r:                         # while loop over the flattened index range
-    mid = (l + r) // 2
-    val = matrix[mid // cols][mid % cols]   # translate flat index back to (row, col)
-    if val == target:
-        return True
-    elif val < target:
-        l = mid + 1
-    else:
-        r = mid - 1
+        m = len(matrix)
+        n = len(matrix[0])
+        left = 0
+        right = (m * n) - 1
 
-return False
+        while left <= right:
+            mid = (left + right) // 2
+            row = mid // n
+            col = mid % n
+
+            mid_element = matrix[row][col]
+
+            if mid_element == target:
+                return True
+            elif mid_element < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+        return False
 ```
 
 Building blocks: [nested-lists](../syntax/nested-lists.md) · [while-loop](../syntax/while-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`, `%`) · [if-return](../syntax/if-return.md)
@@ -106,25 +121,30 @@ The hours needed strictly decreases as `k` increases, so it's monotonic — a pe
 <summary>Solution</summary>
 
 ```python
-import math
+class Solution:
+    def minEatingSpeed(self, piles: List[int], h: int) -> int:
 
-l, r = 1, max(piles)
-res = r
+        left = 1
+        right = max(piles)
+        result = right
 
-while l <= r:                         # while loop, binary searching on speed
-    k = (l + r) // 2
-    hours = sum(math.ceil(pile / k) for pile in piles)   # hours needed at speed k
+        while left <= right:
+            mid = (left + right) // 2
 
-    if hours <= h:                       # k works: try to go slower
-        res = k
-        r = k - 1
-    else:                                # too slow: need to eat faster
-        l = k + 1
+            hours = 0
+            for pile in piles:
+                hours += (pile + mid - 1) // mid
 
-return res
+            if hours <= h:
+                result = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+
+        return result
 ```
 
-Building blocks: [while-loop](../syntax/while-loop.md) · [generator-expressions](../syntax/generator-expressions.md) (`sum(... for ...)`) · [math-module-basics](../syntax/math-module-basics.md) (`math.ceil()`) · [if-return](../syntax/if-return.md)
+Building blocks: [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`(pile + mid - 1) // mid` is ceiling division) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
 </details>
 
 <details>
@@ -152,14 +172,21 @@ Compare `nums[mid]` to `nums[r]` (see [Binary Search](../algorithms/binary-searc
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(nums) - 1
-while l < r:                          # while loop narrowing toward the minimum
-    mid = (l + r) // 2
-    if nums[mid] > nums[r]:             # pivot (and minimum) is in the right half
-        l = mid + 1
-    else:                                # minimum is at mid or to its left
-        r = mid
-return nums[l]
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+
+        left = 0
+        right = len(nums) - 1
+
+        while left < right:
+            mid = left + (right - left) // 2
+
+            if nums[mid] > nums[right]:
+                left = mid + 1
+            else:
+                right = mid
+
+        return nums[left]
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`) · [if-return](../syntax/if-return.md)
@@ -190,24 +217,32 @@ At each midpoint of your [binary search](../algorithms/binary-search.md), figure
 <summary>Solution</summary>
 
 ```python
-l, r = 0, len(nums) - 1
-while l <= r:                          # while loop, search space still valid
-    mid = (l + r) // 2
-    if nums[mid] == target:
-        return mid
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
 
-    if nums[l] <= nums[mid]:             # left half is sorted
-        if nums[l] <= target < nums[mid]:  # target is within the sorted left half
-            r = mid - 1
-        else:
-            l = mid + 1
-    else:                                 # right half is sorted
-        if nums[mid] < target <= nums[r]:   # target is within the sorted right half
-            l = mid + 1
-        else:
-            r = mid - 1
+        left = 0
+        right = len(nums) - 1
 
-return -1
+        while left <= right:
+            mid = (left + right) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            left_half_is_sorted = nums[left] <= nums[mid]
+
+            if left_half_is_sorted:
+                if nums[left] <= target < nums[mid]:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            else:
+                if nums[mid] < target <= nums[right]:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+
+        return -1
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [chained-comparisons](../syntax/chained-comparisons.md) · [if-return](../syntax/if-return.md) · [elif-else](../syntax/elif-else.md)
@@ -239,29 +274,35 @@ Store, per key, a list of `(timestamp, value)` pairs in a [hashmap](../data-stru
 
 ```python
 class TimeMap:
+
     def __init__(self):
-        self.store = {}                     # key -> list of (timestamp, value)
+        self.store = {}
 
-    def set(self, key, value, timestamp):
-        self.store.setdefault(key, []).append((timestamp, value))
+    def set(self, key: str, value: str, timestamp: int) -> None:
+        if key not in self.store:
+            self.store[key] = []
+        self.store[key].append((timestamp, value))
 
-    def get(self, key, timestamp):
+    def get(self, key: str, timestamp: int) -> str:
         values = self.store.get(key, [])
-        res = ""
-        l, r = 0, len(values) - 1
+        result = ""
 
-        while l <= r:                         # binary search for latest timestamp <= query
-            mid = (l + r) // 2
-            if values[mid][0] <= timestamp:      # candidate answer, keep looking right
-                res = values[mid][1]
-                l = mid + 1
+        left = 0
+        right = len(values) - 1
+
+        while left <= right:
+            mid = (left + right) // 2
+
+            if values[mid][0] <= timestamp:
+                result = values[mid][1]
+                left = mid + 1
             else:
-                r = mid - 1
+                right = mid - 1
 
-        return res
+        return result
 ```
 
-Building blocks: [class-basics](../syntax/class-basics.md) · [dict-methods](../syntax/dict-methods.md) (`.setdefault()`, `.get()`) · [tuple-basics](../syntax/tuple-basics.md) · [while-loop](../syntax/while-loop.md)
+Building blocks: [class-basics](../syntax/class-basics.md) · [init-method](../syntax/init-method.md) · [dict-methods](../syntax/dict-methods.md) (`.get()`) · [tuple-basics](../syntax/tuple-basics.md) · [while-loop](../syntax/while-loop.md)
 </details>
 
 <details>
@@ -289,34 +330,39 @@ Given two sorted arrays, find the median of their combined data in O(log(min(m, 
 <summary>Solution</summary>
 
 ```python
-A, B = nums1, nums2
-if len(A) > len(B):                    # ensure A is the smaller array
-    A, B = B, A
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
 
-total = len(A) + len(B)
-half = total // 2
-l, r = 0, len(A) - 1
+        A, B = nums1, nums2
+        if len(A) > len(B):
+            A, B = B, A
 
-while True:                              # binary search for the correct partition
-    i = (l + r) // 2 if len(A) > 0 else 0   # partition index in A
-    j = half - i - 2                          # partition index in B
+        total = len(A) + len(B)
+        half = total // 2
 
-    a_left = A[i] if i >= 0 else float("-inf")
-    a_right = A[i + 1] if (i + 1) < len(A) else float("inf")
-    b_left = B[j] if j >= 0 else float("-inf")
-    b_right = B[j + 1] if (j + 1) < len(B) else float("inf")
+        left = 0
+        right = len(A) - 1
 
-    if a_left <= b_right and b_left <= a_right:  # partition found
-        if total % 2:                              # odd total length
-            return min(a_right, b_right)
-        return (max(a_left, b_left) + min(a_right, b_right)) / 2
-    elif a_left > b_right:                        # took too much from A
-        r = i - 1
-    else:                                          # took too little from A
-        l = i + 1
+        while True:
+            i = (left + right) // 2
+            j = half - i - 2
+
+            a_left = A[i] if i >= 0 else float("-inf")
+            a_right = A[i + 1] if (i + 1) < len(A) else float("inf")
+            b_left = B[j] if j >= 0 else float("-inf")
+            b_right = B[j + 1] if (j + 1) < len(B) else float("inf")
+
+            if a_left <= b_right and b_left <= a_right:
+                if total % 2:
+                    return min(a_right, b_right)
+                return (max(a_left, b_left) + min(a_right, b_right)) / 2
+            elif a_left > b_right:
+                right = i - 1
+            else:
+                left = i + 1
 ```
 
-Building blocks: [while-loop](../syntax/while-loop.md) · [swap-tuple-assign](../syntax/swap-tuple-assign.md) · [chained-comparisons](../syntax/chained-comparisons.md) · [int-float-basics](../syntax/int-float-basics.md) (`float("inf")`)
+Building blocks: [while-loop](../syntax/while-loop.md) · [swap-tuple-assign](../syntax/swap-tuple-assign.md) · [ternary-expression](../syntax/ternary-expression.md) · [logical-operators](../syntax/logical-operators.md) (`and`) · [int-float-basics](../syntax/int-float-basics.md) (`float("inf")`)
 </details>
 
 <details>

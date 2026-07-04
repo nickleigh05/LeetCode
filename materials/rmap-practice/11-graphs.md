@@ -22,25 +22,31 @@ Treat the grid as an implicit [graph](../data-structures/graph.md). Scan every c
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(grid), len(grid[0])
-visited = set()
-islands = 0
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
 
-def dfs(r, c):
-    if (r < 0 or r >= rows or c < 0 or c >= cols or
-            grid[r][c] == "0" or (r, c) in visited):
-        return                              # out of bounds, water, or already visited
-    visited.add((r, c))
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:  # explore 4 neighbors
-        dfs(r + dr, c + dc)
+        rows = len(grid)
+        cols = len(grid[0])
+        visited = set()
+        islands = 0
 
-for r in range(rows):
-    for c in range(cols):
-        if grid[r][c] == "1" and (r, c) not in visited:
-            dfs(r, c)                        # sink the whole island
-            islands += 1
+        def dfs(row, col):
+            if row < 0 or row >= rows or col < 0 or col >= cols:
+                return
+            if grid[row][col] == "0" or (row, col) in visited:
+                return
 
-return islands
+            visited.add((row, col))
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                dfs(row + dr, col + dc)
+
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == "1" and (row, col) not in visited:
+                    dfs(row, col)
+                    islands += 1
+
+        return islands
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [nested-lists](../syntax/nested-lists.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md)
@@ -71,23 +77,30 @@ Run [DFS](../algorithms/dfs.md) from the given node; before recursing into a nei
 <summary>Solution</summary>
 
 ```python
-old_to_new = {}
+class Solution:
+    def cloneGraph(self, node: Optional[Node]) -> Optional[Node]:
 
-def dfs(node):
-    if node in old_to_new:                # already cloned: reuse it, breaks cycles
-        return old_to_new[node]
+        if node is None:
+            return None
 
-    copy = Node(node.val)
-    old_to_new[node] = copy                 # register before recursing into neighbors
-    for neighbor in node.neighbors:
-        copy.neighbors.append(dfs(neighbor))
+        old_to_new = {}
 
-    return copy
+        def dfs(current_node):
+            if current_node in old_to_new:
+                return old_to_new[current_node]
 
-return dfs(node) if node else None
+            copy_node = Node(current_node.val)
+            old_to_new[current_node] = copy_node
+
+            for neighbor in current_node.neighbors:
+                copy_node.neighbors.append(dfs(neighbor))
+
+            return copy_node
+
+        return dfs(node)
 ```
 
-Building blocks: [dict-basics](../syntax/dict-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [ternary-expression](../syntax/ternary-expression.md)
+Building blocks: [dict-basics](../syntax/dict-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [identity-operators](../syntax/identity-operators.md) (`is None`)
 </details>
 
 <details>
@@ -115,24 +128,30 @@ Same sinking [DFS](../algorithms/dfs.md) as [200](#200-number-of-islands--medium
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(grid), len(grid[0])
-visited = set()
+class Solution:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
 
-def dfs(r, c):
-    if (r < 0 or r >= rows or c < 0 or c >= cols or
-            grid[r][c] == 0 or (r, c) in visited):
-        return 0                            # contributes no area
-    visited.add((r, c))
-    area = 1
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-        area += dfs(r + dr, c + dc)
-    return area
+        rows = len(grid)
+        cols = len(grid[0])
+        visited = set()
 
-best = 0
-for r in range(rows):
-    for c in range(cols):
-        best = max(best, dfs(r, c))
-return best
+        def dfs(row, col):
+            if row < 0 or row >= rows or col < 0 or col >= cols:
+                return 0
+            if grid[row][col] == 0 or (row, col) in visited:
+                return 0
+
+            visited.add((row, col))
+            area = 1
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                area += dfs(row + dr, col + dc)
+            return area
+
+        best = 0
+        for row in range(rows):
+            for col in range(cols):
+                best = max(best, dfs(row, col))
+        return best
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -163,28 +182,41 @@ Run [DFS](../algorithms/dfs.md) from every Pacific-border cell and every Atlanti
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(heights), len(heights[0])
-pacific, atlantic = set(), set()
+class Solution:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
 
-def dfs(r, c, visited, prev_height):
-    if (r < 0 or r >= rows or c < 0 or c >= cols or
-            (r, c) in visited or heights[r][c] < prev_height):
-        return                              # can't flow backward into a lower cell
-    visited.add((r, c))
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-        dfs(r + dr, c + dc, visited, heights[r][c])
+        rows = len(heights)
+        cols = len(heights[0])
+        pacific = set()
+        atlantic = set()
 
-for c in range(cols):                      # top row touches Pacific, bottom row touches Atlantic
-    dfs(0, c, pacific, heights[0][c])
-    dfs(rows - 1, c, atlantic, heights[rows - 1][c])
-for r in range(rows):                      # left col touches Pacific, right col touches Atlantic
-    dfs(r, 0, pacific, heights[r][0])
-    dfs(r, cols - 1, atlantic, heights[r][cols - 1])
+        def dfs(row, col, visited, prev_height):
+            if row < 0 or row >= rows or col < 0 or col >= cols:
+                return
+            if (row, col) in visited or heights[row][col] < prev_height:
+                return
 
-return [[r, c] for r in range(rows) for c in range(cols) if (r, c) in pacific and (r, c) in atlantic]
+            visited.add((row, col))
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                dfs(row + dr, col + dc, visited, heights[row][col])
+
+        for col in range(cols):
+            dfs(0, col, pacific, heights[0][col])
+            dfs(rows - 1, col, atlantic, heights[rows - 1][col])
+
+        for row in range(rows):
+            dfs(row, 0, pacific, heights[row][0])
+            dfs(row, cols - 1, atlantic, heights[row][cols - 1])
+
+        result = []
+        for row in range(rows):
+            for col in range(cols):
+                if (row, col) in pacific and (row, col) in atlantic:
+                    result.append([row, col])
+        return result
 ```
 
-Building blocks: [set-basics](../syntax/set-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [list-comprehension](../syntax/list-comprehension.md) (nested)
+Building blocks: [set-basics](../syntax/set-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md)
 </details>
 
 <details>
@@ -212,28 +244,35 @@ Run [DFS](../algorithms/dfs.md) from every border `"O"`, temporarily marking rea
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(board), len(board[0])
+class Solution:
+    def solve(self, board: List[List[str]]) -> None:
 
-def dfs(r, c):
-    if r < 0 or r >= rows or c < 0 or c >= cols or board[r][c] != "O":
-        return
-    board[r][c] = "T"                      # temporarily mark as safe
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-        dfs(r + dr, c + dc)
+        rows = len(board)
+        cols = len(board[0])
 
-for r in range(rows):                     # DFS from every border cell
-    dfs(r, 0)
-    dfs(r, cols - 1)
-for c in range(cols):
-    dfs(0, c)
-    dfs(rows - 1, c)
+        def dfs(row, col):
+            if row < 0 or row >= rows or col < 0 or col >= cols:
+                return
+            if board[row][col] != "O":
+                return
 
-for r in range(rows):                     # flip surrounded O's to X, safe T's back to O
-    for c in range(cols):
-        if board[r][c] == "O":
-            board[r][c] = "X"
-        elif board[r][c] == "T":
-            board[r][c] = "O"
+            board[row][col] = "T"   # temporary mark: connected to the border, safe
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                dfs(row + dr, col + dc)
+
+        for row in range(rows):
+            dfs(row, 0)
+            dfs(row, cols - 1)
+        for col in range(cols):
+            dfs(0, col)
+            dfs(rows - 1, col)
+
+        for row in range(rows):
+            for col in range(cols):
+                if board[row][col] == "O":
+                    board[row][col] = "X"
+                elif board[row][col] == "T":
+                    board[row][col] = "O"
 ```
 
 Building blocks: [nested-lists](../syntax/nested-lists.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md) · [elif-else](../syntax/elif-else.md)
@@ -266,30 +305,36 @@ Multi-source [BFS](../algorithms/bfs.md): seed a [queue](../data-structures/queu
 ```python
 from collections import deque
 
-rows, cols = len(grid), len(grid[0])
-q = deque()
-fresh = 0
+class Solution:
+    def orangesRotting(self, grid: List[List[int]]) -> int:
 
-for r in range(rows):                     # seed the queue, count fresh oranges
-    for c in range(cols):
-        if grid[r][c] == 2:
-            q.append((r, c))
-        elif grid[r][c] == 1:
-            fresh += 1
+        rows = len(grid)
+        cols = len(grid[0])
+        queue = deque()
+        fresh = 0
 
-minutes = 0
-while q and fresh > 0:                     # while loop, one minute per level
-    for _ in range(len(q)):                  # process exactly this minute's rotten oranges
-        r, c = q.popleft()
-        for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-            nr, nc = r + dr, c + dc
-            if 0 <= nr < rows and 0 <= nc < cols and grid[nr][nc] == 1:
-                grid[nr][nc] = 2                # this orange rots now
-                fresh -= 1
-                q.append((nr, nc))
-    minutes += 1
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == 2:
+                    queue.append((row, col))
+                elif grid[row][col] == 1:
+                    fresh += 1
 
-return minutes if fresh == 0 else -1
+        minutes = 0
+        while queue and fresh > 0:
+            for _ in range(len(queue)):
+                row, col = queue.popleft()
+
+                for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                    r = row + dr
+                    c = col + dc
+                    if 0 <= r < rows and 0 <= c < cols and grid[r][c] == 1:
+                        grid[r][c] = 2
+                        fresh -= 1
+                        queue.append((r, c))
+            minutes += 1
+
+        return minutes if fresh == 0 else -1
 ```
 
 Building blocks: [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
@@ -322,21 +367,29 @@ Same shape as [994](#994-rotting-oranges--medium): multi-source [BFS](../algorit
 ```python
 from collections import deque
 
-rows, cols = len(rooms), len(rooms[0])
-q = deque()
+class Solution:
+    def wallsAndGates(self, rooms: List[List[int]]) -> None:
 
-for r in range(rows):                     # seed the queue with every gate
-    for c in range(cols):
-        if rooms[r][c] == 0:
-            q.append((r, c))
+        rows = len(rooms)
+        cols = len(rooms[0])
+        queue = deque()
 
-while q:                                  # while loop, standard BFS
-    r, c = q.popleft()
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-        nr, nc = r + dr, c + dc
-        if 0 <= nr < rows and 0 <= nc < cols and rooms[nr][nc] == 2147483647:
-            rooms[nr][nc] = rooms[r][c] + 1     # one step farther than the current cell
-            q.append((nr, nc))
+        for row in range(rows):
+            for col in range(cols):
+                if rooms[row][col] == 0:
+                    queue.append((row, col))
+
+        empty = 2147483647
+
+        while queue:
+            row, col = queue.popleft()
+
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                r = row + dr
+                c = col + dc
+                if 0 <= r < rows and 0 <= c < cols and rooms[r][c] == empty:
+                    rooms[r][c] = rooms[row][col] + 1
+                    queue.append((r, c))
 ```
 
 Building blocks: [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [chained-comparisons](../syntax/chained-comparisons.md)
@@ -367,30 +420,36 @@ Build an adjacency list, then either run cycle detection with a "visiting/visite
 <summary>Solution</summary>
 
 ```python
-from collections import defaultdict, deque
+from collections import deque
 
-graph = defaultdict(list)
-indegree = [0] * numCourses
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
-for course, prereq in prerequisites:        # build the graph and count indegrees
-    graph[prereq].append(course)
-    indegree[course] += 1
+        graph = [[] for _ in range(numCourses)]
+        indegree = [0] * numCourses
 
-q = deque([c for c in range(numCourses) if indegree[c] == 0])   # courses with no prereqs
-visited = 0
+        for course, prereq in prerequisites:
+            graph[prereq].append(course)
+            indegree[course] += 1
 
-while q:                                   # while loop, Kahn's topological sort
-    node = q.popleft()
-    visited += 1
-    for nxt in graph[node]:
-        indegree[nxt] -= 1
-        if indegree[nxt] == 0:               # all of nxt's prereqs are now done
-            q.append(nxt)
+        queue = deque()
+        for i in range(numCourses):
+            if indegree[i] == 0:
+                queue.append(i)
 
-return visited == numCourses               # every course reachable means no cycle
+        visited_count = 0
+        while queue:
+            node = queue.popleft()
+            visited_count += 1
+            for neighbor in graph[node]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+
+        return visited_count == numCourses
 ```
 
-Building blocks: [defaultdict](../syntax/defaultdict.md) · [deque](../data-structures/deque.md) · [list-comprehension](../syntax/list-comprehension.md) · [while-loop](../syntax/while-loop.md)
+Building blocks: [deque](../data-structures/deque.md) · [from-import](../syntax/from-import.md) · [list-comprehension](../syntax/list-comprehension.md) (`[[] for _ in ...]`) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md)
 </details>
 
 <details>
@@ -418,30 +477,36 @@ Run the same [topological sort](../algorithms/topological-sort.md) as [207](#207
 <summary>Solution</summary>
 
 ```python
-from collections import defaultdict, deque
+from collections import deque
 
-graph = defaultdict(list)
-indegree = [0] * numCourses
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
 
-for course, prereq in prerequisites:
-    graph[prereq].append(course)
-    indegree[course] += 1
+        graph = [[] for _ in range(numCourses)]
+        indegree = [0] * numCourses
 
-q = deque([c for c in range(numCourses) if indegree[c] == 0])
-order = []
+        for course, prereq in prerequisites:
+            graph[prereq].append(course)
+            indegree[course] += 1
 
-while q:
-    node = q.popleft()
-    order.append(node)                       # dequeue order is a valid schedule
-    for nxt in graph[node]:
-        indegree[nxt] -= 1
-        if indegree[nxt] == 0:
-            q.append(nxt)
+        queue = deque()
+        for i in range(numCourses):
+            if indegree[i] == 0:
+                queue.append(i)
 
-return order if len(order) == numCourses else []
+        order = []
+        while queue:
+            node = queue.popleft()
+            order.append(node)
+            for neighbor in graph[node]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+
+        return order if len(order) == numCourses else []
 ```
 
-Building blocks: [defaultdict](../syntax/defaultdict.md) · [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [ternary-expression](../syntax/ternary-expression.md)
+Building blocks: [deque](../data-structures/deque.md) · [from-import](../syntax/from-import.md) · [list-comprehension](../syntax/list-comprehension.md) (`[[] for _ in ...]`) · [while-loop](../syntax/while-loop.md) · [ternary-expression](../syntax/ternary-expression.md)
 </details>
 
 <details>
@@ -469,24 +534,28 @@ Process edges in order with [union-find](../data-structures/union-find.md). For 
 <summary>Solution</summary>
 
 ```python
-parent = list(range(len(edges) + 1))
+class Solution:
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
 
-def find(x):
-    while parent[x] != x:                    # walk up to the root
-        parent[x] = parent[parent[x]]           # path compression
-        x = parent[x]
-    return x
+        parent = list(range(len(edges) + 1))
 
-def union(x, y):
-    root_x, root_y = find(x), find(y)
-    if root_x == root_y:                       # already connected: this edge is redundant
-        return False
-    parent[root_x] = root_y
-    return True
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]   # path compression
+                x = parent[x]
+            return x
 
-for a, b in edges:                          # for loop over edges in given order
-    if not union(a, b):
-        return [a, b]
+        def union(x, y):
+            root_x = find(x)
+            root_y = find(y)
+            if root_x == root_y:
+                return False
+            parent[root_x] = root_y
+            return True
+
+        for a, b in edges:
+            if not union(a, b):
+                return [a, b]
 ```
 
 Building blocks: [union-find](../data-structures/union-find.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
@@ -517,31 +586,33 @@ Build an adjacency list and DFS (see [DFS](../algorithms/dfs.md)) from every unv
 <summary>Solution</summary>
 
 ```python
-from collections import defaultdict
+class Solution:
+    def countComponents(self, n: int, edges: List[List[int]]) -> int:
 
-graph = defaultdict(list)
-for a, b in edges:
-    graph[a].append(b)
-    graph[b].append(a)
+        graph = [[] for _ in range(n)]
+        for a, b in edges:
+            graph[a].append(b)
+            graph[b].append(a)
 
-visited = set()
+        visited = set()
 
-def dfs(node):
-    visited.add(node)
-    for neighbor in graph[node]:
-        if neighbor not in visited:
-            dfs(neighbor)
+        def dfs(node):
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    dfs(neighbor)
 
-count = 0
-for node in range(n):                       # for loop over every node
-    if node not in visited:                    # unvisited: it's a new component
-        dfs(node)
-        count += 1
+        count = 0
+        for i in range(n):
+            if i not in visited:
+                visited.add(i)
+                dfs(i)
+                count += 1
 
-return count
+        return count
 ```
 
-Building blocks: [defaultdict](../syntax/defaultdict.md) · [set-basics](../syntax/set-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md)
+Building blocks: [list-comprehension](../syntax/list-comprehension.md) (`[[] for _ in ...]`) · [set-basics](../syntax/set-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [for-loop](../syntax/for-loop.md)
 </details>
 
 <details>
@@ -569,29 +640,33 @@ A tree needs exactly `n - 1` edges and no cycles — check the edge count first 
 <summary>Solution</summary>
 
 ```python
-if len(edges) != n - 1:                    # a tree has exactly n-1 edges
-    return False
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
 
-parent = list(range(n))
+        if len(edges) != n - 1:
+            return False
 
-def find(x):
-    while parent[x] != x:
-        parent[x] = parent[parent[x]]
-        x = parent[x]
-    return x
+        parent = list(range(n))
 
-def union(x, y):
-    root_x, root_y = find(x), find(y)
-    if root_x == root_y:                     # this edge would create a cycle
-        return False
-    parent[root_x] = root_y
-    return True
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]   # path compression
+                x = parent[x]
+            return x
 
-for a, b in edges:                          # for loop over every edge
-    if not union(a, b):
-        return False
+        def union(x, y):
+            root_x = find(x)
+            root_y = find(y)
+            if root_x == root_y:
+                return False
+            parent[root_x] = root_y
+            return True
 
-return True                                 # n-1 edges + no cycle = connected tree
+        for a, b in edges:
+            if not union(a, b):
+                return False
+
+        return True
 ```
 
 Building blocks: [union-find](../data-structures/union-find.md) · [if-return](../syntax/if-return.md) · [for-loop](../syntax/for-loop.md)
@@ -625,26 +700,29 @@ Treat every word as a graph node, connected to words one letter apart. Run [BFS]
 from collections import deque
 from string import ascii_lowercase
 
-word_set = set(wordList)
-if endWord not in word_set:
-    return 0
+class Solution:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
 
-q = deque([(beginWord, 1)])                # (word, steps taken so far)
-visited = {beginWord}
+        word_set = set(wordList)
+        if endWord not in word_set:
+            return 0
 
-while q:                                    # while loop, BFS level by level
-    word, steps = q.popleft()
-    if word == endWord:
-        return steps
+        queue = deque([(beginWord, 1)])
+        visited = {beginWord}
 
-    for i in range(len(word)):                # try changing each letter position
-        for ch in ascii_lowercase:
-            candidate = word[:i] + ch + word[i + 1:]
-            if candidate in word_set and candidate not in visited:
-                visited.add(candidate)
-                q.append((candidate, steps + 1))
+        while queue:
+            word, steps = queue.popleft()
+            if word == endWord:
+                return steps
 
-return 0
+            for i in range(len(word)):
+                for letter in ascii_lowercase:
+                    candidate = word[:i] + letter + word[i + 1:]
+                    if candidate in word_set and candidate not in visited:
+                        visited.add(candidate)
+                        queue.append((candidate, steps + 1))
+
+        return 0
 ```
 
 Building blocks: [deque](../data-structures/deque.md) · [string-methods](../syntax/string-methods.md) (`ascii_lowercase`) · [for-loop](../syntax/for-loop.md) · [set-basics](../syntax/set-basics.md)

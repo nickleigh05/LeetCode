@@ -1,12 +1,12 @@
-# 00b. Big-O Practice — Drills & Tracing
+# 00f. Big-O Practice — Drills & Tracing
 
 *Reading about Big-O is not the same as computing it. This lesson makes you do it.*
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)
 
 ---
 
-Lesson 00 explained what Big-O means. This one makes you compute it — on loops, on recursion, on Python's built-ins — until estimating complexity becomes a reflex.
+Lessons 00c–00e explained what Big-O means. This one makes you compute it — on loops, on recursion, on Python's built-ins — until estimating complexity becomes a reflex.
 
 > **How much to do now:** Work the **Analyzing Loops** and **built-in costs** drills before Phase 1 — that's the part you need immediately. The **recursion** and **amortized analysis** sections are here for completeness; if they feel abstract before you've written recursive code, skim them now and come back after [Recursion (04b)](04b-recursion.md). Don't let this page become a wall that blocks you from starting Lesson 01.
 
@@ -323,4 +323,4 @@ It finds the maximum element. O(n) time, O(1) space.
 
 **Up next:** [Arrays & Hashing](01-arrays-hashing.md) — the foundation. Hash maps trade memory for O(1) lookups and quietly power half of all interview solutions.
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)

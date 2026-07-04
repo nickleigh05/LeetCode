@@ -24,19 +24,22 @@ Build an adjacency list sorted so the smallest destinations are tried first, the
 ```python
 from collections import defaultdict
 
-graph = defaultdict(list)
-for src, dst in sorted(tickets, reverse=True):   # reverse-sorted so .pop() gives smallest
-    graph[src].append(dst)
+class Solution:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
 
-route = []
+        graph = defaultdict(list)
+        for src, dst in sorted(tickets, reverse=True):   # reverse-sorted so .pop() gives smallest
+            graph[src].append(dst)
 
-def dfs(airport):
-    while graph[airport]:                          # consume edges as they're used
-        dfs(graph[airport].pop())
-    route.append(airport)                            # post-order: append after exhausting edges
+        route = []
 
-dfs("JFK")
-return route[::-1]                                # reverse since we built it backward
+        def dfs(airport):
+            while graph[airport]:
+                dfs(graph[airport].pop())
+            route.append(airport)
+
+        dfs("JFK")
+        return route[::-1]
 ```
 
 Building blocks: [defaultdict](../syntax/defaultdict.md) · [sorting-key](../syntax/sorting-key.md) (`reverse=True`) · [recursion-basics](../syntax/recursion-basics.md) · [list-slicing](../syntax/list-slicing.md) (`[::-1]`)
@@ -69,24 +72,27 @@ Prim's algorithm: grow a tree from any point, always adding the cheapest edge th
 ```python
 import heapq
 
-n = len(points)
-visited = set()
-min_heap = [(0, 0)]                        # (cost, point index), start at point 0
-total = 0
+class Solution:
+    def minCostConnectPoints(self, points: List[List[int]]) -> int:
 
-while len(visited) < n:                      # while loop until every point is connected
-    cost, i = heapq.heappop(min_heap)
-    if i in visited:                            # stale entry, already connected
-        continue
-    visited.add(i)
-    total += cost
+        n = len(points)
+        visited = set()
+        min_heap = [(0, 0)]   # (cost, point index)
+        total = 0
 
-    for j in range(n):                          # push edges to every still-unvisited point
-        if j not in visited:
-            dist = abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1])
-            heapq.heappush(min_heap, (dist, j))
+        while len(visited) < n:
+            cost, i = heapq.heappop(min_heap)
+            if i in visited:
+                continue
+            visited.add(i)
+            total += cost
 
-return total
+            for j in range(n):
+                if j not in visited:
+                    dist = abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1])
+                    heapq.heappush(min_heap, (dist, j))
+
+        return total
 ```
 
 Building blocks: [heap](../data-structures/heap.md) · [set-basics](../syntax/set-basics.md) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`abs()`)
@@ -120,26 +126,29 @@ Run [Dijkstra's algorithm](../algorithms/dijkstra.md) from `k`: always expand th
 import heapq
 from collections import defaultdict
 
-graph = defaultdict(list)
-for u, v, w in times:
-    graph[u].append((v, w))
+class Solution:
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
 
-dist = {}
-min_heap = [(0, k)]                        # (time so far, node), start at k
+        graph = defaultdict(list)
+        for u, v, w in times:
+            graph[u].append((v, w))
 
-while min_heap:                              # while loop, Dijkstra's algorithm
-    time, node = heapq.heappop(min_heap)
-    if node in dist:                            # already finalized with a shorter time
-        continue
-    dist[node] = time
+        dist = {}
+        min_heap = [(0, k)]   # (time so far, node)
 
-    for neighbor, weight in graph[node]:
-        if neighbor not in dist:
-            heapq.heappush(min_heap, (time + weight, neighbor))
+        while min_heap:
+            time, node = heapq.heappop(min_heap)
+            if node in dist:
+                continue
+            dist[node] = time
 
-if len(dist) != n:                           # some node never reached
-    return -1
-return max(dist.values())                   # time until the last node hears the signal
+            for neighbor, weight in graph[node]:
+                if neighbor not in dist:
+                    heapq.heappush(min_heap, (time + weight, neighbor))
+
+        if len(dist) != n:
+            return -1
+        return max(dist.values())
 ```
 
 Building blocks: [defaultdict](../syntax/defaultdict.md) · [heap](../data-structures/heap.md) · [while-loop](../syntax/while-loop.md) · [dict-methods](../syntax/dict-methods.md) (`.values()`)
@@ -172,23 +181,27 @@ This is Dijkstra-flavored: use a min-[heap](../data-structures/heap.md) keyed by
 ```python
 import heapq
 
-n = len(grid)
-visited = set()
-min_heap = [(grid[0][0], 0, 0)]             # (max elevation on path so far, r, c)
+class Solution:
+    def swimInWater(self, grid: List[List[int]]) -> int:
 
-while min_heap:                              # while loop, Dijkstra-style expansion
-    t, r, c = heapq.heappop(min_heap)
-    if (r, c) in visited:
-        continue
-    visited.add((r, c))
+        n = len(grid)
+        visited = set()
+        min_heap = [(grid[0][0], 0, 0)]   # (max elevation on path so far, row, col)
 
-    if r == n - 1 and c == n - 1:              # reached the destination
-        return t
+        while min_heap:
+            time, row, col = heapq.heappop(min_heap)
+            if (row, col) in visited:
+                continue
+            visited.add((row, col))
 
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-        nr, nc = r + dr, c + dc
-        if 0 <= nr < n and 0 <= nc < n and (nr, nc) not in visited:
-            heapq.heappush(min_heap, (max(t, grid[nr][nc]), nr, nc))
+            if row == n - 1 and col == n - 1:
+                return time
+
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                r = row + dr
+                c = col + dc
+                if 0 <= r < n and 0 <= c < n and (r, c) not in visited:
+                    heapq.heappush(min_heap, (max(time, grid[r][c]), r, c))
 ```
 
 Building blocks: [heap](../data-structures/heap.md) · [set-basics](../syntax/set-basics.md) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -219,36 +232,39 @@ For each pair of adjacent words, find the first differing character — that giv
 <summary>Solution</summary>
 
 ```python
-from collections import defaultdict, deque
+from collections import deque
 
-graph = {c: set() for word in words for c in word}
+class Solution:
+    def alienOrder(self, words: List[str]) -> str:
 
-for w1, w2 in zip(words, words[1:]):        # compare each adjacent pair
-    min_len = min(len(w1), len(w2))
-    if w1[:min_len] == w2[:min_len] and len(w1) > len(w2):  # invalid: prefix out of order
-        return ""
-    for c1, c2 in zip(w1, w2):
-        if c1 != c2:                            # first differing character gives an edge
-            graph[c1].add(c2)
-            break
+        graph = {char: set() for word in words for char in word}
 
-indegree = {c: 0 for c in graph}
-for c in graph:
-    for nxt in graph[c]:
-        indegree[nxt] += 1
+        for w1, w2 in zip(words, words[1:]):
+            min_len = min(len(w1), len(w2))
+            if w1[:min_len] == w2[:min_len] and len(w1) > len(w2):
+                return ""
+            for c1, c2 in zip(w1, w2):
+                if c1 != c2:
+                    graph[c1].add(c2)
+                    break
 
-q = deque([c for c in graph if indegree[c] == 0])
-order = []
+        indegree = {char: 0 for char in graph}
+        for char in graph:
+            for neighbor in graph[char]:
+                indegree[neighbor] += 1
 
-while q:                                     # Kahn's topological sort
-    c = q.popleft()
-    order.append(c)
-    for nxt in graph[c]:
-        indegree[nxt] -= 1
-        if indegree[nxt] == 0:
-            q.append(nxt)
+        queue = deque([char for char in graph if indegree[char] == 0])
+        order = []
 
-return "".join(order) if len(order) == len(graph) else ""
+        while queue:
+            char = queue.popleft()
+            order.append(char)
+            for neighbor in graph[char]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+
+        return "".join(order) if len(order) == len(graph) else ""
 ```
 
 Building blocks: [dict-comprehension](../syntax/dict-comprehension.md) · [zip-function](../syntax/zip-function.md) · [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md)
@@ -279,19 +295,22 @@ Dijkstra doesn't track *how many edges* were used to reach the cheapest price, s
 <summary>Solution</summary>
 
 ```python
-prices = [float("inf")] * n
-prices[src] = 0
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
 
-for _ in range(k + 1):                      # k+1 rounds = at most k stops (k+1 edges)
-    tmp_prices = prices[:]                     # snapshot: don't use this round's updates yet
+        prices = [float("inf")] * n
+        prices[src] = 0
 
-    for u, v, w in flights:                     # relax every edge using last round's prices
-        if prices[u] != float("inf") and prices[u] + w < tmp_prices[v]:
-            tmp_prices[v] = prices[u] + w
+        for _ in range(k + 1):
+            tmp_prices = prices[:]   # snapshot so updates don't leak within a round
 
-    prices = tmp_prices
+            for u, v, w in flights:
+                if prices[u] != float("inf") and prices[u] + w < tmp_prices[v]:
+                    tmp_prices[v] = prices[u] + w
 
-return prices[dst] if prices[dst] != float("inf") else -1
+            prices = tmp_prices
+
+        return prices[dst] if prices[dst] != float("inf") else -1
 ```
 
 Building blocks: [list-slicing](../syntax/list-slicing.md) (snapshot copy) · [for-loop](../syntax/for-loop.md) · [int-float-basics](../syntax/int-float-basics.md) (`float("inf")`)

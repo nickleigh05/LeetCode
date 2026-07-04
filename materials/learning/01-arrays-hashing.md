@@ -1,7 +1,7 @@
 # 01. Arrays & Hashing
 *The foundation. Hash maps trade memory for O(1) lookups and quietly power half of all interview solutions.*
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01b-prefix-sums.md)
+[← Prev](00f-foundations-practice.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01b-prefix-sums.md)
 
 ---
 
@@ -163,5 +163,5 @@ Work the guided set with hints & solutions: [**Arrays & Hashing — Practice →
 
 **Up next:** [Prefix Sums](01b-prefix-sums.md) — precompute once, answer range queries in O(1). The hidden engine behind subarray problems.
 
-[← Prev](00-foundations.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01b-prefix-sums.md)
+[← Prev](00f-foundations-practice.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01b-prefix-sums.md)
 

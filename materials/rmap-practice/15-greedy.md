@@ -15,26 +15,27 @@ Find the contiguous subarray with the largest sum. Why does a running sum reset 
 <details>
 <summary>Hint</summary>
 
-This is [Kadane's algorithm](../algorithms/kadane-algorithm.md): keep a running sum; if it ever drops below 0, reset it to 0, since a negative prefix can only hurt any subarray that follows it.
+This is [Kadane's algorithm](../algorithms/kadane-algorithm.md): at each element, the best subarray ending here either extends the previous running sum or starts fresh at this element — a negative prefix can only hurt any subarray that follows it.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-best = nums[0]
-current = 0
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
 
-for num in nums:                         # for loop, one pass
-    if current < 0:                         # a negative running sum only hurts what follows
-        current = 0
-    current += num
-    best = max(best, current)
+        max_sum = nums[0]
+        cur_sum = nums[0]
 
-return best
+        for i in range(1, len(nums)):
+            cur_sum = max(nums[i], cur_sum + nums[i])
+            max_sum = max(max_sum, cur_sum)
+
+        return max_sum
 ```
 
-Building blocks: [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
+Building blocks: [for-loop](../syntax/for-loop.md) · [range-function](../syntax/range-function.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
 </details>
 
 <details>
@@ -62,14 +63,17 @@ Greedily track `farthest` reachable so far. Walking left to right, if the curren
 <summary>Solution</summary>
 
 ```python
-farthest = 0
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
 
-for i, num in enumerate(nums):            # for loop, one pass
-    if i > farthest:                         # this index is unreachable
-        return False
-    farthest = max(farthest, i + num)
+        farthest = 0
 
-return True
+        for i, num in enumerate(nums):
+            if i > farthest:
+                return False
+            farthest = max(farthest, i + num)
+
+        return True
 ```
 
 Building blocks: [enumerate](../syntax/enumerate.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -100,18 +104,21 @@ This is a greedy BFS-by-levels idea: track the boundary of the current jump's re
 <summary>Solution</summary>
 
 ```python
-jumps = 0
-current_end = 0                          # farthest reachable within the current jump
-farthest = 0                              # farthest reachable seen so far
+class Solution:
+    def jump(self, nums: List[int]) -> int:
 
-for i in range(len(nums) - 1):             # for loop, don't need to jump from the last index
-    farthest = max(farthest, i + nums[i])
+        jumps = 0
+        current_end = 0   # farthest index reachable within the current jump
+        farthest = 0      # farthest index reachable seen so far
 
-    if i == current_end:                     # exhausted this jump's range: take another jump
-        jumps += 1
-        current_end = farthest
+        for i in range(len(nums) - 1):
+            farthest = max(farthest, i + nums[i])
 
-return jumps
+            if i == current_end:
+                jumps += 1
+                current_end = farthest
+
+        return jumps
 ```
 
 Building blocks: [for-loop](../syntax/for-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`) · [arithmetic-operators](../syntax/arithmetic-operators.md) (`+=`)
@@ -142,19 +149,22 @@ If the total gas is less than total cost, no solution exists. Otherwise greedily
 <summary>Solution</summary>
 
 ```python
-if sum(gas) < sum(cost):                 # not enough total gas: impossible
-    return -1
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
 
-total = 0
-start = 0
+        if sum(gas) < sum(cost):
+            return -1
 
-for i in range(len(gas)):                  # for loop, one pass
-    total += gas[i] - cost[i]
-    if total < 0:                            # this start (and everything before i) can't work
-        start = i + 1
         total = 0
+        start = 0
 
-return start
+        for i in range(len(gas)):
+            total += gas[i] - cost[i]
+            if total < 0:
+                start = i + 1
+                total = 0
+
+        return start
 ```
 
 Building blocks: [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (`sum()`)
@@ -187,21 +197,25 @@ Count card frequencies in a [hashmap](../data-structures/hashmap.md). Repeatedly
 ```python
 from collections import Counter
 
-if len(hand) % groupSize != 0:            # can't split evenly
-    return False
+class Solution:
+    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
 
-count = Counter(hand)
-
-for card in sorted(count):                 # always start a group at the smallest remaining card
-    if count[card] == 0:                      # already fully consumed by an earlier group
-        continue
-    needed = count[card]                       # this many groups must start here
-    for next_card in range(card, card + groupSize):   # consume groupSize consecutive values
-        if count[next_card] < needed:              # can't complete the run
+        if len(hand) % groupSize != 0:
             return False
-        count[next_card] -= needed
 
-return True
+        count = Counter(hand)
+
+        for card in sorted(count):
+            if count[card] == 0:
+                continue
+
+            needed = count[card]   # every remaining copy must start a group here
+            for next_card in range(card, card + groupSize):
+                if count[next_card] < needed:
+                    return False
+                count[next_card] -= needed
+
+        return True
 ```
 
 Building blocks: [counter](../syntax/counter.md) · [sorting-key](../syntax/sorting-key.md) (`sorted()` on a dict) · [for-loop](../syntax/for-loop.md) (nested)
@@ -232,16 +246,20 @@ Any triplet with a component greater than the target's matching component can ne
 <summary>Solution</summary>
 
 ```python
-good = set()
+class Solution:
+    def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
 
-for t in triplets:                        # for loop over every triplet
-    if t[0] > target[0] or t[1] > target[1] or t[2] > target[2]:
-        continue                             # this triplet would overshoot the target
-    for i in range(3):
-        if t[i] == target[i]:                  # this triplet nails one of the target's positions
-            good.add(i)
+        good = set()
 
-return len(good) == 3                    # every target position was matched by some safe triplet
+        for triplet in triplets:
+            if triplet[0] > target[0] or triplet[1] > target[1] or triplet[2] > target[2]:
+                continue
+
+            for i in range(3):
+                if triplet[i] == target[i]:
+                    good.add(i)
+
+        return len(good) == 3
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [for-loop](../syntax/for-loop.md) · [break-continue](../syntax/break-continue.md)
@@ -272,18 +290,23 @@ Precompute the last index of each character. Scan left to right, extending the c
 <summary>Solution</summary>
 
 ```python
-last_index = {c: i for i, c in enumerate(s)}   # last occurrence of each character
+class Solution:
+    def partitionLabels(self, s: str) -> List[int]:
 
-res = []
-start = end = 0
+        last_index = {char: i for i, char in enumerate(s)}
 
-for i, c in enumerate(s):                 # for loop, one pass
-    end = max(end, last_index[c])            # extend the partition to cover this char fully
-    if i == end:                              # reached the boundary: partition is complete
-        res.append(end - start + 1)
-        start = i + 1
+        result = []
+        start = 0
+        end = 0
 
-return res
+        for i, char in enumerate(s):
+            end = max(end, last_index[char])
+
+            if i == end:
+                result.append(end - start + 1)
+                start = i + 1
+
+        return result
 ```
 
 Building blocks: [dict-comprehension](../syntax/dict-comprehension.md) · [enumerate](../syntax/enumerate.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -314,24 +337,28 @@ Track `lo` (fewest possible open parens, treating `*` as `)` or empty when helpf
 <summary>Solution</summary>
 
 ```python
-lo, hi = 0, 0                            # range of possible "open paren" counts
+class Solution:
+    def checkValidString(self, s: str) -> bool:
 
-for c in s:                                # for loop, one pass
-    if c == "(":
-        lo += 1
-        hi += 1
-    elif c == ")":
-        lo -= 1
-        hi -= 1
-    else:                                    # '*' could be '(', ')', or empty
-        lo -= 1
-        hi += 1
+        low = 0    # fewest possible unmatched open parens
+        high = 0   # most possible unmatched open parens
 
-    if hi < 0:                               # too many closes even in the best case
-        return False
-    lo = max(lo, 0)                          # can't have a negative "guaranteed open" count
+        for char in s:
+            if char == "(":
+                low += 1
+                high += 1
+            elif char == ")":
+                low -= 1
+                high -= 1
+            else:
+                low -= 1
+                high += 1
 
-return lo == 0
+            if high < 0:
+                return False
+            low = max(low, 0)
+
+        return low == 0
 ```
 
 Building blocks: [for-loop](../syntax/for-loop.md) · [elif-else](../syntax/elif-else.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)

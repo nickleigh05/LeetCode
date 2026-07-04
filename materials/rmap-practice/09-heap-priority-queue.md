@@ -25,21 +25,24 @@ Keep a min-[heap](../data-structures/heap.md) of the k largest values seen so fa
 import heapq
 
 class KthLargest:
-    def __init__(self, k, nums):
-        self.k = k
-        self.heap = nums
-        heapq.heapify(self.heap)              # build the heap once
-        while len(self.heap) > k:               # trim down to size k
-            heapq.heappop(self.heap)
 
-    def add(self, val):
+    def __init__(self, k: int, nums: List[int]):
+        self.k = k
+        self.heap = []
+
+        for num in nums:
+            heapq.heappush(self.heap, num)
+            if len(self.heap) > self.k:
+                heapq.heappop(self.heap)
+
+    def add(self, val: int) -> int:
         heapq.heappush(self.heap, val)
-        if len(self.heap) > self.k:              # keep the heap capped at size k
+        if len(self.heap) > self.k:
             heapq.heappop(self.heap)
-        return self.heap[0]                     # root = kth largest
+        return self.heap[0]
 ```
 
-Building blocks: [class-basics](../syntax/class-basics.md) · [while-loop](../syntax/while-loop.md) · [heap](../data-structures/heap.md) (`heapq.heapify/heappush/heappop`)
+Building blocks: [class-basics](../syntax/class-basics.md) · [init-method](../syntax/init-method.md) · [for-loop](../syntax/for-loop.md) · [heap](../data-structures/heap.md) (`heapq.heappush/heappop`)
 </details>
 
 <details>
@@ -69,16 +72,19 @@ Python's `heapq` is a min-heap, so negate values to simulate a max-[heap](../dat
 ```python
 import heapq
 
-stones = [-s for s in stones]          # negate for a max-heap using heapq
-heapq.heapify(stones)
+class Solution:
+    def lastStoneWeight(self, stones: List[int]) -> int:
 
-while len(stones) > 1:                  # while loop, smash the two heaviest
-    first = -heapq.heappop(stones)
-    second = -heapq.heappop(stones)
-    if first != second:                    # leftover weight goes back in
-        heapq.heappush(stones, -(first - second))
+        heap = [-s for s in stones]
+        heapq.heapify(heap)
 
-return -stones[0] if stones else 0
+        while len(heap) > 1:
+            first = -heapq.heappop(heap)
+            second = -heapq.heappop(heap)
+            if first != second:
+                heapq.heappush(heap, -(first - second))
+
+        return -heap[0] if heap else 0
 ```
 
 Building blocks: [list-comprehension](../syntax/list-comprehension.md) · [while-loop](../syntax/while-loop.md) · [heap](../data-structures/heap.md) · [ternary-expression](../syntax/ternary-expression.md)
@@ -111,14 +117,18 @@ Use a max-[heap](../data-structures/heap.md) (negate distances) capped at size k
 ```python
 import heapq
 
-heap = []
-for x, y in points:                     # for loop over every point
-    dist = x * x + y * y                  # squared distance, avoids sqrt
-    heapq.heappush(heap, (-dist, x, y))     # negate for a max-heap
-    if len(heap) > k:
-        heapq.heappop(heap)                   # evict the farthest point
+class Solution:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
 
-return [[x, y] for _, x, y in heap]
+        heap = []
+
+        for x, y in points:
+            dist = x * x + y * y
+            heapq.heappush(heap, (-dist, x, y))
+            if len(heap) > k:
+                heapq.heappop(heap)
+
+        return [[x, y] for _, x, y in heap]
 ```
 
 Building blocks: [tuple-unpacking](../syntax/tuple-unpacking.md) · [for-loop](../syntax/for-loop.md) · [heap](../data-structures/heap.md) · [list-comprehension](../syntax/list-comprehension.md)
@@ -151,13 +161,17 @@ Keep a min-[heap](../data-structures/heap.md) of the k largest values seen so fa
 ```python
 import heapq
 
-heap = []
-for num in nums:                        # for loop over the array
-    heapq.heappush(heap, num)
-    if len(heap) > k:
-        heapq.heappop(heap)                # keep only the k largest so far
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
 
-return heap[0]                          # root of the size-k min-heap
+        heap = []
+
+        for num in nums:
+            heapq.heappush(heap, num)
+            if len(heap) > k:
+                heapq.heappop(heap)
+
+        return heap[0]
 ```
 
 Building blocks: [for-loop](../syntax/for-loop.md) · [heap](../data-structures/heap.md) (`heapq.heappush/heappop`) · [if-return](../syntax/if-return.md)
@@ -191,25 +205,28 @@ Count task frequencies, then greedily pull from a max-[heap](../data-structures/
 import heapq
 from collections import Counter, deque
 
-counts = Counter(tasks)
-max_heap = [-c for c in counts.values()]   # negate for a max-heap
-heapq.heapify(max_heap)
+class Solution:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
 
-time = 0
-q = deque()                              # (count, ready_time) waiting out cooldown
+        counts = Counter(tasks)
+        max_heap = [-count for count in counts.values()]
+        heapq.heapify(max_heap)
 
-while max_heap or q:                      # while loop until all tasks scheduled
-    time += 1
+        time = 0
+        queue = deque()
 
-    if max_heap:                            # run the most frequent remaining task
-        cnt = 1 + heapq.heappop(max_heap)     # one less occurrence remaining (still negative or 0)
-        if cnt:                                 # more of this task left: cooldown before reuse
-            q.append((cnt, time + n))
+        while max_heap or queue:
+            time += 1
 
-    if q and q[0][1] == time:               # a cooled-down task becomes available again
-        heapq.heappush(max_heap, q.popleft()[0])
+            if max_heap:
+                count = 1 + heapq.heappop(max_heap)   # counts are negative, +1 uses one occurrence
+                if count:
+                    queue.append((count, time + n))
 
-return time
+            if queue and queue[0][1] == time:
+                heapq.heappush(max_heap, queue.popleft()[0])
+
+        return time
 ```
 
 Building blocks: [counter](../syntax/counter.md) · [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [heap](../data-structures/heap.md)
@@ -244,39 +261,41 @@ import heapq
 from collections import defaultdict
 
 class Twitter:
+
     def __init__(self):
         self.time = 0
-        self.tweets = defaultdict(list)      # user -> list of (time, tweetId), newest last
-        self.following = defaultdict(set)    # user -> set of followees
+        self.tweets = defaultdict(list)
+        self.following = defaultdict(set)
 
-    def postTweet(self, userId, tweetId):
+    def postTweet(self, userId: int, tweetId: int) -> None:
         self.tweets[userId].append((self.time, tweetId))
-        self.time -= 1                          # decreasing "time" so heap pops newest first
+        self.time -= 1   # time counts down so the min-heap pops the newest tweet first
 
-    def getNewsFeed(self, userId):
+    def getNewsFeed(self, userId: int) -> List[int]:
         heap = []
-        users = self.following[userId] | {userId}   # self + followees
+        users = self.following[userId] | {userId}
 
-        for u in users:                            # seed heap with each user's most recent tweet
-            if self.tweets[u]:
-                idx = len(self.tweets[u]) - 1
-                t, tweet_id = self.tweets[u][idx]
-                heapq.heappush(heap, (t, tweet_id, u, idx - 1))
+        for user in users:
+            if self.tweets[user]:
+                index = len(self.tweets[user]) - 1
+                time, tweet_id = self.tweets[user][index]
+                heapq.heappush(heap, (time, tweet_id, user, index - 1))
 
-        res = []
-        while heap and len(res) < 10:               # pull the 10 most recent overall
-            t, tweet_id, u, idx = heapq.heappop(heap)
-            res.append(tweet_id)
-            if idx >= 0:                               # push that user's next-most-recent tweet
-                nt, ntweet_id = self.tweets[u][idx]
-                heapq.heappush(heap, (nt, ntweet_id, u, idx - 1))
+        feed = []
+        while heap and len(feed) < 10:
+            time, tweet_id, user, index = heapq.heappop(heap)
+            feed.append(tweet_id)
 
-        return res
+            if index >= 0:
+                time, tweet_id = self.tweets[user][index]
+                heapq.heappush(heap, (time, tweet_id, user, index - 1))
 
-    def follow(self, followerId, followeeId):
+        return feed
+
+    def follow(self, followerId: int, followeeId: int) -> None:
         self.following[followerId].add(followeeId)
 
-    def unfollow(self, followerId, followeeId):
+    def unfollow(self, followerId: int, followeeId: int) -> None:
         self.following[followerId].discard(followeeId)
 ```
 
@@ -311,19 +330,18 @@ Keep a max-[heap](../data-structures/heap.md) for the smaller half of numbers an
 import heapq
 
 class MedianFinder:
-    def __init__(self):
-        self.small = []                   # max-heap (negated), lower half
-        self.large = []                   # min-heap, upper half
 
-    def addNum(self, num):
+    def __init__(self):
+        self.small = []   # max-heap (negated values), lower half
+        self.large = []   # min-heap, upper half
+
+    def addNum(self, num: int) -> None:
         heapq.heappush(self.small, -num)
 
-        # ensure every value in small <= every value in large
         if self.small and self.large and (-self.small[0] > self.large[0]):
             val = -heapq.heappop(self.small)
             heapq.heappush(self.large, val)
 
-        # rebalance sizes so they differ by at most 1
         if len(self.small) > len(self.large) + 1:
             val = -heapq.heappop(self.small)
             heapq.heappush(self.large, val)
@@ -331,12 +349,13 @@ class MedianFinder:
             val = heapq.heappop(self.large)
             heapq.heappush(self.small, -val)
 
-    def findMedian(self):
+    def findMedian(self) -> float:
         if len(self.small) > len(self.large):
             return -self.small[0]
-        if len(self.large) > len(self.small):
+        elif len(self.large) > len(self.small):
             return self.large[0]
-        return (-self.small[0] + self.large[0]) / 2
+        else:
+            return (-self.small[0] + self.large[0]) / 2.0
 ```
 
 Building blocks: [class-basics](../syntax/class-basics.md) · [heap](../data-structures/heap.md) · [if-return](../syntax/if-return.md) · [elif-else](../syntax/elif-else.md)

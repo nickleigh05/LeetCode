@@ -22,16 +22,19 @@ Track `prev` and `curr`. At each step, save `curr.next` before overwriting it (p
 <summary>Solution</summary>
 
 ```python
-prev = None
-curr = head
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
-while curr:                          # while loop until we run off the list
-    next_node = curr.next               # save the next node before we lose it
-    curr.next = prev                     # flip this node's pointer backward
-    prev = curr                          # advance prev
-    curr = next_node                     # advance curr
+        prev = None
+        curr = head
 
-return prev                          # prev is the new head
+        while curr:
+            next_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_node
+
+        return prev
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [none-type](../syntax/none-type.md) · [variables-assignment](../syntax/variables-assignment.md)
@@ -62,23 +65,30 @@ Use a dummy node so you always have a `tail.next` to attach to, even before the 
 <summary>Solution</summary>
 
 ```python
-dummy = ListNode()                   # placeholder so tail.next always works
-tail = dummy
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
-while list1 and list2:                 # while loop, both lists still have nodes
-    if list1.val <= list2.val:            # attach the smaller head
-        tail.next = list1
-        list1 = list1.next
-    else:
-        tail.next = list2
-        list2 = list2.next
-    tail = tail.next
+        dummy = ListNode(0)
+        current = dummy
 
-tail.next = list1 if list1 else list2   # attach whichever list has leftovers
-return dummy.next                       # skip the dummy node
+        while list1 is not None and list2 is not None:
+            if list1.val <= list2.val:
+                current.next = list1
+                list1 = list1.next
+            else:
+                current.next = list2
+                list2 = list2.next
+            current = current.next
+
+        if list1 is not None:
+            current.next = list1
+        else:
+            current.next = list2
+
+        return dummy.next
 ```
 
-Building blocks: [class-basics](../syntax/class-basics.md) · [while-loop](../syntax/while-loop.md) · [ternary-expression](../syntax/ternary-expression.md) · [none-type](../syntax/none-type.md)
+Building blocks: [class-basics](../syntax/class-basics.md) · [while-loop](../syntax/while-loop.md) · [identity-operators](../syntax/identity-operators.md) (`is not None`) · [elif-else](../syntax/elif-else.md) · [none-type](../syntax/none-type.md)
 </details>
 
 <details>
@@ -106,33 +116,45 @@ Three steps on a singly [linked list](../data-structures/linked-list.md): (1) fi
 <summary>Solution</summary>
 
 ```python
-# 1. find the middle
-slow, fast = head, head
-while fast and fast.next:              # fast moves 2x speed of slow
-    slow = slow.next
-    fast = fast.next.next
+class Solution:
+    def reorderList(self, head: Optional[ListNode]) -> None:
 
-# 2. reverse the second half
-second = slow.next
-slow.next = None                      # cut the list into two halves
-prev = None
-while second:
-    nxt = second.next
-    second.next = prev
-    prev = second
-    second = nxt
-second = prev                         # head of the reversed second half
+        if head is None or head.next is None:
+            return
 
-# 3. merge the two halves, alternating nodes
-first = head
-while second:
-    tmp1, tmp2 = first.next, second.next
-    first.next = second
-    second.next = tmp1
-    first, second = tmp1, tmp2
+        slow = head
+        fast = head
+        while fast.next is not None and fast.next.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+
+        second_half_head = slow.next
+        slow.next = None
+
+        previous_node = None
+        current_node = second_half_head
+        while current_node is not None:
+            next_node = current_node.next
+            current_node.next = previous_node
+            previous_node = current_node
+            current_node = next_node
+        second_half_head = previous_node
+
+        first_pointer = head
+        second_pointer = second_half_head
+
+        while second_pointer is not None:
+            first_next = first_pointer.next
+            second_next = second_pointer.next
+
+            first_pointer.next = second_pointer
+            second_pointer.next = first_next
+
+            first_pointer = first_next
+            second_pointer = second_next
 ```
 
-Building blocks: [while-loop](../syntax/while-loop.md) · [none-type](../syntax/none-type.md) · [multiple-return-values](../syntax/multiple-return-values.md) (tuple assignment)
+Building blocks: [while-loop](../syntax/while-loop.md) · [identity-operators](../syntax/identity-operators.md) (`is None` / `is not None`) · [logical-operators](../syntax/logical-operators.md) (`and`, `or`) · [none-type](../syntax/none-type.md)
 </details>
 
 <details>
@@ -153,25 +175,30 @@ Remove the nth node from the end of a list in one pass. Without knowing the list
 <details>
 <summary>Hint</summary>
 
-Move a `fast` pointer `n` steps ahead first, then advance `fast` and `slow` together on this [linked list](../data-structures/linked-list.md). When `fast` hits the end, `slow` sits right before the node to remove.
+Start `slow` and `fast` at a dummy node and move `fast` ahead `n + 1` steps, then advance both together on this [linked list](../data-structures/linked-list.md). When `fast` runs off the end, `slow` sits right before the node to remove.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-dummy = ListNode(next=head)          # handles removing the head cleanly
-slow = fast = dummy
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
 
-for _ in range(n):                     # advance fast n steps ahead first
-    fast = fast.next
+        dummy = ListNode(0, head)
+        slow = dummy
+        fast = dummy
 
-while fast.next:                       # move both until fast reaches the last node
-    slow = slow.next
-    fast = fast.next
+        for _ in range(n + 1):
+            fast = fast.next
 
-slow.next = slow.next.next            # skip over the node to remove
-return dummy.next
+        while fast is not None:
+            fast = fast.next
+            slow = slow.next
+
+        slow.next = slow.next.next
+
+        return dummy.next
 ```
 
 Building blocks: [class-basics](../syntax/class-basics.md) · [for-loop](../syntax/for-loop.md) · [while-loop](../syntax/while-loop.md)
@@ -202,21 +229,24 @@ Build a [hashmap](../data-structures/hashmap.md) from original node -> copied no
 <summary>Solution</summary>
 
 ```python
-old_to_copy = {None: None}           # None maps to None, avoids edge-case checks
+class Solution:
+    def copyRandomList(self, head: Optional[Node]) -> Optional[Node]:
 
-curr = head
-while curr:                           # first pass: create every copy node
-    old_to_copy[curr] = Node(curr.val)
-    curr = curr.next
+        old_to_copy = {None: None}
 
-curr = head
-while curr:                           # second pass: wire up next/random
-    copy = old_to_copy[curr]
-    copy.next = old_to_copy[curr.next]
-    copy.random = old_to_copy[curr.random]
-    curr = curr.next
+        curr = head
+        while curr:
+            old_to_copy[curr] = Node(curr.val)
+            curr = curr.next
 
-return old_to_copy[head]
+        curr = head
+        while curr:
+            copy = old_to_copy[curr]
+            copy.next = old_to_copy[curr.next]
+            copy.random = old_to_copy[curr.random]
+            curr = curr.next
+
+        return old_to_copy[head]
 ```
 
 Building blocks: [dict-basics](../syntax/dict-basics.md) · [while-loop](../syntax/while-loop.md) · [none-type](../syntax/none-type.md)
@@ -247,22 +277,26 @@ Walk both [linked lists](../data-structures/linked-list.md) simultaneously, summ
 <summary>Solution</summary>
 
 ```python
-dummy = ListNode()
-tail = dummy
-carry = 0
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
-while l1 or l2 or carry:              # while loop: stop once both lists and carry are exhausted
-    v1 = l1.val if l1 else 0
-    v2 = l2.val if l2 else 0
-    total = v1 + v2 + carry
-    carry = total // 10                  # carry over to the next digit
-    tail.next = ListNode(total % 10)     # this digit of the result
-    tail = tail.next
+        dummy = ListNode()
+        tail = dummy
+        carry = 0
 
-    l1 = l1.next if l1 else None
-    l2 = l2.next if l2 else None
+        while l1 or l2 or carry:
+            v1 = l1.val if l1 else 0
+            v2 = l2.val if l2 else 0
 
-return dummy.next
+            total = v1 + v2 + carry
+            carry = total // 10
+            tail.next = ListNode(total % 10)
+            tail = tail.next
+
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+
+        return dummy.next
 ```
 
 Building blocks: [class-basics](../syntax/class-basics.md) · [while-loop](../syntax/while-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`//`, `%`) · [ternary-expression](../syntax/ternary-expression.md)
@@ -293,13 +327,20 @@ Floyd's cycle detection ("tortoise and hare") on this [linked list](../data-stru
 <summary>Solution</summary>
 
 ```python
-slow, fast = head, head
-while fast and fast.next:              # while loop, fast can still move 2 steps
-    slow = slow.next
-    fast = fast.next.next
-    if slow == fast:                     # they met: there's a cycle
-        return True
-return False
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+
+        slow = head
+        fast = head
+
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+
+        return False
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [identity-operators](../syntax/identity-operators.md) / [comparison-operators](../syntax/comparison-operators.md) · [if-return](../syntax/if-return.md)
@@ -330,20 +371,24 @@ Because a value repeats, following `i -> nums[i]` as a chain of pointers must ev
 <summary>Solution</summary>
 
 ```python
-slow, fast = nums[0], nums[0]
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
 
-while True:                            # phase 1: find a meeting point inside the cycle
-    slow = nums[slow]
-    fast = nums[nums[fast]]
-    if slow == fast:
-        break
+        slow = nums[0]
+        fast = nums[0]
 
-slow2 = nums[0]                        # phase 2: find the cycle's entrance
-while slow != slow2:
-    slow = nums[slow]
-    slow2 = nums[slow2]
+        while True:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+            if slow == fast:
+                break
 
-return slow                          # the entrance is the duplicate value
+        slow2 = nums[0]
+        while slow != slow2:
+            slow = nums[slow]
+            slow2 = nums[slow2]
+
+        return slow
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [break-continue](../syntax/break-continue.md) · [comparison-operators](../syntax/comparison-operators.md)
@@ -375,47 +420,63 @@ The hashmap gives O(1) lookup from key to its node; the doubly linked list keeps
 
 ```python
 class Node:
-    def __init__(self, key, val):
-        self.key, self.val = key, val
-        self.prev = self.next = None
+    def __init__(self, key, value):
+        self.key = key
+        self.value = value
+        self.prev = None
+        self.next = None
+
 
 class LRUCache:
-    def __init__(self, capacity):
-        self.cap = capacity
-        self.cache = {}                    # key -> Node
-        self.left = Node(0, 0)              # dummy head (least recent side)
-        self.right = Node(0, 0)             # dummy tail (most recent side)
-        self.left.next, self.right.prev = self.right, self.left
 
-    def remove(self, node):                # unlink a node from the list
-        prev, nxt = node.prev, node.next
-        prev.next, nxt.prev = nxt, prev
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.cache = {}
+        self.head = Node(0, 0)
+        self.tail = Node(0, 0)
+        self.head.next = self.tail
+        self.tail.prev = self.head
 
-    def insert(self, node):                # insert node right before the tail (most recent)
-        prev, nxt = self.right.prev, self.right
-        prev.next = nxt.prev = node
-        node.prev, node.next = prev, nxt
+    def remove(self, node):
+        prev_node = node.prev
+        next_node = node.next
+        prev_node.next = next_node
+        next_node.prev = prev_node
 
-    def get(self, key):
+    def add_to_front(self, node):
+        node.prev = self.head
+        node.next = self.head.next
+        self.head.next.prev = node
+        self.head.next = node
+
+    def get(self, key: int) -> int:
         if key not in self.cache:
             return -1
-        self.remove(self.cache[key])
-        self.insert(self.cache[key])         # mark as most recently used
-        return self.cache[key].val
 
-    def put(self, key, value):
+        node = self.cache[key]
+        self.remove(node)
+        self.add_to_front(node)
+        return node.value
+
+    def put(self, key: int, value: int) -> None:
         if key in self.cache:
-            self.remove(self.cache[key])
-        self.cache[key] = Node(key, value)
-        self.insert(self.cache[key])
+            node = self.cache[key]
+            node.value = value
+            self.remove(node)
+            self.add_to_front(node)
+            return
 
-        if len(self.cache) > self.cap:        # evict least recently used
-            lru = self.left.next
-            self.remove(lru)
-            del self.cache[lru.key]
+        if len(self.cache) >= self.capacity:
+            lru_node = self.tail.prev
+            self.remove(lru_node)
+            del self.cache[lru_node.key]
+
+        new_node = Node(key, value)
+        self.cache[key] = new_node
+        self.add_to_front(new_node)
 ```
 
-Building blocks: [class-basics](../syntax/class-basics.md) · [dict-basics](../syntax/dict-basics.md) · [membership-operators](../syntax/membership-operators.md) · [dunder-methods](../syntax/dunder-methods.md)
+Building blocks: [class-basics](../syntax/class-basics.md) · [init-method](../syntax/init-method.md) · [dict-basics](../syntax/dict-basics.md) (`del cache[key]`) · [membership-operators](../syntax/membership-operators.md) · [if-return](../syntax/if-return.md)
 </details>
 
 <details>
@@ -431,52 +492,56 @@ Building blocks: [class-basics](../syntax/class-basics.md) · [dict-basics](../s
 [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)  
 [Solution file (no hints)](../../problems/0001-0499/23.py)
 
-Merge k sorted linked lists into one. Why is merging the lists two-at-a-time in pairs (divide and conquer) faster than repeatedly merging one list into a growing result?
+Merge k sorted linked lists into one. If you could always grab the smallest current head among all k lists in O(log k), how would that build the merged list — and what structure gives you that?
 
 <details>
 <summary>Hint</summary>
 
-Reuse [Merge Two Sorted Lists (21)](#21-merge-two-sorted-lists--easy) but call it in pairs, halving the number of lists each round — like the merge step of [merge sort](../algorithms/merge-sort.md) — instead of merging sequentially one list at a time.
+Push each list's head node into a [min-heap](../data-structures/heap.md) keyed by node value (include the list index as a tie-breaker so nodes are never compared directly). Repeatedly pop the smallest node, append it to the result, and push that node's `next` in its place.
 </details>
 
 <details>
 <summary>Solution</summary>
 
 ```python
-def merge_two(l1, l2):                 # same routine as problem 21
-    dummy = ListNode()
-    tail = dummy
-    while l1 and l2:
-        if l1.val <= l2.val:
-            tail.next, l1 = l1, l1.next
-        else:
-            tail.next, l2 = l2, l2.next
-        tail = tail.next
-    tail.next = l1 if l1 else l2
-    return dummy.next
+import heapq
 
-if not lists:
-    return None
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
-while len(lists) > 1:                  # pair up and merge, halving each round
-    merged = []
-    for i in range(0, len(lists), 2):
-        l1 = lists[i]
-        l2 = lists[i + 1] if (i + 1) < len(lists) else None
-        merged.append(merge_two(l1, l2))
-    lists = merged
+        min_heap = []
 
-return lists[0]
+        for list_index in range(len(lists)):
+            head_node = lists[list_index]
+            if head_node is not None:
+                heapq.heappush(min_heap, (head_node.val, list_index, head_node))
+
+        dummy_head = ListNode()
+        current_node = dummy_head
+
+        while min_heap:
+            smallest_val, list_index, smallest_node = heapq.heappop(min_heap)
+
+            current_node.next = smallest_node
+            current_node = current_node.next
+
+            next_node = smallest_node.next
+            if next_node is not None:
+                heapq.heappush(min_heap, (next_node.val, list_index, next_node))
+
+        current_node.next = None
+
+        return dummy_head.next
 ```
 
-Building blocks: [range-function](../syntax/range-function.md) (step argument) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`)
+Building blocks: [import-basics](../syntax/import-basics.md) (`import heapq`) · [tuple-basics](../syntax/tuple-basics.md) (heap entries) · [tuple-unpacking](../syntax/tuple-unpacking.md) · [for-loop](../syntax/for-loop.md) · [while-loop](../syntax/while-loop.md)
 </details>
 
 <details>
 <summary>Time & space complexity</summary>
 
-**Time: O(N log k)** — N total nodes across k lists, merged in O(log k) rounds of pairwise merges.
-**Space: O(log k)** — recursion/iteration overhead for the pairing rounds (not counting the output).
+**Time: O(N log k)** — N total nodes across k lists, each pushed and popped once from a heap of at most k entries.
+**Space: O(k)** — the heap holds at most one node per list (not counting the relinked output).
 </details>
 
 ---
@@ -497,36 +562,41 @@ First check that at least k nodes remain (a partial final group is left alone). 
 <summary>Solution</summary>
 
 ```python
-def get_kth(node, k):                  # walk k nodes forward, or return None if too short
-    while node and k > 0:
-        node = node.next
-        k -= 1
-    return node
+class Solution:
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
 
-dummy = ListNode(next=head)
-group_prev = dummy
+        def get_kth(node, steps):
+            while node and steps > 0:
+                node = node.next
+                steps -= 1
+            return node
 
-while True:
-    kth = get_kth(group_prev, k)
-    if not kth:                           # fewer than k nodes left: stop, leave as-is
-        break
-    group_next = kth.next
+        dummy = ListNode(0, head)
+        group_prev = dummy
 
-    prev, curr = group_next, group_prev.next
-    while curr != group_next:              # reverse this group of k nodes
-        nxt = curr.next
-        curr.next = prev
-        prev = curr
-        curr = nxt
+        while True:
+            kth = get_kth(group_prev, k)
+            if not kth:
+                break
+            group_next = kth.next
 
-    tmp = group_prev.next                  # old head of the group is now its tail
-    group_prev.next = kth                    # new head of the reversed group
-    group_prev = tmp
+            prev = group_next
+            curr = group_prev.next
 
-return dummy.next
+            while curr != group_next:
+                next_node = curr.next
+                curr.next = prev
+                prev = curr
+                curr = next_node
+
+            group_tail = group_prev.next
+            group_prev.next = kth
+            group_prev = group_tail
+
+        return dummy.next
 ```
 
-Building blocks: [while-loop](../syntax/while-loop.md) · [none-type](../syntax/none-type.md) · [variables-assignment](../syntax/variables-assignment.md)
+Building blocks: [while-loop](../syntax/while-loop.md) · [function-basics](../syntax/function-basics.md) (inner `def`) · [break-continue](../syntax/break-continue.md) (`break`) · [none-type](../syntax/none-type.md) · [variables-assignment](../syntax/variables-assignment.md)
 </details>
 
 <details>

@@ -23,30 +23,32 @@ A prefix-sum array answers range sums in O(1) but a single update invalidates ev
 
 ```python
 class NumArray:
-    def __init__(self, nums):
+
+    def __init__(self, nums: List[int]):
         self.n = len(nums)
         self.nums = nums[:]
-        self.tree = [0] * (self.n + 1)      # 1-indexed Fenwick tree
-        for i, v in enumerate(nums):
-            self._add(i + 1, v)
+        self.tree = [0] * (self.n + 1)   # 1-indexed Fenwick tree
 
-    def _add(self, i, delta):
+        for i, val in enumerate(nums):
+            self._add(i + 1, val)
+
+    def _add(self, i: int, delta: int) -> None:
         while i <= self.n:
             self.tree[i] += delta
-            i += i & (-i)                   # climb to the next responsible node
+            i += i & (-i)   # climb to the next responsible node
 
-    def _prefix(self, i):
-        s = 0
+    def _prefix(self, i: int) -> int:
+        total = 0
         while i > 0:
-            s += self.tree[i]
-            i -= i & (-i)                   # strip the lowest set bit
-        return s
+            total += self.tree[i]
+            i -= i & (-i)   # strip the lowest set bit
+        return total
 
-    def update(self, index, val):
-        self._add(index + 1, val - self.nums[index])   # apply the delta
+    def update(self, index: int, val: int) -> None:
+        self._add(index + 1, val - self.nums[index])
         self.nums[index] = val
 
-    def sumRange(self, left, right):
+    def sumRange(self, left: int, right: int) -> int:
         return self._prefix(right + 1) - self._prefix(left)
 ```
 
@@ -78,26 +80,29 @@ Sweep from the right, keeping a frequency table of the values already seen. For 
 <summary>Solution</summary>
 
 ```python
-ranks = {v: i + 1 for i, v in enumerate(sorted(set(nums)))}   # value -> 1-indexed rank
-tree = [0] * (len(ranks) + 1)
+class Solution:
+    def countSmaller(self, nums: List[int]) -> List[int]:
 
-def add(i):
-    while i <= len(ranks):
-        tree[i] += 1
-        i += i & (-i)
+        ranks = {val: i + 1 for i, val in enumerate(sorted(set(nums)))}
+        tree = [0] * (len(ranks) + 1)
 
-def prefix(i):                       # count of seen values with rank <= i
-    s = 0
-    while i > 0:
-        s += tree[i]
-        i -= i & (-i)
-    return s
+        def add(i):
+            while i <= len(ranks):
+                tree[i] += 1
+                i += i & (-i)
 
-res = []
-for x in reversed(nums):
-    res.append(prefix(ranks[x] - 1))   # seen values strictly smaller than x
-    add(ranks[x])
-return res[::-1]
+        def prefix(i):
+            total = 0
+            while i > 0:
+                total += tree[i]
+                i -= i & (-i)
+            return total
+
+        result = []
+        for num in reversed(nums):
+            result.append(prefix(ranks[num] - 1))   # seen values strictly smaller
+            add(ranks[num])
+        return result[::-1]
 ```
 
 Building blocks: [Fenwick tree](../data-structures/fenwick-tree.md) · [dict-comprehension](../syntax/dict-comprehension.md) · [set-basics](../syntax/set-basics.md) · [enumerate](../syntax/enumerate.md) · [list-slicing](../syntax/list-slicing.md) (`[::-1]`)
@@ -128,32 +133,32 @@ Sweep left-to-right: before inserting `nums[j]`, count how many already-seen val
 <summary>Solution</summary>
 
 ```python
-import bisect
+class Solution:
+    def reversePairs(self, nums: List[int]) -> int:
 
-all_vals = sorted({v for x in nums for v in (x, 2 * x)})
-rank = {v: i + 1 for i, v in enumerate(all_vals)}
-tree = [0] * (len(all_vals) + 1)
+        all_vals = sorted({v for num in nums for v in (num, 2 * num)})
+        rank = {val: i + 1 for i, val in enumerate(all_vals)}
+        tree = [0] * (len(all_vals) + 1)
 
-def add(i):
-    while i <= len(all_vals):
-        tree[i] += 1
-        i += i & (-i)
+        def add(i):
+            while i <= len(all_vals):
+                tree[i] += 1
+                i += i & (-i)
 
-def prefix(i):
-    s = 0
-    while i > 0:
-        s += tree[i]
-        i -= i & (-i)
-    return s
+        def prefix(i):
+            total = 0
+            while i > 0:
+                total += tree[i]
+                i -= i & (-i)
+            return total
 
-seen = 0
-count = 0
-for x in nums:
-    # seen values <= 2*x can't form a pair; the rest do
-    count += seen - prefix(rank[2 * x])
-    add(rank[x])
-    seen += 1
-return count
+        seen = 0
+        count = 0
+        for num in nums:
+            count += seen - prefix(rank[2 * num])   # seen values > 2 * num form pairs
+            add(rank[num])
+            seen += 1
+        return count
 ```
 
 Building blocks: [Fenwick tree](../data-structures/fenwick-tree.md) · [set-comprehension](../syntax/set-comprehension.md) · [dict-comprehension](../syntax/dict-comprehension.md) · [sorting-key](../syntax/sorting-key.md)
@@ -187,30 +192,33 @@ Count subarrays whose sum lies in `[lower, upper]`. A subarray sum is a differen
 import bisect
 from itertools import accumulate
 
-prefixes = [0] + list(accumulate(nums))
-all_vals = sorted(set(prefixes))
-rank = {v: i + 1 for i, v in enumerate(all_vals)}
-tree = [0] * (len(all_vals) + 1)
+class Solution:
+    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
 
-def add(i):
-    while i <= len(all_vals):
-        tree[i] += 1
-        i += i & (-i)
+        prefixes = [0] + list(accumulate(nums))
+        all_vals = sorted(set(prefixes))
+        rank = {val: i + 1 for i, val in enumerate(all_vals)}
+        tree = [0] * (len(all_vals) + 1)
 
-def count_leq(v):                    # earlier prefixes with value <= v
-    i = bisect.bisect_right(all_vals, v)
-    s = 0
-    while i > 0:
-        s += tree[i]
-        i -= i & (-i)
-    return s
+        def add(i):
+            while i <= len(all_vals):
+                tree[i] += 1
+                i += i & (-i)
 
-count = 0
-for s in prefixes:
-    # earlier prefixes p with s - upper <= p <= s - lower
-    count += count_leq(s - lower) - count_leq(s - upper - 1)
-    add(rank[s])
-return count
+        def count_leq(val):
+            i = bisect.bisect_right(all_vals, val)
+            total = 0
+            while i > 0:
+                total += tree[i]
+                i -= i & (-i)
+            return total
+
+        count = 0
+        for prefix_sum in prefixes:
+            # earlier prefixes p with prefix_sum - upper <= p <= prefix_sum - lower
+            count += count_leq(prefix_sum - lower) - count_leq(prefix_sum - upper - 1)
+            add(rank[prefix_sum])
+        return count
 ```
 
 Building blocks: [Fenwick tree](../data-structures/fenwick-tree.md) · [prefix sums](../learning/01b-prefix-sums.md) · [itertools-basics](../syntax/itertools-basics.md) (`accumulate`) · [dict-comprehension](../syntax/dict-comprehension.md)

@@ -9,16 +9,17 @@ A collection of my solutions to LeetCode problems, organized by topic and diffic
 
 ```
 leetcode/
-├── roadmap.md                  ← the course spine (start here)
-├── materials/                   ← reference material the roadmap hyperlinks into
-│   ├── learning/                ← 00-foundations … 20-segment-trees lessons
-│   ├── rmap-practice/           ← per-topic practice sets with hints & solutions
-│   ├── data-structures/         ← atomic, one-structure-per-file reference pages
-│   ├── algorithms/               ← atomic, one-algorithm-per-file reference pages
-│   ├── syntax/                   ← atomic Python syntax reference pages
+├── roadmap.md                 ← A roadmap to learn DS&A for leetcode
+├── materials/                 ← Educational material for the roadmap
+│   ├── learning/
+│   ├── guides/
+│   ├── rmap-practice/
+│   ├── data-structures/
+│   ├── algorithms/
+│   ├── syntax/
 │   └── appendix/
-│       └── templates/          ← per-pattern template.py + README
-├── problems/
+│       └── templates/
+├── problems/                  ← This is where I store all my solutions
 │   ├── 0001-0499/
 │   ├── 0500-0999/
 │   ├── 1000-1499/
@@ -26,7 +27,7 @@ leetcode/
 │   ├── 2000-2499/
 │   ├── 2500-2999/
 │   └── 3000+/
-├── lists/
+├── lists/                     ← These are the curated lists I follow
 │   ├── neetcodeblind75.md
 │   ├── neetcode150.md
 │   ├── neetcode250.md
@@ -78,6 +79,7 @@ the appendix holds quick-reference material.
 | [roadmap.md](roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
 | [learning/](materials/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
 | [rmap-practice/](materials/rmap-practice/) | Per-topic practice sets: curated problems with collapsible hints, solutions & complexity |
+| [guides/](materials/guides/) | Practical guides: environment setup, LeetCode workflow, debugging, study strategy, interviews |
 | [data-structures/](materials/data-structures/) | Atomic, one-structure-per-file reference pages |
 | [algorithms/](materials/algorithms/) | Atomic, one-algorithm-per-file reference pages |
 | [syntax/](materials/syntax/) | Atomic Python syntax reference pages linked from practice walkthroughs |

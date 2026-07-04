@@ -22,40 +22,37 @@ Each [trie](../data-structures/trie.md) node has a dict of children and an `is_e
 <summary>Solution</summary>
 
 ```python
-class TrieNode:
+class Trie:
+
     def __init__(self):
-        self.children = {}                 # char -> TrieNode
+        self.children = {}
         self.is_end = False
 
-class Trie:
-    def __init__(self):
-        self.root = TrieNode()
+    def insert(self, word: str) -> None:
+        node = self
+        for char in word:
+            if char not in node.children:
+                node.children[char] = Trie()
+            node = node.children[char]
+        node.is_end = True
 
-    def insert(self, word):
-        node = self.root
-        for c in word:                        # for loop creating/walking nodes
-            if c not in node.children:
-                node.children[c] = TrieNode()
-            node = node.children[c]
-        node.is_end = True                    # mark the end of a complete word
-
-    def _find(self, prefix):
-        node = self.root
-        for c in prefix:
-            if c not in node.children:          # path doesn't exist
-                return None
-            node = node.children[c]
-        return node
-
-    def search(self, word):
-        node = self._find(word)
+    def search(self, word: str) -> bool:
+        node = self.find(word)
         return node is not None and node.is_end
 
-    def startsWith(self, prefix):
-        return self._find(prefix) is not None
+    def startsWith(self, prefix: str) -> bool:
+        return self.find(prefix) is not None
+
+    def find(self, s: str):
+        node = self
+        for char in s:
+            if char not in node.children:
+                return None
+            node = node.children[char]
+        return node
 ```
 
-Building blocks: [class-basics](../syntax/class-basics.md) · [dict-basics](../syntax/dict-basics.md) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md)
+Building blocks: [class-basics](../syntax/class-basics.md) · [init-method](../syntax/init-method.md) · [dict-basics](../syntax/dict-basics.md) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md) · [identity-operators](../syntax/identity-operators.md) (`is not None`)
 </details>
 
 <details>
@@ -88,28 +85,31 @@ class TrieNode:
         self.children = {}
         self.is_end = False
 
+
 class WordDictionary:
+
     def __init__(self):
         self.root = TrieNode()
 
-    def addWord(self, word):
+    def addWord(self, word: str) -> None:
         node = self.root
-        for c in word:
-            if c not in node.children:
-                node.children[c] = TrieNode()
-            node = node.children[c]
+        for char in word:
+            if char not in node.children:
+                node.children[char] = TrieNode()
+            node = node.children[char]
         node.is_end = True
 
-    def search(self, word):
+    def search(self, word: str) -> bool:
         def dfs(node, i):
-            if i == len(word):                  # consumed the whole word
+            if i == len(word):
                 return node.is_end
-            c = word[i]
-            if c == ".":                          # wildcard: try every child
+
+            char = word[i]
+            if char == ".":
                 return any(dfs(child, i + 1) for child in node.children.values())
-            if c not in node.children:            # no matching path
+            if char not in node.children:
                 return False
-            return dfs(node.children[c], i + 1)
+            return dfs(node.children[char], i + 1)
 
         return dfs(self.root, 0)
 ```
@@ -145,44 +145,50 @@ Insert every word into a shared [trie](../data-structures/trie.md), then run one
 class TrieNode:
     def __init__(self):
         self.children = {}
-        self.word = None                    # stores the full word at end nodes
+        self.word = None
 
-def build_trie(words):
-    root = TrieNode()
-    for w in words:
-        node = root
-        for c in w:
-            node = node.children.setdefault(c, TrieNode())
-        node.word = w
-    return root
 
-rows, cols = len(board), len(board[0])
-root = build_trie(words)
-res = set()
+class Solution:
+    def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
 
-def dfs(r, c, node):
-    letter = board[r][c]
-    if letter not in node.children:        # no word continues this way
-        return
-    nxt = node.children[letter]
-    if nxt.word:                              # completed a word
-        res.add(nxt.word)
+        root = TrieNode()
+        for word in words:
+            node = root
+            for char in word:
+                if char not in node.children:
+                    node.children[char] = TrieNode()
+                node = node.children[char]
+            node.word = word
 
-    board[r][c] = "#"                       # mark visited
-    for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:   # explore 4 neighbors
-        nr, nc = r + dr, c + dc
-        if 0 <= nr < rows and 0 <= nc < cols and board[nr][nc] != "#":
-            dfs(nr, nc, nxt)
-    board[r][c] = letter                    # un-mark (backtrack)
+        rows = len(board)
+        cols = len(board[0])
+        found = set()
 
-for r in range(rows):
-    for c in range(cols):
-        dfs(r, c, root)
+        def dfs(row, col, node):
+            letter = board[row][col]
+            if letter not in node.children:
+                return
 
-return list(res)
+            next_node = node.children[letter]
+            if next_node.word is not None:
+                found.add(next_node.word)
+
+            board[row][col] = "#"
+            for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                r = row + dr
+                c = col + dc
+                if 0 <= r < rows and 0 <= c < cols and board[r][c] != "#":
+                    dfs(r, c, next_node)
+            board[row][col] = letter
+
+        for row in range(rows):
+            for col in range(cols):
+                dfs(row, col, root)
+
+        return list(found)
 ```
 
-Building blocks: [dict-methods](../syntax/dict-methods.md) (`.setdefault()`) · [recursion-basics](../syntax/recursion-basics.md) · [nested-lists](../syntax/nested-lists.md) · [set-basics](../syntax/set-basics.md)
+Building blocks: [class-basics](../syntax/class-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [nested-lists](../syntax/nested-lists.md) · [chained-comparisons](../syntax/chained-comparisons.md) (`0 <= r < rows`) · [set-basics](../syntax/set-basics.md)
 </details>
 
 <details>

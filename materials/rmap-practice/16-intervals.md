@@ -22,24 +22,30 @@ Walk the intervals once (see [Intervals](../learning/17-intervals.md)): copy eve
 <summary>Solution</summary>
 
 ```python
-res = []
-i = 0
-n = len(intervals)
+class Solution:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
 
-while i < n and intervals[i][1] < newInterval[0]:  # phase 1: entirely before, no overlap
-    res.append(intervals[i])
-    i += 1
+        result = []
+        i = 0
+        n = len(intervals)
 
-while i < n and intervals[i][0] <= newInterval[1]:  # phase 2: overlaps, merge into newInterval
-    newInterval = [min(newInterval[0], intervals[i][0]), max(newInterval[1], intervals[i][1])]
-    i += 1
-res.append(newInterval)
+        while i < n and intervals[i][1] < newInterval[0]:
+            result.append(intervals[i])
+            i += 1
 
-while i < n:                                        # phase 3: entirely after, no overlap
-    res.append(intervals[i])
-    i += 1
+        while i < n and intervals[i][0] <= newInterval[1]:
+            newInterval = [
+                min(newInterval[0], intervals[i][0]),
+                max(newInterval[1], intervals[i][1]),
+            ]
+            i += 1
+        result.append(newInterval)
 
-return res
+        while i < n:
+            result.append(intervals[i])
+            i += 1
+
+        return result
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`) · [comparison-operators](../syntax/comparison-operators.md) (`min()`, `max()`)
@@ -70,16 +76,22 @@ Sort intervals by start (see [Intervals](../learning/17-intervals.md)). Walk thr
 <summary>Solution</summary>
 
 ```python
-intervals.sort(key=lambda x: x[0])       # sort by start time
-res = [intervals[0]]
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 
-for start, end in intervals[1:]:           # for loop over the rest
-    if start <= res[-1][1]:                  # overlaps the last merged interval: extend it
-        res[-1][1] = max(res[-1][1], end)
-    else:                                     # no overlap: start a new merged interval
-        res.append([start, end])
+        intervals.sort(key=lambda interval: interval[0])
+        merged = []
 
-return res
+        for interval in intervals:
+            if len(merged) == 0:
+                merged.append(interval)
+            else:
+                last_interval = merged[-1]
+                if interval[0] <= last_interval[1]:
+                    last_interval[1] = max(last_interval[1], interval[1])
+                else:
+                    merged.append(interval)
+        return merged
 ```
 
 Building blocks: [sorting-key](../syntax/sorting-key.md) · [lambda-functions](../syntax/lambda-functions.md) · [for-loop](../syntax/for-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -110,17 +122,20 @@ Sort by end time (see [Intervals](../learning/17-intervals.md)). Greedily keep a
 <summary>Solution</summary>
 
 ```python
-intervals.sort(key=lambda x: x[1])       # sort by end time
-removed = 0
-prev_end = float("-inf")
+class Solution:
+    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
 
-for start, end in intervals:               # for loop over sorted intervals
-    if start >= prev_end:                    # no overlap: keep this interval
-        prev_end = end
-    else:                                     # overlaps: must remove one (the later-ending one)
-        removed += 1
+        intervals.sort(key=lambda interval: interval[1])
+        removed = 0
+        prev_end = float("-inf")
 
-return removed
+        for start, end in intervals:
+            if start >= prev_end:
+                prev_end = end
+            else:
+                removed += 1
+
+        return removed
 ```
 
 Building blocks: [sorting-key](../syntax/sorting-key.md) · [lambda-functions](../syntax/lambda-functions.md) · [for-loop](../syntax/for-loop.md) · [int-float-basics](../syntax/int-float-basics.md) (`float("-inf")`)
@@ -151,13 +166,16 @@ Sort by start time (see [Intervals](../learning/17-intervals.md)). After sorting
 <summary>Solution</summary>
 
 ```python
-intervals.sort(key=lambda x: x[0])       # sort by start time
+class Solution:
+    def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
 
-for i in range(1, len(intervals)):         # for loop checking each adjacent pair
-    if intervals[i][0] < intervals[i - 1][1]:   # this meeting starts before the last one ends
-        return False
+        intervals.sort(key=lambda interval: interval[0])
 
-return True
+        for i in range(1, len(intervals)):
+            if intervals[i][0] < intervals[i - 1][1]:
+                return False
+
+        return True
 ```
 
 Building blocks: [sorting-key](../syntax/sorting-key.md) · [lambda-functions](../syntax/lambda-functions.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
@@ -188,23 +206,27 @@ Sort all start times and all end times separately (see [Intervals](../learning/1
 <summary>Solution</summary>
 
 ```python
-starts = sorted(i[0] for i in intervals)
-ends = sorted(i[1] for i in intervals)
+class Solution:
+    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
 
-s, e = 0, 0
-rooms = 0
-max_rooms = 0
+        starts = sorted(interval[0] for interval in intervals)
+        ends = sorted(interval[1] for interval in intervals)
 
-while s < len(starts):                    # while loop, two pointers over starts/ends
-    if starts[s] < ends[e]:                  # a meeting starts before the earliest one ends
-        rooms += 1
-        s += 1
-        max_rooms = max(max_rooms, rooms)
-    else:                                     # a meeting ends first, freeing up a room
-        rooms -= 1
-        e += 1
+        start_ptr = 0
+        end_ptr = 0
+        rooms = 0
+        max_rooms = 0
 
-return max_rooms
+        while start_ptr < len(starts):
+            if starts[start_ptr] < ends[end_ptr]:
+                rooms += 1
+                start_ptr += 1
+                max_rooms = max(max_rooms, rooms)
+            else:
+                rooms -= 1
+                end_ptr += 1
+
+        return max_rooms
 ```
 
 Building blocks: [generator-expressions](../syntax/generator-expressions.md) (`sorted(... for ...)`) · [while-loop](../syntax/while-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -237,27 +259,30 @@ Sort intervals by start and queries by value. Sweep through sorted queries, push
 ```python
 import heapq
 
-intervals.sort()                          # sort by start
-sorted_queries = sorted(range(len(queries)), key=lambda i: queries[i])
+class Solution:
+    def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
 
-heap = []                                  # (size, end)
-res = [0] * len(queries)
-i = 0
+        intervals.sort()
+        sorted_queries = sorted(range(len(queries)), key=lambda i: queries[i])
 
-for q_idx in sorted_queries:                # for loop over queries in ascending order
-    q = queries[q_idx]
+        heap = []   # (size, end)
+        result = [0] * len(queries)
+        i = 0
 
-    while i < len(intervals) and intervals[i][0] <= q:  # newly-eligible intervals
-        l, r = intervals[i]
-        heapq.heappush(heap, (r - l + 1, r))
-        i += 1
+        for query_index in sorted_queries:
+            query = queries[query_index]
 
-    while heap and heap[0][1] < q:            # discard intervals that end before this query
-        heapq.heappop(heap)
+            while i < len(intervals) and intervals[i][0] <= query:
+                left, right = intervals[i]
+                heapq.heappush(heap, (right - left + 1, right))
+                i += 1
 
-    res[q_idx] = heap[0][0] if heap else -1
+            while heap and heap[0][1] < query:
+                heapq.heappop(heap)
 
-return res
+            result[query_index] = heap[0][0] if heap else -1
+
+        return result
 ```
 
 Building blocks: [sorting-key](../syntax/sorting-key.md) · [heap](../data-structures/heap.md) · [while-loop](../syntax/while-loop.md) (nested) · [for-loop](../syntax/for-loop.md)

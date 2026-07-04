@@ -22,14 +22,17 @@ Transposing (swap `matrix[i][j]` with `matrix[j][i]`) flips the matrix across it
 <summary>Solution</summary>
 
 ```python
-n = len(matrix)
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
 
-for i in range(n):                        # transpose: swap across the diagonal
-    for j in range(i + 1, n):
-        matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        n = len(matrix)
 
-for row in matrix:                        # reverse each row left-right
-    row.reverse()
+        for i in range(n):
+            for j in range(i + 1, n):
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+
+        for row in matrix:
+            row.reverse()
 ```
 
 Building blocks: [nested-lists](../syntax/nested-lists.md) · [swap-tuple-assign](../syntax/swap-tuple-assign.md) · [list-methods](../syntax/list-methods.md) (`.reverse()`)
@@ -60,30 +63,35 @@ Maintain `top`, `bottom`, `left`, `right` boundaries. Walk right across the top 
 <summary>Solution</summary>
 
 ```python
-res = []
-top, bottom = 0, len(matrix) - 1
-left, right = 0, len(matrix[0]) - 1
+class Solution:
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
 
-while top <= bottom and left <= right:      # while loop, boundaries haven't crossed
-    for c in range(left, right + 1):           # across the top row
-        res.append(matrix[top][c])
-    top += 1
+        result = []
+        top = 0
+        bottom = len(matrix) - 1
+        left = 0
+        right = len(matrix[0]) - 1
 
-    for r in range(top, bottom + 1):           # down the right column
-        res.append(matrix[r][right])
-    right -= 1
+        while top <= bottom and left <= right:
+            for col in range(left, right + 1):
+                result.append(matrix[top][col])
+            top += 1
 
-    if top <= bottom:                           # across the bottom row (if it still exists)
-        for c in range(right, left - 1, -1):
-            res.append(matrix[bottom][c])
-        bottom -= 1
+            for row in range(top, bottom + 1):
+                result.append(matrix[row][right])
+            right -= 1
 
-    if left <= right:                           # up the left column (if it still exists)
-        for r in range(bottom, top - 1, -1):
-            res.append(matrix[r][left])
-        left += 1
+            if top <= bottom:
+                for col in range(right, left - 1, -1):
+                    result.append(matrix[bottom][col])
+                bottom -= 1
 
-return res
+            if left <= right:
+                for row in range(bottom, top - 1, -1):
+                    result.append(matrix[row][left])
+                left += 1
+
+        return result
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) (reverse range) · [list-methods](../syntax/list-methods.md) (`.append()`)
@@ -114,27 +122,31 @@ Use the first row and first column of the matrix itself as marker flags. Track s
 <summary>Solution</summary>
 
 ```python
-rows, cols = len(matrix), len(matrix[0])
-first_row_zero = any(matrix[0][c] == 0 for c in range(cols))
-first_col_zero = any(matrix[r][0] == 0 for r in range(rows))
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
 
-for r in range(1, rows):                   # mark using the first row/col as flags
-    for c in range(1, cols):
-        if matrix[r][c] == 0:
-            matrix[r][0] = 0
-            matrix[0][c] = 0
+        rows = len(matrix)
+        cols = len(matrix[0])
+        first_row_zero = any(matrix[0][col] == 0 for col in range(cols))
+        first_col_zero = any(matrix[row][0] == 0 for row in range(rows))
 
-for r in range(1, rows):                   # apply the marks (skip the first row/col for now)
-    for c in range(1, cols):
-        if matrix[r][0] == 0 or matrix[0][c] == 0:
-            matrix[r][c] = 0
+        for row in range(1, rows):
+            for col in range(1, cols):
+                if matrix[row][col] == 0:
+                    matrix[row][0] = 0
+                    matrix[0][col] = 0
 
-if first_row_zero:                          # handle the first row/col last
-    for c in range(cols):
-        matrix[0][c] = 0
-if first_col_zero:
-    for r in range(rows):
-        matrix[r][0] = 0
+        for row in range(1, rows):
+            for col in range(1, cols):
+                if matrix[row][0] == 0 or matrix[0][col] == 0:
+                    matrix[row][col] = 0
+
+        if first_row_zero:
+            for col in range(cols):
+                matrix[0][col] = 0
+        if first_col_zero:
+            for row in range(rows):
+                matrix[row][0] = 0
 ```
 
 Building blocks: [generator-expressions](../syntax/generator-expressions.md) (`any(... for ...)`) · [for-loop](../syntax/for-loop.md) (nested) · [nested-lists](../syntax/nested-lists.md)
@@ -165,20 +177,23 @@ Track seen values in a [hashset](../data-structures/hashset.md); if you see a re
 <summary>Solution</summary>
 
 ```python
-def next_number(n):
-    total = 0
-    while n:                              # sum of squares of the digits
-        digit = n % 10
-        total += digit * digit
-        n //= 10
-    return total
+class Solution:
+    def isHappy(self, n: int) -> bool:
 
-seen = set()
-while n != 1 and n not in seen:            # while loop until we hit 1 or repeat
-    seen.add(n)
-    n = next_number(n)
+        def next_number(num):
+            total = 0
+            while num:
+                digit = num % 10
+                total += digit * digit
+                num //= 10
+            return total
 
-return n == 1
+        seen = set()
+        while n != 1 and n not in seen:
+            seen.add(n)
+            n = next_number(n)
+
+        return n == 1
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`%`, `//`) · [set-basics](../syntax/set-basics.md)
@@ -209,13 +224,18 @@ Walk from the last digit backward: if it's less than 9, just increment it and st
 <summary>Solution</summary>
 
 ```python
-for i in range(len(digits) - 1, -1, -1):    # for loop right to left
-    if digits[i] < 9:                          # no carry needed, done
-        digits[i] += 1
-        return digits
-    digits[i] = 0                              # rolls over, carry continues left
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
 
-return [1] + digits                        # every digit was 9: e.g. 999 -> 1000
+        n = len(digits)
+
+        for i in range(n - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            else:
+                digits[i] = 0
+        return [1] + digits
 ```
 
 Building blocks: [range-function](../syntax/range-function.md) (reverse step) · [if-return](../syntax/if-return.md) · [list-basics](../syntax/list-basics.md)
@@ -246,19 +266,18 @@ This is [fast exponentiation](../algorithms/fast-exponentiation.md): recursively
 <summary>Solution</summary>
 
 ```python
-def helper(x, n):
-    if n == 0:                            # base case: anything^0 = 1
-        return 1
-    if n % 2 == 1:                          # odd exponent: peel off one factor of x
-        return x * helper(x, n - 1)
-    half = helper(x, n // 2)                 # even exponent: square the half-power
-    return half * half
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
 
-if n < 0:                                # negative exponent: invert x and use positive n
-    x = 1 / x
-    n = -n
+        if n == 0:
+            return 1
+        if n < 0:
+            x, n = 1 / x, -n
 
-return helper(x, n)
+        if n % 2 == 0:
+            return self.myPow(x * x, n // 2)
+        else:
+            return x * self.myPow(x * x, n // 2)
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [integer-division-modulo](../syntax/integer-division-modulo.md) (`%`, `//`) · [if-return](../syntax/if-return.md)
@@ -289,23 +308,27 @@ Do grade-school long multiplication: for every pair of digits `(i, j)`, their pr
 <summary>Solution</summary>
 
 ```python
-if num1 == "0" or num2 == "0":
-    return "0"
+class Solution:
+    def multiply(self, num1: str, num2: str) -> str:
 
-m, n = len(num1), len(num2)
-result = [0] * (m + n)
+        if num1 == "0" or num2 == "0":
+            return "0"
 
-for i in range(m - 1, -1, -1):              # for loop over digits of num1, right to left
-    for j in range(n - 1, -1, -1):             # for loop over digits of num2, right to left
-        digit_product = int(num1[i]) * int(num2[j])
-        pos_low, pos_high = i + j + 1, i + j     # this product lands across two positions
+        m = len(num1)
+        n = len(num2)
+        result = [0] * (m + n)
 
-        total = digit_product + result[pos_low]
-        result[pos_low] = total % 10
-        result[pos_high] += total // 10           # carry into the higher position
+        for i in range(m - 1, -1, -1):
+            for j in range(n - 1, -1, -1):
+                digit_product = int(num1[i]) * int(num2[j])
+                pos_low = i + j + 1
+                pos_high = i + j
 
-res_str = "".join(map(str, result)).lstrip("0")
-return res_str
+                total = digit_product + result[pos_low]
+                result[pos_low] = total % 10
+                result[pos_high] += total // 10
+
+        return "".join(map(str, result)).lstrip("0")
 ```
 
 Building blocks: [for-loop](../syntax/for-loop.md) (nested, reverse range) · [type-conversion](../syntax/type-conversion.md) (`int()`, `str()`) · [string-methods](../syntax/string-methods.md) (`.lstrip()`)
@@ -339,22 +362,23 @@ Keep a [hashmap](../data-structures/hashmap.md) of point counts. For a query `(x
 from collections import defaultdict
 
 class DetectSquares:
-    def __init__(self):
-        self.point_count = defaultdict(int)    # (x, y) -> occurrences
 
-    def add(self, point):
+    def __init__(self):
+        self.point_count = defaultdict(int)
+
+    def add(self, point: List[int]) -> None:
         self.point_count[tuple(point)] += 1
 
-    def count(self, point):
+    def count(self, point: List[int]) -> int:
         x, y = point
         total = 0
 
-        for (px, py), cnt in list(self.point_count.items()):   # for loop over existing points
-            if px != x or py == y:                          # need same x, different y
+        for (px, py), cnt in list(self.point_count.items()):
+            if px != x or py == y:
                 continue
-            side = py - y
 
-            for x2 in (x + side, x - side):                  # try both square directions
+            side = py - y
+            for x2 in (x + side, x - side):
                 total += cnt * self.point_count[(x2, y)] * self.point_count[(x2, py)]
 
         return total

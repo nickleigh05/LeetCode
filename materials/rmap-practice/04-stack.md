@@ -22,18 +22,22 @@ Push opening brackets onto a [stack](../data-structures/stack.md). On a closing 
 <summary>Solution</summary>
 
 ```python
-pairs = {")": "(", "]": "[", "}": "{"}   # closing -> matching opening
-stack = []                                # init the stack
+class Solution:
+    def isValid(self, s: str) -> bool:
 
-for c in s:                                 # for loop over the string
-    if c in pairs:                            # closing bracket
-        if not stack or stack[-1] != pairs[c]:  # nothing to match, or wrong match
-            return False
-        stack.pop()
-    else:                                      # opening bracket
-        stack.append(c)
+        stack = []
+        pairs = {")": "(", "]": "[", "}": "{"}
 
-return not stack                            # valid only if everything got matched
+        for char in s:
+            if char in pairs:
+                if stack and stack[-1] == pairs[char]:
+                    stack.pop()
+                else:
+                    return False
+            else:
+                stack.append(char)
+
+        return not stack
 ```
 
 Building blocks: [dict-basics](../syntax/dict-basics.md) · [list-basics](../syntax/list-basics.md) (list as stack) · [for-loop](../syntax/for-loop.md) · [membership-operators](../syntax/membership-operators.md) · [truthy-falsy-values](../syntax/truthy-falsy-values.md)
@@ -65,24 +69,27 @@ Keep a second [stack](../data-structures/stack.md) that tracks the running minim
 
 ```python
 class MinStack:
+
     def __init__(self):
-        self.stack = []                    # regular values
-        self.min_stack = []                # running min at each depth
+        self.stack = []
+        self.min_stack = []
 
-    def push(self, val):
+    def push(self, val: int) -> None:
         self.stack.append(val)
-        m = val if not self.min_stack else min(val, self.min_stack[-1])
-        self.min_stack.append(m)             # min including this new value
+        if self.min_stack:
+            self.min_stack.append(min(val, self.min_stack[-1]))
+        else:
+            self.min_stack.append(val)
 
-    def pop(self):
+    def pop(self) -> None:
         self.stack.pop()
-        self.min_stack.pop()                 # keep both stacks in sync
+        self.min_stack.pop()
 
-    def top(self):
+    def top(self) -> int:
         return self.stack[-1]
 
-    def getMin(self):
-        return self.min_stack[-1]            # O(1) lookup of current min
+    def getMin(self) -> int:
+        return self.min_stack[-1]
 ```
 
 Building blocks: [class-basics](../syntax/class-basics.md) · [init-method](../syntax/init-method.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`) · [comparison-operators](../syntax/comparison-operators.md) (`min()`)
@@ -113,25 +120,31 @@ Push numbers onto a [stack](../data-structures/stack.md). When you hit an operat
 <summary>Solution</summary>
 
 ```python
-stack = []
-ops = {"+", "-", "*", "/"}
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
 
-for token in tokens:                     # for loop over the tokens
-    if token in ops:                        # operator: pop two operands
-        b = stack.pop()
-        a = stack.pop()
-        if token == "+":
-            stack.append(a + b)
-        elif token == "-":
-            stack.append(a - b)
-        elif token == "*":
-            stack.append(a * b)
-        else:                                 # division truncates toward zero
-            stack.append(int(a / b))
-    else:                                    # number: push it
-        stack.append(int(token))
+        stack = []
+        operators = {"+", "-", "*", "/"}
 
-return stack[-1]
+        for token in tokens:
+            if token in operators:
+                right = stack.pop()
+                left = stack.pop()
+
+                if token == "+":
+                    result = left + right
+                elif token == "-":
+                    result = left - right
+                elif token == "*":
+                    result = left * right
+                else:
+                    result = int(left / right)
+
+                stack.append(result)
+            else:
+                stack.append(int(token))
+
+        return stack.pop()
 ```
 
 Building blocks: [set-basics](../syntax/set-basics.md) · [for-loop](../syntax/for-loop.md) · [elif-else](../syntax/elif-else.md) · [type-conversion](../syntax/type-conversion.md) (`int()`)
@@ -162,26 +175,27 @@ Build the string with [backtracking](../algorithms/backtracking.md): you can add
 <summary>Solution</summary>
 
 ```python
-res = []
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
 
-def backtrack(open_n, close_n, path):     # path = the string built so far
-    if len(path) == 2 * n:                   # base case: full-length string
-        res.append("".join(path))
-        return
-    if open_n < n:                            # choice 1: add an open bracket
-        path.append("(")
-        backtrack(open_n + 1, close_n, path)
-        path.pop()                              # un-choose
-    if close_n < open_n:                       # choice 2: add a close bracket
-        path.append(")")
-        backtrack(open_n, close_n + 1, path)
-        path.pop()                              # un-choose
+        result = []
 
-backtrack(0, 0, [])
-return res
+        def backtrack(current, open_count, close_count):
+            if len(current) == 2 * n:
+                result.append(current)
+                return
+
+            if open_count < n:
+                backtrack(current + "(", open_count + 1, close_count)
+
+            if close_count < open_count:
+                backtrack(current + ")", open_count, close_count + 1)
+
+        backtrack("", 0, 0)
+        return result
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`) · [string-join-slice](../syntax/string-join-slice.md) (`"".join()`)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [closures](../syntax/closures.md) (inner `def` capturing `n` and `result`) · [list-methods](../syntax/list-methods.md) (`.append()`) · [string-basics](../syntax/string-basics.md) (`+` concatenation)
 </details>
 
 <details>
@@ -209,19 +223,22 @@ Keep a monotonically decreasing [stack](../data-structures/stack.md) of indices 
 <summary>Solution</summary>
 
 ```python
-res = [0] * len(temperatures)
-stack = []                              # indices with unresolved "warmer day"
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 
-for i, t in enumerate(temperatures):      # for loop over each day
-    while stack and t > temperatures[stack[-1]]:  # today is warmer than the top
-        prev_i = stack.pop()
-        res[prev_i] = i - prev_i             # days until it got warmer
-    stack.append(i)
+        answer = [0] * len(temperatures)
+        stack = []
 
-return res
+        for i in range(len(temperatures)):
+            while stack and temperatures[i] > temperatures[stack[-1]]:
+                prev_index = stack.pop()
+                answer[prev_index] = i - prev_index
+            stack.append(i)
+
+        return answer
 ```
 
-Building blocks: [list-basics](../syntax/list-basics.md) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`)
+Building blocks: [list-basics](../syntax/list-basics.md) · [range-function](../syntax/range-function.md) · [while-loop](../syntax/while-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`)
 </details>
 
 <details>
@@ -249,16 +266,18 @@ Sort cars by position descending, then use a [stack](../data-structures/stack.md
 <summary>Solution</summary>
 
 ```python
-pairs = sorted(zip(position, speed), reverse=True)   # closest to target first
-stack = []                                             # arrival times of fleets
+class Solution:
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
 
-for pos, spd in pairs:                                   # for loop from closest to farthest
-    time = (target - pos) / spd                            # time to reach target
-    if not stack or time > stack[-1]:                        # slower than the fleet ahead: new fleet
-        stack.append(time)
-    # else: catches up to the fleet ahead, merges — no push
+        pairs = sorted(zip(position, speed), reverse=True)
+        stack = []
 
-return len(stack)
+        for pos, spd in pairs:
+            time = (target - pos) / spd
+            if not stack or time > stack[-1]:
+                stack.append(time)
+
+        return len(stack)
 ```
 
 Building blocks: [sorting-key](../syntax/sorting-key.md) (`sorted(..., reverse=True)`) · [zip-function](../syntax/zip-function.md) · [for-loop](../syntax/for-loop.md) · [truthy-falsy-values](../syntax/truthy-falsy-values.md)
@@ -289,21 +308,24 @@ Keep a monotonically increasing [stack](../data-structures/stack.md) of `(start_
 <summary>Solution</summary>
 
 ```python
-stack = []                            # (start_index, height), increasing heights
-max_area = 0
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
 
-for i, h in enumerate(heights):         # for loop over each bar
-    start = i
-    while stack and stack[-1][1] > h:     # current bar is shorter: close out taller bars
-        idx, height = stack.pop()
-        max_area = max(max_area, height * (i - idx))
-        start = idx                          # this rectangle could have started earlier
-    stack.append((start, h))
+        stack = []
+        max_area = 0
 
-for idx, h in stack:                    # close out whatever remains on the stack
-    max_area = max(max_area, h * (len(heights) - idx))
+        for i, height in enumerate(heights):
+            start = i
+            while stack and stack[-1][1] > height:
+                index, prev_height = stack.pop()
+                max_area = max(max_area, prev_height * (i - index))
+                start = index
+            stack.append((start, height))
 
-return max_area
+        for index, height in stack:
+            max_area = max(max_area, height * (len(heights) - index))
+
+        return max_area
 ```
 
 Building blocks: [tuple-basics](../syntax/tuple-basics.md) · [enumerate](../syntax/enumerate.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)

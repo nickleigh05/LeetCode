@@ -22,16 +22,22 @@ DFS base case + recurse: recursively invert the left and right subtrees, then sw
 <summary>Solution</summary>
 
 ```python
-def invert(node):
-    if not node:                        # base case: empty subtree
-        return None
-    node.left, node.right = invert(node.right), invert(node.left)   # swap after recursing
-    return node
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 
-return invert(root)
+        if root is None:
+            return None
+
+        left_subtree = self.invertTree(root.left)
+        right_subtree = self.invertTree(root.right)
+
+        root.left = right_subtree
+        root.right = left_subtree
+
+        return root
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [none-type](../syntax/none-type.md) · [swap-tuple-assign](../syntax/swap-tuple-assign.md)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [identity-operators](../syntax/identity-operators.md) (`is None`) · [none-type](../syntax/none-type.md) · [variables-assignment](../syntax/variables-assignment.md)
 </details>
 
 <details>
@@ -59,12 +65,12 @@ DFS base case + recurse + combine (see [DFS](../algorithms/dfs.md)): depth of a 
 <summary>Solution</summary>
 
 ```python
-def depth(node):
-    if not node:                        # base case: empty subtree has depth 0
-        return 0
-    return 1 + max(depth(node.left), depth(node.right))   # combine subtree depths
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
 
-return depth(root)
+        if root is None:
+            return 0
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -95,22 +101,24 @@ While computing each node's depth via DFS (see [DFS](../algorithms/dfs.md)), als
 <summary>Solution</summary>
 
 ```python
-best = 0
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
 
-def depth(node):
-    nonlocal best
-    if not node:                        # base case: empty subtree has depth 0
-        return 0
-    left = depth(node.left)
-    right = depth(node.right)
-    best = max(best, left + right)        # diameter through this node
-    return 1 + max(left, right)             # depth returned upward
+        self.best = 0
 
-depth(root)
-return best
+        def depth(node):
+            if not node:
+                return 0
+            left = depth(node.left)
+            right = depth(node.right)
+            self.best = max(self.best, left + right)
+            return max(left, right) + 1
+
+        depth(root)
+        return self.best
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [closures](../syntax/closures.md) (`nonlocal`) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [instance-vs-class-attrs](../syntax/instance-vs-class-attrs.md) (`self.best`) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
 </details>
 
 <details>
@@ -138,20 +146,23 @@ Have your DFS helper (see [DFS](../algorithms/dfs.md)) return height, but use a 
 <summary>Solution</summary>
 
 ```python
-def height(node):
-    if not node:                        # base case: empty subtree has height 0
-        return 0
-    left = height(node.left)
-    if left == -1:                        # already unbalanced below, propagate up
-        return -1
-    right = height(node.right)
-    if right == -1:
-        return -1
-    if abs(left - right) > 1:             # this node itself is unbalanced
-        return -1
-    return 1 + max(left, right)
+class Solution:
+    def isBalanced(self, root: Optional[TreeNode]) -> bool:
 
-return height(root) != -1
+        def height(node):
+            if not node:
+                return 0
+            left = height(node.left)
+            if left == -1:
+                return -1
+            right = height(node.right)
+            if right == -1:
+                return -1
+            if abs(left - right) > 1:
+                return -1
+            return max(left, right) + 1
+
+        return height(root) != -1
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [if-return](../syntax/if-return.md) · [comparison-operators](../syntax/comparison-operators.md) (`abs()`, `max()`)
@@ -182,17 +193,19 @@ DFS both trees together (see [DFS](../algorithms/dfs.md)): if both nodes are `No
 <summary>Solution</summary>
 
 ```python
-def same(p, q):
-    if not p and not q:                 # both empty: match
-        return True
-    if not p or not q or p.val != q.val:  # one empty, or values differ: mismatch
-        return False
-    return same(p.left, q.left) and same(p.right, q.right)
+class Solution:
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
 
-return same(p, q)
+        if p is None and q is None:
+            return True
+        if p is None or q is None:
+            return False
+        if p.val != q.val:
+            return False
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [logical-operators](../syntax/logical-operators.md) (`and`, `or`) · [if-return](../syntax/if-return.md)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [identity-operators](../syntax/identity-operators.md) (`is None`) · [logical-operators](../syntax/logical-operators.md) (`and`, `or`) · [if-return](../syntax/if-return.md)
 </details>
 
 <details>
@@ -220,21 +233,21 @@ Walk the bigger tree with DFS (see [DFS](../algorithms/dfs.md)); at each node, c
 <summary>Solution</summary>
 
 ```python
-def same(p, q):                       # identical to problem 100's solution
-    if not p and not q:
-        return True
-    if not p or not q or p.val != q.val:
-        return False
-    return same(p.left, q.left) and same(p.right, q.right)
+class Solution:
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
 
-def is_subtree(node):
-    if not node:                        # ran out of tree without a match
-        return False
-    if same(node, sub_root):             # this subtree matches exactly
-        return True
-    return is_subtree(node.left) or is_subtree(node.right)  # check deeper
+        def same_tree(p, q):
+            if not p and not q:
+                return True
+            if not p or not q or p.val != q.val:
+                return False
+            return same_tree(p.left, q.left) and same_tree(p.right, q.right)
 
-return is_subtree(root)
+        if not root:
+            return subRoot is None
+        if same_tree(root, subRoot):
+            return True
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [logical-operators](../syntax/logical-operators.md) (`or`) · [if-return](../syntax/if-return.md)
@@ -265,14 +278,20 @@ If both values are less than the current node, the answer is in the left subtree
 <summary>Solution</summary>
 
 ```python
-node = root
-while node:                           # while loop walking down the BST
-    if p.val < node.val and q.val < node.val:     # both targets are smaller
-        node = node.left
-    elif p.val > node.val and q.val > node.val:   # both targets are larger
-        node = node.right
-    else:                                          # split point: this is the LCA
-        return node
+class Solution:
+    def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+
+        current = root
+
+        while current:
+            if p.val < current.val and q.val < current.val:
+                current = current.left
+            elif p.val > current.val and q.val > current.val:
+                current = current.right
+            else:
+                return current
+
+        return None
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [logical-operators](../syntax/logical-operators.md) (`and`) · [elif-else](../syntax/elif-else.md)
@@ -305,24 +324,34 @@ Run [BFS](../algorithms/bfs.md) with a [queue](../data-structures/queue.md): pro
 ```python
 from collections import deque
 
-res = []
-q = deque([root]) if root else deque()
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
 
-while q:                              # while loop, one full level per iteration
-    level = []
-    for _ in range(len(q)):             # exactly this level's nodes, no more
-        node = q.popleft()
-        level.append(node.val)
-        if node.left:
-            q.append(node.left)
-        if node.right:
-            q.append(node.right)
-    res.append(level)
+        if root is None:
+            return []
 
-return res
+        result = []
+        queue = deque([root])
+
+        while queue:
+            level_size = len(queue)
+            current_level = []
+
+            for i in range(level_size):
+                node = queue.popleft()
+                current_level.append(node.val)
+
+                if node.left is not None:
+                    queue.append(node.left)
+                if node.right is not None:
+                    queue.append(node.right)
+
+            result.append(current_level)
+
+        return result
 ```
 
-Building blocks: [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`)
+Building blocks: [deque](../data-structures/deque.md) · [from-import](../syntax/from-import.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`)
 </details>
 
 <details>
@@ -352,24 +381,33 @@ Run [BFS](../algorithms/bfs.md) with a [queue](../data-structures/queue.md) leve
 ```python
 from collections import deque
 
-res = []
-q = deque([root]) if root else deque()
+class Solution:
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
 
-while q:                              # while loop, one level per iteration
-    level_size = len(q)
-    for i in range(level_size):          # for loop over this level's nodes
-        node = q.popleft()
-        if i == level_size - 1:             # last node in this level: visible from the right
-            res.append(node.val)
-        if node.left:
-            q.append(node.left)
-        if node.right:
-            q.append(node.right)
+        if root is None:
+            return []
 
-return res
+        result = []
+        queue = deque([root])
+
+        while queue:
+            level_size = len(queue)
+
+            for i in range(level_size):
+                node = queue.popleft()
+
+                if i == level_size - 1:
+                    result.append(node.val)
+
+                if node.left is not None:
+                    queue.append(node.left)
+                if node.right is not None:
+                    queue.append(node.right)
+
+        return result
 ```
 
-Building blocks: [deque](../data-structures/deque.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
+Building blocks: [deque](../data-structures/deque.md) · [from-import](../syntax/from-import.md) · [while-loop](../syntax/while-loop.md) · [for-loop](../syntax/for-loop.md) · [if-return](../syntax/if-return.md)
 </details>
 
 <details>
@@ -397,15 +435,21 @@ DFS down the tree (see [DFS](../algorithms/dfs.md)), passing along the max value
 <summary>Solution</summary>
 
 ```python
-def dfs(node, max_so_far):
-    if not node:                        # base case: empty subtree
-        return 0
-    good = 1 if node.val >= max_so_far else 0   # is this node good?
-    new_max = max(max_so_far, node.val)
-    good += dfs(node.left, new_max) + dfs(node.right, new_max)
-    return good
+class Solution:
+    def goodNodes(self, root: TreeNode) -> int:
 
-return dfs(root, root.val)
+        def dfs(node, max_so_far):
+            if not node:
+                return 0
+
+            good = 1 if node.val >= max_so_far else 0
+            new_max = max(max_so_far, node.val)
+
+            good += dfs(node.left, new_max)
+            good += dfs(node.right, new_max)
+            return good
+
+        return dfs(root, root.val)
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [ternary-expression](../syntax/ternary-expression.md) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
@@ -436,18 +480,28 @@ Every node must fall within a valid `(low, high)` range inherited from its ances
 <summary>Solution</summary>
 
 ```python
-def valid(node, low, high):
-    if not node:                        # base case: empty subtree is always valid
-        return True
-    if not (low < node.val < high):      # violates the inherited range
-        return False
-    return (valid(node.left, low, node.val) and    # left subtree's upper bound tightens
-            valid(node.right, node.val, high))       # right subtree's lower bound tightens
+class Solution:
+    def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
-return valid(root, float("-inf"), float("inf"))
+        def validate(node, lower_bound, upper_bound):
+            if node is None:
+                return True
+
+            if lower_bound is not None and node.val <= lower_bound:
+                return False
+
+            if upper_bound is not None and node.val >= upper_bound:
+                return False
+
+            left_valid = validate(node.left, lower_bound, node.val)
+            right_valid = validate(node.right, node.val, upper_bound)
+
+            return left_valid and right_valid
+
+        return validate(root, None, None)
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [chained-comparisons](../syntax/chained-comparisons.md) · [int-float-basics](../syntax/int-float-basics.md) (`float("inf")`)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [identity-operators](../syntax/identity-operators.md) (`is None` / `is not None`) · [logical-operators](../syntax/logical-operators.md) (`and`) · [none-type](../syntax/none-type.md) (`None` as "no bound yet")
 </details>
 
 <details>
@@ -475,19 +529,24 @@ An inorder traversal (left, node, right — see [tree traversal orders](../algor
 <summary>Solution</summary>
 
 ```python
-stack = []
-curr = root
-n = 0
+class Solution:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
 
-while stack or curr:                  # while loop, iterative inorder traversal
-    while curr:                          # push left spine
-        stack.append(curr)
-        curr = curr.left
-    curr = stack.pop()                   # visit this node
-    n += 1
-    if n == k:                             # this is the kth smallest
-        return curr.val
-    curr = curr.right                    # move to the right subtree
+        stack = []
+        current = root
+        count = 0
+
+        while stack or current:
+            while current:
+                stack.append(current)
+                current = current.left
+
+            current = stack.pop()
+            count += 1
+            if count == k:
+                return current.val
+
+            current = current.right
 ```
 
 Building blocks: [while-loop](../syntax/while-loop.md) · [list-methods](../syntax/list-methods.md) (`.append()`, `.pop()`) · [if-return](../syntax/if-return.md)
@@ -518,16 +577,19 @@ The first value of preorder is always the current subtree's root (see [tree trav
 <summary>Solution</summary>
 
 ```python
-if not preorder or not inorder:
-    return None
+class Solution:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
 
-root_val = preorder[0]                # preorder's first value is always the root
-root = TreeNode(root_val)
-mid = inorder.index(root_val)           # split point in inorder
+        if not preorder or not inorder:
+            return None
 
-root.left = build(preorder[1:mid + 1], inorder[:mid])       # left subtree slice
-root.right = build(preorder[mid + 1:], inorder[mid + 1:])   # right subtree slice
-return root
+        root = TreeNode(preorder[0])
+        mid = inorder.index(preorder[0])
+
+        root.left = self.buildTree(preorder[1:mid + 1], inorder[:mid])
+        root.right = self.buildTree(preorder[mid + 1:], inorder[mid + 1:])
+
+        return root
 ```
 
 Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [list-slicing](../syntax/list-slicing.md) · [list-methods](../syntax/list-methods.md) (`.index()`)
@@ -558,23 +620,26 @@ DFS (see [DFS](../algorithms/dfs.md)) returns the best single-direction path dow
 <summary>Solution</summary>
 
 ```python
-best = float("-inf")
+class Solution:
+    def maxPathSum(self, root: Optional[TreeNode]) -> int:
 
-def dfs(node):
-    nonlocal best
-    if not node:                        # base case: empty contributes 0
-        return 0
-    left = max(dfs(node.left), 0)         # ignore negative contributions
-    right = max(dfs(node.right), 0)
+        self.best = float("-inf")
 
-    best = max(best, node.val + left + right)   # best path through this node
-    return node.val + max(left, right)             # best single-direction path down
+        def dfs(node):
+            if not node:
+                return 0
 
-dfs(root)
-return best
+            left = max(dfs(node.left), 0)
+            right = max(dfs(node.right), 0)
+
+            self.best = max(self.best, node.val + left + right)
+            return node.val + max(left, right)
+
+        dfs(root)
+        return self.best
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [closures](../syntax/closures.md) (`nonlocal`) · [comparison-operators](../syntax/comparison-operators.md) (`max()`)
+Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [instance-vs-class-attrs](../syntax/instance-vs-class-attrs.md) (`self.best`) · [comparison-operators](../syntax/comparison-operators.md) (`max()`) · [int-float-basics](../syntax/int-float-basics.md) (`float("-inf")`)
 </details>
 
 <details>
@@ -602,32 +667,38 @@ Serialize with preorder DFS (see [tree traversal orders](../algorithms/tree-trav
 <summary>Solution</summary>
 
 ```python
-def serialize(root):
-    res = []
-    def dfs(node):
-        if not node:
-            res.append("N")               # marker for a missing child
-            return
-        res.append(str(node.val))
-        dfs(node.left)
-        dfs(node.right)
-    dfs(root)
-    return ",".join(res)
+class Codec:
 
-def deserialize(data):
-    vals = iter(data.split(","))
-    def dfs():
-        val = next(vals)
-        if val == "N":                     # missing child, matches serialize's marker
-            return None
-        node = TreeNode(int(val))
-        node.left = dfs()                    # consume in the same preorder sequence
-        node.right = dfs()
-        return node
-    return dfs()
+    def serialize(self, root: Optional[TreeNode]) -> str:
+        values = []
+
+        def dfs(node):
+            if not node:
+                values.append("N")
+                return
+            values.append(str(node.val))
+            dfs(node.left)
+            dfs(node.right)
+
+        dfs(root)
+        return ",".join(values)
+
+    def deserialize(self, data: str) -> Optional[TreeNode]:
+        values = iter(data.split(","))
+
+        def dfs():
+            val = next(values)
+            if val == "N":
+                return None
+            node = TreeNode(int(val))
+            node.left = dfs()
+            node.right = dfs()
+            return node
+
+        return dfs()
 ```
 
-Building blocks: [recursion-basics](../syntax/recursion-basics.md) · [string-join-slice](../syntax/string-join-slice.md) · [itertools-basics](../syntax/itertools-basics.md) (`iter()`, `next()`)
+Building blocks: [class-basics](../syntax/class-basics.md) · [recursion-basics](../syntax/recursion-basics.md) · [string-methods](../syntax/string-methods.md) (`.split()`) · [string-join-slice](../syntax/string-join-slice.md) (`",".join()`) · [itertools-basics](../syntax/itertools-basics.md) (`iter()`, `next()`)
 </details>
 
 <details>
