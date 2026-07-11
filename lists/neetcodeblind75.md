@@ -77,7 +77,7 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
-| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
 | 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
 
 ## 9. Heap / Priority Queue (1 problems)

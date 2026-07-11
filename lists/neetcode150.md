@@ -44,7 +44,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../problems/0001-0499/20.py) |
 | 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/0001-0499/155.py) |
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../problems/0001-0499/150.py) |
-| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
+| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../problems/0001-0499/22.py) |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
 | 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
 | 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | - |
@@ -55,7 +55,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 |---|------------|---------|----------|----------|
 | 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/0500-0999/704.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
-| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
+| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../problems/0500-0999/875.py) |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 | 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | - |
@@ -70,7 +70,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
 | 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
-| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | - |
+| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
 | 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
@@ -102,7 +102,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
-| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
 | 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
 
 ## 9. Heap / Priority Queue (7 problems)
@@ -113,7 +113,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
 | 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
-| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
+| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | [Solution](../problems/0500-0999/621.py) |
 | 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
 | 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 

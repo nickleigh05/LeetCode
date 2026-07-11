@@ -20,7 +20,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../problems/0001-0499/75.py) |
 | 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../problems/0001-0499/347.py) |
 | 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../problems/0001-0499/271.py) |
-| 304 | Medium | Range Sum Query 2D Immutable | [Link](https://leetcode.com/problems/range-sum-query-2d-immutable/) | - |
+| 304 | Medium | Range Sum Query 2D Immutable | [Link](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Solution](../problems/0001-0499/304.py) |
 | 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../problems/0001-0499/238.py) |
 | 36 | Medium | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/) | [Solution](../problems/0001-0499/36.py) |
 | 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../problems/0001-0499/128.py) |
@@ -42,9 +42,9 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 167 | Medium | Two Sum II Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../problems/0001-0499/167.py) |
 | 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../problems/0001-0499/15.py) |
 | 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | [Solution](../problems/0001-0499/18.py) |
-| 189 | Medium | Rotate Array | [Link](https://leetcode.com/problems/rotate-array/) | - |
+| 189 | Medium | Rotate Array | [Link](https://leetcode.com/problems/rotate-array/) | [Solution](../problems/0001-0499/189.py) |
 | 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../problems/0001-0499/11.py) |
-| 881 | Medium | Boats to Save People | [Link](https://leetcode.com/problems/boats-to-save-people/) | - |
+| 881 | Medium | Boats to Save People | [Link](https://leetcode.com/problems/boats-to-save-people/) | [Solution](../problems/0500-0999/881.py) |
 | 42 | Hard | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Solution](../problems/0001-0499/42.py) |
 
 ## 3. Sliding Window (9 problems)
@@ -89,7 +89,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../problems/0001-0499/374.py) |
 | 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/0001-0499/69.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
-| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
+| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../problems/0500-0999/875.py) |
 | 1011 | Medium | Capacity to Ship Packages Within D Days | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
@@ -109,7 +109,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
 | 138 | Medium | Copy List With Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
-| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | - |
+| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
 | 287 | Medium | Find The Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
 | 622 | Medium | Design Circular Queue | [Link](https://leetcode.com/problems/design-circular-queue/) | - |
@@ -123,8 +123,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/0001-0499/94.py) |
-| 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - |
-| 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
+| 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Solution](../problems/0001-0499/144.py) |
+| 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Solution](../problems/0001-0499/145.py) |
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
 | 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](../problems/0001-0499/104.py) |
 | 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](../problems/0500-0999/543.py) |
@@ -132,7 +132,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | [Solution](../problems/0001-0499/100.py) |
 | 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
-| 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - |
+| 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Solution](../problems/0500-0999/701.py) |
 | 450 | Medium | Delete Node in a BST | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | - |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
 | 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | - |
@@ -151,7 +151,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
-| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
 | 2707 | Medium | Extra Characters in a String | [Link](https://leetcode.com/problems/extra-characters-in-a-string/) | - |
 | 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
 
@@ -163,7 +163,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
 | 215 | Medium | Kth Largest Element In An Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
-| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
+| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | [Solution](../problems/0500-0999/621.py) |
 | 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
 | 1834 | Medium | Single-Threaded CPU | [Link](https://leetcode.com/problems/single-threaded-cpu/) | - |
 | 767 | Medium | Reorganize String | [Link](https://leetcode.com/problems/reorganize-string/) | - |
@@ -184,7 +184,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 | 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | - |
 | 47 | Medium | Permutations II | [Link](https://leetcode.com/problems/permutations-ii/) | - |
-| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
+| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../problems/0001-0499/22.py) |
 | 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | - |
 | 131 | Medium | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/) | - |
 | 17 | Medium | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | - |
@@ -198,9 +198,9 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | - |
-| 953 | Easy | Verifying an Alien Dictionary | [Link](https://leetcode.com/problems/verifying-an-alien-dictionary/) | - |
-| 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | - |
+| 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | [Solution](../problems/0001-0499/463.py) |
+| 953 | Easy | Verifying an Alien Dictionary | [Link](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Solution](../problems/0500-0999/953.py) |
+| 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | [Solution](../problems/0500-0999/997.py) |
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
@@ -241,7 +241,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 |---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
-| 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
+| 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | [Solution](../problems/1000-1499/1137.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
 | 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
 | 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
@@ -313,8 +313,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | - |
-| 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | - |
+| 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | [Solution](../problems/0001-0499/168.py) |
+| 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Solution](../problems/1000-1499/1071.py) |
 | 2807 | Medium | Insert Greatest Common Divisors in Linked List | [Link](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | - |
 | 867 | Easy | Transpose Matrix | [Link](https://leetcode.com/problems/transpose-matrix/) | - |
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |

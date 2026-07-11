@@ -100,7 +100,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](../problems/0001-0499/232.py) |
 | 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../problems/0001-0499/155.py) |
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../problems/0001-0499/150.py) |
-| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | - |
+| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../problems/0001-0499/22.py) |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
 | 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
 | 901 | Medium | Online Stock Span | [Link](https://leetcode.com/problems/online-stock-span/) | - |
@@ -125,7 +125,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../problems/0001-0499/69.py) |
 | 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | [Solution](../problems/0001-0499/367.py) |
 | 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../problems/0001-0499/74.py) |
-| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | - |
+| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../problems/0500-0999/875.py) |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 | 34 | Medium | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | - |
@@ -157,7 +157,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
 | 24 | Medium | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | - |
-| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | - |
+| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
 | 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
 | 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
@@ -182,12 +182,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
 | 112 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | [Solution](../problems/0001-0499/112.py) |
 | 111 | Easy | Minimum Depth of Binary Tree | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Solution](../problems/0001-0499/111.py) |
-| 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | - |
+| 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | [Solution](../problems/0001-0499/101.py) |
 | 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | - |
 | 700 | Easy | Search in a Binary Search Tree | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree/) | - |
 | 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/0001-0499/94.py) |
-| 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - |
-| 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - |
+| 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Solution](../problems/0001-0499/144.py) |
+| 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Solution](../problems/0001-0499/145.py) |
 | 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | - |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
@@ -196,7 +196,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
 | 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
 | 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
-| 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - |
+| 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Solution](../problems/0500-0999/701.py) |
 | 450 | Medium | Delete Node in a BST | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | - |
 | 116 | Medium | Populating Next Right Pointers in Each Node | [Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | - |
 | 103 | Medium | Binary Tree Zigzag Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | - |
@@ -216,7 +216,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
 | 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
 | 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
-| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | - |
+| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | [Solution](../problems/0500-0999/621.py) |
 | 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
 | 692 | Medium | Top K Frequent Words | [Link](https://leetcode.com/problems/top-k-frequent-words/) | - |
 | 767 | Medium | Reorganize String | [Link](https://leetcode.com/problems/reorganize-string/) | - |
@@ -261,7 +261,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
-| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | - |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
 | 648 | Medium | Replace Words | [Link](https://leetcode.com/problems/replace-words/) | - |
 | 677 | Medium | Map Sum Pairs | [Link](https://leetcode.com/problems/map-sum-pairs/) | - |
 | 1268 | Medium | Search Suggestions System | [Link](https://leetcode.com/problems/search-suggestions-system/) | - |
@@ -275,8 +275,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 733 | Easy | Flood Fill | [Link](https://leetcode.com/problems/flood-fill/) | - |
-| 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | - |
+| 733 | Easy | Flood Fill | [Link](https://leetcode.com/problems/flood-fill/) | [Solution](../problems/0500-0999/733.py) |
+| 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | [Solution](../problems/0001-0499/463.py) |
 | 1971 | Easy | Find if Path Exists in Graph | [Link](https://leetcode.com/problems/find-if-path-exists-in-graph/) | - |
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
@@ -329,7 +329,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 |---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
-| 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | - |
+| 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | [Solution](../problems/1000-1499/1137.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
 | 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
 | 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
@@ -433,9 +433,9 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../problems/0001-0499/13.py) |
 | 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |
 | 263 | Easy | Ugly Number | [Link](https://leetcode.com/problems/ugly-number/) | - |
-| 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | - |
+| 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Solution](../problems/1000-1499/1071.py) |
 | 415 | Easy | Add Strings | [Link](https://leetcode.com/problems/add-strings/) | - |
-| 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | - |
+| 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | [Solution](../problems/0001-0499/168.py) |
 | 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | - |
 | 12 | Medium | Integer to Roman | [Link](https://leetcode.com/problems/integer-to-roman/) | - |
 | 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/0001-0499/50.py) |
