@@ -39,6 +39,7 @@ Constraints:
 
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
+        
         def build(left, right):
             if left > right:
                 return None
