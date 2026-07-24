@@ -30,7 +30,7 @@
 | 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../problems/0001-0499/121.py) |
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
-| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Solution](../problems/0001-0499/76.py) |
 
 ## 4. Stack (1 problems)
 

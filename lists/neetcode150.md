@@ -34,8 +34,8 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../problems/0001-0499/3.py) |
 | 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../problems/0001-0499/424.py) |
 | 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../problems/0500-0999/567.py) |
-| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
-| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | - |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Solution](../problems/0001-0499/76.py) |
+| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](../problems/0001-0499/239.py) |
 
 ## 4. Stack (7 problems)
 
@@ -46,8 +46,8 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../problems/0001-0499/150.py) |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../problems/0001-0499/22.py) |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
-| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
-| 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | - |
+| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | [Solution](../problems/0500-0999/853.py) |
+| 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](../problems/0001-0499/84.py) |
 
 ## 5. Binary Search (7 problems)
 
@@ -58,8 +58,8 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../problems/0500-0999/875.py) |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
-| 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | - |
-| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | - |
+| 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | [Solution](../problems/0500-0999/981.py) |
+| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](../problems/0001-0499/4.py) |
 
 ## 6. Linked List (11 problems)
 
@@ -69,13 +69,13 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../problems/0001-0499/21.py) |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
-| 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
+| 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](../problems/0001-0499/138.py) |
 | 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
-| 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
+| 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](../problems/0001-0499/287.py) |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
 | 23 | Hard | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
-| 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - |
+| 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](../problems/0001-0499/25.py) |
 
 ## 7. Trees (15 problems)
 

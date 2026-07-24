@@ -82,8 +82,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 1456 | Medium | Maximum Number of Vowels in a Substring of Given Length | [Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Solution](../problems/1000-1499/1456.py) |
 | 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Solution](../problems/1000-1499/1004.py) |
 | 1493 | Medium | Longest Subarray of 1's After Deleting One Element | [Link](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | - |
-| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
-| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | - |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Solution](../problems/0001-0499/76.py) |
+| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](../problems/0001-0499/239.py) |
 
 ## 4. Stack (16 problems)
 
@@ -102,12 +102,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../problems/0001-0499/150.py) |
 | 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../problems/0001-0499/22.py) |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
-| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
+| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | [Solution](../problems/0500-0999/853.py) |
 | 901 | Medium | Online Stock Span | [Link](https://leetcode.com/problems/online-stock-span/) | - |
 | 71 | Medium | Simplify Path | [Link](https://leetcode.com/problems/simplify-path/) | - |
 | 394 | Medium | Decode String | [Link](https://leetcode.com/problems/decode-string/) | - |
 | 503 | Medium | Next Greater Element II | [Link](https://leetcode.com/problems/next-greater-element-ii/) | - |
-| 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | - |
+| 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](../problems/0001-0499/84.py) |
 | 85 | Hard | Maximal Rectangle | [Link](https://leetcode.com/problems/maximal-rectangle/) | - |
 
 ## 5. Binary Search (18 problems)
@@ -133,8 +133,8 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 540 | Medium | Single Element in a Sorted Array | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array/) | - |
 | 1011 | Medium | Capacity To Ship Packages Within D Days | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - |
 | 658 | Medium | Find K Closest Elements | [Link](https://leetcode.com/problems/find-k-closest-elements/) | - |
-| 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | - |
-| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | - |
+| 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | [Solution](../problems/0500-0999/981.py) |
+| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](../problems/0001-0499/4.py) |
 | 410 | Hard | Split Array Largest Sum | [Link](https://leetcode.com/problems/split-array-largest-sum/) | - |
 
 ## 6. Linked List (20 problems)
@@ -158,13 +158,13 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
 | 24 | Medium | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | - |
 | 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
-| 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
-| 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
+| 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](../problems/0001-0499/138.py) |
+| 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](../problems/0001-0499/287.py) |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
 | 61 | Medium | Rotate List | [Link](https://leetcode.com/problems/rotate-list/) | - |
 | 86 | Medium | Partition List | [Link](https://leetcode.com/problems/partition-list/) | - |
 | 23 | Hard | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
-| 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - |
+| 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](../problems/0001-0499/25.py) |
 
 ## 7. Trees (29 problems)
 
@@ -434,7 +434,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |
 | 263 | Easy | Ugly Number | [Link](https://leetcode.com/problems/ugly-number/) | - |
 | 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Solution](../problems/1000-1499/1071.py) |
-| 415 | Easy | Add Strings | [Link](https://leetcode.com/problems/add-strings/) | - |
+| 415 | Easy | Add Strings | [Link](https://leetcode.com/problems/add-strings/) | [Solution](../problems/0001-0499/415.py) |
 | 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | [Solution](../problems/0001-0499/168.py) |
 | 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | - |
 | 12 | Medium | Integer to Roman | [Link](https://leetcode.com/problems/integer-to-roman/) | - |

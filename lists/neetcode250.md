@@ -58,8 +58,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 567 | Medium | Permutation In String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../problems/0500-0999/567.py) |
 | 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../problems/0001-0499/209.py) |
 | 658 | Medium | Find K Closest Elements | [Link](https://leetcode.com/problems/find-k-closest-elements/) | - |
-| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | - |
-| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | - |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Solution](../problems/0001-0499/76.py) |
+| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](../problems/0001-0499/239.py) |
 
 ## 4. Stack (14 problems)
 
@@ -74,11 +74,11 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 735 | Medium | Asteroid Collision | [Link](https://leetcode.com/problems/asteroid-collision/) | - |
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
 | 901 | Medium | Online Stock Span | [Link](https://leetcode.com/problems/online-stock-span/) | - |
-| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | - |
+| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | [Solution](../problems/0500-0999/853.py) |
 | 71 | Medium | Simplify Path | [Link](https://leetcode.com/problems/simplify-path/) | - |
 | 394 | Medium | Decode String | [Link](https://leetcode.com/problems/decode-string/) | - |
 | 895 | Hard | Maximum Frequency Stack | [Link](https://leetcode.com/problems/maximum-frequency-stack/) | - |
-| 84 | Hard | Largest Rectangle In Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | - |
+| 84 | Hard | Largest Rectangle In Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](../problems/0001-0499/84.py) |
 
 ## 5. Binary Search (14 problems)
 
@@ -94,9 +94,9 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 | 81 | Medium | Search in Rotated Sorted Array II | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | - |
-| 981 | Medium | Time Based Key Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | - |
+| 981 | Medium | Time Based Key Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | [Solution](../problems/0500-0999/981.py) |
 | 410 | Hard | Split Array Largest Sum | [Link](https://leetcode.com/problems/split-array-largest-sum/) | - |
-| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | - |
+| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](../problems/0001-0499/4.py) |
 | 1095 | Hard | Find in Mountain Array | [Link](https://leetcode.com/problems/find-in-mountain-array/) | - |
 
 ## 6. Linked List (14 problems)
@@ -108,15 +108,15 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../problems/0001-0499/141.py) |
 | 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../problems/0001-0499/143.py) |
 | 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../problems/0001-0499/19.py) |
-| 138 | Medium | Copy List With Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | - |
+| 138 | Medium | Copy List With Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](../problems/0001-0499/138.py) |
 | 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../problems/0001-0499/2.py) |
-| 287 | Medium | Find The Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | - |
+| 287 | Medium | Find The Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](../problems/0001-0499/287.py) |
 | 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
 | 622 | Medium | Design Circular Queue | [Link](https://leetcode.com/problems/design-circular-queue/) | - |
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
 | 460 | Hard | LFU Cache | [Link](https://leetcode.com/problems/lfu-cache/) | - |
 | 23 | Hard | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../problems/0001-0499/23.py) |
-| 25 | Hard | Reverse Nodes In K Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - |
+| 25 | Hard | Reverse Nodes In K Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](../problems/0001-0499/25.py) |
 
 ## 7. Trees (23 problems)
 
