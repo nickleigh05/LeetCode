@@ -89,8 +89,8 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../problems/0500-0999/572.py) |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
-| 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | - |
-| 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | - |
+| 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](../problems/0001-0499/199.py) |
+| 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Solution](../problems/1000-1499/1448.py) |
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
 | 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
 | 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
@@ -124,7 +124,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
 | 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
-| 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | - |
+| 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | [Solution](../problems/0001-0499/90.py) |
 | 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | - |
 | 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | - |
 | 131 | Medium | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/) | - |
@@ -167,10 +167,10 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
-| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
-| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
-| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | - |
-| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | - |
+| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | [Solution](../problems/0001-0499/213.py) |
+| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](../problems/0001-0499/5.py) |
+| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
+| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 | 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
 | 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
@@ -224,7 +224,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
-| 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |
+| 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | [Solution](../problems/0001-0499/202.py) |
 | 66 | Easy | Plus One | [Link](https://leetcode.com/problems/plus-one/) | [Solution](../problems/0001-0499/66.py) |
 | 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/0001-0499/50.py) |
 | 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | - |

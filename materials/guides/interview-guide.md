@@ -41,7 +41,7 @@ A silent perfect solution scores *worse* than a narrated good one. They can't gr
 
 - **Language:** Python is fine everywhere (rare embedded/HFT exceptions). Say what you're using; don't ask permission.
 - **Whiteboard / CoderPad without autocomplete:** practice writing 20 lines on paper occasionally — you'll discover you don't actually know [`heapq`'s](../syntax/heapq-module.md) argument order.
-- **Behavioral questions are half the interview loop.** Prepare 4–5 stories (conflict, failure, proudest work, disagreement) in situation → action → result shape. Strong candidates fail loops on this half too.
-- Ask the recruiter what the rounds are. "Two DSA + one system design + one behavioral" changes your prep allocation.
+- **Behavioral questions are half the interview loop.** Prepare 4–5 stories (conflict, failure, proudest work, disagreement) in situation → action → result shape — the full story-bank method is in [behavioral-interviews](behavioral-interviews.md). Strong candidates fail loops on this half too.
+- Ask the recruiter what the rounds are. "Two DSA + one system design + one behavioral" changes your prep allocation — [interview-loop](interview-loop.md) walks the whole funnel stage by stage.
 
-**Related:** [how-to-approach-a-problem](how-to-approach-a-problem.md) · [study-plan](study-plan.md) · [whats-next](whats-next.md)
+**Related:** [how-to-approach-a-problem](how-to-approach-a-problem.md) · [study-plan](study-plan.md) · [whats-next](whats-next.md) · [🎯 Interview Roadmap](../../interview.md)

@@ -116,10 +116,10 @@
 |---|------------|---------|----------|----------|
 | 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../problems/0001-0499/70.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
-| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
-| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
-| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | - |
-| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | - |
+| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | [Solution](../problems/0001-0499/213.py) |
+| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](../problems/0001-0499/5.py) |
+| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
+| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 | 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
 | 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |

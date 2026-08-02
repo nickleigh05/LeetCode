@@ -12,4 +12,6 @@ Practical, non-algorithmic know-how — machine setup, workflow, study strategy,
 [how-to-approach-a-problem](how-to-approach-a-problem.md) · [constraints-cheatsheet](constraints-cheatsheet.md) · [python-operation-costs](python-operation-costs.md) · [study-plan](study-plan.md) · [glossary](glossary.md)
 
 ## Interviews & Beyond
-[interview-guide](interview-guide.md) · [competitive-programming-io](competitive-programming-io.md) · [whats-next](whats-next.md)
+[interview-guide](interview-guide.md) · [interview-loop](interview-loop.md) · [behavioral-interviews](behavioral-interviews.md) · [competitive-programming-io](competitive-programming-io.md) · [whats-next](whats-next.md)
+
+The interview guides are three views of one loop — the hub that ties them together (plus the system-design track) is the [🎯 Interview Roadmap](../../interview.md).

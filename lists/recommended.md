@@ -128,7 +128,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../problems/0500-0999/875.py) |
 | 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/153.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
-| 34 | Medium | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | - |
+| 34 | Medium | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](../problems/0001-0499/34.py) |
 | 162 | Medium | Find Peak Element | [Link](https://leetcode.com/problems/find-peak-element/) | - |
 | 540 | Medium | Single Element in a Sorted Array | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array/) | - |
 | 1011 | Medium | Capacity To Ship Packages Within D Days | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - |
@@ -183,16 +183,16 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 112 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | [Solution](../problems/0001-0499/112.py) |
 | 111 | Easy | Minimum Depth of Binary Tree | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Solution](../problems/0001-0499/111.py) |
 | 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | [Solution](../problems/0001-0499/101.py) |
-| 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | - |
+| 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](../problems/0001-0499/108.py) |
 | 700 | Easy | Search in a Binary Search Tree | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree/) | - |
 | 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../problems/0001-0499/94.py) |
 | 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Solution](../problems/0001-0499/144.py) |
 | 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Solution](../problems/0001-0499/145.py) |
-| 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | - |
+| 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | [Solution](../problems/0001-0499/257.py) |
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
-| 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | - |
-| 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | - |
+| 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](../problems/0001-0499/199.py) |
+| 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Solution](../problems/1000-1499/1448.py) |
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
 | 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
 | 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
@@ -236,7 +236,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
-| 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | - |
+| 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | [Solution](../problems/0001-0499/90.py) |
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
 | 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | - |
 | 216 | Medium | Combination Sum III | [Link](https://leetcode.com/problems/combination-sum-iii/) | - |
@@ -331,10 +331,10 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../problems/0500-0999/746.py) |
 | 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | [Solution](../problems/1000-1499/1137.py) |
 | 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../problems/0001-0499/198.py) |
-| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | - |
-| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | - |
-| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | - |
-| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | - |
+| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | [Solution](../problems/0001-0499/213.py) |
+| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](../problems/0001-0499/5.py) |
+| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
+| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
 | 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | - |
 | 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
@@ -429,9 +429,9 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 9 | Easy | Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | - |
+| 9 | Easy | Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | [Solution](../problems/0001-0499/9.py) |
 | 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../problems/0001-0499/13.py) |
-| 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | - |
+| 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | [Solution](../problems/0001-0499/202.py) |
 | 263 | Easy | Ugly Number | [Link](https://leetcode.com/problems/ugly-number/) | - |
 | 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Solution](../problems/1000-1499/1071.py) |
 | 415 | Easy | Add Strings | [Link](https://leetcode.com/problems/add-strings/) | [Solution](../problems/0001-0499/415.py) |

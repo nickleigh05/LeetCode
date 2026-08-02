@@ -1,19 +1,21 @@
 # LeetCode Tracking
 
-A collection of my solutions to LeetCode problems, organized by topic and difficulty. This repository tracks my progress through algorithmic problem solving and data structures practice.
+A collection of my solutions to LeetCode problems, organized by topic and difficulty. 
 
-> ### 🚀 Start here → [**The DSA Roadmap**](roadmap.md)
-> A self-paced course that takes you from *"what even is a data structure?"* to advanced algorithm problems — concept lessons, code templates, and curated practice for every pattern.
+> ### Click here for [**DSA Roadmap**](roadmap.md)
 
 ## Repository Structure
 
 ```
 leetcode/
 ├── roadmap.md                 ← A roadmap to learn DS&A for leetcode
-├── materials/                 ← Educational material for the roadmap
+├── interview.md               ← The interview roadmap: behavioral · coding · system design
+├── materials/                 ← Educational material for the roadmaps
 │   ├── learning/
 │   ├── guides/
 │   ├── rmap-practice/
+│   ├── system-design/
+│   ├── sd-practice/
 │   ├── data-structures/
 │   ├── algorithms/
 │   ├── syntax/
@@ -38,7 +40,7 @@ leetcode/
 
 ## Curated Problem Lists
 
-Browse problems by topic — each list has a Solution column linking directly to the local file.
+Browse problems by topic each list has a Solution column linking directly to the local file.
 
 | List | Problems | Description |
 |------|----------|-------------|
@@ -67,23 +69,6 @@ Browse problems by topic — each list has a Solution column linking directly to
 - Greedy Algorithms
 - Backtracking
 - Bit Manipulation
-
-## Roadmap & Reference
-
-The [**roadmap**](roadmap.md) is the guided learning path. Its lessons fold in the
-data-structure, algorithm, and pattern explanations (with visual traces and complexity tables);
-the appendix holds quick-reference material.
-
-| File | Description |
-|------|-------------|
-| [roadmap.md](roadmap.md) | The course spine — 20 lessons, foundations → advanced, with a phase map |
-| [learning/](materials/learning/) | Concept lessons: each pairs a data structure / pattern with its template and practice set |
-| [rmap-practice/](materials/rmap-practice/) | Per-topic practice sets: curated problems with collapsible hints, solutions & complexity |
-| [guides/](materials/guides/) | Practical guides: environment setup, LeetCode workflow, debugging, study strategy, interviews |
-| [data-structures/](materials/data-structures/) | Atomic, one-structure-per-file reference pages |
-| [algorithms/](materials/algorithms/) | Atomic, one-algorithm-per-file reference pages |
-| [syntax/](materials/syntax/) | Atomic Python syntax reference pages linked from practice walkthroughs |
-| [templates/](materials/appendix/templates/) | Per-pattern skeleton code (template.py + README per pattern) |
 
 ## External Links
 

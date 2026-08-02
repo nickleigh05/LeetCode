@@ -69,6 +69,12 @@ Work top to bottom — each tier builds on the last. Don't jump to graphs before
 |---|---------|-------------------|
 | 20 | [Segment Tree & Fenwick Tree](segment-tree/README.md) | Range queries + point updates in O(log n) — prefix sums for a changing array. |
 
+### System design
+
+| Pattern | The one-line idea |
+|---------|-------------------|
+| [System Design](system-design/README.md) | The 4-step interview framework as a worksheet — the skeleton here is a conversation, not code. Pairs with the [🎯 Interview Roadmap](../../../interview.md). |
+
 ---
 
 *Categories follow the NeetCode 150/250 taxonomy. For the curated problem sets that pair with these skeletons, see [lists/](../../../lists/); to learn each pattern in depth, follow the [🗺 Roadmap](../../../roadmap.md).*

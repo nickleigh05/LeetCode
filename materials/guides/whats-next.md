@@ -8,8 +8,8 @@ The gap between "knows the patterns" and "passes onsites" is reps under realisti
 
 - **Mixed-topic randomness.** Real interviews don't announce "this is a graph problem." Drill random problems from the [NeetCode 150](../../lists/neetcode150.md)/[250](../../lists/neetcode250.md) with no topic label and a 35-minute timer — recognizing the pattern *is* the skill now.
 - **Mock interviews weekly** — the performance layer needs its own reps. See [interview-guide](interview-guide.md).
-- **System design** — half the loop for mid-level+ roles and completely absent from LeetCode. Standard starting points: *Designing Data-Intensive Applications* (the book), then practice designs (URL shortener, chat, news feed). Different muscle; budget real weeks for it.
-- **Behavioral stories** — prepared, practiced aloud, same as code.
+- **System design** — half the loop for mid-level+ roles and completely absent from LeetCode. This repo now covers it: the [Interview Roadmap's system-design track](../../interview.md#pillar-3--system-design) — lessons plus a 13-design practice ladder. Read *Designing Data-Intensive Applications* alongside the Mastery Track for depth. Different muscle; budget real weeks for it.
+- **Behavioral stories** — prepared, practiced aloud, same as code. The story-bank method: [behavioral-interviews](behavioral-interviews.md).
 
 ## Fork 2 — Competitive programming (the mastery rabbit hole)
 
