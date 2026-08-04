@@ -67,10 +67,10 @@
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 | 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../problems/0001-0499/102.py) |
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
-| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
-| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
-| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | - |
-| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | - |
+| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](../problems/0001-0499/230.py) |
+| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](../problems/0001-0499/105.py) |
+| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](../problems/0001-0499/124.py) |
+| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](../problems/0001-0499/297.py) |
 
 ## 8. Tries (3 problems)
 
@@ -78,7 +78,7 @@
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
-| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
+| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | [Solution](../problems/0001-0499/212.py) |
 
 ## 9. Heap / Priority Queue (1 problems)
 
@@ -91,7 +91,7 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
-| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | - |
+| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | [Solution](../problems/0001-0499/79.py) |
 
 ## 11. Graphs (6 problems)
 
@@ -137,15 +137,15 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../problems/0001-0499/53.py) |
-| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |
+| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | [Solution](../problems/0001-0499/55.py) |
 
 ## 16. Intervals (5 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
+| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../problems/0001-0499/57.py) |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
-| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
+| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../problems/0001-0499/435.py) |
 | 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
 | 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
 
@@ -154,8 +154,8 @@
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
-| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
-| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
+| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | [Solution](../problems/0001-0499/54.py) |
+| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](../problems/0001-0499/73.py) |
 
 ## 18. Bit Manipulation (5 problems)
 
@@ -165,7 +165,7 @@
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |
 | 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | [Solution](../problems/0001-0499/190.py) |
 | 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/0001-0499/268.py) |
-| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | - |
+| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | [Solution](../problems/0001-0499/371.py) |
 
 ---
 

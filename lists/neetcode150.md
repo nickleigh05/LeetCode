@@ -2,6 +2,8 @@
 
 The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized it by pattern so you're actually learning techniques — not just solving random problems. This is the go-to for FAANG prep.
 
+> Studying rather than browsing? The [**DSA Roadmap**](../roadmap.md) wraps this list in lessons and tracks your progress.
+
 ## 1. Arrays & Hashing (9 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
@@ -92,10 +94,10 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](../problems/0001-0499/199.py) |
 | 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Solution](../problems/1000-1499/1448.py) |
 | 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../problems/0001-0499/98.py) |
-| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | - |
-| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | - |
-| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | - |
-| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | - |
+| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](../problems/0001-0499/230.py) |
+| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](../problems/0001-0499/105.py) |
+| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](../problems/0001-0499/124.py) |
+| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](../problems/0001-0499/297.py) |
 
 ## 8. Tries (3 problems)
 
@@ -103,7 +105,7 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 | 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../problems/0001-0499/211.py) |
-| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | - |
+| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | [Solution](../problems/0001-0499/212.py) |
 
 ## 9. Heap / Priority Queue (7 problems)
 
@@ -111,10 +113,10 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 |---|------------|---------|----------|----------|
 | 703 | Easy | Kth Largest Element in a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Solution](../problems/0500-0999/703.py) |
 | 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../problems/1000-1499/1046.py) |
-| 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | - |
+| 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | [Solution](../problems/0500-0999/973.py) |
 | 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
 | 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | [Solution](../problems/0500-0999/621.py) |
-| 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | - |
+| 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | [Solution](../problems/0001-0499/355.py) |
 | 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 
 ## 10. Backtracking (9 problems)
@@ -125,11 +127,11 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../problems/0001-0499/39.py) |
 | 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 | 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | [Solution](../problems/0001-0499/90.py) |
-| 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | - |
-| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | - |
-| 131 | Medium | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/) | - |
-| 17 | Medium | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | - |
-| 51 | Hard | N-Queens | [Link](https://leetcode.com/problems/n-queens/) | - |
+| 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | [Solution](../problems/0001-0499/40.py) |
+| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | [Solution](../problems/0001-0499/79.py) |
+| 131 | Medium | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/) | [Solution](../problems/0001-0499/131.py) |
+| 17 | Medium | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](../problems/0001-0499/17.py) |
+| 51 | Hard | N-Queens | [Link](https://leetcode.com/problems/n-queens/) | [Solution](../problems/0001-0499/51.py) |
 
 ## 11. Graphs (13 problems)
 
@@ -198,36 +200,36 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../problems/0001-0499/53.py) |
-| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | - |
-| 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | - |
-| 134 | Medium | Gas Station | [Link](https://leetcode.com/problems/gas-station/) | - |
-| 846 | Medium | Hand of Straights | [Link](https://leetcode.com/problems/hand-of-straights/) | - |
-| 1899 | Medium | Merge Triplets to Form Target Triplet | [Link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | - |
-| 763 | Medium | Partition Labels | [Link](https://leetcode.com/problems/partition-labels/) | - |
-| 678 | Medium | Valid Parenthesis String | [Link](https://leetcode.com/problems/valid-parenthesis-string/) | - |
+| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | [Solution](../problems/0001-0499/55.py) |
+| 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | [Solution](../problems/0001-0499/45.py) |
+| 134 | Medium | Gas Station | [Link](https://leetcode.com/problems/gas-station/) | [Solution](../problems/0001-0499/134.py) |
+| 846 | Medium | Hand of Straights | [Link](https://leetcode.com/problems/hand-of-straights/) | [Solution](../problems/0500-0999/846.py) |
+| 1899 | Medium | Merge Triplets to Form Target Triplet | [Link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | [Solution](../problems/1500-1999/1899.py) |
+| 763 | Medium | Partition Labels | [Link](https://leetcode.com/problems/partition-labels/) | [Solution](../problems/0500-0999/763.py) |
+| 678 | Medium | Valid Parenthesis String | [Link](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](../problems/0500-0999/678.py) |
 
 ## 16. Intervals (6 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | - |
+| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../problems/0001-0499/57.py) |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
-| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | - |
+| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../problems/0001-0499/435.py) |
 | 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
 | 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
-| 1851 | Hard | Minimum Interval to Include Each Query | [Link](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | - |
+| 1851 | Hard | Minimum Interval to Include Each Query | [Link](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | [Solution](../problems/1500-1999/1851.py) |
 
 ## 17. Math & Geometry (8 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
-| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | - |
-| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | - |
+| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | [Solution](../problems/0001-0499/54.py) |
+| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](../problems/0001-0499/73.py) |
 | 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | [Solution](../problems/0001-0499/202.py) |
 | 66 | Easy | Plus One | [Link](https://leetcode.com/problems/plus-one/) | [Solution](../problems/0001-0499/66.py) |
 | 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/0001-0499/50.py) |
-| 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | - |
+| 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | [Solution](../problems/0001-0499/43.py) |
 | 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | - |
 
 ## 18. Bit Manipulation (7 problems)
@@ -239,8 +241,8 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |
 | 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | [Solution](../problems/0001-0499/190.py) |
 | 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../problems/0001-0499/268.py) |
-| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | - |
-| 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | - |
+| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | [Solution](../problems/0001-0499/371.py) |
+| 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | [Solution](../problems/0001-0499/7.py) |
 
 ---
 

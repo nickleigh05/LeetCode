@@ -13,7 +13,8 @@ leetcode/
 ├── materials/                 ← Educational material for the roadmaps
 │   ├── learning/
 │   ├── guides/
-│   ├── rmap-practice/
+│   ├── rmap-practice/        ← per-unit problem indexes
+│   ├── walkthroughs/         ← one page per problem: prompt · hint · solution · complexity
 │   ├── system-design/
 │   ├── sd-practice/
 │   ├── data-structures/
