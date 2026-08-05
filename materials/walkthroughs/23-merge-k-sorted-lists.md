@@ -282,3 +282,5 @@ This also makes the algorithm work on **streams**: you never need a list in memo
 **This same move shows up in:** [Merge Two Sorted Lists](21-merge-two-sorted-lists.md) (the k = 2 case, and the divide-and-conquer building block) · [K Closest Points to Origin](973-k-closest-points-to-origin.md) (a heap keeping only the candidates that matter) · [Find Median from Data Stream](295-find-median-from-data-stream.md) (heaps maintaining an aggregate under updates) · [merge-sort](../algorithms/merge-sort.md) (the k-way generalization of its merge step).
 
 </details>
+
+---

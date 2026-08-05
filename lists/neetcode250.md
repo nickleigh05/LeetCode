@@ -202,23 +202,23 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 953 | Easy | Verifying an Alien Dictionary | [Link](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Solution](../problems/0500-0999/953.py) |
 | 997 | Easy | Find the Town Judge | [Link](https://leetcode.com/problems/find-the-town-judge/) | [Solution](../problems/0500-0999/997.py) |
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
-| 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
+| 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | [Solution](../problems/0500-0999/695.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
 | 286 | Medium | Walls And Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
-| 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | - |
-| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
-| 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | - |
+| 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | [Solution](../problems/0500-0999/994.py) |
+| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
+| 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | [Solution](../problems/0001-0499/130.py) |
 | 752 | Medium | Open the Lock | [Link](https://leetcode.com/problems/open-the-lock/) | - |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
-| 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | - |
+| 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Solution](../problems/0001-0499/210.py) |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
-| 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | - |
+| 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | [Solution](../problems/0500-0999/684.py) |
 | 721 | Medium | Accounts Merge | [Link](https://leetcode.com/problems/accounts-merge/) | - |
 | 399 | Medium | Evaluate Division | [Link](https://leetcode.com/problems/evaluate-division/) | - |
 | 310 | Medium | Minimum Height Trees | [Link](https://leetcode.com/problems/minimum-height-trees/) | - |
-| 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | - |
+| 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | [Solution](../problems/0001-0499/127.py) |
 
 ## 12. Advanced Graphs (10 problems)
 
@@ -248,10 +248,10 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
 | 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
-| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
-| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
-| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | - |
-| 416 | Medium | Partition Equal Subset Sum | [Link](https://leetcode.com/problems/partition-equal-subset-sum/) | - |
+| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](../problems/0001-0499/152.py) |
+| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | [Solution](../problems/0001-0499/139.py) |
+| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](../problems/0001-0499/300.py) |
+| 416 | Medium | Partition Equal Subset Sum | [Link](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](../problems/0001-0499/416.py) |
 | 377 | Medium | Combination Sum IV | [Link](https://leetcode.com/problems/combination-sum-iv/) | - |
 | 279 | Medium | Perfect Squares | [Link](https://leetcode.com/problems/perfect-squares/) | - |
 | 343 | Medium | Integer Break | [Link](https://leetcode.com/problems/integer-break/) | - |
@@ -266,17 +266,17 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 64 | Medium | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | - |
 | 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 | 1049 | Medium | Last Stone Weight II | [Link](https://leetcode.com/problems/last-stone-weight-ii/) | - |
-| 309 | Medium | Best Time to Buy And Sell Stock With Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | - |
-| 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | - |
-| 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | - |
-| 97 | Medium | Interleaving String | [Link](https://leetcode.com/problems/interleaving-string/) | - |
+| 309 | Medium | Best Time to Buy And Sell Stock With Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](../problems/0001-0499/309.py) |
+| 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | [Solution](../problems/0500-0999/518.py) |
+| 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | [Solution](../problems/0001-0499/494.py) |
+| 97 | Medium | Interleaving String | [Link](https://leetcode.com/problems/interleaving-string/) | [Solution](../problems/0001-0499/97.py) |
 | 877 | Medium | Stone Game | [Link](https://leetcode.com/problems/stone-game/) | - |
 | 1140 | Medium | Stone Game II | [Link](https://leetcode.com/problems/stone-game-ii/) | - |
-| 329 | Hard | Longest Increasing Path In a Matrix | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | - |
-| 115 | Hard | Distinct Subsequences | [Link](https://leetcode.com/problems/distinct-subsequences/) | - |
-| 72 | Medium | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | - |
-| 312 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/) | - |
-| 10 | Hard | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | - |
+| 329 | Hard | Longest Increasing Path In a Matrix | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Solution](../problems/0001-0499/329.py) |
+| 115 | Hard | Distinct Subsequences | [Link](https://leetcode.com/problems/distinct-subsequences/) | [Solution](../problems/0001-0499/115.py) |
+| 72 | Medium | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | [Solution](../problems/0001-0499/72.py) |
+| 312 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/) | [Solution](../problems/0001-0499/312.py) |
+| 10 | Hard | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | [Solution](../problems/0001-0499/10.py) |
 
 ## 15. Greedy (14 problems)
 

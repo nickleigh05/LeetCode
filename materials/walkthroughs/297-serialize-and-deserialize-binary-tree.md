@@ -327,3 +327,5 @@ The identical tree ✅
 **This same move shows up in:** [Encode and Decode Strings](271-encode-and-decode-strings.md) (the same "make the format unambiguous by construction" lesson) · [Construct Binary Tree from Preorder and Inorder](105-construct-binary-tree-from-preorder-and-inorder-traversal.md) (rebuilding from traversals, using inorder instead of markers) · [tree-traversal-orders](../algorithms/tree-traversal-orders.md) · [Same Tree](100-same-tree.md) (why null markers matter when comparing).
 
 </details>
+
+---

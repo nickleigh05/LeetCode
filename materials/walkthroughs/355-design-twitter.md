@@ -257,7 +257,7 @@ The countdown clock is doing the work: tweet 6 has time **−1** and tweet 5 has
 </details>
 
 <details>
-<summary><b>4 · Time complexity</b></summary>
+<summary><b>4 · Time complexity</b> — O(1) post, O(f + 10 log f) feed</summary>
 
 | Operation | Cost |
 |---|---|
@@ -340,3 +340,5 @@ Fan-out on write is great for ordinary users but catastrophic for accounts with 
 **This same move shows up in:** [Merge k Sorted Lists](23-merge-k-sorted-lists.md) (the identical k-way merge, with the same tuple-bookmark technique) · [LRU Cache](146-lru-cache.md) (a design problem pairing structures) · [Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream.md) (a heap holding only the relevant frontier) · [heap](../data-structures/heap.md).
 
 </details>
+
+---

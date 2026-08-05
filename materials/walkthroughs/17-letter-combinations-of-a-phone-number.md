@@ -319,3 +319,5 @@ The concatenation version — used in [Generate Parentheses](22-generate-parenth
 **This same move shows up in:** [Subsets](78-subsets.md) (the skeleton) · [Generate Parentheses](22-generate-parentheses.md) (the immutable-string variant, no explicit undo) · [Permutations](46-permutations.md) (where levels *do* share a pool, hence `used`) · [Word Search](79-word-search.md) (variable branching per level) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

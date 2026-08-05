@@ -258,3 +258,5 @@ The deque never holds more than `k` indices — every index inside it is within 
 **This same move shows up in:** [Daily Temperatures](739-daily-temperatures.md) and [Largest Rectangle in Histogram](84-largest-rectangle-in-histogram.md) (the [monotonic stack](../data-structures/monotonic-stack.md) — same "discard the provably useless" idea, one end instead of two) · [Permutation in String](567-permutation-in-string.md) (fixed-size window with incremental state) · [Trapping Rain Water](42-trapping-rain-water.md) (running maxima maintained without rescanning).
 
 </details>
+
+---

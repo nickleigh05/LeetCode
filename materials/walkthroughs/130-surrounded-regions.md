@@ -330,3 +330,5 @@ Same O(m·n), but the queue holds only the frontier instead of the whole path.
 **This same move shows up in:** [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (the same border-inward inversion) · [Number of Islands](200-number-of-islands.md) (the flood-fill skeleton) · [Rotting Oranges](994-rotting-oranges.md) (in-place marking during traversal) · [Word Search](79-word-search.md) (marking *with* restoration — the contrast) · [grids primer](../learning/10b-grids-primer.md).
 
 </details>
+
+---

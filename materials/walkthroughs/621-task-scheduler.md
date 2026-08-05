@@ -297,3 +297,5 @@ All bounded by the number of **distinct task types**, which the constraints cap 
 **This same move shows up in:** [Last Stone Weight](1046-last-stone-weight.md) (a max-heap for repeated extremes, with negation) · [Design Twitter](355-design-twitter.md) (heap plus a second structure) · [Time Based Key-Value Store](981-time-based-key-value-store.md) (input arriving pre-sorted, so no sorting is needed) · [heap](../data-structures/heap.md).
 
 </details>
+
+---

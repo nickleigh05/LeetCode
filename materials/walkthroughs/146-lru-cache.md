@@ -357,3 +357,5 @@ Both are capped by the eviction policy, so memory is **bounded regardless of how
 **This same move shows up in:** [Time Based Key-Value Store](981-time-based-key-value-store.md) (hash map + ordered structure, each covering the other's weakness) · [Min Stack](155-min-stack.md) (auxiliary structure making every operation O(1)) · [Merge Two Sorted Lists](21-merge-two-sorted-lists.md) (the dummy/sentinel idiom) · [lru-cache](../data-structures/lru-cache.md) (the reference page).
 
 </details>
+
+---

@@ -355,3 +355,5 @@ Faster and tighter, but much harder to read. **Know it exists; write the sets ve
 **This same move shows up in:** [Permutations](46-permutations.md) (multiple state pieces chosen and un-chosen together) · [Valid Sudoku](36-valid-sudoku.md) (sets tracking rows/columns/boxes, and the same `[[...]] * n` trap) · [Word Search](79-word-search.md) (marking and restoring during a search) · [Subsets](78-subsets.md) (the skeleton) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

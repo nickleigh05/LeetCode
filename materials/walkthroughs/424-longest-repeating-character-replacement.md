@@ -243,3 +243,5 @@ The count map holds at most **26 entries** — one per uppercase English letter 
 **This same move shows up in:** [Longest Substring Without Repeating Characters](3-longest-substring-without-repeating-characters.md) (the same skeleton, set-based validity) · [Permutation in String](567-permutation-in-string.md) (fixed-size window, count comparison) · [Minimum Window Substring](76-minimum-window-substring.md) (the same count-map machinery, minimizing instead) · [Valid Anagram](242-valid-anagram.md) (the counting idiom this relies on).
 
 </details>
+
+---

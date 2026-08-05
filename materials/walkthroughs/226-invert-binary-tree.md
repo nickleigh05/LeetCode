@@ -253,3 +253,5 @@ So the honest phrasing is: *"O(h) for the recursion stack — O(log n) if the tr
 **This same move shows up in:** [Maximum Depth](104-maximum-depth-of-binary-tree.md) (the same base-recurse-combine skeleton) · [Same Tree](100-same-tree.md) (recursing on two trees at once) · [Balanced Binary Tree](110-balanced-binary-tree.md) (combine step returns two facts) · [dfs](../algorithms/dfs.md) (the traversal's reference page).
 
 </details>
+
+---

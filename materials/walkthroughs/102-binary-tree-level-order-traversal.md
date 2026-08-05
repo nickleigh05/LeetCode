@@ -277,3 +277,5 @@ For *this* problem, BFS is still the right choice despite the space: the level g
 **This same move shows up in:** [Right Side View](199-binary-tree-right-side-view.md) (the same snapshot loop, taking one node per level) · [Maximum Depth](104-maximum-depth-of-binary-tree.md) (counting levels with the same idiom) · [Rotting Oranges](994-rotting-oranges.md) and [Number of Islands](200-number-of-islands.md) (BFS on grids, where levels become distances) · [bfs](../algorithms/bfs.md).
 
 </details>
+
+---

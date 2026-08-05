@@ -276,3 +276,5 @@ n × O(1) = **O(n)**, and it's optimal — the best path could peak anywhere, so
 **This same move shows up in:** [Diameter of Binary Tree](543-diameter-of-binary-tree.md) (the same peak-node structure, unweighted) · [Maximum Subarray](53-maximum-subarray.md) (the same "drop it if it goes negative" clamp, on an array — Kadane's algorithm) · [Balanced Binary Tree](110-balanced-binary-tree.md) (one traversal, two facts) · [dfs](../algorithms/dfs.md).
 
 </details>
+
+---

@@ -337,3 +337,5 @@ Neither dominates in general — but **DFS isn't an option here anyway**, becaus
 **This same move shows up in:** [Binary Tree Level Order Traversal](102-binary-tree-level-order-traversal.md) (the level-size snapshot idiom) · [Walls and Gates](286-walls-and-gates.md) (multi-source BFS computing distances) · [Word Ladder](127-word-ladder.md) (BFS for a minimum number of steps) · [Number of Islands](200-number-of-islands.md) (grid traversal where DFS/BFS are interchangeable — the contrast) · [bfs](../algorithms/bfs.md).
 
 </details>
+
+---

@@ -328,3 +328,5 @@ The list-comprehension version would compute every branch even after finding a m
 **This same move shows up in:** [Implement Trie](208-implement-trie-prefix-tree.md) (the structure this extends) · [Word Search II](212-word-search-ii.md) (trie + DFS with backtracking) · [Subtree of Another Tree](572-subtree-of-another-tree.md) (`or` semantics — a match anywhere suffices) · [Generate Parentheses](22-generate-parentheses.md) (branching recursion where the constraint signals an exponential solution).
 
 </details>
+
+---

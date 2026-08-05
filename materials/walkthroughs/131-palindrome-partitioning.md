@@ -300,3 +300,5 @@ The reverse-slice version is the most readable and perfectly fine here. **Knowin
 **This same move shows up in:** [Subsets](78-subsets.md) (the skeleton, choosing elements instead of cuts) · [Combination Sum](39-combination-sum.md) (a `start` index advancing by a variable amount) · [Generate Parentheses](22-generate-parentheses.md) (pruning at the branch rather than validating at the leaf) · [Valid Palindrome](125-valid-palindrome.md) (the O(1)-space check) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

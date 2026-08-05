@@ -215,3 +215,5 @@ If that waste matters, the heap approach uses O(d) or O(k) instead.
 **This same move shows up in:** [Valid Anagram](242-valid-anagram.md) (the same counting pass) · [Group Anagrams](49-group-anagrams.md) (bucketing by a derived key) · [K Closest Points to Origin](973-k-closest-points-to-origin.md) (the same "top k" question, solved with a heap) · [Kth Largest Element in an Array](215-kth-largest-element-in-an-array.md) (selection without a full sort).
 
 </details>
+
+---

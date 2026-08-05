@@ -301,3 +301,5 @@ BFS uses an explicit queue bounded by the **frontier** size — O(min(m,n)) for 
 **This same move shows up in:** [Max Area of Island](695-max-area-of-island.md) (this DFS returning a size) · [Surrounded Regions](130-surrounded-regions.md) and [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (flood-fill from the borders instead) · [Rotting Oranges](994-rotting-oranges.md) (where BFS is *required*, for the level property) · [Word Search](79-word-search.md) (marking with restoration — the contrast) · [grids primer](../learning/10b-grids-primer.md).
 
 </details>
+
+---

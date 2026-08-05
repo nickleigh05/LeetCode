@@ -297,3 +297,5 @@ That last insert is the clearest illustration of the design: it allocated nothin
 **This same move shows up in:** [Design Add and Search Words](211-design-add-and-search-words-data-structure.md) (this trie, with wildcard matching) · [Word Search II](212-word-search-ii.md) (a trie used to prune a grid search) · [trie](../data-structures/trie.md) (the reference page) · [Encode and Decode Strings](271-encode-and-decode-strings.md) (another design problem where the API contract is the work).
 
 </details>
+
+---

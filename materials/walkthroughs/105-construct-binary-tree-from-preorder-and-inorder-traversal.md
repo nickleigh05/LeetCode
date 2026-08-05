@@ -303,3 +303,5 @@ The optimized version's O(n) is the hash map plus O(h) recursion — no copies a
 **This same move shows up in:** [tree-traversal-orders](../algorithms/tree-traversal-orders.md) (what each order emits, and why) · [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (reconstructing a tree from a linear encoding) · [Kth Smallest Element in a BST](230-kth-smallest-element-in-a-bst.md) (inorder's ordering property) · [Search a 2D Matrix](74-search-a-2d-matrix.md) (indices instead of copies).
 
 </details>
+
+---

@@ -262,3 +262,5 @@ On `[5,3,7,9,8]` the min-stack holds just `[5,3]` instead of five entries. Worst
 **This same move shows up in:** [Valid Parentheses](20-valid-parentheses.md) (the plain stack this augments) · [Daily Temperatures](739-daily-temperatures.md) (a stack carrying extra per-element state) · [Sliding Window Maximum](239-sliding-window-maximum.md) (a running extreme maintained without rescanning) · [LRU Cache](146-lru-cache.md) (another design problem where the right auxiliary structure makes every operation O(1)).
 
 </details>
+
+---

@@ -228,3 +228,5 @@ When an interviewer asks for better time *and* constant space, the elimination f
 **This same move shows up in:** [Two Sum II](167-two-sum-ii-input-array-is-sorted.md) (the identical discard-and-converge argument) · [Trapping Rain Water](42-trapping-rain-water.md) (converge from both ends, driven by the smaller side) · [3Sum](15-3sum.md) (converging pointers as an inner loop) · [Valid Palindrome](125-valid-palindrome.md) (the simplest converging pair).
 
 </details>
+
+---

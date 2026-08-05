@@ -309,3 +309,5 @@ Six pointers (`group_prev`, `kth`, `group_next`, `prev`, `curr`, `next_node`, `g
 **This same move shows up in:** [Reverse Linked List](206-reverse-linked-list.md) (the inner loop, verbatim) · [Reorder List](143-reorder-list.md) (reverse-a-portion then reconnect) · [Merge Two Sorted Lists](21-merge-two-sorted-lists.md) (the dummy-head idiom) · [Remove Nth Node From End](19-remove-nth-node-from-end-of-list.md) (lookahead by a fixed number of steps).
 
 </details>
+
+---

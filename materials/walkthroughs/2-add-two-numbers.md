@@ -271,3 +271,5 @@ Worth noticing *why*: relinking works when the answer is a rearrangement of the 
 **This same move shows up in:** [Merge Two Sorted Lists](21-merge-two-sorted-lists.md) (dummy head while building) · [Multiply Strings](43-multiply-strings.md) (digit-by-digit arithmetic with carries) · [Plus One](66-plus-one.md) (carry propagation in an array) · [Reverse Linked List](206-reverse-linked-list.md) (needed if the digits arrive forward-ordered).
 
 </details>
+
+---

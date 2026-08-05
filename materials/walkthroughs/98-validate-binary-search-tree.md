@@ -310,3 +310,5 @@ That's the same skeleton as [Kth Smallest Element in a BST](230-kth-smallest-ele
 **This same move shows up in:** [Count Good Nodes](1448-count-good-nodes-in-binary-tree.md) (the other top-down problem — carries one max instead of two bounds) · [Kth Smallest Element in a BST](230-kth-smallest-element-in-a-bst.md) (the inorder skeleton) · [Lowest Common Ancestor of a BST](235-lowest-common-ancestor-of-a-binary-search-tree.md) (BST ordering for navigation rather than verification) · [binary-search-tree](../data-structures/binary-search-tree.md).
 
 </details>
+
+---

@@ -307,3 +307,5 @@ Neither dominates. For a **wide, shallow** tree DFS is dramatically better; for 
 **This same move shows up in:** [Binary Tree Level Order Traversal](102-binary-tree-level-order-traversal.md) (the snapshot loop this specializes) · [Maximum Depth](104-maximum-depth-of-binary-tree.md) (counting levels with BFS) · [Rotting Oranges](994-rotting-oranges.md) (BFS levels as time steps) · [bfs](../algorithms/bfs.md).
 
 </details>
+
+---

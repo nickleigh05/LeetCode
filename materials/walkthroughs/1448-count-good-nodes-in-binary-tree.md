@@ -260,3 +260,5 @@ while stack:
 **This same move shows up in:** [Validate Binary Search Tree](98-validate-binary-search-tree.md) (the other top-down problem in this unit — carries bounds instead of a max) · [Maximum Depth](104-maximum-depth-of-binary-tree.md) (bottom-up, for contrast) · [Path Sum](../learning/07-trees.md) (carrying a running total down) · [dfs](../algorithms/dfs.md).
 
 </details>
+
+---

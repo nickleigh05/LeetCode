@@ -283,3 +283,5 @@ Same asymptotic class in the worst case, but on duplicate-heavy input the skippi
 **This same move shows up in:** [Subsets](78-subsets.md) (this without duplicates) · [Combination Sum II](40-combination-sum-ii.md) (the same skip rule plus a target) · [Combination Sum](39-combination-sum.md) (the `start` mechanism) · [Permutations](46-permutations.md) (where the duplicate rule needs an extra `used` check) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

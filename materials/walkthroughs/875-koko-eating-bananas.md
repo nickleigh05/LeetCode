@@ -269,3 +269,5 @@ This is why answer-space binary search is such a powerful pattern — the space 
 **This same move shows up in:** [Binary Search](704-binary-search.md) (the loop skeleton) · [Search a 2D Matrix](74-search-a-2d-matrix.md) (searching a space you never build) · [Swim in Rising Water](778-swim-in-rising-water.md) (binary search the answer, with a graph feasibility check) · [Median of Two Sorted Arrays](4-median-of-two-sorted-arrays.md) (binary searching a partition rather than a value).
 
 </details>
+
+---

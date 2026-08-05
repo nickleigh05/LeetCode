@@ -279,3 +279,5 @@ That's the interesting part of this problem: rotation looks like it should ruin 
 **This same move shows up in:** [Find Minimum in Rotated Sorted Array](153-find-minimum-in-rotated-sorted-array.md) (same structure, finding the cliff instead) · [Binary Search](704-binary-search.md) (the template) · [Koko Eating Bananas](875-koko-eating-bananas.md) (halving without sortedness) · [Median of Two Sorted Arrays](4-median-of-two-sorted-arrays.md) (binary search where the decision rule is the hard part).
 
 </details>
+
+---

@@ -324,3 +324,5 @@ So: **"O(n) auxiliary, plus the factorial output the problem requires."**
 **This same move shows up in:** [Subsets](78-subsets.md) (the skeleton, with `start` instead of `used`) · [Combination Sum](39-combination-sum.md) (where `start` deliberately suppresses reorderings) · [Subsets II](90-subsets-ii.md) and [Combination Sum II](40-combination-sum-ii.md) (duplicate handling) · [N-Queens](51-n-queens.md) (multiple pieces of state chosen and un-chosen together) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

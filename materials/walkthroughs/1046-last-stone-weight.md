@@ -279,3 +279,5 @@ The list comprehension creates a new negated list — you *could* negate in plac
 **This same move shows up in:** [Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream.md) (a heap for repeated extremes, capped at k) · [K Closest Points to Origin](973-k-closest-points-to-origin.md) (the negation trick for a max-heap) · [Task Scheduler](621-task-scheduler.md) (repeatedly taking the most frequent task) · [heap](../data-structures/heap.md).
 
 </details>
+
+---

@@ -252,3 +252,5 @@ Worth saying out loud: **the counter is the O(1) solution to the one-type versio
 **This same move shows up in:** [Min Stack](155-min-stack.md) (augmenting a stack with extra per-element state) · [Evaluate Reverse Polish Notation](150-evaluate-reverse-polish-notation.md) (a stack of pending operands) · [Generate Parentheses](22-generate-parentheses.md) (the same validity rule, used to *build* strings rather than check them) · [Daily Temperatures](739-daily-temperatures.md) (a monotonic stack — same structure, "most recent unresolved item" logic).
 
 </details>
+
+---

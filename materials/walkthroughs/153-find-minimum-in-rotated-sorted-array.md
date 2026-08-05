@@ -259,3 +259,5 @@ Binary search is the most extreme version of elimination — a *single compariso
 **This same move shows up in:** [Search in Rotated Sorted Array](33-search-in-rotated-sorted-array.md) (same structure, plus a target) · [Binary Search](704-binary-search.md) (the base template this modifies) · [Koko Eating Bananas](875-koko-eating-bananas.md) (monotonic decision rule without sortedness) · [Find Peak Element](../learning/05-binary-search.md) (halving on an unsorted array using a local comparison).
 
 </details>
+
+---

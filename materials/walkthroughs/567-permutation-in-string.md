@@ -254,3 +254,5 @@ Justify it as before: *"O(1), bounded by the 26-letter lowercase alphabet."*
 **This same move shows up in:** [Valid Anagram](242-valid-anagram.md) (the count-comparison this is built on) · [Longest Repeating Character Replacement](424-longest-repeating-character-replacement.md) (variable window with a count map) · [Minimum Window Substring](76-minimum-window-substring.md) (the variable-size, minimizing counterpart) · [Sliding Window Maximum](239-sliding-window-maximum.md) (another fixed-size window with incremental maintenance).
 
 </details>
+
+---

@@ -289,3 +289,5 @@ Without path compression, a chain-shaped structure makes each `find` O(n) and th
 **This same move shows up in:** [Graph Valid Tree](261-graph-valid-tree.md) (the same union-find cycle detection, returning a boolean) · [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12-union-find.md).
 
 </details>
+
+---

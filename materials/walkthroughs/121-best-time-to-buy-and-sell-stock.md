@@ -225,3 +225,5 @@ That's the same collapse as [Product of Array Except Self](238-product-of-array-
 **This same move shows up in:** [Maximum Subarray](53-maximum-subarray.md) (a running "best so far" in one forward pass — Kadane's algorithm is structurally the twin of this) · [Trapping Rain Water](42-trapping-rain-water.md) (running extremes replacing precomputed arrays) · [Product of Array Except Self](238-product-of-array-except-self.md) (collapsing an array into a running variable) · [Longest Substring Without Repeating Characters](3-longest-substring-without-repeating-characters.md) (the same-direction two-pointer window, with a real shrink rule).
 
 </details>
+
+---

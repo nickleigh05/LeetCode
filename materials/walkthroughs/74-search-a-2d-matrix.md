@@ -271,3 +271,5 @@ That's a genuinely reusable idea: **when you need a different view of a data str
 **This same move shows up in:** [Binary Search](704-binary-search.md) (the loop this reuses verbatim) · [Valid Sudoku](36-valid-sudoku.md) (the same `// width` and `% width` flattening for box indices) · [Grids Primer](../learning/10b-grids-primer.md) (2-D indexing in general) · [Koko Eating Bananas](875-koko-eating-bananas.md) (binary search over a space that isn't an array at all).
 
 </details>
+
+---

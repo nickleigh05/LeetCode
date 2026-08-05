@@ -312,3 +312,5 @@ queue.append((candidate, steps + 1))
 **This same move shows up in:** [Walls and Gates](286-walls-and-gates.md) (BFS with distances carried per node) · [Rotting Oranges](994-rotting-oranges.md) (BFS counting levels) · [Binary Tree Level Order Traversal](102-binary-tree-level-order-traversal.md) (the level-snapshot alternative) · [Clone Graph](133-clone-graph.md) (traversing an implicit graph) · [bfs](../algorithms/bfs.md).
 
 </details>
+
+---

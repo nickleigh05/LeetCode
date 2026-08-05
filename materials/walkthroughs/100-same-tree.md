@@ -227,3 +227,5 @@ At n ≤ 100 none of this is a practical concern, but the reasoning carries dire
 **This same move shows up in:** [Subtree of Another Tree](572-subtree-of-another-tree.md) (calls this at every node) · [Invert Binary Tree](226-invert-binary-tree.md) (the single-tree version of the skeleton) · [Symmetric Tree](../learning/07-trees.md) (this with crossed pairs) · [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (why null markers matter).
 
 </details>
+
+---

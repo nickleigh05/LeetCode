@@ -311,3 +311,5 @@ Each searches a structure that exists only as *arithmetic*. Once you see that bi
 **This same move shows up in:** [Koko Eating Bananas](875-koko-eating-bananas.md) (binary search on a monotonic predicate, not an array) · [Search a 2D Matrix](74-search-a-2d-matrix.md) (searching a structure never materialized) · [Binary Search](704-binary-search.md) (the skeleton underneath) · [Merge k Sorted Lists](23-merge-k-sorted-lists.md) (when you *do* need the merged data).
 
 </details>
+
+---

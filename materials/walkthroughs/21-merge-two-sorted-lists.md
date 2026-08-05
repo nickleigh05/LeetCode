@@ -277,3 +277,5 @@ Two pointer variables plus one dummy node — a constant, independent of input s
 **This same move shows up in:** [Merge k Sorted Lists](23-merge-k-sorted-lists.md) (this routine generalized) · [Add Two Numbers](2-add-two-numbers.md) (dummy head while building a result list) · [Remove Nth Node From End](19-remove-nth-node-from-end-of-list.md) (dummy head to handle removing the first node) · [merge-sort](../algorithms/merge-sort.md) (this is its merge step).
 
 </details>
+
+---

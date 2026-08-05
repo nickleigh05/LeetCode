@@ -315,3 +315,5 @@ That choice is worth stating explicitly: *matrix for dense graphs and O(1) edge 
 **This same move shows up in:** [Course Schedule II](210-course-schedule-ii.md) (this algorithm, returning the order) · [Alien Dictionary](269-alien-dictionary.md) (topological sort to recover a character ordering) · [Clone Graph](133-clone-graph.md) (adjacency-list traversal) · [topological-sort](../algorithms/topological-sort.md) · [graph](../data-structures/graph.md).
 
 </details>
+
+---

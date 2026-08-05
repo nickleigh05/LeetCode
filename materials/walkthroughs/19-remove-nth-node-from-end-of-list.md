@@ -262,3 +262,5 @@ The array version is the tempting shortcut — store every node, then index `len
 **This same move shows up in:** [Reorder List](143-reorder-list.md) (fast/slow pointers, speed-based rather than gap-based) · [Linked List Cycle](141-linked-list-cycle.md) (two pointers at different speeds) · [Merge Two Sorted Lists](21-merge-two-sorted-lists.md) (the dummy-head idiom, for building instead of deleting) · [Reverse Nodes in k-Group](25-reverse-nodes-in-k-group.md) (dummy head plus careful offsets).
 
 </details>
+
+---

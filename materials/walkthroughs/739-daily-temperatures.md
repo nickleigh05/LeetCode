@@ -245,3 +245,5 @@ The stack holds unresolved days, which in the worst case is all of them:
 **This same move shows up in:** [Sliding Window Maximum](239-sliding-window-maximum.md) (the deque version, when elements expire) · [Largest Rectangle in Histogram](84-largest-rectangle-in-histogram.md) (a monotonic stack computing widths on pop) · [Car Fleet](853-car-fleet.md) (a stack resolving items against the one ahead) · [Trapping Rain Water](42-trapping-rain-water.md) (solvable with the same monotonic stack).
 
 </details>
+
+---

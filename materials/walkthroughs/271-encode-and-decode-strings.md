@@ -229,3 +229,5 @@ class Solution:
 **This same move shows up in:** [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (the same encode/decode design problem, on a tree — and the same "make the format unambiguous" lesson) · [Design Twitter](355-design-twitter.md) and [LRU Cache](146-lru-cache.md) (other design problems where the API contract, not an algorithm, is the work).
 
 </details>
+
+---

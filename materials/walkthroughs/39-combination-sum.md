@@ -279,3 +279,5 @@ So: **"O(target / min_candidate) auxiliary, plus the output."** With these bound
 **This same move shows up in:** [Subsets](78-subsets.md) (the skeleton, with `i + 1`) · [Combination Sum II](40-combination-sum-ii.md) (this problem with input duplicates) · [Permutations](46-permutations.md) (where order *does* matter, so the `start` trick is dropped) · [Coin Change](322-coin-change.md) (the same reuse structure, solved by DP because it only needs a count) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

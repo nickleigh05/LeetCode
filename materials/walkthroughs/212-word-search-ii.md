@@ -345,3 +345,5 @@ The word count drops out of the search entirely, appearing only in the O(W·L) t
 **This same move shows up in:** [Implement Trie](208-implement-trie-prefix-tree.md) (the structure) · [Design Add and Search Words](211-design-add-and-search-words-data-structure.md) (trie + branching DFS) · [Word Search](79-word-search.md) (the single-word version this generalizes) · [Number of Islands](200-number-of-islands.md) and the [grids primer](../learning/10b-grids-primer.md) (grid DFS with visited marking) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

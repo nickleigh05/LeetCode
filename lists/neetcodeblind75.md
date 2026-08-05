@@ -99,7 +99,7 @@
 |---|------------|---------|----------|----------|
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
-| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
+| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
@@ -121,9 +121,9 @@
 | 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
 | 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
-| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
-| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
-| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | - |
+| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](../problems/0001-0499/152.py) |
+| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | [Solution](../problems/0001-0499/139.py) |
+| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](../problems/0001-0499/300.py) |
 
 ## 14. 2-D Dynamic Programming (2 problems)
 

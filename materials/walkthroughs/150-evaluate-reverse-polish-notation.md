@@ -270,3 +270,5 @@ All five numbers are pushed before any operator appears → the stack reaches n/
 **This same move shows up in:** [Valid Parentheses](20-valid-parentheses.md) (a stack of pending items, resolved on a trigger) · [Min Stack](155-min-stack.md) (stack with augmented state) · [Basic Calculator](../learning/04-stack.md) (the infix counterpart, with precedence) · [Generate Parentheses](22-generate-parentheses.md) (the recursion equivalent of a stack).
 
 </details>
+
+---

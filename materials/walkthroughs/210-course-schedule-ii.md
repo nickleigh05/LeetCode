@@ -279,3 +279,5 @@ At V = 2000, the edge count can reach ~4·10⁶ under these constraints, so line
 **This same move shows up in:** [Course Schedule](207-course-schedule.md) (the same algorithm, returning a boolean) · [Alien Dictionary](269-alien-dictionary.md) (topological sort recovering a character ordering) · [topological-sort](../algorithms/topological-sort.md) · [graph](../data-structures/graph.md).
 
 </details>
+
+---

@@ -245,3 +245,5 @@ That's the transferable idea: *"do I need this whole array, or just its running 
 **This same move shows up in:** [Container With Most Water](11-container-with-most-water.md) (converging pointers, similar picture, different question) · [Product of Array Except Self](238-product-of-array-except-self.md) (left-running and right-running values combined per index) · [Largest Rectangle in Histogram](84-largest-rectangle-in-histogram.md) (the stack solution to this problem's sibling) · [Sliding Window Maximum](239-sliding-window-maximum.md) (running maxima maintained incrementally).
 
 </details>
+
+---

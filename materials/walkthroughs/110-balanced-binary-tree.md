@@ -281,3 +281,5 @@ At n = 5000, a skewed tree would nominally need 5000 frames — past Python's de
 **This same move shows up in:** [Maximum Depth](104-maximum-depth-of-binary-tree.md) (the height function this overloads) · [Diameter of Binary Tree](543-diameter-of-binary-tree.md) (one traversal carrying two results, via an accumulator instead) · [Validate Binary Search Tree](98-validate-binary-search-tree.md) (a validity check propagating up) · [balanced-bst](../data-structures/balanced-bst.md).
 
 </details>
+
+---

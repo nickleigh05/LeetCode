@@ -209,3 +209,5 @@ Beyond the output there are only two integers, `prefix` and `suffix`. Constant, 
 **This same move shows up in:** [Prefix Sums](../learning/01b-prefix-sums.md) (the additive original) · [Maximum Subarray](53-maximum-subarray.md) (a running accumulator in one pass) · [Trapping Rain Water](42-trapping-rain-water.md) (max-so-far from the left *and* the right, combined per index — structurally the same two-pass idea).
 
 </details>
+
+---

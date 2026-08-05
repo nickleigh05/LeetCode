@@ -300,3 +300,5 @@ The queue holds the current frontier — the cells at the same distance from the
 **This same move shows up in:** [Rotting Oranges](994-rotting-oranges.md) (multi-source BFS with explicit level counting) · [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (searching inward from the boundary) · [Word Ladder](127-word-ladder.md) (BFS for a shortest path) · [Network Delay Time](743-network-delay-time.md) (Dijkstra, when edges have weights) · [bfs](../algorithms/bfs.md).
 
 </details>
+
+---

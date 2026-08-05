@@ -262,3 +262,5 @@ The usual shape — the faster algorithm buys its speed with memory.
 **This same move shows up in:** [Same Tree](100-same-tree.md) (the helper, verbatim) · [Invert Binary Tree](226-invert-binary-tree.md) (the DFS skeleton) · [kmp](../algorithms/kmp.md) (the O(n+m) alternative) · [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (unambiguous tree encoding).
 
 </details>
+
+---

@@ -316,3 +316,5 @@ That's a real advantage on edge-heavy graphs, and it's part of why union-find is
 **This same move shows up in:** [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [Redundant Connection](684-redundant-connection.md) (finding the edge that *creates* the cycle) · [Number of Islands](200-number-of-islands.md) (connectivity, solved by flood-fill instead) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12-union-find.md).
 
 </details>
+
+---

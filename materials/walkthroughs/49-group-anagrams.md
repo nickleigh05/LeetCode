@@ -226,3 +226,5 @@ The transferable idea: **when you need to group by an equivalence, find a canoni
 **This same move shows up in:** [Valid Anagram](242-valid-anagram.md) (the same signature, compared instead of used as a key) · [Top K Frequent Elements](347-top-k-frequent-elements.md) (bucketing by a derived value) · [Valid Sudoku](36-valid-sudoku.md) (a derived key per row/column/box).
 
 </details>
+
+---

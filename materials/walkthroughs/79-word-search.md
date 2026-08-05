@@ -313,3 +313,5 @@ The board *is* fully restored by the time the function returns, so the mutation 
 **This same move shows up in:** [Word Search II](212-word-search-ii.md) (this DFS with a trie, for many words at once) · [Subsets](78-subsets.md) (choose → explore → un-choose) · [Number of Islands](200-number-of-islands.md) (grid DFS, but with *permanent* marking since revisiting is never needed) · [grids primer](../learning/10b-grids-primer.md) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

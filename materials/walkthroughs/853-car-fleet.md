@@ -263,3 +263,5 @@ Worth volunteering: *"the stack is never popped, so it can be reduced to a count
 **This same move shows up in:** [Daily Temperatures](739-daily-temperatures.md) (a stack resolving each item against the one ahead) · [Best Time to Buy and Sell Stock](121-best-time-to-buy-and-sell-stock.md) (counting running maxima in one pass) · [Merge Intervals](56-merge-intervals.md) (sort first so the property you need becomes adjacent) · [3Sum](15-3sum.md) (sorting to unlock a linear scan).
 
 </details>
+
+---

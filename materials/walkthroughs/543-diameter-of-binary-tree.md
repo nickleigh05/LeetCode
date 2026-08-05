@@ -274,3 +274,5 @@ At n = 10⁴, a skewed tree means 10⁴ stack frames, past Python's default limi
 **This same move shows up in:** [Maximum Depth](104-maximum-depth-of-binary-tree.md) (the depth function this extends) · [Binary Tree Maximum Path Sum](124-binary-tree-maximum-path-sum.md) (the same peak-node idea with values) · [Balanced Binary Tree](110-balanced-binary-tree.md) (one traversal returning depth *and* a validity flag) · [dfs](../algorithms/dfs.md).
 
 </details>
+
+---

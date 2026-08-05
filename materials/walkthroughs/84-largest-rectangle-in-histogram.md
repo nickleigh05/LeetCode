@@ -283,3 +283,5 @@ Storing `(start, height)` explicitly is more verbose but makes the width calcula
 **This same move shows up in:** [Daily Temperatures](739-daily-temperatures.md) (the mirror — nearest *greater*, on a decreasing stack) · [Sliding Window Maximum](239-sliding-window-maximum.md) (the monotonic deque) · [Trapping Rain Water](42-trapping-rain-water.md) (same stack, computing water instead of rectangles) · [Car Fleet](853-car-fleet.md) (resolving each item against the one ahead).
 
 </details>
+
+---

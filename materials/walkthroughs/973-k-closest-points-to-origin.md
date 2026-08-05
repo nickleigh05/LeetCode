@@ -253,3 +253,5 @@ Quickselect, by contrast, **requires random access to the whole array** to parti
 **This same move shows up in:** [Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream.md) (the size-k heap, with the type flipped) · [Kth Largest Element in an Array](215-kth-largest-element-in-an-array.md) (where Quickselect is the headline answer) · [Last Stone Weight](1046-last-stone-weight.md) (the negation trick) · [Merge k Sorted Lists](23-merge-k-sorted-lists.md) (payload carried in heap tuples).
 
 </details>
+
+---

@@ -275,3 +275,5 @@ Every call stores one `(timestamp, value)` tuple, and nothing is ever removed. A
 **This same move shows up in:** [Koko Eating Bananas](875-koko-eating-bananas.md) (the record-and-continue shape, mirrored) · [Binary Search](704-binary-search.md) (the skeleton) · [Min Stack](155-min-stack.md) (a design problem solved by pairing structures) · [LRU Cache](146-lru-cache.md) (hash map + a second structure, each covering the other's weakness).
 
 </details>
+
+---

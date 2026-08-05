@@ -259,3 +259,5 @@ It reads well, but the iterative version is strictly better here — same time, 
 **This same move shows up in:** [Search a 2D Matrix](74-search-a-2d-matrix.md) (this exact loop over a flattened index space) · [Koko Eating Bananas](875-koko-eating-bananas.md) (binary search on the *answer* rather than an array) · [Find Minimum in Rotated Sorted Array](153-find-minimum-in-rotated-sorted-array.md) (halving with a modified comparison) · [Two Sum II](167-two-sum-ii-input-array-is-sorted.md) (the other way sortedness buys O(1) space).
 
 </details>
+
+---

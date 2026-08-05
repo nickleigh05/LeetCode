@@ -268,3 +268,5 @@ is **tail-recursive** — the recursive call's result is returned unchanged. The
 **This same move shows up in:** [Binary Search](704-binary-search.md) (the same halve-by-comparison idea, on an array) · [Validate Binary Search Tree](98-validate-binary-search-tree.md) (the BST property used for verification instead of navigation) · [Kth Smallest Element in a BST](230-kth-smallest-element-in-a-bst.md) (BST ordering exploited again) · [binary-search-tree](../data-structures/binary-search-tree.md).
 
 </details>
+
+---

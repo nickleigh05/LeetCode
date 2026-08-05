@@ -227,3 +227,5 @@ The lesson: **read the alphabet constraint before deciding your space claim.** I
 **This same move shows up in:** [Best Time to Buy and Sell Stock](121-best-time-to-buy-and-sell-stock.md) (the same-direction window, simplest form) · [Longest Repeating Character Replacement](424-longest-repeating-character-replacement.md) (same skeleton, arithmetic validity rule) · [Permutation in String](567-permutation-in-string.md) (a **fixed**-size window) · [Minimum Window Substring](76-minimum-window-substring.md) (the hardest form — minimize instead of maximize).
 
 </details>
+
+---

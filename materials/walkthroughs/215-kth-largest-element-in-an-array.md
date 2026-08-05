@@ -240,3 +240,5 @@ Which one is "better" genuinely depends on the constraints — that's the answer
 **This same move shows up in:** [Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream.md) (the same heap, where streaming rules out Quickselect) · [K Closest Points to Origin](973-k-closest-points-to-origin.md) (a size-k heap with the type flipped) · [quickselect](../algorithms/quickselect.md) and [quicksort](../algorithms/quicksort.md) (the partitioning reference pages) · [Top K Frequent Elements](347-top-k-frequent-elements.md) (a top-k question solved by bucket sort instead).
 
 </details>
+
+---

@@ -259,3 +259,5 @@ That version needs the **explicit undo** (`path.pop()`) precisely because it mut
 **This same move shows up in:** [Valid Parentheses](20-valid-parentheses.md) (the same invariant, checking instead of building) · [Subsets](78-subsets.md) and [Permutations](46-permutations.md) (the backtracking skeleton, Unit 10) · [Letter Combinations of a Phone Number](17-letter-combinations-of-a-phone-number.md) (build-all-strings by recursion) · [Combination Sum](39-combination-sum.md) (pruning branches with a running constraint).
 
 </details>
+
+---

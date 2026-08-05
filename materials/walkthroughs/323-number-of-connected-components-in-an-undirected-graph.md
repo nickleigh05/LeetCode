@@ -319,3 +319,5 @@ Union-find is the leanest here, since it never materializes the graph — the sa
 **This same move shows up in:** [Number of Islands](200-number-of-islands.md) (the same counting, on an implicit grid graph) · [Graph Valid Tree](261-graph-valid-tree.md) (union-find on an edge list) · [Redundant Connection](684-redundant-connection.md) (union-find detecting the cycle-forming edge) · [union-find](../data-structures/union-find.md) · [dfs](../algorithms/dfs.md).
 
 </details>
+
+---

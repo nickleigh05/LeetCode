@@ -303,3 +303,5 @@ So: **"O(target) auxiliary space, plus the output."**
 **This same move shows up in:** [Combination Sum](39-combination-sum.md) (same structure, reuse allowed) · [Subsets II](90-subsets-ii.md) (the duplicate-skip rule) · [Subsets](78-subsets.md) (the underlying skeleton) · [Permutations](46-permutations.md) (where the duplicate rule needs an extra `used` check) · [backtracking](../algorithms/backtracking.md).
 
 </details>
+
+---

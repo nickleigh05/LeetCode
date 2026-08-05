@@ -228,7 +228,7 @@ The `addNum(3)` step shows both fixes in sequence: 3 was pushed into the wrong h
 </details>
 
 <details>
-<summary><b>4 · Time complexity</b></summary>
+<summary><b>4 · Time complexity</b> — O(log n) add, O(1) find</summary>
 
 | Operation | Cost |
 |---|---|
@@ -305,3 +305,5 @@ A small value discarded early could become the median once enough large values a
 **This same move shows up in:** [Kth Largest Element in a Stream](703-kth-largest-element-in-a-stream.md) (a heap on a stream, where discarding *is* allowed) · [Last Stone Weight](1046-last-stone-weight.md) (the negation trick) · [Min Stack](155-min-stack.md) (work on insert so queries are O(1)) · [heap](../data-structures/heap.md).
 
 </details>
+
+---

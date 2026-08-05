@@ -245,3 +245,5 @@ Neither wins outright. DFS is better on wide balanced trees (one root-to-leaf pa
 **This same move shows up in:** [Invert Binary Tree](226-invert-binary-tree.md) (the same base-recurse-combine skeleton) · [Diameter of Binary Tree](543-diameter-of-binary-tree.md) (this exact function, plus a side effect) · [Balanced Binary Tree](110-balanced-binary-tree.md) (depth computed with an early exit) · [Binary Tree Level Order Traversal](102-binary-tree-level-order-traversal.md) (the BFS level-snapshot idiom).
 
 </details>
+
+---

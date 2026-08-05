@@ -279,24 +279,24 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | [Solution](../problems/0001-0499/463.py) |
 | 1971 | Easy | Find if Path Exists in Graph | [Link](https://leetcode.com/problems/find-if-path-exists-in-graph/) | - |
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
-| 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | - |
+| 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | [Solution](../problems/0500-0999/695.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
-| 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | - |
+| 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | [Solution](../problems/0500-0999/994.py) |
 | 286 | Medium | Walls and Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
-| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | - |
-| 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | - |
+| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
+| 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | [Solution](../problems/0001-0499/130.py) |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
-| 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | - |
+| 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Solution](../problems/0001-0499/210.py) |
 | 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
-| 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | - |
+| 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | [Solution](../problems/0500-0999/684.py) |
 | 547 | Medium | Number of Provinces | [Link](https://leetcode.com/problems/number-of-provinces/) | - |
 | 785 | Medium | Is Graph Bipartite? | [Link](https://leetcode.com/problems/is-graph-bipartite/) | - |
 | 802 | Medium | Find Eventual Safe States | [Link](https://leetcode.com/problems/find-eventual-safe-states/) | - |
 | 1466 | Medium | Reorder Routes to Make All Paths Lead to the City Zero | [Link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | - |
 | 841 | Medium | Keys and Rooms | [Link](https://leetcode.com/problems/keys-and-rooms/) | - |
 | 1020 | Medium | Number of Enclaves | [Link](https://leetcode.com/problems/number-of-enclaves/) | - |
-| 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | - |
+| 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | [Solution](../problems/0001-0499/127.py) |
 | 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
 
 ## 12. Advanced Graphs (11 problems)
@@ -336,16 +336,16 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../problems/0500-0999/647.py) |
 | 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../problems/0001-0499/91.py) |
 | 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../problems/0001-0499/322.py) |
-| 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | - |
-| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | - |
-| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | - |
-| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | - |
+| 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | [Solution](../problems/0500-0999/518.py) |
+| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](../problems/0001-0499/152.py) |
+| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | [Solution](../problems/0001-0499/139.py) |
+| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](../problems/0001-0499/300.py) |
 | 377 | Medium | Combination Sum IV | [Link](https://leetcode.com/problems/combination-sum-iv/) | - |
-| 416 | Medium | Partition Equal Subset Sum | [Link](https://leetcode.com/problems/partition-equal-subset-sum/) | - |
+| 416 | Medium | Partition Equal Subset Sum | [Link](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](../problems/0001-0499/416.py) |
 | 740 | Medium | Delete and Earn | [Link](https://leetcode.com/problems/delete-and-earn/) | - |
 | 279 | Medium | Perfect Squares | [Link](https://leetcode.com/problems/perfect-squares/) | - |
 | 343 | Medium | Integer Break | [Link](https://leetcode.com/problems/integer-break/) | - |
-| 309 | Medium | Best Time to Buy and Sell Stock with Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | - |
+| 309 | Medium | Best Time to Buy and Sell Stock with Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](../problems/0001-0499/309.py) |
 | 96 | Medium | Unique Binary Search Trees | [Link](https://leetcode.com/problems/unique-binary-search-trees/) | - |
 | 1027 | Medium | Longest Arithmetic Subsequence | [Link](https://leetcode.com/problems/longest-arithmetic-subsequence/) | - |
 | 132 | Hard | Palindrome Partitioning II | [Link](https://leetcode.com/problems/palindrome-partitioning-ii/) | - |
@@ -367,14 +367,14 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../problems/1000-1499/1143.py) |
 | 1035 | Medium | Uncrossed Lines | [Link](https://leetcode.com/problems/uncrossed-lines/) | - |
 | 516 | Medium | Longest Palindromic Subsequence | [Link](https://leetcode.com/problems/longest-palindromic-subsequence/) | - |
-| 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | - |
+| 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | [Solution](../problems/0001-0499/494.py) |
 | 1049 | Medium | Last Stone Weight II | [Link](https://leetcode.com/problems/last-stone-weight-ii/) | - |
-| 72 | Medium | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | - |
-| 97 | Medium | Interleaving String | [Link](https://leetcode.com/problems/interleaving-string/) | - |
+| 72 | Medium | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | [Solution](../problems/0001-0499/72.py) |
+| 97 | Medium | Interleaving String | [Link](https://leetcode.com/problems/interleaving-string/) | [Solution](../problems/0001-0499/97.py) |
 | 718 | Medium | Maximum Length of Repeated Subarray | [Link](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | - |
-| 115 | Hard | Distinct Subsequences | [Link](https://leetcode.com/problems/distinct-subsequences/) | - |
-| 312 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/) | - |
-| 10 | Hard | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | - |
+| 115 | Hard | Distinct Subsequences | [Link](https://leetcode.com/problems/distinct-subsequences/) | [Solution](../problems/0001-0499/115.py) |
+| 312 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/) | [Solution](../problems/0001-0499/312.py) |
+| 10 | Hard | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | [Solution](../problems/0001-0499/10.py) |
 | 174 | Hard | Dungeon Game | [Link](https://leetcode.com/problems/dungeon-game/) | - |
 | 123 | Hard | Best Time to Buy and Sell Stock III | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
 | 188 | Hard | Best Time to Buy and Sell Stock IV | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | - |

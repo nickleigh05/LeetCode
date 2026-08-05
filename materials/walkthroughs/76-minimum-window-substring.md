@@ -294,3 +294,5 @@ State it as *"O(m) for the maps, which is O(1) under these constraints since the
 **This same move shows up in:** [Longest Substring Without Repeating Characters](3-longest-substring-without-repeating-characters.md) (the maximizing counterpart) · [Longest Repeating Character Replacement](424-longest-repeating-character-replacement.md) (count-map validity on the same skeleton) · [Permutation in String](567-permutation-in-string.md) (fixed-size, exact-match sibling) · [Valid Anagram](242-valid-anagram.md) (the counting idiom underneath all of them).
 
 </details>
+
+---

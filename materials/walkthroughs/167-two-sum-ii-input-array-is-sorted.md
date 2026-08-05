@@ -220,3 +220,5 @@ That middle sentence is the whole interview. Don't just say *"move the pointer"*
 **This same move shows up in:** [Valid Palindrome](125-valid-palindrome.md) (converging pointers, symmetric comparison) · [3Sum](15-3sum.md) (this exact routine used as an inner loop) · [Container With Most Water](11-container-with-most-water.md) (converge and discard the limiting side) · [Trapping Rain Water](42-trapping-rain-water.md) (converge while tracking running maxima).
 
 </details>
+
+---

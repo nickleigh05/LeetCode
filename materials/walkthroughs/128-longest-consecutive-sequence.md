@@ -224,3 +224,5 @@ You can't have both here, and the problem chose speed for you by stating O(n). N
 **This same move shows up in:** [Contains Duplicate](217-contains-duplicate.md) (the set-membership primitive this builds on) · [Two Sum](1-two-sum.md) (asking a hash structure a question instead of searching) · [Number of Islands](200-number-of-islands.md) (expand fully from each unvisited start, so total work stays linear — structurally the same amortized argument).
 
 </details>
+
+---
