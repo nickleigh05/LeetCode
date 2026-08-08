@@ -155,12 +155,12 @@ The Blind 75 grown up. NeetCode doubled the list, kept the signal, and organized
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | - |
-| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | - |
-| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | - |
-| 778 | Hard | Swim in Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | - |
+| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](../problems/0001-0499/332.py) |
+| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Solution](../problems/1500-1999/1584.py) |
+| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | [Solution](../problems/0500-0999/743.py) |
+| 778 | Hard | Swim in Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | [Solution](../problems/0500-0999/778.py) |
 | 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
-| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | - |
+| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](../problems/0500-0999/787.py) |
 
 ## 13. 1-D Dynamic Programming (12 problems)
 

@@ -1,6 +1,6 @@
 # DSA Roadmap
 
-`████████████████░░░░░░░░` **102/150** · next up: **07 · Trees & BSTs**
+`████████████████████████` **150/150** · all units complete 🎉
 
 Tap a unit → read the lesson → solve its problems → tick the box.
 
@@ -128,7 +128,7 @@ Pointer surgery: reverse, dummy head, fast/slow.
 </details>
 
 <details>
-<summary><b>07 · Trees & BSTs</b> — 11/15 ▓▓▓▓▓▓░░</summary>
+<summary><b>07 · Trees & BSTs</b> — 15/15 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 DFS base→recurse→combine, or BFS level-by-level.
 
@@ -145,15 +145,15 @@ DFS base→recurse→combine, or BFS level-by-level.
 - [x] **199** · Med · Binary Tree Right Side View · [LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/) · [Solution](problems/0001-0499/199.py) · [Walkthrough](materials/walkthroughs/199-binary-tree-right-side-view.md)
 - [x] **1448** · Med · Count Good Nodes in Binary Tree · [LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) · [Solution](problems/1000-1499/1448.py) · [Walkthrough](materials/walkthroughs/1448-count-good-nodes-in-binary-tree.md)
 - [x] **98** · Med · Validate Binary Search Tree · [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) · [Solution](problems/0001-0499/98.py) · [Walkthrough](materials/walkthroughs/98-validate-binary-search-tree.md)
-- [ ] **230** · Med · Kth Smallest Element in a BST · [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · *unsolved* · [Walkthrough](materials/walkthroughs/230-kth-smallest-element-in-a-bst.md)
-- [ ] **105** · Med · Construct Binary Tree from Preorder and Inorder Traversal · [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · *unsolved* · [Walkthrough](materials/walkthroughs/105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
-- [ ] **124** · Hard · Binary Tree Maximum Path Sum · [LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · *unsolved* · [Walkthrough](materials/walkthroughs/124-binary-tree-maximum-path-sum.md)
-- [ ] **297** · Hard · Serialize and Deserialize Binary Tree · [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · *unsolved* · [Walkthrough](materials/walkthroughs/297-serialize-and-deserialize-binary-tree.md)
+- [x] **230** · Med · Kth Smallest Element in a BST · [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [Solution](problems/0001-0499/230.py) · [Walkthrough](materials/walkthroughs/230-kth-smallest-element-in-a-bst.md)
+- [x] **105** · Med · Construct Binary Tree from Preorder and Inorder Traversal · [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [Solution](problems/0001-0499/105.py) · [Walkthrough](materials/walkthroughs/105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
+- [x] **124** · Hard · Binary Tree Maximum Path Sum · [LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [Solution](problems/0001-0499/124.py) · [Walkthrough](materials/walkthroughs/124-binary-tree-maximum-path-sum.md)
+- [x] **297** · Hard · Serialize and Deserialize Binary Tree · [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [Solution](problems/0001-0499/297.py) · [Walkthrough](materials/walkthroughs/297-serialize-and-deserialize-binary-tree.md)
 
 </details>
 
 <details>
-<summary><b>08 · Tries</b> — 2/3 ▓▓▓▓▓░░░</summary>
+<summary><b>08 · Tries</b> — 3/3 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Prefix trees: O(k) prefix queries.
 
@@ -161,12 +161,12 @@ Prefix trees: O(k) prefix queries.
 
 - [x] **208** · Med · Implement Trie (Prefix Tree) · [LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/) · [Solution](problems/0001-0499/208.py) · [Walkthrough](materials/walkthroughs/208-implement-trie-prefix-tree.md)
 - [x] **211** · Med · Design Add and Search Words Data Structure · [LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/) · [Solution](problems/0001-0499/211.py) · [Walkthrough](materials/walkthroughs/211-design-add-and-search-words-data-structure.md)
-- [ ] **212** · Hard · Word Search II · [LeetCode](https://leetcode.com/problems/word-search-ii/) · *unsolved* · [Walkthrough](materials/walkthroughs/212-word-search-ii.md)
+- [x] **212** · Hard · Word Search II · [LeetCode](https://leetcode.com/problems/word-search-ii/) · [Solution](problems/0001-0499/212.py) · [Walkthrough](materials/walkthroughs/212-word-search-ii.md)
 
 </details>
 
 <details>
-<summary><b>09 · Heap / Priority Queue</b> — 5/7 ▓▓▓▓▓▓░░</summary>
+<summary><b>09 · Heap / Priority Queue</b> — 7/7 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 The always-available extreme element; top-K & streaming.
 
@@ -174,16 +174,16 @@ The always-available extreme element; top-K & streaming.
 
 - [x] **703** · Easy · Kth Largest Element in a Stream · [LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/) · [Solution](problems/0500-0999/703.py) · [Walkthrough](materials/walkthroughs/703-kth-largest-element-in-a-stream.md)
 - [x] **1046** · Easy · Last Stone Weight · [LeetCode](https://leetcode.com/problems/last-stone-weight/) · [Solution](problems/1000-1499/1046.py) · [Walkthrough](materials/walkthroughs/1046-last-stone-weight.md)
-- [ ] **973** · Med · K Closest Points to Origin · [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) · *unsolved* · [Walkthrough](materials/walkthroughs/973-k-closest-points-to-origin.md)
+- [x] **973** · Med · K Closest Points to Origin · [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) · [Solution](problems/0500-0999/973.py) · [Walkthrough](materials/walkthroughs/973-k-closest-points-to-origin.md)
 - [x] **215** · Med · Kth Largest Element in an Array · [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) · [Solution](problems/0001-0499/215.py) · [Walkthrough](materials/walkthroughs/215-kth-largest-element-in-an-array.md)
 - [x] **621** · Med · Task Scheduler · [LeetCode](https://leetcode.com/problems/task-scheduler/) · [Solution](problems/0500-0999/621.py) · [Walkthrough](materials/walkthroughs/621-task-scheduler.md)
-- [ ] **355** · Med · Design Twitter · [LeetCode](https://leetcode.com/problems/design-twitter/) · *unsolved* · [Walkthrough](materials/walkthroughs/355-design-twitter.md)
+- [x] **355** · Med · Design Twitter · [LeetCode](https://leetcode.com/problems/design-twitter/) · [Solution](problems/0001-0499/355.py) · [Walkthrough](materials/walkthroughs/355-design-twitter.md)
 - [x] **295** · Hard · Find Median from Data Stream · [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) · [Solution](problems/0001-0499/295.py) · [Walkthrough](materials/walkthroughs/295-find-median-from-data-stream.md)
 
 </details>
 
 <details>
-<summary><b>10 · Backtracking</b> — 4/9 ▓▓▓▓░░░░</summary>
+<summary><b>10 · Backtracking</b> — 9/9 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Choose → explore → un-choose over partial solutions.
 
@@ -193,16 +193,16 @@ Choose → explore → un-choose over partial solutions.
 - [x] **39** · Med · Combination Sum · [LeetCode](https://leetcode.com/problems/combination-sum/) · [Solution](problems/0001-0499/39.py) · [Walkthrough](materials/walkthroughs/39-combination-sum.md)
 - [x] **46** · Med · Permutations · [LeetCode](https://leetcode.com/problems/permutations/) · [Solution](problems/0001-0499/46.py) · [Walkthrough](materials/walkthroughs/46-permutations.md)
 - [x] **90** · Med · Subsets II · [LeetCode](https://leetcode.com/problems/subsets-ii/) · [Solution](problems/0001-0499/90.py) · [Walkthrough](materials/walkthroughs/90-subsets-ii.md)
-- [ ] **40** · Med · Combination Sum II · [LeetCode](https://leetcode.com/problems/combination-sum-ii/) · *unsolved* · [Walkthrough](materials/walkthroughs/40-combination-sum-ii.md)
-- [ ] **79** · Med · Word Search · [LeetCode](https://leetcode.com/problems/word-search/) · *unsolved* · [Walkthrough](materials/walkthroughs/79-word-search.md)
-- [ ] **131** · Med · Palindrome Partitioning · [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) · *unsolved* · [Walkthrough](materials/walkthroughs/131-palindrome-partitioning.md)
-- [ ] **17** · Med · Letter Combinations of a Phone Number · [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · *unsolved* · [Walkthrough](materials/walkthroughs/17-letter-combinations-of-a-phone-number.md)
-- [ ] **51** · Hard · N-Queens · [LeetCode](https://leetcode.com/problems/n-queens/) · *unsolved* · [Walkthrough](materials/walkthroughs/51-n-queens.md)
+- [x] **40** · Med · Combination Sum II · [LeetCode](https://leetcode.com/problems/combination-sum-ii/) · [Solution](problems/0001-0499/40.py) · [Walkthrough](materials/walkthroughs/40-combination-sum-ii.md)
+- [x] **79** · Med · Word Search · [LeetCode](https://leetcode.com/problems/word-search/) · [Solution](problems/0001-0499/79.py) · [Walkthrough](materials/walkthroughs/79-word-search.md)
+- [x] **131** · Med · Palindrome Partitioning · [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) · [Solution](problems/0001-0499/131.py) · [Walkthrough](materials/walkthroughs/131-palindrome-partitioning.md)
+- [x] **17** · Med · Letter Combinations of a Phone Number · [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · [Solution](problems/0001-0499/17.py) · [Walkthrough](materials/walkthroughs/17-letter-combinations-of-a-phone-number.md)
+- [x] **51** · Hard · N-Queens · [LeetCode](https://leetcode.com/problems/n-queens/) · [Solution](problems/0001-0499/51.py) · [Walkthrough](materials/walkthroughs/51-n-queens.md)
 
 </details>
 
 <details>
-<summary><b>11 · Graphs</b> — 4/13 ▓▓░░░░░░</summary>
+<summary><b>11 · Graphs</b> — 13/13 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 BFS for shortest unweighted paths, DFS for connectivity.
 
@@ -210,38 +210,38 @@ BFS for shortest unweighted paths, DFS for connectivity.
 
 - [x] **200** · Med · Number of Islands · [LeetCode](https://leetcode.com/problems/number-of-islands/) · [Solution](problems/0001-0499/200.py) · [Walkthrough](materials/walkthroughs/200-number-of-islands.md)
 - [x] **133** · Med · Clone Graph · [LeetCode](https://leetcode.com/problems/clone-graph/) · [Solution](problems/0001-0499/133.py) · [Walkthrough](materials/walkthroughs/133-clone-graph.md)
-- [ ] **695** · Med · Max Area of Island · [LeetCode](https://leetcode.com/problems/max-area-of-island/) · *unsolved* · [Walkthrough](materials/walkthroughs/695-max-area-of-island.md)
-- [ ] **417** · Med · Pacific Atlantic Water Flow · [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/) · *unsolved* · [Walkthrough](materials/walkthroughs/417-pacific-atlantic-water-flow.md)
-- [ ] **130** · Med · Surrounded Regions · [LeetCode](https://leetcode.com/problems/surrounded-regions/) · *unsolved* · [Walkthrough](materials/walkthroughs/130-surrounded-regions.md)
-- [ ] **994** · Med · Rotting Oranges · [LeetCode](https://leetcode.com/problems/rotting-oranges/) · *unsolved* · [Walkthrough](materials/walkthroughs/994-rotting-oranges.md)
-- [ ] **286** · Med · Walls and Gates · [LeetCode](https://leetcode.com/problems/walls-and-gates/) · *unsolved* · [Walkthrough](materials/walkthroughs/286-walls-and-gates.md)
+- [x] **695** · Med · Max Area of Island · [LeetCode](https://leetcode.com/problems/max-area-of-island/) · [Solution](problems/0500-0999/695.py) · [Walkthrough](materials/walkthroughs/695-max-area-of-island.md)
+- [x] **417** · Med · Pacific Atlantic Water Flow · [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [Solution](problems/0001-0499/417.py) · [Walkthrough](materials/walkthroughs/417-pacific-atlantic-water-flow.md)
+- [x] **130** · Med · Surrounded Regions · [LeetCode](https://leetcode.com/problems/surrounded-regions/) · [Solution](problems/0001-0499/130.py) · [Walkthrough](materials/walkthroughs/130-surrounded-regions.md)
+- [x] **994** · Med · Rotting Oranges · [LeetCode](https://leetcode.com/problems/rotting-oranges/) · [Solution](problems/0500-0999/994.py) · [Walkthrough](materials/walkthroughs/994-rotting-oranges.md)
+- [x] **286** · Med · Walls and Gates · [LeetCode](https://leetcode.com/problems/walls-and-gates/) · [Solution](problems/0001-0499/286.py) · [Walkthrough](materials/walkthroughs/286-walls-and-gates.md)
 - [x] **207** · Med · Course Schedule · [LeetCode](https://leetcode.com/problems/course-schedule/) · [Solution](problems/0001-0499/207.py) · [Walkthrough](materials/walkthroughs/207-course-schedule.md)
-- [ ] **210** · Med · Course Schedule II · [LeetCode](https://leetcode.com/problems/course-schedule-ii/) · *unsolved* · [Walkthrough](materials/walkthroughs/210-course-schedule-ii.md)
-- [ ] **684** · Med · Redundant Connection · [LeetCode](https://leetcode.com/problems/redundant-connection/) · *unsolved* · [Walkthrough](materials/walkthroughs/684-redundant-connection.md)
+- [x] **210** · Med · Course Schedule II · [LeetCode](https://leetcode.com/problems/course-schedule-ii/) · [Solution](problems/0001-0499/210.py) · [Walkthrough](materials/walkthroughs/210-course-schedule-ii.md)
+- [x] **684** · Med · Redundant Connection · [LeetCode](https://leetcode.com/problems/redundant-connection/) · [Solution](problems/0500-0999/684.py) · [Walkthrough](materials/walkthroughs/684-redundant-connection.md)
 - [x] **323** · Med · Number of Connected Components in an Undirected Graph · [LeetCode](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) · [Solution](problems/0001-0499/323.py) · [Walkthrough](materials/walkthroughs/323-number-of-connected-components-in-an-undirected-graph.md)
-- [ ] **261** · Med · Graph Valid Tree · [LeetCode](https://leetcode.com/problems/graph-valid-tree/) · *unsolved* · [Walkthrough](materials/walkthroughs/261-graph-valid-tree.md)
-- [ ] **127** · Hard · Word Ladder · [LeetCode](https://leetcode.com/problems/word-ladder/) · *unsolved* · [Walkthrough](materials/walkthroughs/127-word-ladder.md)
+- [x] **261** · Med · Graph Valid Tree · [LeetCode](https://leetcode.com/problems/graph-valid-tree/) · [Solution](problems/0001-0499/261.py) · [Walkthrough](materials/walkthroughs/261-graph-valid-tree.md)
+- [x] **127** · Hard · Word Ladder · [LeetCode](https://leetcode.com/problems/word-ladder/) · [Solution](problems/0001-0499/127.py) · [Walkthrough](materials/walkthroughs/127-word-ladder.md)
 
 </details>
 
 <details>
-<summary><b>12 · Advanced Graphs</b> — 0/6 ░░░░░░░░</summary>
+<summary><b>12 · Advanced Graphs</b> — 6/6 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Weighted shortest paths (Dijkstra), ordering (topo sort).
 
 [📖 Lesson](materials/learning/13-advanced-graphs.md)
 
-- [ ] **332** · Hard · Reconstruct Itinerary · [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) · *unsolved* · [Walkthrough](materials/walkthroughs/332-reconstruct-itinerary.md)
-- [ ] **1584** · Med · Min Cost to Connect All Points · [LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/) · *unsolved* · [Walkthrough](materials/walkthroughs/1584-min-cost-to-connect-all-points.md)
-- [ ] **743** · Med · Network Delay Time · [LeetCode](https://leetcode.com/problems/network-delay-time/) · *unsolved* · [Walkthrough](materials/walkthroughs/743-network-delay-time.md)
-- [ ] **778** · Hard · Swim in Rising Water · [LeetCode](https://leetcode.com/problems/swim-in-rising-water/) · *unsolved* · [Walkthrough](materials/walkthroughs/778-swim-in-rising-water.md)
-- [ ] **269** · Hard · Alien Dictionary · [LeetCode](https://leetcode.com/problems/alien-dictionary/) · *unsolved* · [Walkthrough](materials/walkthroughs/269-alien-dictionary.md)
-- [ ] **787** · Med · Cheapest Flights Within K Stops · [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) · *unsolved* · [Walkthrough](materials/walkthroughs/787-cheapest-flights-within-k-stops.md)
+- [x] **332** · Hard · Reconstruct Itinerary · [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) · [Solution](problems/0001-0499/332.py) · [Walkthrough](materials/walkthroughs/332-reconstruct-itinerary.md)
+- [x] **1584** · Med · Min Cost to Connect All Points · [LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [Solution](problems/1500-1999/1584.py) · [Walkthrough](materials/walkthroughs/1584-min-cost-to-connect-all-points.md)
+- [x] **743** · Med · Network Delay Time · [LeetCode](https://leetcode.com/problems/network-delay-time/) · [Solution](problems/0500-0999/743.py) · [Walkthrough](materials/walkthroughs/743-network-delay-time.md)
+- [x] **778** · Hard · Swim in Rising Water · [LeetCode](https://leetcode.com/problems/swim-in-rising-water/) · [Solution](problems/0500-0999/778.py) · [Walkthrough](materials/walkthroughs/778-swim-in-rising-water.md)
+- [x] **269** · Hard · Alien Dictionary · [LeetCode](https://leetcode.com/problems/alien-dictionary/) · [Solution](problems/0001-0499/269.py) · [Walkthrough](materials/walkthroughs/269-alien-dictionary.md)
+- [x] **787** · Med · Cheapest Flights Within K Stops · [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) · [Solution](problems/0500-0999/787.py) · [Walkthrough](materials/walkthroughs/787-cheapest-flights-within-k-stops.md)
 
 </details>
 
 <details>
-<summary><b>13 · 1-D Dynamic Programming</b> — 8/12 ▓▓▓▓▓░░░</summary>
+<summary><b>13 · 1-D Dynamic Programming</b> — 12/12 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 State + transition + base case over one axis.
 
@@ -255,15 +255,15 @@ State + transition + base case over one axis.
 - [x] **647** · Med · Palindromic Substrings · [LeetCode](https://leetcode.com/problems/palindromic-substrings/) · [Solution](problems/0500-0999/647.py) · [Walkthrough](materials/walkthroughs/647-palindromic-substrings.md)
 - [x] **91** · Med · Decode Ways · [LeetCode](https://leetcode.com/problems/decode-ways/) · [Solution](problems/0001-0499/91.py) · [Walkthrough](materials/walkthroughs/91-decode-ways.md)
 - [x] **322** · Med · Coin Change · [LeetCode](https://leetcode.com/problems/coin-change/) · [Solution](problems/0001-0499/322.py) · [Walkthrough](materials/walkthroughs/322-coin-change.md)
-- [ ] **152** · Med · Maximum Product Subarray · [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) · *unsolved* · [Walkthrough](materials/walkthroughs/152-maximum-product-subarray.md)
-- [ ] **139** · Med · Word Break · [LeetCode](https://leetcode.com/problems/word-break/) · *unsolved* · [Walkthrough](materials/walkthroughs/139-word-break.md)
-- [ ] **300** · Med · Longest Increasing Subsequence · [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) · *unsolved* · [Walkthrough](materials/walkthroughs/300-longest-increasing-subsequence.md)
-- [ ] **416** · Med · Partition Equal Subset Sum · [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) · *unsolved* · [Walkthrough](materials/walkthroughs/416-partition-equal-subset-sum.md)
+- [x] **152** · Med · Maximum Product Subarray · [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) · [Solution](problems/0001-0499/152.py) · [Walkthrough](materials/walkthroughs/152-maximum-product-subarray.md)
+- [x] **139** · Med · Word Break · [LeetCode](https://leetcode.com/problems/word-break/) · [Solution](problems/0001-0499/139.py) · [Walkthrough](materials/walkthroughs/139-word-break.md)
+- [x] **300** · Med · Longest Increasing Subsequence · [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) · [Solution](problems/0001-0499/300.py) · [Walkthrough](materials/walkthroughs/300-longest-increasing-subsequence.md)
+- [x] **416** · Med · Partition Equal Subset Sum · [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) · [Solution](problems/0001-0499/416.py) · [Walkthrough](materials/walkthroughs/416-partition-equal-subset-sum.md)
 
 </details>
 
 <details>
-<summary><b>14 · 2-D Dynamic Programming</b> — 2/11 ▓░░░░░░░</summary>
+<summary><b>14 · 2-D Dynamic Programming</b> — 11/11 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Same engine, two indices: grids and sequence pairs.
 
@@ -271,20 +271,20 @@ Same engine, two indices: grids and sequence pairs.
 
 - [x] **62** · Med · Unique Paths · [LeetCode](https://leetcode.com/problems/unique-paths/) · [Solution](problems/0001-0499/62.py) · [Walkthrough](materials/walkthroughs/62-unique-paths.md)
 - [x] **1143** · Med · Longest Common Subsequence · [LeetCode](https://leetcode.com/problems/longest-common-subsequence/) · [Solution](problems/1000-1499/1143.py) · [Walkthrough](materials/walkthroughs/1143-longest-common-subsequence.md)
-- [ ] **309** · Med · Best Time to Buy and Sell Stock with Cooldown · [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) · *unsolved* · [Walkthrough](materials/walkthroughs/309-best-time-to-buy-and-sell-stock-with-cooldown.md)
-- [ ] **518** · Med · Coin Change II · [LeetCode](https://leetcode.com/problems/coin-change-ii/) · *unsolved* · [Walkthrough](materials/walkthroughs/518-coin-change-ii.md)
-- [ ] **494** · Med · Target Sum · [LeetCode](https://leetcode.com/problems/target-sum/) · *unsolved* · [Walkthrough](materials/walkthroughs/494-target-sum.md)
-- [ ] **97** · Med · Interleaving String · [LeetCode](https://leetcode.com/problems/interleaving-string/) · *unsolved* · [Walkthrough](materials/walkthroughs/97-interleaving-string.md)
-- [ ] **329** · Hard · Longest Increasing Path in a Matrix · [LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) · *unsolved* · [Walkthrough](materials/walkthroughs/329-longest-increasing-path-in-a-matrix.md)
-- [ ] **115** · Hard · Distinct Subsequences · [LeetCode](https://leetcode.com/problems/distinct-subsequences/) · *unsolved* · [Walkthrough](materials/walkthroughs/115-distinct-subsequences.md)
-- [ ] **72** · Hard · Edit Distance · [LeetCode](https://leetcode.com/problems/edit-distance/) · *unsolved* · [Walkthrough](materials/walkthroughs/72-edit-distance.md)
-- [ ] **312** · Hard · Burst Balloons · [LeetCode](https://leetcode.com/problems/burst-balloons/) · *unsolved* · [Walkthrough](materials/walkthroughs/312-burst-balloons.md)
-- [ ] **10** · Hard · Regular Expression Matching · [LeetCode](https://leetcode.com/problems/regular-expression-matching/) · *unsolved* · [Walkthrough](materials/walkthroughs/10-regular-expression-matching.md)
+- [x] **309** · Med · Best Time to Buy and Sell Stock with Cooldown · [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) · [Solution](problems/0001-0499/309.py) · [Walkthrough](materials/walkthroughs/309-best-time-to-buy-and-sell-stock-with-cooldown.md)
+- [x] **518** · Med · Coin Change II · [LeetCode](https://leetcode.com/problems/coin-change-ii/) · [Solution](problems/0500-0999/518.py) · [Walkthrough](materials/walkthroughs/518-coin-change-ii.md)
+- [x] **494** · Med · Target Sum · [LeetCode](https://leetcode.com/problems/target-sum/) · [Solution](problems/0001-0499/494.py) · [Walkthrough](materials/walkthroughs/494-target-sum.md)
+- [x] **97** · Med · Interleaving String · [LeetCode](https://leetcode.com/problems/interleaving-string/) · [Solution](problems/0001-0499/97.py) · [Walkthrough](materials/walkthroughs/97-interleaving-string.md)
+- [x] **329** · Hard · Longest Increasing Path in a Matrix · [LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) · [Solution](problems/0001-0499/329.py) · [Walkthrough](materials/walkthroughs/329-longest-increasing-path-in-a-matrix.md)
+- [x] **115** · Hard · Distinct Subsequences · [LeetCode](https://leetcode.com/problems/distinct-subsequences/) · [Solution](problems/0001-0499/115.py) · [Walkthrough](materials/walkthroughs/115-distinct-subsequences.md)
+- [x] **72** · Hard · Edit Distance · [LeetCode](https://leetcode.com/problems/edit-distance/) · [Solution](problems/0001-0499/72.py) · [Walkthrough](materials/walkthroughs/72-edit-distance.md)
+- [x] **312** · Hard · Burst Balloons · [LeetCode](https://leetcode.com/problems/burst-balloons/) · [Solution](problems/0001-0499/312.py) · [Walkthrough](materials/walkthroughs/312-burst-balloons.md)
+- [x] **10** · Hard · Regular Expression Matching · [LeetCode](https://leetcode.com/problems/regular-expression-matching/) · [Solution](problems/0001-0499/10.py) · [Walkthrough](materials/walkthroughs/10-regular-expression-matching.md)
 
 </details>
 
 <details>
-<summary><b>15 · Greedy</b> — 6/8 ▓▓▓▓▓▓░░</summary>
+<summary><b>15 · Greedy</b> — 8/8 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Take the locally best choice; the proof is the hard part.
 
@@ -293,8 +293,8 @@ Take the locally best choice; the proof is the hard part.
 - [x] **53** · Med · Maximum Subarray · [LeetCode](https://leetcode.com/problems/maximum-subarray/) · [Solution](problems/0001-0499/53.py) · [Walkthrough](materials/walkthroughs/53-maximum-subarray.md)
 - [x] **55** · Med · Jump Game · [LeetCode](https://leetcode.com/problems/jump-game/) · [Solution](problems/0001-0499/55.py) · [Walkthrough](materials/walkthroughs/55-jump-game.md)
 - [x] **45** · Med · Jump Game II · [LeetCode](https://leetcode.com/problems/jump-game-ii/) · [Solution](problems/0001-0499/45.py) · [Walkthrough](materials/walkthroughs/45-jump-game-ii.md)
-- [ ] **134** · Med · Gas Station · [LeetCode](https://leetcode.com/problems/gas-station/) · *unsolved* · [Walkthrough](materials/walkthroughs/134-gas-station.md)
-- [ ] **846** · Med · Hand of Straights · [LeetCode](https://leetcode.com/problems/hand-of-straights/) · *unsolved* · [Walkthrough](materials/walkthroughs/846-hand-of-straights.md)
+- [x] **134** · Med · Gas Station · [LeetCode](https://leetcode.com/problems/gas-station/) · [Solution](problems/0001-0499/134.py) · [Walkthrough](materials/walkthroughs/134-gas-station.md)
+- [x] **846** · Med · Hand of Straights · [LeetCode](https://leetcode.com/problems/hand-of-straights/) · [Solution](problems/0500-0999/846.py) · [Walkthrough](materials/walkthroughs/846-hand-of-straights.md)
 - [x] **1899** · Med · Merge Triplets to Form Target Triplet · [LeetCode](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) · [Solution](problems/1500-1999/1899.py) · [Walkthrough](materials/walkthroughs/1899-merge-triplets-to-form-target-triplet.md)
 - [x] **763** · Med · Partition Labels · [LeetCode](https://leetcode.com/problems/partition-labels/) · [Solution](problems/0500-0999/763.py) · [Walkthrough](materials/walkthroughs/763-partition-labels.md)
 - [x] **678** · Med · Valid Parenthesis String · [LeetCode](https://leetcode.com/problems/valid-parenthesis-string/) · [Solution](problems/0500-0999/678.py) · [Walkthrough](materials/walkthroughs/678-valid-parenthesis-string.md)
@@ -302,7 +302,7 @@ Take the locally best choice; the proof is the hard part.
 </details>
 
 <details>
-<summary><b>16 · Intervals</b> — 2/6 ▓▓▓░░░░░</summary>
+<summary><b>16 · Intervals</b> — 6/6 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Sort first, then one linear sweep to merge / count.
 
@@ -310,15 +310,15 @@ Sort first, then one linear sweep to merge / count.
 
 - [x] **57** · Med · Insert Interval · [LeetCode](https://leetcode.com/problems/insert-interval/) · [Solution](problems/0001-0499/57.py) · [Walkthrough](materials/walkthroughs/57-insert-interval.md)
 - [x] **56** · Med · Merge Intervals · [LeetCode](https://leetcode.com/problems/merge-intervals/) · [Solution](problems/0001-0499/56.py) · [Walkthrough](materials/walkthroughs/56-merge-intervals.md)
-- [ ] **435** · Med · Non-overlapping Intervals · [LeetCode](https://leetcode.com/problems/non-overlapping-intervals/) · *unsolved* · [Walkthrough](materials/walkthroughs/435-non-overlapping-intervals.md)
-- [ ] **252** · Easy · Meeting Rooms · [LeetCode](https://leetcode.com/problems/meeting-rooms/) · *unsolved* · [Walkthrough](materials/walkthroughs/252-meeting-rooms.md)
-- [ ] **253** · Med · Meeting Rooms II · [LeetCode](https://leetcode.com/problems/meeting-rooms-ii/) · *unsolved* · [Walkthrough](materials/walkthroughs/253-meeting-rooms-ii.md)
-- [ ] **1851** · Hard · Minimum Interval to Include Each Query · [LeetCode](https://leetcode.com/problems/minimum-interval-to-include-each-query/) · *unsolved* · [Walkthrough](materials/walkthroughs/1851-minimum-interval-to-include-each-query.md)
+- [x] **435** · Med · Non-overlapping Intervals · [LeetCode](https://leetcode.com/problems/non-overlapping-intervals/) · [Solution](problems/0001-0499/435.py) · [Walkthrough](materials/walkthroughs/435-non-overlapping-intervals.md)
+- [x] **252** · Easy · Meeting Rooms · [LeetCode](https://leetcode.com/problems/meeting-rooms/) · [Solution](problems/0001-0499/252.py) · [Walkthrough](materials/walkthroughs/252-meeting-rooms.md)
+- [x] **253** · Med · Meeting Rooms II · [LeetCode](https://leetcode.com/problems/meeting-rooms-ii/) · [Solution](problems/0001-0499/253.py) · [Walkthrough](materials/walkthroughs/253-meeting-rooms-ii.md)
+- [x] **1851** · Hard · Minimum Interval to Include Each Query · [LeetCode](https://leetcode.com/problems/minimum-interval-to-include-each-query/) · [Solution](problems/1500-1999/1851.py) · [Walkthrough](materials/walkthroughs/1851-minimum-interval-to-include-each-query.md)
 
 </details>
 
 <details>
-<summary><b>17 · Math & Geometry</b> — 6/8 ▓▓▓▓▓▓░░</summary>
+<summary><b>17 · Math & Geometry</b> — 8/8 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 GCD, fast power, in-place matrix transforms.
 
@@ -326,12 +326,12 @@ GCD, fast power, in-place matrix transforms.
 
 - [x] **48** · Med · Rotate Image · [LeetCode](https://leetcode.com/problems/rotate-image/) · [Solution](problems/0001-0499/48.py) · [Walkthrough](materials/walkthroughs/48-rotate-image.md)
 - [x] **54** · Med · Spiral Matrix · [LeetCode](https://leetcode.com/problems/spiral-matrix/) · [Solution](problems/0001-0499/54.py) · [Walkthrough](materials/walkthroughs/54-spiral-matrix.md)
-- [ ] **73** · Med · Set Matrix Zeroes · [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) · *unsolved* · [Walkthrough](materials/walkthroughs/73-set-matrix-zeroes.md)
+- [x] **73** · Med · Set Matrix Zeroes · [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) · [Solution](problems/0001-0499/73.py) · [Walkthrough](materials/walkthroughs/73-set-matrix-zeroes.md)
 - [x] **202** · Easy · Happy Number · [LeetCode](https://leetcode.com/problems/happy-number/) · [Solution](problems/0001-0499/202.py) · [Walkthrough](materials/walkthroughs/202-happy-number.md)
 - [x] **66** · Easy · Plus One · [LeetCode](https://leetcode.com/problems/plus-one/) · [Solution](problems/0001-0499/66.py) · [Walkthrough](materials/walkthroughs/66-plus-one.md)
 - [x] **50** · Med · Pow(x, n) · [LeetCode](https://leetcode.com/problems/powx-n/) · [Solution](problems/0001-0499/50.py) · [Walkthrough](materials/walkthroughs/50-pow-x-n.md)
 - [x] **43** · Med · Multiply Strings · [LeetCode](https://leetcode.com/problems/multiply-strings/) · [Solution](problems/0001-0499/43.py) · [Walkthrough](materials/walkthroughs/43-multiply-strings.md)
-- [ ] **2013** · Med · Detect Squares · [LeetCode](https://leetcode.com/problems/detect-squares/) · *unsolved* · [Walkthrough](materials/walkthroughs/2013-detect-squares.md)
+- [x] **2013** · Med · Detect Squares · [LeetCode](https://leetcode.com/problems/detect-squares/) · [Solution](problems/2000-2499/2013.py) · [Walkthrough](materials/walkthroughs/2013-detect-squares.md)
 
 </details>
 

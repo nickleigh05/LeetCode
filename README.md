@@ -29,7 +29,9 @@ leetcode/
 │   ├── 1500-1999/
 │   ├── 2000-2499/
 │   ├── 2500-2999/
-│   └── 3000+/
+│   ├── 3000-3499/
+│   ├── 3500-3999/
+│   └── 4000-4499/
 ├── lists/                     ← These are the curated lists I follow
 │   ├── neetcodeblind75.md
 │   ├── neetcode150.md

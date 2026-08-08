@@ -225,12 +225,12 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 1631 | Medium | Path with Minimum Effort | [Link](https://leetcode.com/problems/path-with-minimum-effort/) | - |
-| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | - |
-| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | - |
-| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | - |
-| 778 | Hard | Swim In Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | - |
+| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | [Solution](../problems/0500-0999/743.py) |
+| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](../problems/0001-0499/332.py) |
+| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Solution](../problems/1500-1999/1584.py) |
+| 778 | Hard | Swim In Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | [Solution](../problems/0500-0999/778.py) |
 | 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
-| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | - |
+| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](../problems/0500-0999/787.py) |
 | 1489 | Hard | Find Critical and Pseudo Critical Edges in Minimum Spanning Tree | [Link](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | - |
 | 2392 | Hard | Build a Matrix With Conditions | [Link](https://leetcode.com/problems/build-a-matrix-with-conditions/) | - |
 | 2709 | Hard | Greatest Common Divisor Traversal | [Link](https://leetcode.com/problems/greatest-common-divisor-traversal/) | - |

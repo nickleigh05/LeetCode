@@ -307,15 +307,15 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | - |
-| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | - |
-| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | - |
+| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | [Solution](../problems/0500-0999/743.py) |
+| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Solution](../problems/1500-1999/1584.py) |
+| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](../problems/0500-0999/787.py) |
 | 1631 | Medium | Path With Minimum Effort | [Link](https://leetcode.com/problems/path-with-minimum-effort/) | - |
 | 1976 | Medium | Number of Ways to Arrive at Destination | [Link](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | - |
 | 2492 | Medium | Minimum Score of a Path Between Two Cities | [Link](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | - |
 | 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
-| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | - |
-| 778 | Hard | Swim in Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | - |
+| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](../problems/0001-0499/332.py) |
+| 778 | Hard | Swim in Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | [Solution](../problems/0500-0999/778.py) |
 | 685 | Hard | Redundant Connection II | [Link](https://leetcode.com/problems/redundant-connection-ii/) | - |
 | 847 | Hard | Shortest Path Visiting All Nodes | [Link](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | - |
 
