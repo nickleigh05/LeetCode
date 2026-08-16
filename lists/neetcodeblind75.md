@@ -101,14 +101,14 @@
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
-| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
+| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | [Solution](../problems/0001-0499/261.py) |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
 
 ## 12. Advanced Graphs (1 problems)
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
+| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | [Solution](../problems/0001-0499/269.py) |
 
 ## 13. 1-D Dynamic Programming (10 problems)
 
@@ -146,8 +146,8 @@
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../problems/0001-0499/57.py) |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../problems/0001-0499/435.py) |
-| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
-| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
+| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | [Solution](../problems/0001-0499/252.py) |
+| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](../problems/0001-0499/253.py) |
 
 ## 17. Math & Geometry (3 problems)
 

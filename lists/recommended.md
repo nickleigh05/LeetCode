@@ -282,12 +282,12 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | [Solution](../problems/0500-0999/695.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
 | 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | [Solution](../problems/0500-0999/994.py) |
-| 286 | Medium | Walls and Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
+| 286 | Medium | Walls and Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | [Solution](../problems/0001-0499/286.py) |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
 | 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | [Solution](../problems/0001-0499/130.py) |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Solution](../problems/0001-0499/210.py) |
-| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
+| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | [Solution](../problems/0001-0499/261.py) |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
 | 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | [Solution](../problems/0500-0999/684.py) |
 | 547 | Medium | Number of Provinces | [Link](https://leetcode.com/problems/number-of-provinces/) | - |
@@ -297,7 +297,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 841 | Medium | Keys and Rooms | [Link](https://leetcode.com/problems/keys-and-rooms/) | - |
 | 1020 | Medium | Number of Enclaves | [Link](https://leetcode.com/problems/number-of-enclaves/) | - |
 | 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | [Solution](../problems/0001-0499/127.py) |
-| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
+| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | [Solution](../problems/0001-0499/269.py) |
 
 ## 12. Advanced Graphs (11 problems)
 
@@ -410,11 +410,11 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
-| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
+| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | [Solution](../problems/0001-0499/252.py) |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../problems/0001-0499/57.py) |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../problems/0001-0499/435.py) |
-| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
+| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](../problems/0001-0499/253.py) |
 | 986 | Medium | Interval List Intersections | [Link](https://leetcode.com/problems/interval-list-intersections/) | - |
 | 1288 | Medium | Remove Covered Intervals | [Link](https://leetcode.com/problems/remove-covered-intervals/) | - |
 | 452 | Medium | Minimum Number of Arrows to Burst Balloons | [Link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | - |
@@ -443,7 +443,7 @@ Pattern-first, easy-to-hard. Work top to bottom — each section builds on the l
 | 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](../problems/0001-0499/73.py) |
 | 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | [Solution](../problems/0001-0499/54.py) |
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
-| 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | - |
+| 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | [Solution](../problems/2000-2499/2013.py) |
 | 149 | Hard | Max Points on a Line | [Link](https://leetcode.com/problems/max-points-on-a-line/) | - |
 
 ## 18. Bit Manipulation (13 problems)

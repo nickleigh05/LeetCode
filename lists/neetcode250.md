@@ -204,14 +204,14 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
 | 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | [Solution](../problems/0500-0999/695.py) |
 | 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../problems/0001-0499/133.py) |
-| 286 | Medium | Walls And Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | - |
+| 286 | Medium | Walls And Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | [Solution](../problems/0001-0499/286.py) |
 | 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | [Solution](../problems/0500-0999/994.py) |
 | 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../problems/0001-0499/417.py) |
 | 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | [Solution](../problems/0001-0499/130.py) |
 | 752 | Medium | Open the Lock | [Link](https://leetcode.com/problems/open-the-lock/) | - |
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 | 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Solution](../problems/0001-0499/210.py) |
-| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | - |
+| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | [Solution](../problems/0001-0499/261.py) |
 | 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
 | 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | [Solution](../problems/0500-0999/684.py) |
@@ -229,7 +229,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](../problems/0001-0499/332.py) |
 | 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Solution](../problems/1500-1999/1584.py) |
 | 778 | Hard | Swim In Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | [Solution](../problems/0500-0999/778.py) |
-| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | - |
+| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | [Solution](../problems/0001-0499/269.py) |
 | 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](../problems/0500-0999/787.py) |
 | 1489 | Hard | Find Critical and Pseudo Critical Edges in Minimum Spanning Tree | [Link](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | - |
 | 2392 | Hard | Build a Matrix With Conditions | [Link](https://leetcode.com/problems/build-a-matrix-with-conditions/) | - |
@@ -304,8 +304,8 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../problems/0001-0499/57.py) |
 | 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../problems/0001-0499/56.py) |
 | 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../problems/0001-0499/435.py) |
-| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | - |
-| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | - |
+| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | [Solution](../problems/0001-0499/252.py) |
+| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](../problems/0001-0499/253.py) |
 | 2402 | Hard | Meeting Rooms III | [Link](https://leetcode.com/problems/meeting-rooms-iii/) | - |
 | 1851 | Hard | Minimum Interval to Include Each Query | [Link](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | [Solution](../problems/1500-1999/1851.py) |
 
@@ -325,7 +325,7 @@ The NeetCode 150 wasn't enough? This adds 100 more problems for deeper pattern e
 | 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../problems/0001-0499/13.py) |
 | 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../problems/0001-0499/50.py) |
 | 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | [Solution](../problems/0001-0499/43.py) |
-| 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | - |
+| 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | [Solution](../problems/2000-2499/2013.py) |
 
 ## 18. Bit Manipulation (10 problems)
 
