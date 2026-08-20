@@ -40,4 +40,4 @@
 - **Grid: not restoring the visited mark.** Unmark the cell after exploring, or later paths can't legally cross it.
 ---
 
-*See also: [Lesson 10 →](../../../learning/10-backtracking.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*
+*See also: [Lesson 10 →](../../../learning/11-backtracking.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*

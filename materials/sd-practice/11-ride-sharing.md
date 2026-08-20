@@ -17,7 +17,7 @@ Typical follow-up constraints when you ask (and you should ask — that's Step 1
 - Locations must be *fresh* — matching against a driver's position from two minutes ago dispatches a ghost.
 - Surge pricing exists; namecheck it, don't design it.
 
-Why this design? It's the ladder's write-heavy, real-time entry: the location firehose forbids the default "put it in the database" move, and the **geospatial index** at the center is your [grid drilling](../learning/10b-grids-primer.md) reborn as infrastructure ([specialized infra](../system-design/11-specialized-infra.md)).
+Why this design? It's the ladder's write-heavy, real-time entry: the location firehose forbids the default "put it in the database" move, and the **geospatial index** at the center is your [grid drilling](../learning/11b-grids-primer.md) reborn as infrastructure ([specialized infra](../system-design/11-specialized-infra.md)).
 
 <details>
 <summary>Step 1 — Requirements & API</summary>
@@ -85,7 +85,7 @@ The numbers just split the system in two: an in-memory, loss-tolerant location p
 
 **Ingestion — embrace the disposability.** Pings hit a regional gateway and update the **in-memory geospatial index** — overwrite the driver's entry, keep a short recent trail (for map smoothing and ETA), done. No synchronous durable write. A *sample* of pings, plus full traces for active trips, flows to durable storage asynchronously for analytics and support. Losing an in-memory node loses ~4 seconds of positions — the next round of pings rebuilds it. Say that recovery story out loud; it's why this plane gets to be fast.
 
-**The geospatial index — THE decision.** "Find drivers near X" over raw lat/lng is a full scan; you need cells ([specialized infra](../system-design/11-specialized-infra.md) — and structurally the same move as your [grid problems](../learning/10b-grids-primer.md): discretize space, then look at a cell and its neighbors):
+**The geospatial index — THE decision.** "Find drivers near X" over raw lat/lng is a full scan; you need cells ([specialized infra](../system-design/11-specialized-infra.md) — and structurally the same move as your [grid problems](../learning/11b-grids-primer.md): discretize space, then look at a cell and its neighbors):
 
 1. **Geohash prefix buckets** — interleave lat/lng bits into a string; a prefix of length k names a fixed cell (~5 chars ≈ 5 km, ~6 ≈ 1 km). Index is just `cell → set of drivers` in a hash map: O(1) updates, and "nearby" = query the rider's cell **plus its 8 neighbors** — required, because a rider near a cell edge has most of their nearby drivers in the *adjacent* cell, and two points can be meters apart across a geohash boundary with wildly different prefixes. Fixed cell size is the weakness: downtown cells bulge, rural cells sit empty.
 2. **Quadtree** — recursively split any cell exceeding N drivers; adapts beautifully to density. But it's a mutating tree under 250K writes/s — rebalancing, locking, more machinery.

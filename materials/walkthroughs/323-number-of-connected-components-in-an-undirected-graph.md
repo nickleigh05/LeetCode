@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) · [Solution file (no hints)](../../problems/0001-0499/323.py)
 
-[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Union-Find](../learning/12-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
+[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Union-Find](../learning/12b-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
 
 ---
 

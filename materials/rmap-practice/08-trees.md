@@ -1,8 +1,8 @@
-# 07. Trees — Practice
+# 08. Trees — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/07-trees.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/08-trees.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

@@ -17,7 +17,7 @@ Typical follow-up constraints when you ask (and you should ask — that's Step 1
 - Don't fetch the same URL twice; don't store the same *content* twice (mirrors, `?utm_source=` noise).
 - Must survive the open web: infinite calendars, spider traps, servers that hang.
 
-Why this design here? It's [BFS](../learning/11-graphs.md) industrialized — the graph traversal you drilled, rebuilt with queues, dedup structures, and politeness as first-class citizens. The interesting part isn't fetching pages; it's the **frontier** that decides what to fetch next.
+Why this design here? It's [BFS](../learning/12-graphs.md) industrialized — the graph traversal you drilled, rebuilt with queues, dedup structures, and politeness as first-class citizens. The interesting part isn't fetching pages; it's the **frontier** that decides what to fetch next.
 
 <details>
 <summary>Step 1 — Requirements & API</summary>

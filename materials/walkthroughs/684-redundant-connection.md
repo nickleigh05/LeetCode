@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/redundant-connection/)
 
-[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Union-Find](../learning/12-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
+[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Union-Find](../learning/12b-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -286,7 +286,7 @@ Without path compression, a chain-shaped structure makes each `find` O(n) and th
 - **Returning the *first* edge of the cycle** rather than the one that closed it.
 - **Building an adjacency list** — unnecessary; union-find works straight off the edge list.
 
-**This same move shows up in:** [Graph Valid Tree](261-graph-valid-tree.md) (the same union-find cycle detection, returning a boolean) · [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12-union-find.md).
+**This same move shows up in:** [Graph Valid Tree](261-graph-valid-tree.md) (the same union-find cycle detection, returning a boolean) · [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12b-union-find.md).
 
 </details>
 

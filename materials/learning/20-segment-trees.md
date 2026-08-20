@@ -2,13 +2,13 @@
 
 *Range queries with point updates in O(log n). The upgrade from prefix sums when the array changes.*
 
-[← Prev](19-math-geometry.md) · [🗺 Roadmap](../../roadmap.md)
+[← Prev](19-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 
 > **Mastery track.** This lesson is optional for standard SWE interviews — you can skip it and still solve ~95% of interview problems. Add it when you're targeting hard-level competitive problems, system design involving range aggregation, or companies known for algorithm-heavy interviews.
 >
-> **Builds on:** [prefix sums (01b)](01b-prefix-sums.md) for the motivation, [trees (07)](07-trees.md) for tree traversal, and [recursion (04b)](04b-recursion.md) for the segment tree build/query recursion.
+> **Builds on:** [prefix sums (01b)](01b-prefix-sums.md) for the motivation, [trees (07)](08-trees.md) for tree traversal, and [recursion (04b)](05-recursion.md) for the segment tree build/query recursion.
 
 A prefix sum answers range sum queries in O(1) — but only if the array *never changes*. The moment you need to handle point updates between queries, rebuilding the prefix array costs O(n) per update. Segment trees and Fenwick trees reduce *both* queries and updates to O(log n).
 
@@ -188,7 +188,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/segmen
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Segment Trees & Fenwick Trees — Practice →**](../rmap-practice/19-segment-trees.md) (LC 307, 315, 493, 327). Start with 307 (the direct "update + query" problem that forces you off prefix sums), then 315.
+Work the guided set with hints & solutions: [**Segment Trees & Fenwick Trees — Practice →**](../rmap-practice/20-segment-trees.md) (LC 307, 315, 493, 327). Start with 307 (the direct "update + query" problem that forces you off prefix sums), then 315.
 
 ## Check Yourself
 
@@ -200,4 +200,4 @@ Work the guided set with hints & solutions: [**Segment Trees & Fenwick Trees —
 
 ---
 
-[← Prev](19-math-geometry.md) · [🗺 Roadmap](../../roadmap.md)
+[← Prev](19-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)

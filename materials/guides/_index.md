@@ -1,6 +1,8 @@
 # Guides
 
-Practical, non-algorithmic know-how — machine setup, workflow, study strategy, and interview craft. Nothing here is prerequisite reading for the [roadmap](../../roadmap.md); dip in when the topic becomes relevant to you.
+Practical, non-algorithmic know-how — machine setup, workflow, study strategy, and interview craft.
+
+**Getting Set Up** and **The LeetCode Workflow** below *are* prerequisite reading: together they make up the [roadmap's on-ramp](../../roadmap.md#start-here), and [study-plan](study-plan.md) is best read before Unit 01 rather than after you've forgotten sliding window. The rest you can dip into when the topic becomes relevant.
 
 ## Getting Set Up
 [setup-python](setup-python.md) · [setup-editor](setup-editor.md) · [terminal-basics](terminal-basics.md) · [virtual-environments](virtual-environments.md) · [git-basics](git-basics.md)

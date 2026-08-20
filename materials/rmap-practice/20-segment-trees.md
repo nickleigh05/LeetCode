@@ -1,4 +1,4 @@
-# 19. Segment Trees & Fenwick Trees — Practice
+# 20. Segment Trees & Fenwick Trees — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 

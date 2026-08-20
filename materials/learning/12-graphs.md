@@ -1,11 +1,11 @@
-# 11. Graphs (BFS & DFS)
+# 12. Graphs (BFS & DFS)
 *BFS for shortest unweighted paths, DFS for connectivity.*
 
-[← Prev](10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12-union-find.md)
+[← Prev](11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12b-union-find.md)
 
 ---
 
-> **Read first if rusty:** [Grids Primer](10b-grids-primer.md) — many problems here are grid flood-fills (Number of Islands, Rotting Oranges). The 2-D indexing, 4-neighbor, and bounds-check idioms live there.
+> **Read first if rusty:** [Grids Primer](11b-grids-primer.md) — many problems here are grid flood-fills (Number of Islands, Rotting Oranges). The 2-D indexing, 4-neighbor, and bounds-check idioms live there.
 
 A graph is just nodes and edges — and grids, course prerequisites, and friend networks are all graphs in disguise. Two traversals do most of the work: **BFS** explores level by level (shortest path in an unweighted graph), **DFS** dives deep (connectivity, cycles, flood fill). Build the adjacency list, pick the traversal, and most graph problems fall.
 
@@ -370,7 +370,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/graphs
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Graphs (BFS & DFS) — Practice →**](../rmap-practice/11-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#11-graphs-23-problems).
+Work the guided set with hints & solutions: [**Graphs (BFS & DFS) — Practice →**](../rmap-practice/12-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#11-graphs-23-problems).
 
 ## Check Yourself
 
@@ -381,7 +381,7 @@ Work the guided set with hints & solutions: [**Graphs (BFS & DFS) — Practice �
 
 ---
 
-**Up next:** [Union-Find (Disjoint Set Union)](12-union-find.md) — near-O(1) connectivity and cycle detection under merges.
+**Up next:** [Union-Find (Disjoint Set Union)](12b-union-find.md) — near-O(1) connectivity and cycle detection under merges.
 
-[← Prev](10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12-union-find.md)
+[← Prev](11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12b-union-find.md)
 

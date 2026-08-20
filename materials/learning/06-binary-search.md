@@ -1,7 +1,7 @@
-# 05. Binary Search & Sorting
+# 06. Binary Search & Sorting
 *Halve any ordered search space — including the answer itself.*
 
-[← Prev](04b-recursion.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05b-sorting.md)
+[← Prev](05-recursion.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06b-sorting.md)
 
 ---
 
@@ -358,7 +358,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/binary
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Binary Search — Practice →**](../rmap-practice/05-binary-search.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#5-binary-search-18-problems).
+Work the guided set with hints & solutions: [**Binary Search — Practice →**](../rmap-practice/06-binary-search.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#5-binary-search-18-problems).
 
 ## Check Yourself
 
@@ -369,7 +369,7 @@ Work the guided set with hints & solutions: [**Binary Search — Practice →**]
 
 ---
 
-**Up next:** [Sorting](05b-sorting.md) — how the `sorted()` you lean on actually works, and the n·log n floor.
+**Up next:** [Sorting](06b-sorting.md) — how the `sorted()` you lean on actually works, and the n·log n floor.
 
-[← Prev](04b-recursion.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05b-sorting.md)
+[← Prev](05-recursion.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06b-sorting.md)
 

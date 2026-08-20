@@ -21,4 +21,4 @@ def a_star(start, goal, neighbors, h):     # h(n) = optimistic guess of n→goal
 
 **Complexity:** O(E log V) worst case like Dijkstra — the heuristic cuts the constant, not the bound.
 
-**Related:** [dijkstra](dijkstra.md) · [bfs](bfs.md) · [Grids primer](../learning/10b-grids-primer.md) · [heapq-module (syntax)](../syntax/heapq-module.md)
+**Related:** [dijkstra](dijkstra.md) · [bfs](bfs.md) · [Grids primer](../learning/11b-grids-primer.md) · [heapq-module (syntax)](../syntax/heapq-module.md)

@@ -1,11 +1,11 @@
-# 10. Backtracking
+# 11. Backtracking
 *Choose → explore → un-choose, over the tree of partial solutions.*
 
-[← Prev](09-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-graphs.md)
+[← Prev](10-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11b-grids-primer.md)
 
 ---
 
-> **Builds on:** [recursion (04b)](04b-recursion.md) and DFS from [Lesson 07 — Trees](07-trees.md). Backtracking is DFS over a tree of *choices* instead of a tree of nodes.
+> **Builds on:** [recursion (04b)](05-recursion.md) and DFS from [Lesson 07 — Trees](08-trees.md). Backtracking is DFS over a tree of *choices* instead of a tree of nodes.
 
 Backtracking is exhaustive search done cleanly: at each step make a choice, recurse, then **undo the choice** before trying the next. Subsets, permutations, combinations, word search, N-Queens — they're all the same skeleton over a decision tree. Get the choose/un-choose rhythm right and pruning becomes natural.
 
@@ -184,7 +184,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/backtr
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Backtracking — Practice →**](../rmap-practice/10-backtracking.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#9-backtracking-16-problems).
+Work the guided set with hints & solutions: [**Backtracking — Practice →**](../rmap-practice/11-backtracking.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#9-backtracking-16-problems).
 
 ## Check Yourself
 
@@ -195,7 +195,7 @@ Work the guided set with hints & solutions: [**Backtracking — Practice →**](
 
 ---
 
-**Up next:** [Graphs (BFS & DFS)](11-graphs.md) — bFS for shortest unweighted paths, DFS for connectivity.
+**Up next:** [Working with 2D Grids](11b-grids-primer.md) — the mechanics every grid problem assumes you already know.
 
-[← Prev](09-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-graphs.md)
+[← Prev](10-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11b-grids-primer.md)
 

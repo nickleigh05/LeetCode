@@ -1,11 +1,11 @@
 # 13. Advanced Graphs (Dijkstra & Topological Sort)
 *Weighted shortest paths and dependency ordering.*
 
-[← Prev](12-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](14-dp-1d.md)
+[← Prev](12b-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](14-dp-1d.md)
 
 ---
 
-> **Builds on:** plain BFS/DFS from [Lesson 11 — Graphs](11-graphs.md). Here we add edge weights and ordering constraints.
+> **Builds on:** plain BFS/DFS from [Lesson 11 — Graphs](12-graphs.md). Here we add edge weights and ordering constraints.
 
 When edges carry weights, BFS isn't enough — **Dijkstra** finds shortest paths with a priority queue. When tasks have prerequisites, **topological sort** produces a valid order (and detects impossible cycles). These are the heavyweight graph tools interviewers reach for to separate candidates.
 
@@ -277,7 +277,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/advanc
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Advanced Graphs — Practice →**](../rmap-practice/12-advanced-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#12-advanced-graphs-11-problems).
+Work the guided set with hints & solutions: [**Advanced Graphs — Practice →**](../rmap-practice/13-advanced-graphs.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#12-advanced-graphs-11-problems).
 
 ## Check Yourself
 
@@ -290,5 +290,5 @@ Work the guided set with hints & solutions: [**Advanced Graphs — Practice →*
 
 **Up next:** [1-D Dynamic Programming](14-dp-1d.md) — state + transition + base case over one axis.
 
-[← Prev](12-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](14-dp-1d.md)
+[← Prev](12b-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](14-dp-1d.md)
 

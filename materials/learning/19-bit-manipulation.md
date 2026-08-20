@@ -1,7 +1,7 @@
-# 18. Bit Manipulation
+# 19. Bit Manipulation
 *Masks, shifts, and XOR cancellation in O(1).*
 
-[← Prev](17-intervals.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](19-math-geometry.md)
+[← Prev](18-math-geometry.md) · [🗺 Roadmap](../../roadmap.md) · [Next (mastery) →](20-segment-trees.md)
 
 ---
 
@@ -220,7 +220,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/bit-ma
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Bit Manipulation — Practice →**](../rmap-practice/18-bit-manipulation.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#18-bit-manipulation-13-problems).
+Work the guided set with hints & solutions: [**Bit Manipulation — Practice →**](../rmap-practice/19-bit-manipulation.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#18-bit-manipulation-13-problems).
 
 ## Check Yourself
 
@@ -231,7 +231,7 @@ Work the guided set with hints & solutions: [**Bit Manipulation — Practice →
 
 ---
 
-**Up next:** [Math & Geometry](19-math-geometry.md) — gCD, fast power, and in-place matrix transforms.
+*That’s the core roadmap. For mastery-level range-query problems, continue with [Segment & Fenwick Trees →](20-segment-trees.md).*
 
-[← Prev](17-intervals.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](19-math-geometry.md)
+[← Prev](18-math-geometry.md) · [🗺 Roadmap](../../roadmap.md) · [Next (mastery) →](20-segment-trees.md)
 

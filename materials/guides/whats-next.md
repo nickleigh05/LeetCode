@@ -1,6 +1,6 @@
 # What's Next After the Roadmap
 
-*You've finished Phase 6 (or 7). Where the road forks from here, depending on what you're optimizing for.*
+*You've finished [Phase 4](../../roadmap.md#phase-4) — and maybe the optional Mastery unit too. Where the road forks from here, depending on what you're optimizing for.*
 
 ## Fork 1 — Interview prep (most people)
 
@@ -13,7 +13,7 @@ The gap between "knows the patterns" and "passes onsites" is reps under realisti
 
 ## Fork 2 — Competitive programming (the mastery rabbit hole)
 
-If the [Phase 7 material](../learning/20-segment-trees.md) was *fun*, contests are the natural next arena: [Codeforces](https://codeforces.com) rounds, [AtCoder](https://atcoder.jp) ABCs, USACO divisions. Start with the I/O wrapper ([competitive-programming-io](competitive-programming-io.md)), do virtual contests before live ones, and **upsolve** — after each contest, solve the first problem you couldn't. That habit is the entire training algorithm.
+If the [Mastery unit](../learning/20-segment-trees.md) — segment and Fenwick trees — was *fun*, contests are the natural next arena: [Codeforces](https://codeforces.com) rounds, [AtCoder](https://atcoder.jp) ABCs, USACO divisions. Start with the I/O wrapper ([competitive-programming-io](competitive-programming-io.md)), do virtual contests before live ones, and **upsolve** — after each contest, solve the first problem you couldn't. That habit is the entire training algorithm.
 
 The topics past this repo, roughly in order of appearance: [string matching](../algorithms/kmp.md) ([Z-algorithm](../algorithms/z-algorithm.md), hashing), [Tarjan's SCC / bridges](../algorithms/tarjan-scc.md), [binary lifting / LCA](../algorithms/binary-lifting-lca.md), [sparse tables](../data-structures/sparse-table.md), segment trees with lazy propagation, [matrix exponentiation](../algorithms/matrix-exponentiation.md), [convex hull](../algorithms/convex-hull.md), DP on trees/bitmasks/digits, and eventually suffix structures ([suffix arrays](../data-structures/suffix-array.md)) and flows. The [CP-Algorithms site](https://cp-algorithms.com) is the standard reference for all of it.
 

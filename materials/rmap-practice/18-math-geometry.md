@@ -1,8 +1,8 @@
-# 17. Math & Geometry — Practice
+# 18. Math & Geometry — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/19-math-geometry.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/18-math-geometry.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

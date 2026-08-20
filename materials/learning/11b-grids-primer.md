@@ -1,12 +1,12 @@
-# 10b. Working with 2D Grids
+# 11b. Working with 2D Grids
 
 *The mechanics every grid problem assumes you already know.*
 
-[← Prev](10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-graphs.md)
+[← Prev](11-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12-graphs.md)
 
 ---
 
-> **Builds on:** arrays from [Lesson 01](01-arrays-hashing.md) (a grid is just a list of lists) and recursion from [Lesson 04b](04b-recursion.md) (DFS on a grid is recursion with coordinate state).
+> **Builds on:** arrays from [Lesson 01](01-arrays-hashing.md) (a grid is just a list of lists) and recursion from [Lesson 05](05-recursion.md) (DFS on a grid is recursion with coordinate state).
 
 Lessons 11 (Graphs), 15 (2-D DP), and 19 (Math & Geometry) all treat grid mechanics as assumed knowledge. This primer closes that gap. It's short — the ideas are simple — but skipping it means re-deriving the same boilerplate in every grid problem.
 
@@ -227,6 +227,6 @@ Work these in order — they directly test grid mechanics:
 
 ---
 
-**Up next:** [Graphs (BFS & DFS)](11-graphs.md) — BFS for shortest unweighted paths, DFS for connectivity. Grids are just a special case of graphs.
+**Up next:** [Graphs (BFS & DFS)](12-graphs.md) — BFS for shortest unweighted paths, DFS for connectivity. Grids are just a special case of graphs.
 
-[← Prev](10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-graphs.md)
+[← Prev](11-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](12-graphs.md)

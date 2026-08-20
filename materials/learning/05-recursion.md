@@ -1,14 +1,14 @@
-# 04b. Recursion & the Call Stack
+# 05. Recursion & the Call Stack
 
 *A function that calls itself — and the stack that makes it possible.*
 
-[← Prev](04-stack.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05-binary-search.md)
+[← Prev](04-stack.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06-binary-search.md)
 
 ---
 
 > **Builds on:** stacks from [Lesson 04](04-stack.md). The call stack *is* a stack — every function call pushes a frame, every return pops one.
 
-Three of the most important phases in this roadmap — Trees (07), Backtracking (10), and Dynamic Programming (14) — are all recursion wearing different clothes. Understanding recursion as its own topic here will make all three of those click faster. Don't skip this lesson.
+Three of the most important phases in this roadmap — Trees (08), Backtracking (11), and Dynamic Programming (14) — are all recursion wearing different clothes. Understanding recursion as its own topic here will make all three of those click faster. Don't skip this lesson.
 
 ## Concept
 
@@ -228,11 +228,15 @@ The full code template for the advanced application of recursion (backtracking) 
 
 ## Practice
 
-There's no dedicated recursion section in the curated list (it's woven into trees, DP, and backtracking). Instead, solidify the skill here:
+This unit has no LeetCode problems — recursion is a *skill*, not a pattern, and it's woven into trees, DP, and backtracking rather than sitting in its own section of the curated list. So the practice is five drills you write yourself:
+
+**[→ Unit 05 practice: the five drills](../rmap-practice/05-recursion.md)**
 
 1. **Implement from scratch:** `factorial`, `fibonacci` (naïve), `sum_of_list`, `power(base, n)`, `count_digits(n)`.
 2. **Trace by hand** before running: predict the output, then verify.
-3. **Add memoization** to your naïve Fibonacci and measure the speed difference.
+3. **Draw the recursion tree** for `fibonacci(5)` and derive its Big-O from the shape.
+4. **Add memoization** to your naïve Fibonacci and measure the speed difference.
+5. **State the space cost** of each function you wrote — call-stack depth is memory.
 
 When recursion is automatic — when you can write the base case and recursive case without thinking — move on.
 
@@ -246,6 +250,6 @@ When recursion is automatic — when you can write the base case and recursive c
 
 ---
 
-**Up next:** [Binary Search & Sorting](05-binary-search.md) — halve any ordered search space, including the answer itself.
+**Up next:** [Binary Search & Sorting](06-binary-search.md) — halve any ordered search space, including the answer itself.
 
-[← Prev](04-stack.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05-binary-search.md)
+[← Prev](04-stack.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06-binary-search.md)

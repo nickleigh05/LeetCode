@@ -10,7 +10,7 @@ Read the statement twice, then restate it in one sentence *without the story* ("
 
 ## 2. Read the constraints — they leak the intended solution
 
-The line `1 <= nums.length <= 10^5` is not legal boilerplate; it's the strongest hint on the page. Rough budget: ~10⁷–10⁸ simple operations pass. So n = 10⁵ means O(n²) = 10¹⁰ is dead — you're looking for O(n log n) or O(n). And n ≤ 20 *invites* the exponential [backtracking](../learning/10-backtracking.md) solution. Full table: [constraints-cheatsheet](constraints-cheatsheet.md).
+The line `1 <= nums.length <= 10^5` is not legal boilerplate; it's the strongest hint on the page. Rough budget: ~10⁷–10⁸ simple operations pass. So n = 10⁵ means O(n²) = 10¹⁰ is dead — you're looking for O(n log n) or O(n). And n ≤ 20 *invites* the exponential [backtracking](../learning/11-backtracking.md) solution. Full table: [constraints-cheatsheet](constraints-cheatsheet.md).
 
 ## 3. Work small examples by hand
 
@@ -20,12 +20,12 @@ Take the sample input (and one you invent) and solve it *on paper, as a human*. 
 
 State the dumb solution and its complexity ("try all pairs, O(n²)"). Now you have something correct to optimize, and the optimization question becomes concrete: *what work is being repeated?* Match the smell to a pattern:
 
-- Repeatedly *searching* for something → [hash map](../learning/01-arrays-hashing.md), or [binary search](../learning/05-binary-search.md) if sorted
+- Repeatedly *searching* for something → [hash map](../learning/01-arrays-hashing.md), or [binary search](../learning/06-binary-search.md) if sorted
 - Re-scanning overlapping ranges → [sliding window](../learning/03-sliding-window.md) / [prefix sums](../learning/01b-prefix-sums.md)
 - Pairs in a sorted array → [two pointers](../learning/02-two-pointers.md)
-- Repeatedly needing the min/max so far → [heap](../learning/09-heap-priority-queue.md) / [monotonic stack](../data-structures/monotonic-stack.md)
+- Repeatedly needing the min/max so far → [heap](../learning/10-heap-priority-queue.md) / [monotonic stack](../data-structures/monotonic-stack.md)
 - Same subproblem recomputed → [DP](../learning/14-dp-1d.md)
-- "All combinations/paths" with tiny n → [backtracking](../learning/10-backtracking.md)
+- "All combinations/paths" with tiny n → [backtracking](../learning/11-backtracking.md)
 
 ## 5. Code it — top-down, edge cases first
 

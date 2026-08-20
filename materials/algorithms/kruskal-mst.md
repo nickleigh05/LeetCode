@@ -25,4 +25,4 @@ The other MST classic: sort all edges by weight and greedily take each one **unl
 
 **Complexity:** O(E log E) for the sort — the union-find work is effectively free after it · O(V) space.
 
-**Related:** [prim-mst](prim-mst.md) · [union-find (data-structures)](../data-structures/union-find.md) · [Union-Find lesson](../learning/12-union-find.md) · [sorting-key (syntax)](../syntax/sorting-key.md)
+**Related:** [prim-mst](prim-mst.md) · [union-find (data-structures)](../data-structures/union-find.md) · [Union-Find lesson](../learning/12b-union-find.md) · [sorting-key (syntax)](../syntax/sorting-key.md)

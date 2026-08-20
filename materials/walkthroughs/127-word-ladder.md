@@ -2,7 +2,7 @@
 
 **Hard** · [LeetCode](https://leetcode.com/problems/word-ladder/)
 
-[📖 11. Graphs lesson](../learning/11-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
+[📖 12. Graphs lesson](../learning/12-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

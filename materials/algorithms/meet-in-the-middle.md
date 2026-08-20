@@ -25,4 +25,4 @@ When n ≈ 40, brute force (2⁴⁰ ≈ 10¹²) is dead but 2²⁰ ≈ 10⁶ is 
 
 **Complexity:** O(2^(n/2) · n) time · O(2^(n/2)) space — versus O(2ⁿ) brute force.
 
-**Related:** [backtracking](backtracking.md) · [binary-search](binary-search.md) · [bisect-module (syntax)](../syntax/bisect-module.md) · [Bit Manipulation lesson](../learning/18-bit-manipulation.md)
+**Related:** [backtracking](backtracking.md) · [binary-search](binary-search.md) · [bisect-module (syntax)](../syntax/bisect-module.md) · [Bit Manipulation lesson](../learning/19-bit-manipulation.md)

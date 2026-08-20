@@ -6,7 +6,7 @@
 
 ---
 
-> **Builds on:** [Stacks & Queues](../learning/04-stack.md) — the FIFO [queue](../data-structures/queue.md) is literally this lesson's data structure, now with a network in the middle — and [Heaps](../learning/09-heap-priority-queue.md), because a delayed-job queue is a [priority queue](../data-structures/heap.md) ordered by run-at time.
+> **Builds on:** [Stacks & Queues](../learning/04-stack.md) — the FIFO [queue](../data-structures/queue.md) is literally this lesson's data structure, now with a network in the middle — and [Heaps](../learning/10-heap-priority-queue.md), because a delayed-job queue is a [priority queue](../data-structures/heap.md) ordered by run-at time.
 
 Every design has work that doesn't belong on the request path: sending the email, resizing the video, fanning the post out to a million followers. Do it synchronously and the user waits, the spike hits your database raw, and one flaky downstream takes your whole endpoint down with it. The queue is how you say "accepted" in 10ms and do the real work in the background — and it's the box interviewers probe hardest, because everything interesting about it is a failure mode: retries, duplicates, poison messages, and consumers that can't keep up.
 
@@ -100,7 +100,7 @@ Every design has work that doesn't belong on the request path: sending the email
 
 ### Delayed & Scheduled Jobs
 
-**What it is:** "Send the reminder in 24 hours"; "retry this in 4s." A plain FIFO queue can't express *later* — a delayed queue is really a **priority queue ordered by run-at time**: exactly the [heap](../learning/09-heap-priority-queue.md), peek-min until `run_at <= now`, then execute.
+**What it is:** "Send the reminder in 24 hours"; "retry this in 4s." A plain FIFO queue can't express *later* — a delayed queue is really a **priority queue ordered by run-at time**: exactly the [heap](../learning/10-heap-priority-queue.md), peek-min until `run_at <= now`, then execute.
 
 **Python** (the mental model):
 ```python

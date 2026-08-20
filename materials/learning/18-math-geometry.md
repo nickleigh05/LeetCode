@@ -1,11 +1,11 @@
-# 19. Math & Geometry
+# 18. Math & Geometry
 *GCD, fast power, and in-place matrix transforms.*
 
-[← Prev](18-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)
+[← Prev](19-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 
-> **Read first if rusty:** [Grids Primer](10b-grids-primer.md) — the matrix half of this lesson (rotate, spiral, set-zeroes) builds directly on the 2-D indexing and transform idioms there.
+> **Read first if rusty:** [Grids Primer](11b-grids-primer.md) — the matrix half of this lesson (rotate, spiral, set-zeroes) builds directly on the 2-D indexing and transform idioms there.
 
 The grab-bag finale: number theory (GCD, primes, fast exponentiation) and grid/matrix manipulation (rotate in place, spiral order, set-zeroes). Less about a single pattern, more about a toolbox of tricks — lean on the template and the [GCD](../algorithms/euclidean-gcd.md) / [fast exponentiation](../algorithms/fast-exponentiation.md) atomic pages and learn them as they come up.
 
@@ -63,7 +63,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/math-g
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Math & Geometry — Practice →**](../rmap-practice/17-math-geometry.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#17-math--geometry-16-problems).
+Work the guided set with hints & solutions: [**Math & Geometry — Practice →**](../rmap-practice/18-math-geometry.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#17-math--geometry-16-problems).
 
 ## Check Yourself
 
@@ -74,7 +74,7 @@ Work the guided set with hints & solutions: [**Math & Geometry — Practice →*
 
 ---
 
-*That's the core roadmap. For mastery-level range-query problems, continue with [Segment & Fenwick Trees →](20-segment-trees.md).*
+**Up next:** [Bit Manipulation](19-bit-manipulation.md) — masks, shifts, and XOR cancellation in O(1).
 
-[← Prev](18-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md) · [Next (mastery) →](20-segment-trees.md)
+[← Prev](17-intervals.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](19-bit-manipulation.md)
 

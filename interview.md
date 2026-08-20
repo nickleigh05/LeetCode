@@ -37,7 +37,7 @@ Build the bank in week one of prep, then rehearse one story per day alongside yo
 ## Pillar 2 — Technical (Coding)
 
 
-This pillar already has its own course: the [**DSA Roadmap →**](roadmap.md) — 20 lessons, patterns, templates, and practice sets. Work it top to bottom; it is the largest time investment of the three pillars by far.
+This pillar already has its own course: the [**DSA Roadmap →**](roadmap.md) — 20 units across four phases, ≈180 h, with lessons, templates, walkthroughs and practice sets. Work it top to bottom; it is the largest time investment of the three pillars by far. Phases 1–3, core problems only, is a complete junior→mid coding prep.
 
 Knowing the patterns and performing them under observation are different skills. Once you're past the roadmap's early phases, layer in [**The Coding Interview →**](materials/guides/interview-guide.md) — the 45-minute choreography, what's graded, and how to practice with mocks — and follow the [study plan](materials/guides/study-plan.md) for retention.
 
@@ -109,17 +109,17 @@ Completely absent from LeetCode, half the loop for mid-level+ roles, and the eas
 ## Pacing — system design alongside DSA
 
 
-System design concepts are DSA concepts wearing infrastructure clothes — hash maps become shard keys, heaps become schedulers, BFS becomes a crawler frontier. Read SD lessons right after the DSA phase that plants the idea and both stick better.
+System design concepts are DSA concepts wearing infrastructure clothes — hash maps become shard keys, heaps become schedulers, BFS becomes a crawler frontier. Read SD lessons right after the DSA units that plant the idea and both stick better.
 
-| When you finish this DSA phase… | …read these SD lessons | Why now |
-|--------------------------------|------------------------|---------|
-| [Foundations (00a–00f)](roadmap.md#foundations) | SD [00a](materials/system-design/00a-internet.md)–[00b](materials/system-design/00b-http-apis.md) | Latency numbers are the physical constants behind Big-O. |
-| [Linear Structures (01–04b)](roadmap.md#linear-structures-the-building-blocks) | SD [00c](materials/system-design/00c-servers-scaling.md)–[00f](materials/system-design/00f-foundations-drills.md) | Hash maps (01) are cache keys and shard keys; queues (04) are request buffers. |
-| [Searching & Lists (05–06)](roadmap.md#searching--lists) | SD [01](materials/system-design/01-design-framework.md)–[02](materials/system-design/02-caching.md) | Linked list + hash map (06) is literally the LRU cache; an index lookup is binary search on disk. |
-| [Hierarchical Structures (07–09)](roadmap.md#hierarchical-structures) | SD [03](materials/system-design/03-load-balancing.md)–[04](materials/system-design/04-databases-at-scale.md) + [Typeahead](materials/sd-practice/03-typeahead.md), [Top-K](materials/sd-practice/04-top-k-leaderboard.md) | BSTs (07) → B-tree indexes; tries (08) → typeahead; heaps (09) → schedulers and top-k. |
-| [Recursion & Graphs (10–13)](roadmap.md#recursion--graphs) | SD [05](materials/system-design/05-queues-streams.md)–[06](materials/system-design/06-first-designs.md) + Entry/Mid designs | BFS (11) → crawler frontier; topo sort (13) → dependency pipelines. |
-| [Optimization (14–17)](roadmap.md#optimization) | SD [07](materials/system-design/07-replication.md)–[09](materials/system-design/09-consistency-consensus.md) + remaining Mid designs | The trade-off instinct from DP/greedy is the grading axis of every deep dive. |
-| [Specialized (18–19) + Mastery (20)](roadmap.md#specialized) | SD [10](materials/system-design/10-delivery-semantics.md)–[11](materials/system-design/11-specialized-infra.md) + the Senior ladder | Bit manipulation (18) → bloom filters; segment trees (20) → range aggregation in analytics. |
+| When you finish this… | …read these SD lessons | Why now |
+|-----------------------|------------------------|---------|
+| [Unit 00 · Foundations](roadmap.md#phase-1) | SD [00a](materials/system-design/00a-internet.md)–[00b](materials/system-design/00b-http-apis.md) | Latency numbers are the physical constants behind Big-O. |
+| [Units 01–04 · Linear patterns](roadmap.md#phase-1) | SD [00c](materials/system-design/00c-servers-scaling.md)–[00f](materials/system-design/00f-foundations-drills.md) | Hash maps (01) are cache keys and shard keys; queues (04) are request buffers. |
+| [Units 05–07 · Recursion, search, lists](roadmap.md#phase-2) | SD [01](materials/system-design/01-design-framework.md)–[02](materials/system-design/02-caching.md) | Linked list + hash map (07) is literally the LRU cache; an index lookup is binary search on disk. |
+| [Units 08–10 · Trees, tries, heaps](roadmap.md#phase-2) | SD [03](materials/system-design/03-load-balancing.md)–[04](materials/system-design/04-databases-at-scale.md) + [Typeahead](materials/sd-practice/03-typeahead.md), [Top-K](materials/sd-practice/04-top-k-leaderboard.md) | BSTs (08) → B-tree indexes; tries (09) → typeahead; heaps (10) → schedulers and top-k. |
+| [Units 11–13 · Backtracking & graphs](roadmap.md#phase-3) | SD [05](materials/system-design/05-queues-streams.md)–[06](materials/system-design/06-first-designs.md) + Entry/Mid designs | BFS (12) → crawler frontier; topo sort (13) → dependency pipelines. |
+| [Units 14–17 · DP, greedy, intervals](roadmap.md#phase-3) | SD [07](materials/system-design/07-replication.md)–[09](materials/system-design/09-consistency-consensus.md) + remaining Mid designs | The trade-off instinct from DP/greedy is the grading axis of every deep dive. |
+| [Units 18–19 · Math & bits](roadmap.md#phase-4), + Mastery (20) | SD [10](materials/system-design/10-delivery-semantics.md)–[11](materials/system-design/11-specialized-infra.md) + the Senior ladder | Bit manipulation (19) → bloom filters; segment trees (20) → range aggregation in analytics. |
 
 
 ### Materials

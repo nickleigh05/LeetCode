@@ -1,7 +1,7 @@
-# 08. Tries
+# 09. Tries
 *Prefix trees: O(k) prefix queries, the dictionary stored once.*
 
-[← Prev](07-trees.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](09-heap-priority-queue.md)
+[← Prev](08-trees.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](10-heap-priority-queue.md)
 
 ---
 
@@ -204,7 +204,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/tries/
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Tries — Practice →**](../rmap-practice/08-tries.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#10-tries-6-problems).
+Work the guided set with hints & solutions: [**Tries — Practice →**](../rmap-practice/09-tries.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#10-tries-6-problems).
 
 ## Check Yourself
 
@@ -215,7 +215,7 @@ Work the guided set with hints & solutions: [**Tries — Practice →**](../rmap
 
 ---
 
-**Up next:** [Heaps & Priority Queues](09-heap-priority-queue.md) — the always-available extreme element — for top-K and streaming.
+**Up next:** [Heaps & Priority Queues](10-heap-priority-queue.md) — the always-available extreme element — for top-K and streaming.
 
-[← Prev](07-trees.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](09-heap-priority-queue.md)
+[← Prev](08-trees.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](10-heap-priority-queue.md)
 

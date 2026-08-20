@@ -10,6 +10,6 @@ A [hashmap](hashmap.md) that only stores keys — no values — used purely to a
 
 **Complexity:** add/remove/membership O(1) average.
 
-**Used to solve:** [Contains Duplicate](../rmap-practice/01-arrays-hashing.md#217-contains-duplicate--easy), [Find All Numbers Disappeared in an Array](../../problems/0001-0499/448.py), [Longest Consecutive Sequence](../rmap-practice/01-arrays-hashing.md#128-longest-consecutive-sequence--medium), [Valid Sudoku](../rmap-practice/01-arrays-hashing.md#36-valid-sudoku--medium).
+**Used to solve:** [Contains Duplicate](../walkthroughs/217-contains-duplicate.md), [Find All Numbers Disappeared in an Array](../../problems/0001-0499/448.py), [Longest Consecutive Sequence](../walkthroughs/128-longest-consecutive-sequence.md), [Valid Sudoku](../walkthroughs/36-valid-sudoku.md).
 
 **Related:** [set-basics (syntax)](../syntax/set-basics.md) · [hashmap](hashmap.md)

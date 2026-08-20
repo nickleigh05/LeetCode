@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/plus-one/) · [Solution file (no hints)](../../problems/0001-0499/66.py)
 
-[📖 17. Math & Geometry lesson](../learning/19-math-geometry.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 17. Math & Geometry problems](../rmap-practice/17-math-geometry.md)
+[📖 18. Math & Geometry lesson](../learning/18-math-geometry.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 18. Math & Geometry problems](../rmap-practice/18-math-geometry.md)
 
 ---
 

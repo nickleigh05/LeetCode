@@ -1,8 +1,8 @@
-# 10. Backtracking — Practice
+# 11. Backtracking — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/10-backtracking.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/11-backtracking.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

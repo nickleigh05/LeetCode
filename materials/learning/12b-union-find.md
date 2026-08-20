@@ -1,7 +1,7 @@
-# 12. Union-Find (Disjoint Set Union)
+# 12b. Union-Find (Disjoint Set Union)
 *Near-O(1) connectivity and cycle detection under merges.*
 
-[← Prev](11-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](13-advanced-graphs.md)
+[← Prev](12-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](13-advanced-graphs.md)
 
 ---
 
@@ -165,7 +165,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/union-
 
 ## Practice
 
-The union-find problems live in the [**Graphs practice set →**](../rmap-practice/11-graphs.md) — focus on the connectivity ones: Number of Connected Components (323), Graph Valid Tree (261), Redundant Connection (684). Want more volume? The [recommended list's Graphs section](../../lists/recommended.md#11-graphs-23-problems) adds Number of Provinces (547) and Find if Path Exists (1971). Then carry the structure into the [Advanced Graphs practice set](../rmap-practice/12-advanced-graphs.md) (e.g. Min Cost to Connect All Points / Kruskal's MST).
+The union-find problems live in the [**Graphs practice set →**](../rmap-practice/12-graphs.md) — focus on the connectivity ones: Number of Connected Components (323), Graph Valid Tree (261), Redundant Connection (684). Want more volume? The [recommended list's Graphs section](../../lists/recommended.md#11-graphs-23-problems) adds Number of Provinces (547) and Find if Path Exists (1971). Then carry the structure into the [Advanced Graphs practice set](../rmap-practice/13-advanced-graphs.md) (e.g. Min Cost to Connect All Points / Kruskal's MST).
 
 ## Check Yourself
 
@@ -178,5 +178,5 @@ The union-find problems live in the [**Graphs practice set →**](../rmap-practi
 
 **Up next:** [Advanced Graphs (Dijkstra & Topological Sort)](13-advanced-graphs.md) — weighted shortest paths and dependency ordering.
 
-[← Prev](11-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](13-advanced-graphs.md)
+[← Prev](12-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](13-advanced-graphs.md)
 

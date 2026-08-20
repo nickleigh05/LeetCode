@@ -6,7 +6,7 @@
 
 ---
 
-> **Builds on:** [Hash Maps](../learning/01-arrays-hashing.md) — a cache *is* a hash map with a size limit and an expiry policy — and the [LRU Cache](../learning/06-linked-list.md) problem, which is the eviction algorithm you'll name in almost every design. Read [Estimation](00e-estimation.md) first if you haven't: cache decisions are justified with numbers.
+> **Builds on:** [Hash Maps](../learning/01-arrays-hashing.md) — a cache *is* a hash map with a size limit and an expiry policy — and the [LRU Cache](../learning/07-linked-list.md) problem, which is the eviction algorithm you'll name in almost every design. Read [Estimation](00e-estimation.md) first if you haven't: cache decisions are justified with numbers.
 
 Almost every system you design in an interview is read-heavy — feeds, profiles, product pages, short links. A database read costs milliseconds; a memory read costs microseconds. Caching is how you spend a little memory to buy back three orders of magnitude of latency, and it's usually the first deep dive an interviewer steers into. The concept is one line; the interview lives in the failure modes — staleness, stampedes, and hot keys.
 
@@ -94,7 +94,7 @@ Invalidate, don't update, on write — updating the cache from two places invite
 **What it is:** The cache is full, or the data is old. Eviction picks a victim when space runs out; TTL (time-to-live) expires entries on a clock.
 
 **Key Properties:**
-- **LRU** (least recently used) is the default eviction policy — it's literally [the LeetCode problem](../learning/06-linked-list.md): hash map + doubly linked list, O(1) everything. **LFU** (least frequently used) resists one-off scans flushing your hot set but is more bookkeeping.
+- **LRU** (least recently used) is the default eviction policy — it's literally [the LeetCode problem](../learning/07-linked-list.md): hash map + doubly linked list, O(1) everything. **LFU** (least frequently used) resists one-off scans flushing your hot set but is more bookkeeping.
 - **TTL** is your staleness ceiling *and* your invalidation safety net: even if an invalidation is missed, the entry dies within one TTL.
 - Short TTL = fresher data, more DB load. Long TTL = better hit rate, staler data. Say the trade-off out loud; pick a number ("5 minutes for a profile page") and move on.
 

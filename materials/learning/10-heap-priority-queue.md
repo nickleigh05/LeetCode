@@ -1,7 +1,7 @@
-# 09. Heaps & Priority Queues
+# 10. Heaps & Priority Queues
 *The always-available extreme element — for top-K and streaming.*
 
-[← Prev](08-tries.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](10-backtracking.md)
+[← Prev](09-tries.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-backtracking.md)
 
 ---
 
@@ -250,7 +250,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/heap-p
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Heaps & Priority Queues — Practice →**](../rmap-practice/09-heap-priority-queue.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#8-heap--priority-queue-14-problems).
+Work the guided set with hints & solutions: [**Heaps & Priority Queues — Practice →**](../rmap-practice/10-heap-priority-queue.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#8-heap--priority-queue-14-problems).
 
 ## Check Yourself
 
@@ -261,7 +261,7 @@ Work the guided set with hints & solutions: [**Heaps & Priority Queues — Pract
 
 ---
 
-**Up next:** [Backtracking](10-backtracking.md) — choose → explore → un-choose, over the tree of partial solutions.
+**Up next:** [Backtracking](11-backtracking.md) — choose → explore → un-choose, over the tree of partial solutions.
 
-[← Prev](08-tries.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](10-backtracking.md)
+[← Prev](09-tries.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](11-backtracking.md)
 

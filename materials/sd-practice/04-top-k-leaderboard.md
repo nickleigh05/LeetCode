@@ -17,7 +17,7 @@ Typical follow-up constraints when you ask (and you should ask — that's Step 1
 - A player's *own* rank may lag slightly; nobody notices if rank #23,481,932 is a minute stale.
 - (Ask!) Is the key space bounded — 50M known players — or unbounded, like "top trending hashtags"? The answer changes the design.
 
-Why this design? Top-K is the [heap pattern](../learning/09-heap-priority-queue.md) wearing infrastructure clothes — and it's a rare prompt where the pragmatic answer is a single well-chosen data structure, so the interview becomes about knowing *when* that stops being enough.
+Why this design? Top-K is the [heap pattern](../learning/10-heap-priority-queue.md) wearing infrastructure clothes — and it's a rare prompt where the pragmatic answer is a single well-chosen data structure, so the interview becomes about knowing *when* that stops being enough.
 
 <details>
 <summary>Step 1 — Requirements & API</summary>
@@ -84,7 +84,7 @@ The numbers just said something important: at 50M *bounded* members and 20K writ
 
 1. **A single Redis sorted set** — the pragmatic answer for a bounded key space. `ZINCRBY` on write, `ZREVRANGE 0 9` for top-10, `ZREVRANK` for own rank — every operation is O(log N) in one round trip, and 50M members fit in memory (Step 2). This *is* a balanced-tree/skip-list keyed by score — the heap pattern's big sibling, maintained server-side. Redis persists (AOF) but treat it as the serving copy; the durable store holds score history and can rebuild the set.
 2. **Sharded aggregation + periodic merge** — when members or write volume outgrow one node: shard players across K sorted sets, each shard reports its local top 10, a merger takes the true global top 10 from K×10 candidates (correct because a global top-10 member is necessarily in its own shard's top 10 — the merge-k-lists heap argument). Global *rank* gets harder: sum of per-shard ranks, computed lazily.
-3. **Count-min sketch + heap** — for *unbounded* key spaces (trending hashtags, hot URLs) where you can't hold every key: a count-min sketch approximates each key's count in fixed memory; a small min-heap of size K tracks the current top-K, updated as events stream past — literally the [heap lesson's](../learning/09-heap-priority-queue.md) top-K pattern, made probabilistic. Approximate counts, tiny memory, no rank-for-arbitrary-key.
+3. **Count-min sketch + heap** — for *unbounded* key spaces (trending hashtags, hot URLs) where you can't hold every key: a count-min sketch approximates each key's count in fixed memory; a small min-heap of size K tracks the current top-K, updated as events stream past — literally the [heap lesson's](../learning/10-heap-priority-queue.md) top-K pattern, made probabilistic. Approximate counts, tiny memory, no rank-for-arbitrary-key.
 
 For this prompt — 50M bounded players — pick the **sorted set**, and name the switching conditions: shard when memory or write throughput outgrows one node; go sketch+heap when the key space is unbounded and approximation is acceptable.
 

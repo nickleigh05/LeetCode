@@ -2,7 +2,7 @@
 
 **Hard** · [LeetCode](https://leetcode.com/problems/word-search-ii/)
 
-[📖 08. Tries lesson](../learning/08-tries.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 08. Tries problems](../rmap-practice/08-tries.md)
+[📖 09. Tries lesson](../learning/09-tries.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 09. Tries problems](../rmap-practice/09-tries.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -159,7 +159,7 @@ Advance in the trie. If a word terminates here, record it.
             dfs(r, c, next_node)
 ```
 
-**Explore the four neighbours.** The direction list is the standard 4-neighbour idiom from the [grids primer](../learning/10b-grids-primer.md).
+**Explore the four neighbours.** The direction list is the standard 4-neighbour idiom from the [grids primer](../learning/11b-grids-primer.md).
 
 The chained comparison `0 <= r < rows` checks both bounds at once — Python-specific and worth using.
 
@@ -342,7 +342,7 @@ The word count drops out of the search entirely, appearing only in the O(W·L) t
 - **Not pruning on the trie check**, so the DFS explores paths no word can complete.
 - **`is_end` plus path reconstruction** instead of storing the word. It works, but storing the word is simpler and free.
 
-**This same move shows up in:** [Implement Trie](208-implement-trie-prefix-tree.md) (the structure) · [Design Add and Search Words](211-design-add-and-search-words-data-structure.md) (trie + branching DFS) · [Word Search](79-word-search.md) (the single-word version this generalizes) · [Number of Islands](200-number-of-islands.md) and the [grids primer](../learning/10b-grids-primer.md) (grid DFS with visited marking) · [backtracking](../algorithms/backtracking.md).
+**This same move shows up in:** [Implement Trie](208-implement-trie-prefix-tree.md) (the structure) · [Design Add and Search Words](211-design-add-and-search-words-data-structure.md) (trie + branching DFS) · [Word Search](79-word-search.md) (the single-word version this generalizes) · [Number of Islands](200-number-of-islands.md) and the [grids primer](../learning/11b-grids-primer.md) (grid DFS with visited marking) · [backtracking](../algorithms/backtracking.md).
 
 </details>
 

@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 
-[📖 07. Trees lesson](../learning/07-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 07. Trees problems](../rmap-practice/07-trees.md)
+[📖 08. Trees lesson](../learning/08-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 08. Trees problems](../rmap-practice/08-trees.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -257,7 +257,7 @@ while stack:
 - **Trying to compute it bottom-up.** Goodness depends on ancestors, which children know nothing about.
 - **Passing the full ancestor list** — correct but O(n·h).
 
-**This same move shows up in:** [Validate Binary Search Tree](98-validate-binary-search-tree.md) (the other top-down problem in this unit — carries bounds instead of a max) · [Maximum Depth](104-maximum-depth-of-binary-tree.md) (bottom-up, for contrast) · [Path Sum](../learning/07-trees.md) (carrying a running total down) · [dfs](../algorithms/dfs.md).
+**This same move shows up in:** [Validate Binary Search Tree](98-validate-binary-search-tree.md) (the other top-down problem in this unit — carries bounds instead of a max) · [Maximum Depth](104-maximum-depth-of-binary-tree.md) (bottom-up, for contrast) · [Path Sum](../learning/08-trees.md) (carrying a running total down) · [dfs](../algorithms/dfs.md).
 
 </details>
 

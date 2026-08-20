@@ -40,4 +40,4 @@
 - **Deep recursion on large grids.** A 10⁶-cell grid can blow the recursion stack — switch to an explicit stack or BFS.
 ---
 
-*See also: [Lesson 11 →](../../../learning/11-graphs.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*
+*See also: [Lesson 11 →](../../../learning/12-graphs.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*

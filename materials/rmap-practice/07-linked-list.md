@@ -1,8 +1,8 @@
-# 06. Linked List — Practice
+# 07. Linked List — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/06-linked-list.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/07-linked-list.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

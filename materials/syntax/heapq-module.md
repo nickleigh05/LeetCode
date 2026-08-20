@@ -19,4 +19,4 @@ heapq.nlargest(3, nums)       # top-3 biggest (also nsmallest), O(n log k)
 
 **Complexity:** push/pop O(log n) · peek O(1) · heapify O(n).
 
-**Related:** [heap (data-structures)](../data-structures/heap.md) · [tuple-basics](tuple-basics.md) · [import-basics](import-basics.md) · [Heaps lesson](../learning/09-heap-priority-queue.md)
+**Related:** [heap (data-structures)](../data-structures/heap.md) · [tuple-basics](tuple-basics.md) · [import-basics](import-basics.md) · [Heaps lesson](../learning/10-heap-priority-queue.md)

@@ -17,4 +17,4 @@ Binary search over a **sorted** list, pre-written and bug-free. `bisect_left` vs
 
 **Complexity:** bisect O(log n) · insort O(n) per insert.
 
-**Related:** [binary-search (algorithms)](../algorithms/binary-search.md) · [Binary Search lesson](../learning/05-binary-search.md) · [sorting-key](sorting-key.md)
+**Related:** [binary-search (algorithms)](../algorithms/binary-search.md) · [Binary Search lesson](../learning/06-binary-search.md) · [sorting-key](sorting-key.md)

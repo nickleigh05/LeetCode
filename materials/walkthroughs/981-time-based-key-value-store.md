@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/time-based-key-value-store/)
 
-[📖 05. Binary Search lesson](../learning/05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 05. Binary Search problems](../rmap-practice/05-binary-search.md)
+[📖 06. Binary Search lesson](../learning/06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Binary Search problems](../rmap-practice/06-binary-search.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

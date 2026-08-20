@@ -2,7 +2,7 @@
 
 *What a data structure actually is — and the one memory picture that explains half of all structure choices.*
 
-[← Roadmap](../../roadmap.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](00b-algorithms.md)
+[🗺 Roadmap](../../roadmap.md) · [Next →](00b-algorithms.md)
 
 ---
 
@@ -49,7 +49,7 @@ but splicing is cheap once you're holding the spot.
 find the 3rd → walk 3 hops → O(n);  insert after a node you hold → O(1)
 ```
 
-You don't need more than this intuition right now — [Lesson 06](06-linked-list.md) goes deep. Just remember: **arrays win at random access, linked structures win at splicing.**
+You don't need more than this intuition right now — [Lesson 07](07-linked-list.md) goes deep. Just remember: **arrays win at random access, linked structures win at splicing.**
 
 For a full catalog of structures (one page each), see the [Data Structures reference hub](../data-structures/_index.md).
 

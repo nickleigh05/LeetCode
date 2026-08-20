@@ -1,4 +1,4 @@
-# 16. Intervals — Practice
+# 17. Intervals — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 

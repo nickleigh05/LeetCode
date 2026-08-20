@@ -1,11 +1,11 @@
-# 07. Trees & Binary Search Trees
+# 08. Trees & Binary Search Trees
 *DFS = base → recurse → combine. BFS = level by level.*
 
-[← Prev](06-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](08-tries.md)
+[← Prev](07-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](09-tries.md)
 
 ---
 
-> **Builds on:** [recursion & the call stack (04b)](04b-recursion.md). Every tree algorithm below is the branching-recursion skeleton from that lesson — review it first if base case / recurse / combine doesn't feel automatic.
+> **Builds on:** [recursion & the call stack (04b)](05-recursion.md). Every tree algorithm below is the branching-recursion skeleton from that lesson — review it first if base case / recurse / combine doesn't feel automatic.
 
 Trees are where recursion finally clicks. Almost every tree problem follows the same shape: handle the base case (usually `None`), recurse on the children, then combine their results. A **binary search tree** adds an ordering invariant that turns search into a form of binary search. Learn to *see* the recursion and the code writes itself.
 
@@ -166,11 +166,11 @@ def solve(node):
 
 Max depth, "is this balanced", path sums, and subtree checks are all just different `combine`
 steps. When you instead need to go **level by level** (e.g. level-order, shortest path), reach for
-**BFS with a queue** (see [Lesson 11 — Graphs](11-graphs.md)).
+**BFS with a queue** (see [Lesson 11 — Graphs](12-graphs.md)).
 
 ## Iterative Traversals — When Recursion Isn't an Option
 
-Two scenarios force you to go iterative: (1) Python's ~1000-frame recursion limit on a deeply skewed tree, and (2) an interviewer who explicitly says "no recursion." The call stack *is* a stack (see [Lesson 04b](04b-recursion.md)), so the translation is mechanical — you just manage it yourself.
+Two scenarios force you to go iterative: (1) Python's ~1000-frame recursion limit on a deeply skewed tree, and (2) an interviewer who explicitly says "no recursion." The call stack *is* a stack (see [Lesson 05](05-recursion.md)), so the translation is mechanical — you just manage it yourself.
 
 ### Iterative Inorder (most commonly asked)
 
@@ -241,7 +241,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/trees/
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](../rmap-practice/07-trees.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#7-trees-29-problems).
+Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](../rmap-practice/08-trees.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#7-trees-29-problems).
 
 ## Check Yourself
 
@@ -252,7 +252,7 @@ Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](
 
 ---
 
-**Up next:** [Tries](08-tries.md) — prefix trees: O(k) prefix queries, the dictionary stored once.
+**Up next:** [Tries](09-tries.md) — prefix trees: O(k) prefix queries, the dictionary stored once.
 
-[← Prev](06-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](08-tries.md)
+[← Prev](07-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](09-tries.md)
 

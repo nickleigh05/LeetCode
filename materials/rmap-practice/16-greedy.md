@@ -1,4 +1,4 @@
-# 15. Greedy — Practice
+# 16. Greedy — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 

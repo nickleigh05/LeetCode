@@ -1,11 +1,11 @@
 # 17. Intervals
 *Sort first, then one linear pass to merge, count, or sweep.*
 
-[← Prev](16-greedy.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](18-bit-manipulation.md)
+[← Prev](16-greedy.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](18-math-geometry.md)
 
 ---
 
-> **Builds on:** sorting from [Lesson 05](05-binary-search.md). Every interval problem starts by sorting.
+> **Builds on:** sorting from [Lesson 06](06-binary-search.md). Every interval problem starts by sorting.
 
 Interval problems — merging, inserting, counting overlaps, meeting rooms — almost always start the same way: **sort by start time**, then sweep once, comparing each interval to the last. Recognize the family and the solution is mechanical.
 
@@ -99,7 +99,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/interv
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Intervals — Practice →**](../rmap-practice/16-intervals.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#16-intervals-10-problems).
+Work the guided set with hints & solutions: [**Intervals — Practice →**](../rmap-practice/17-intervals.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#16-intervals-10-problems).
 
 ## Check Yourself
 
@@ -110,7 +110,7 @@ Work the guided set with hints & solutions: [**Intervals — Practice →**](../
 
 ---
 
-**Up next:** [Bit Manipulation](18-bit-manipulation.md) — masks, shifts, and XOR cancellation in O(1).
+**Up next:** [Math & Geometry](18-math-geometry.md) — GCD, fast power, and in-place matrix transforms.
 
-[← Prev](16-greedy.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](18-bit-manipulation.md)
+[← Prev](16-greedy.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](18-math-geometry.md)
 

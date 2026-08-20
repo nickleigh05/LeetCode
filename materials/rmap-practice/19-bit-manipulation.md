@@ -1,8 +1,8 @@
-# 18. Bit Manipulation — Practice
+# 19. Bit Manipulation — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/18-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/19-bit-manipulation.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

@@ -35,4 +35,45 @@ Constraints:
 
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        
+
+        def bound(first: bool) -> int:
+
+            left = 0
+            right = len(nums) - 1
+            found = -1
+
+            while left <= right:
+
+                mid = left + (right - left) // 2
+
+                if nums[mid] == target:
+                    found = mid
+                    if first:
+                        right = mid - 1
+                    else:
+                        left = mid + 1
+                elif nums[mid] < target:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+
+            return found
+
+        return [bound(True), bound(False)]
+
+
+
+
+### additional solution ###
+
+from bisect import bisect_left, bisect_right
+
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+
+        start = bisect_left(nums, target)
+
+        if start == len(nums) or nums[start] != target:
+            return [-1, -1]
+
+        return [start, bisect_right(nums, target) - 1]

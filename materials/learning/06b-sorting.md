@@ -1,12 +1,12 @@
-# 05b. Sorting — Why, How, and When
+# 06b. Sorting — Why, How, and When
 
 *Knowing which sort to reach for, and why n log n is the floor.*
 
-[← Prev](05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06-linked-list.md)
+[← Prev](06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](07-linked-list.md)
 
 ---
 
-> **Builds on:** binary search from [Lesson 05](05-binary-search.md) — binary search is the payoff for having sorted data.
+> **Builds on:** binary search from [Lesson 06](06-binary-search.md) — binary search is the payoff for having sorted data.
 
 Lesson 05 showed you *how* merge sort and quicksort work algorithmically. This lesson answers the questions that come after: *why* is n log n the best comparison sort can do, *which sort* do you choose in practice, and *how* do you use Python's built-in sort safely and idiomatically? Intervals (17), Greedy (16), and almost every "sort first, then sweep" pattern depend on internalizing this.
 
@@ -227,6 +227,6 @@ Sorting unlocks many patterns. Drill these to cement the "sort first" instinct:
 
 ---
 
-**Up next:** [Linked Lists](06-linked-list.md) — pointer surgery: reverse, dummy head, fast/slow.
+**Up next:** [Linked Lists](07-linked-list.md) — pointer surgery: reverse, dummy head, fast/slow.
 
-[← Prev](05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](06-linked-list.md)
+[← Prev](06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](07-linked-list.md)

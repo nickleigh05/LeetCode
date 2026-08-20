@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
-[📖 08. Tries lesson](../learning/08-tries.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 08. Tries problems](../rmap-practice/08-tries.md)
+[📖 09. Tries lesson](../learning/09-tries.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 09. Tries problems](../rmap-practice/09-tries.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

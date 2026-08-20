@@ -17,4 +17,4 @@ Repeatedly sweep the array, swapping adjacent out-of-order pairs — each pass "
 
 **Complexity:** O(n²) time (O(n) best case with early exit) · O(1) space · stable.
 
-**Related:** [insertion-sort](insertion-sort.md) · [selection-sort](selection-sort.md) · [Sorting lesson](../learning/05b-sorting.md) · [swap-tuple-assign (syntax)](../syntax/swap-tuple-assign.md)
+**Related:** [insertion-sort](insertion-sort.md) · [selection-sort](selection-sort.md) · [Sorting lesson](../learning/06b-sorting.md) · [swap-tuple-assign (syntax)](../syntax/swap-tuple-assign.md)

@@ -33,7 +33,7 @@ A silent perfect solution scores *worse* than a narrated good one. They can't gr
 
 ## How to practice this
 
-- **Mock interviews** — the only way to train the performance layer. Pramp / interviewing.io / a friend with a problem you haven't seen. One mock per week once you're past [Phase 4 of the roadmap](../../roadmap.md).
+- **Mock interviews** — the only way to train the performance layer. Pramp / interviewing.io / a friend with a problem you haven't seen. One mock per week once you're past [Phase 2 of the roadmap](../../roadmap.md#phase-2) — you don't need graphs or DP to practise the performance layer.
 - **Talk during solo practice** — literally narrate to your empty room for a few problems a week. Feels ridiculous, works.
 - **Timebox** — 35 minutes per problem, then move on and study the gap. Interviews are timed; practice should sometimes be too.
 

@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
-[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Grids primer](../learning/10b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
+[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Grids primer](../learning/11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -328,7 +328,7 @@ def bfs(starts, visited):
 - **Forgetting to mark before recursing** — infinite recursion across equal-height neighbours.
 - **Comparing against the *ocean* rather than the previous cell** — the check is local, between adjacent cells.
 
-**This same move shows up in:** [Surrounded Regions](130-surrounded-regions.md) (flood-fill inward from the borders to identify what's *safe*) · [Rotting Oranges](994-rotting-oranges.md) (multi-source traversal) · [Number of Islands](200-number-of-islands.md) (the grid flood-fill skeleton) · [Count Good Nodes](1448-count-good-nodes-in-binary-tree.md) (passing context down as a parameter) · [grids primer](../learning/10b-grids-primer.md).
+**This same move shows up in:** [Surrounded Regions](130-surrounded-regions.md) (flood-fill inward from the borders to identify what's *safe*) · [Rotting Oranges](994-rotting-oranges.md) (multi-source traversal) · [Number of Islands](200-number-of-islands.md) (the grid flood-fill skeleton) · [Count Good Nodes](1448-count-good-nodes-in-binary-tree.md) (passing context down as a parameter) · [grids primer](../learning/11b-grids-primer.md).
 
 </details>
 

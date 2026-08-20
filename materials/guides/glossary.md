@@ -36,7 +36,7 @@
 
 **Iterative vs. recursive** — loop-based vs. self-calling; any recursion can be rewritten with an explicit [stack](../data-structures/stack.md).
 
-**k-th smallest/largest** — order-statistic problems; [heap](../learning/09-heap-priority-queue.md) or [quickselect](../algorithms/quickselect.md).
+**k-th smallest/largest** — order-statistic problems; [heap](../learning/10-heap-priority-queue.md) or [quickselect](../algorithms/quickselect.md).
 
 **Leaf** — tree node with no children.
 
@@ -54,7 +54,7 @@
 
 **Pruning** — cutting a [backtracking](../algorithms/backtracking.md) branch early once it provably can't lead to an answer.
 
-**Sentinel / dummy node** — a fake node (or value like `float('inf')`) added to kill edge cases, e.g. the dummy head in [linked lists](../learning/06-linked-list.md).
+**Sentinel / dummy node** — a fake node (or value like `float('inf')`) added to kill edge cases, e.g. the dummy head in [linked lists](../learning/07-linked-list.md).
 
 **Stable sort** — equal elements keep their original relative order; Python's sort is stable, which makes multi-key sorting work ([sorting-key](../syntax/sorting-key.md)).
 

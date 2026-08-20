@@ -41,7 +41,7 @@ def countdown(n):
     countdown(n - 1)     # n frames deep before anything returns → O(n) space
 ```
 
-No visible list anywhere, but this uses O(n) memory. You'll see why in [Recursion (04b)](04b-recursion.md).
+No visible list anywhere, but this uses O(n) memory. You'll see why in [Recursion (04b)](05-recursion.md).
 
 ## The trade that powers everything
 
@@ -55,6 +55,6 @@ Time and space are currencies you exchange. The classic move — the one [Lesson
 
 ---
 
-**Up next:** [Foundations Practice](00f-foundations-practice.md) — drills that turn all of Phase 0 into reflex before the first real lesson.
+**Up next:** [Foundations Practice](00f-foundations-practice.md) — drills that turn all of the foundations into reflex before the first real lesson.
 
 [← Prev](00d-time-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](00f-foundations-practice.md)

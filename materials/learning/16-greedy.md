@@ -5,7 +5,7 @@
 
 ---
 
-> **Builds on:** sorting from [Lesson 05](05-binary-search.md) and intervals intuition — greedy almost always sorts first.
+> **Builds on:** sorting from [Lesson 06](06-binary-search.md) and intervals intuition — greedy almost always sorts first.
 
 A **greedy** algorithm commits to the best-looking choice at each step and never reconsiders. When it works it's beautifully simple and fast; the real challenge is *justifying* that local optimum leads to a global one. We cover the classic greedy proofs-by-exchange and the problems where greed actually wins.
 
@@ -158,7 +158,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/greedy
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Greedy — Practice →**](../rmap-practice/15-greedy.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#15-greedy-14-problems).
+Work the guided set with hints & solutions: [**Greedy — Practice →**](../rmap-practice/16-greedy.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#15-greedy-14-problems).
 
 ## Check Yourself
 

@@ -1,8 +1,8 @@
-# 11. Graphs — Practice
+# 12. Graphs — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/11-graphs.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/12-graphs.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

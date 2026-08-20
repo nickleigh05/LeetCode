@@ -17,7 +17,7 @@ Typical follow-up constraints when you ask (and you should ask — that's Step 1
 - **< 100ms** end-to-end per keystroke, or the suggestions feel laggy and useless.
 - A daily refresh of rankings is fine; surfacing trending queries faster is a follow-up, not the baseline.
 
-Why this design? It's the [trie lesson](../learning/08-tries.md) wearing infrastructure clothes — and the honest comparison between "the data structure I'd use in a coding round" and "the precomputed table I'd actually ship" is exactly the judgment interviewers are probing for.
+Why this design? It's the [trie lesson](../learning/09-tries.md) wearing infrastructure clothes — and the honest comparison between "the data structure I'd use in a coding round" and "the precomputed table I'd actually ship" is exactly the judgment interviewers are probing for.
 
 <details>
 <summary>Step 1 — Requirements & API</summary>

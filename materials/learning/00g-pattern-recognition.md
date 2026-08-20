@@ -31,18 +31,18 @@ This isn't a substitute for understanding — it's a first-pass filter to narrow
 | "subarray", "substring", "contiguous", window with a size or condition | [Sliding window](03-sliding-window.md) |
 | "sorted array", "pair that sums to", input already sorted | [Two pointers](02-two-pointers.md) |
 | "have I seen this before", "count occurrences", "group by", fast lookup | [Arrays & hashing](01-arrays-hashing.md) |
-| "sorted" or "rotated sorted" + "find X" | [Binary search](05-binary-search.md) |
+| "sorted" or "rotated sorted" + "find X" | [Binary search](06-binary-search.md) |
 | "valid parentheses", "next greater element", nested/matching structure | [Stack](04-stack.md) |
-| "reverse", "cycle", "middle of", pointer surgery on a chain | [Linked list](06-linked-list.md) — fast/slow pointers |
-| "top K", "kth largest/smallest", "K closest" | [Heap / priority queue](09-heap-priority-queue.md) |
-| "all combinations", "all permutations", "all valid ways to place" | [Backtracking](10-backtracking.md) |
-| "connected components", "shortest path", "islands", grid traversal | [Graphs](11-graphs.md) / [grids](10b-grids-primer.md) |
+| "reverse", "cycle", "middle of", pointer surgery on a chain | [Linked list](07-linked-list.md) — fast/slow pointers |
+| "top K", "kth largest/smallest", "K closest" | [Heap / priority queue](10-heap-priority-queue.md) |
+| "all combinations", "all permutations", "all valid ways to place" | [Backtracking](11-backtracking.md) |
+| "connected components", "shortest path", "islands", grid traversal | [Graphs](12-graphs.md) / [grids](11b-grids-primer.md) |
 | "minimum/maximum number of ways", overlapping subproblems, "can you reach" | [Dynamic programming](14-dp-1d.md) / [2D DP](15-dp-2d.md) |
 | "minimum number of intervals/meetings/resources", greedy-sounding optimum | [Greedy](16-greedy.md) or [intervals](17-intervals.md) |
 | "merge intervals", "overlapping ranges", scheduling | [Intervals](17-intervals.md) |
-| tree traversal, "ancestor", "depth", "balanced" | [Trees](07-trees.md) |
+| tree traversal, "ancestor", "depth", "balanced" | [Trees](08-trees.md) |
 | "range sum", "range update", many queries over a fixed array | [Prefix sums](01b-prefix-sums.md) or [segment trees](20-segment-trees.md) |
-| "union", "connected", "same group", merge sets | [Union-Find](12-union-find.md) |
+| "union", "connected", "same group", merge sets | [Union-Find](12b-union-find.md) |
 
 Keywords aren't proof — they're a hypothesis to test against Step 3.
 

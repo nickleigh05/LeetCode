@@ -1,8 +1,8 @@
-# 09. Heap / Priority Queue — Practice
+# 10. Heap / Priority Queue — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 
-[← Back to the lesson](../learning/09-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md)
+[← Back to the lesson](../learning/10-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md)
 
 ---
 

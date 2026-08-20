@@ -1,7 +1,7 @@
-# 06. Linked Lists
+# 07. Linked Lists
 *Pointer surgery: reverse, dummy head, fast/slow.*
 
-[← Prev](05b-sorting.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](07-trees.md)
+[← Prev](06b-sorting.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](08-trees.md)
 
 ---
 
@@ -179,7 +179,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/linked
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Linked Lists — Practice →**](../rmap-practice/06-linked-list.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#6-linked-list-20-problems).
+Work the guided set with hints & solutions: [**Linked Lists — Practice →**](../rmap-practice/07-linked-list.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#6-linked-list-20-problems).
 
 ## Check Yourself
 
@@ -190,7 +190,7 @@ Work the guided set with hints & solutions: [**Linked Lists — Practice →**](
 
 ---
 
-**Up next:** [Trees & Binary Search Trees](07-trees.md) — dFS = base → recurse → combine. BFS = level by level.
+**Up next:** [Trees & Binary Search Trees](08-trees.md) — dFS = base → recurse → combine. BFS = level by level.
 
-[← Prev](05b-sorting.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](07-trees.md)
+[← Prev](06b-sorting.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](08-trees.md)
 

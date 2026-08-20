@@ -16,4 +16,4 @@ Sort by the last digit, then the second-to-last, and so on — each pass done wi
 
 **Complexity:** O(d · (n + base)) time · O(n + base) space · stable.
 
-**Related:** [counting-sort](counting-sort.md) · [bucket-sort](bucket-sort.md) · [Sorting lesson](../learning/05b-sorting.md)
+**Related:** [counting-sort](counting-sort.md) · [bucket-sort](bucket-sort.md) · [Sorting lesson](../learning/06b-sorting.md)

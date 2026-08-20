@@ -1,4 +1,4 @@
-# 12. Advanced Graphs — Practice
+# 13. Advanced Graphs — Practice
 
 One page per problem: the prompt, a hint, the solution, and its complexity.
 

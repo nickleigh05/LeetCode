@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Solution file (no hints)](../../problems/0001-0499/153.py)
 
-[📖 05. Binary Search lesson](../learning/05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 05. Binary Search problems](../rmap-practice/05-binary-search.md)
+[📖 06. Binary Search lesson](../learning/06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Binary Search problems](../rmap-practice/06-binary-search.md)
 
 ---
 
@@ -256,7 +256,7 @@ Binary search is the most extreme version of elimination — a *single compariso
 - **Assuming the array is genuinely rotated.** A full rotation is legal and looks sorted; the code must handle it.
 - **Applying this to arrays with duplicates** and claiming O(log n).
 
-**This same move shows up in:** [Search in Rotated Sorted Array](33-search-in-rotated-sorted-array.md) (same structure, plus a target) · [Binary Search](704-binary-search.md) (the base template this modifies) · [Koko Eating Bananas](875-koko-eating-bananas.md) (monotonic decision rule without sortedness) · [Find Peak Element](../learning/05-binary-search.md) (halving on an unsorted array using a local comparison).
+**This same move shows up in:** [Search in Rotated Sorted Array](33-search-in-rotated-sorted-array.md) (same structure, plus a target) · [Binary Search](704-binary-search.md) (the base template this modifies) · [Koko Eating Bananas](875-koko-eating-bananas.md) (monotonic decision rule without sortedness) · [Find Peak Element](../learning/06-binary-search.md) (halving on an unsorted array using a local comparison).
 
 </details>
 
