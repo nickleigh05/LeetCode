@@ -2,7 +2,7 @@
 
 *Reading about Big-O is not the same as computing it. This lesson makes you do it.*
 
-[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](00g-pattern-recognition.md)
 
 ---
 
@@ -321,6 +321,6 @@ It finds the maximum element. O(n) time, O(1) space.
 
 ---
 
-**Up next:** [Arrays & Hashing](01-arrays-hashing.md) — the foundation. Hash maps trade memory for O(1) lookups and quietly power half of all interview solutions.
+**Up next:** [Pattern Recognition](00g-pattern-recognition.md) — turning a cold problem statement into a shortlist of techniques to try.
 
-[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](01-arrays-hashing.md)
+[← Prev](00e-space-complexity.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](00g-pattern-recognition.md)

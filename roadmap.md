@@ -19,6 +19,7 @@ No problems here. Read these once, then never guess at a complexity again.
 - [ ] [Time Complexity](materials/learning/00d-time-complexity.md) — Add sequential, multiply nested, halving = log.
 - [ ] [Space Complexity](materials/learning/00e-space-complexity.md) — Counting extra memory, recursion depth included.
 - [ ] [Foundations Practice](materials/learning/00f-foundations-practice.md) — Drills that make Phase 0 stick.
+- [ ] [Pattern Recognition](materials/learning/00g-pattern-recognition.md) — How to read a cold problem statement and decide which data structure or algorithm it wants.
 
 </details>
 
