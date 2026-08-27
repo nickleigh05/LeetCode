@@ -2,19 +2,18 @@
 
 A collection of my solutions to LeetCode problems, organized by topic and difficulty. 
 
-> ### Click here for [**DSA Roadmap**](roadmap.md)
+> ### [**Click here for DSA Roadmap**](roadmap.md)
 
 ## Repository Structure
 
 ```
 leetcode/
 ├── roadmap.md                 ← A roadmap to learn DS&A for leetcode
-├── interview.md               ← The interview roadmap: behavioral · coding · system design
 ├── materials/                 ← Educational material for the roadmaps
 │   ├── learning/
 │   ├── guides/
-│   ├── rmap-practice/        ← per-unit problem indexes
-│   ├── walkthroughs/         ← one page per problem: prompt · hint · solution · complexity
+│   ├── rmap-practice/
+│   ├── walkthroughs/
 │   ├── system-design/
 │   ├── sd-practice/
 │   ├── data-structures/
