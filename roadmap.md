@@ -1,6 +1,6 @@
 # DSA Roadmap
 
-`████████████░░░░░░░░░░░░` **150/301** · Recommended 300 (+1 bonus) expansion in progress
+`██████████████░░░░░░░░░░` **180/301** · walkthroughs written for 180 of 301 problems
 
 Tap a unit → read the lesson → solve its problems → tick the box.
 
@@ -24,7 +24,7 @@ No problems here. Read these once, then never guess at a complexity again.
 </details>
 
 <details>
-<summary><b>01 · Arrays & Hashing</b> — 11/24 ▓▓▓▓░░░░</summary>
+<summary><b>01 · Arrays & Hashing</b> — 24/24 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Trade memory for O(1) lookups; kill brute-force double loops.
 
@@ -33,73 +33,73 @@ Trade memory for O(1) lookups; kill brute-force double loops.
 - [x] **1** · Easy · Two Sum · [LeetCode](https://leetcode.com/problems/two-sum/) · [Solution](problems/0001-0499/1.py) · [Walkthrough](materials/walkthroughs/1-two-sum.md)
 - [x] **217** · Easy · Contains Duplicate · [LeetCode](https://leetcode.com/problems/contains-duplicate/) · [Solution](problems/0001-0499/217.py) · [Walkthrough](materials/walkthroughs/217-contains-duplicate.md)
 - [x] **242** · Easy · Valid Anagram · [LeetCode](https://leetcode.com/problems/valid-anagram/) · [Solution](problems/0001-0499/242.py) · [Walkthrough](materials/walkthroughs/242-valid-anagram.md)
-- [ ] **14** · Easy · Longest Common Prefix · [LeetCode](https://leetcode.com/problems/longest-common-prefix/) · [Solution](problems/0001-0499/14.py)
-- [ ] **169** · Easy · Majority Element · [LeetCode](https://leetcode.com/problems/majority-element/) · [Solution](problems/0001-0499/169.py)
-- [ ] **26** · Easy · Remove Duplicates from Sorted Array · [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [Solution](problems/0001-0499/26.py)
-- [ ] **27** · Easy · Remove Element · [LeetCode](https://leetcode.com/problems/remove-element/) · [Solution](problems/0001-0499/27.py)
+- [x] **14** · Easy · Longest Common Prefix · [LeetCode](https://leetcode.com/problems/longest-common-prefix/) · [Solution](problems/0001-0499/14.py) · [Walkthrough](materials/walkthroughs/14-longest-common-prefix.md)
+- [x] **169** · Easy · Majority Element · [LeetCode](https://leetcode.com/problems/majority-element/) · [Solution](problems/0001-0499/169.py) · [Walkthrough](materials/walkthroughs/169-majority-element.md)
+- [x] **26** · Easy · Remove Duplicates from Sorted Array · [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [Solution](problems/0001-0499/26.py) · [Walkthrough](materials/walkthroughs/26-remove-duplicates-from-sorted-array.md)
+- [x] **27** · Easy · Remove Element · [LeetCode](https://leetcode.com/problems/remove-element/) · [Solution](problems/0001-0499/27.py) · [Walkthrough](materials/walkthroughs/27-remove-element.md)
 - [x] **66** · Easy · Plus One · [LeetCode](https://leetcode.com/problems/plus-one/) · [Solution](problems/0001-0499/66.py) · [Walkthrough](materials/walkthroughs/66-plus-one.md)
-- [ ] **88** · Easy · Merge Sorted Array · [LeetCode](https://leetcode.com/problems/merge-sorted-array/) · [Solution](problems/0001-0499/88.py)
+- [x] **88** · Easy · Merge Sorted Array · [LeetCode](https://leetcode.com/problems/merge-sorted-array/) · [Solution](problems/0001-0499/88.py) · [Walkthrough](materials/walkthroughs/88-merge-sorted-array.md)
 - [x] **268** · Easy · Missing Number · [LeetCode](https://leetcode.com/problems/missing-number/) · [Solution](problems/0001-0499/268.py) · [Walkthrough](materials/walkthroughs/268-missing-number.md)
-- [ ] **448** · Easy · Find All Numbers Disappeared in an Array · [LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) · [Solution](problems/0001-0499/448.py)
-- [ ] **1929** · Easy · Concatenation of Array · [LeetCode](https://leetcode.com/problems/concatenation-of-array/) · [Solution](problems/1500-1999/1929.py)
-- [ ] **303** · Easy · Range Sum Query - Immutable · [LeetCode](https://leetcode.com/problems/range-sum-query-immutable/) · [Solution](problems/0001-0499/303.py)
+- [x] **448** · Easy · Find All Numbers Disappeared in an Array · [LeetCode](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) · [Solution](problems/0001-0499/448.py) · [Walkthrough](materials/walkthroughs/448-find-all-numbers-disappeared-in-an-array.md)
+- [x] **1929** · Easy · Concatenation of Array · [LeetCode](https://leetcode.com/problems/concatenation-of-array/) · [Solution](problems/1500-1999/1929.py) · [Walkthrough](materials/walkthroughs/1929-concatenation-of-array.md)
+- [x] **303** · Easy · Range Sum Query - Immutable · [LeetCode](https://leetcode.com/problems/range-sum-query-immutable/) · [Solution](problems/0001-0499/303.py) · [Walkthrough](materials/walkthroughs/303-range-sum-query-immutable.md)
 - [x] **49** · Med · Group Anagrams · [LeetCode](https://leetcode.com/problems/group-anagrams/) · [Solution](problems/0001-0499/49.py) · [Walkthrough](materials/walkthroughs/49-group-anagrams.md)
 - [x] **347** · Med · Top K Frequent Elements · [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) · [Solution](problems/0001-0499/347.py) · [Walkthrough](materials/walkthroughs/347-top-k-frequent-elements.md)
 - [x] **238** · Med · Product of Array Except Self · [LeetCode](https://leetcode.com/problems/product-of-array-except-self/) · [Solution](problems/0001-0499/238.py) · [Walkthrough](materials/walkthroughs/238-product-of-array-except-self.md)
 - [x] **271** · Med · Encode and Decode Strings · [LeetCode](https://leetcode.com/problems/encode-and-decode-strings/) · [Solution](problems/0001-0499/271.py) · [Walkthrough](materials/walkthroughs/271-encode-and-decode-strings.md)
 - [x] **36** · Med · Valid Sudoku · [LeetCode](https://leetcode.com/problems/valid-sudoku/) · [Solution](problems/0001-0499/36.py) · [Walkthrough](materials/walkthroughs/36-valid-sudoku.md)
-- [ ] **380** · Med · Insert Delete GetRandom O(1) · [LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/) · [Solution](problems/0001-0499/380.py)
+- [x] **380** · Med · Insert Delete GetRandom O(1) · [LeetCode](https://leetcode.com/problems/insert-delete-getrandom-o1/) · [Solution](problems/0001-0499/380.py) · [Walkthrough](materials/walkthroughs/380-insert-delete-getrandom-o1.md)
 - [x] **128** · Med · Longest Consecutive Sequence · [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) · [Solution](problems/0001-0499/128.py) · [Walkthrough](materials/walkthroughs/128-longest-consecutive-sequence.md)
-- [ ] **560** · Med · Subarray Sum Equals K · [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) · [Solution](problems/0500-0999/560.py)
-- [ ] **525** · Med · Contiguous Array · [LeetCode](https://leetcode.com/problems/contiguous-array/) · [Solution](problems/0500-0999/525.py)
-- [ ] **274** · Med · H-Index · [LeetCode](https://leetcode.com/problems/h-index/) · [Solution](problems/0001-0499/274.py)
-- [ ] **41** · Hard · First Missing Positive · [LeetCode](https://leetcode.com/problems/first-missing-positive/) · [Solution](problems/0001-0499/41.py)
+- [x] **560** · Med · Subarray Sum Equals K · [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) · [Solution](problems/0500-0999/560.py) · [Walkthrough](materials/walkthroughs/560-subarray-sum-equals-k.md)
+- [x] **525** · Med · Contiguous Array · [LeetCode](https://leetcode.com/problems/contiguous-array/) · [Solution](problems/0500-0999/525.py) · [Walkthrough](materials/walkthroughs/525-contiguous-array.md)
+- [x] **274** · Med · H-Index · [LeetCode](https://leetcode.com/problems/h-index/) · [Solution](problems/0001-0499/274.py) · [Walkthrough](materials/walkthroughs/274-h-index.md)
+- [x] **41** · Hard · First Missing Positive · [LeetCode](https://leetcode.com/problems/first-missing-positive/) · [Solution](problems/0001-0499/41.py) · [Walkthrough](materials/walkthroughs/41-first-missing-positive.md)
 
 </details>
 
 <details>
-<summary><b>02 · Two Pointers</b> — 5/14 ▓▓▓░░░░░</summary>
+<summary><b>02 · Two Pointers</b> — 14/14 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Two cursors on a sorted array drop the O(n²).
 
 [📖 Lesson](materials/learning/02-two-pointers.md)
 
 - [x] **125** · Easy · Valid Palindrome · [LeetCode](https://leetcode.com/problems/valid-palindrome/) · [Solution](problems/0001-0499/125.py) · [Walkthrough](materials/walkthroughs/125-valid-palindrome.md)
-- [ ] **680** · Easy · Valid Palindrome II · [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/) · [Solution](problems/0500-0999/680.py)
-- [ ] **283** · Easy · Move Zeroes · [LeetCode](https://leetcode.com/problems/move-zeroes/) · [Solution](problems/0001-0499/283.py)
-- [ ] **977** · Easy · Squares of a Sorted Array · [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/) · [Solution](problems/0500-0999/977.py)
-- [ ] **344** · Easy · Reverse String · [LeetCode](https://leetcode.com/problems/reverse-string/) · [Solution](problems/0001-0499/344.py)
-- [ ] **392** · Easy · Is Subsequence · [LeetCode](https://leetcode.com/problems/is-subsequence/) · [Solution](problems/0001-0499/392.py)
-- [ ] **1768** · Easy · Merge Strings Alternately · [LeetCode](https://leetcode.com/problems/merge-strings-alternately/) · [Solution](problems/1500-1999/1768.py)
+- [x] **680** · Easy · Valid Palindrome II · [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/) · [Solution](problems/0500-0999/680.py) · [Walkthrough](materials/walkthroughs/680-valid-palindrome-ii.md)
+- [x] **283** · Easy · Move Zeroes · [LeetCode](https://leetcode.com/problems/move-zeroes/) · [Solution](problems/0001-0499/283.py) · [Walkthrough](materials/walkthroughs/283-move-zeroes.md)
+- [x] **977** · Easy · Squares of a Sorted Array · [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/) · [Solution](problems/0500-0999/977.py) · [Walkthrough](materials/walkthroughs/977-squares-of-a-sorted-array.md)
+- [x] **344** · Easy · Reverse String · [LeetCode](https://leetcode.com/problems/reverse-string/) · [Solution](problems/0001-0499/344.py) · [Walkthrough](materials/walkthroughs/344-reverse-string.md)
+- [x] **392** · Easy · Is Subsequence · [LeetCode](https://leetcode.com/problems/is-subsequence/) · [Solution](problems/0001-0499/392.py) · [Walkthrough](materials/walkthroughs/392-is-subsequence.md)
+- [x] **1768** · Easy · Merge Strings Alternately · [LeetCode](https://leetcode.com/problems/merge-strings-alternately/) · [Solution](problems/1500-1999/1768.py) · [Walkthrough](materials/walkthroughs/1768-merge-strings-alternately.md)
 - [x] **167** · Med · Two Sum II - Input Array Is Sorted · [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · [Solution](problems/0001-0499/167.py) · [Walkthrough](materials/walkthroughs/167-two-sum-ii-input-array-is-sorted.md)
 - [x] **15** · Med · 3Sum · [LeetCode](https://leetcode.com/problems/3sum/) · [Solution](problems/0001-0499/15.py) · [Walkthrough](materials/walkthroughs/15-3sum.md)
-- [ ] **16** · Med · 3Sum Closest · [LeetCode](https://leetcode.com/problems/3sum-closest/) · [Solution](problems/0001-0499/16.py)
-- [ ] **18** · Med · 4Sum · [LeetCode](https://leetcode.com/problems/4sum/) · [Solution](problems/0001-0499/18.py)
+- [x] **16** · Med · 3Sum Closest · [LeetCode](https://leetcode.com/problems/3sum-closest/) · [Solution](problems/0001-0499/16.py) · [Walkthrough](materials/walkthroughs/16-3sum-closest.md)
+- [x] **18** · Med · 4Sum · [LeetCode](https://leetcode.com/problems/4sum/) · [Solution](problems/0001-0499/18.py) · [Walkthrough](materials/walkthroughs/18-4sum.md)
 - [x] **11** · Med · Container With Most Water · [LeetCode](https://leetcode.com/problems/container-with-most-water/) · [Solution](problems/0001-0499/11.py) · [Walkthrough](materials/walkthroughs/11-container-with-most-water.md)
-- [ ] **75** · Med · Sort Colors · [LeetCode](https://leetcode.com/problems/sort-colors/) · [Solution](problems/0001-0499/75.py)
+- [x] **75** · Med · Sort Colors · [LeetCode](https://leetcode.com/problems/sort-colors/) · [Solution](problems/0001-0499/75.py) · [Walkthrough](materials/walkthroughs/75-sort-colors.md)
 - [x] **42** · Hard · Trapping Rain Water · [LeetCode](https://leetcode.com/problems/trapping-rain-water/) · [Solution](problems/0001-0499/42.py) · [Walkthrough](materials/walkthroughs/42-trapping-rain-water.md)
 
 </details>
 
 <details>
-<summary><b>03 · Sliding Window</b> — 6/14 ▓▓▓░░░░░</summary>
+<summary><b>03 · Sliding Window</b> — 14/14 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 A moving boundary over contiguous ranges; O(n).
 
 [📖 Lesson](materials/learning/03-sliding-window.md)
 
 - [x] **121** · Easy · Best Time to Buy and Sell Stock · [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [Solution](problems/0001-0499/121.py) · [Walkthrough](materials/walkthroughs/121-best-time-to-buy-and-sell-stock.md)
-- [ ] **219** · Easy · Contains Duplicate II · [LeetCode](https://leetcode.com/problems/contains-duplicate-ii/) · [Solution](problems/0001-0499/219.py)
-- [ ] **643** · Easy · Maximum Average Subarray I · [LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/) · [Solution](problems/0500-0999/643.py)
+- [x] **219** · Easy · Contains Duplicate II · [LeetCode](https://leetcode.com/problems/contains-duplicate-ii/) · [Solution](problems/0001-0499/219.py) · [Walkthrough](materials/walkthroughs/219-contains-duplicate-ii.md)
+- [x] **643** · Easy · Maximum Average Subarray I · [LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/) · [Solution](problems/0500-0999/643.py) · [Walkthrough](materials/walkthroughs/643-maximum-average-subarray-i.md)
 - [x] **3** · Med · Longest Substring Without Repeating Characters · [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Solution](problems/0001-0499/3.py) · [Walkthrough](materials/walkthroughs/3-longest-substring-without-repeating-characters.md)
 - [x] **424** · Med · Longest Repeating Character Replacement · [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/) · [Solution](problems/0001-0499/424.py) · [Walkthrough](materials/walkthroughs/424-longest-repeating-character-replacement.md)
 - [x] **567** · Med · Permutation in String · [LeetCode](https://leetcode.com/problems/permutation-in-string/) · [Solution](problems/0500-0999/567.py) · [Walkthrough](materials/walkthroughs/567-permutation-in-string.md)
-- [ ] **438** · Med · Find All Anagrams in a String · [LeetCode](https://leetcode.com/problems/find-all-anagrams-in-a-string/) · [Solution](problems/0001-0499/438.py)
-- [ ] **209** · Med · Minimum Size Subarray Sum · [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/) · [Solution](problems/0001-0499/209.py)
-- [ ] **904** · Med · Fruit Into Baskets · [LeetCode](https://leetcode.com/problems/fruit-into-baskets/) · [Solution](problems/0500-0999/904.py)
-- [ ] **1456** · Med · Maximum Number of Vowels in a Substring of Given Length · [LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) · [Solution](problems/1000-1499/1456.py)
-- [ ] **1004** · Med · Max Consecutive Ones III · [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/) · [Solution](problems/1000-1499/1004.py)
-- [ ] **1493** · Med · Longest Subarray of 1's After Deleting One Element · [LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) · [Solution](problems/1000-1499/1493.py)
+- [x] **438** · Med · Find All Anagrams in a String · [LeetCode](https://leetcode.com/problems/find-all-anagrams-in-a-string/) · [Solution](problems/0001-0499/438.py) · [Walkthrough](materials/walkthroughs/438-find-all-anagrams-in-a-string.md)
+- [x] **209** · Med · Minimum Size Subarray Sum · [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/) · [Solution](problems/0001-0499/209.py) · [Walkthrough](materials/walkthroughs/209-minimum-size-subarray-sum.md)
+- [x] **904** · Med · Fruit Into Baskets · [LeetCode](https://leetcode.com/problems/fruit-into-baskets/) · [Solution](problems/0500-0999/904.py) · [Walkthrough](materials/walkthroughs/904-fruit-into-baskets.md)
+- [x] **1456** · Med · Maximum Number of Vowels in a Substring of Given Length · [LeetCode](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) · [Solution](problems/1000-1499/1456.py) · [Walkthrough](materials/walkthroughs/1456-maximum-number-of-vowels-in-a-substring-of-given-length.md)
+- [x] **1004** · Med · Max Consecutive Ones III · [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/) · [Solution](problems/1000-1499/1004.py) · [Walkthrough](materials/walkthroughs/1004-max-consecutive-ones-iii.md)
+- [x] **1493** · Med · Longest Subarray of 1's After Deleting One Element · [LeetCode](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) · [Solution](problems/1000-1499/1493.py) · [Walkthrough](materials/walkthroughs/1493-longest-subarray-of-1s-after-deleting-one-element.md)
 - [x] **76** · Hard · Minimum Window Substring · [LeetCode](https://leetcode.com/problems/minimum-window-substring/) · [Solution](problems/0001-0499/76.py) · [Walkthrough](materials/walkthroughs/76-minimum-window-substring.md)
 - [x] **239** · Hard · Sliding Window Maximum · [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) · [Solution](problems/0001-0499/239.py) · [Walkthrough](materials/walkthroughs/239-sliding-window-maximum.md)
 
