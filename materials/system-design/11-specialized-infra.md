@@ -6,7 +6,7 @@
 
 ---
 
-> **Builds on:** three DSA lessons come back as infrastructure here — [Tries (08)](../learning/09-tries.md) power typeahead and inverted-index term lookup, [the grids primer (10b)](../learning/11b-grids-primer.md) is the intuition behind geospatial indexes, and [Bit Manipulation (18)](../learning/19-bit-manipulation.md) is what bloom filters and bitmaps are made of.
+> **Builds on:** three DSA lessons come back as infrastructure here — [Tries (08)](../learning/08-tries.md) power typeahead and inverted-index term lookup, [the grids primer (10b)](../learning/10b-grids-primer.md) is the intuition behind geospatial indexes, and [Bit Manipulation (18)](../learning/18-bit-manipulation.md) is what bloom filters and bitmaps are made of.
 
 The core track gave you the universal boxes — cache, balancer, database, queue, shards. But some interview questions hinge on one *specialized* box: you can't design YouTube without blob storage, Uber without a geo-index, or a web crawler without a bloom filter. Interviewers use these questions to check whether you know the standard tool or try to jam everything into Postgres. Each section below is deliberately shallow-but-precise — the goal is to *name the right component, place it, and survive one follow-up*, which is exactly the depth a loop probes unless you're interviewing for that team specifically.
 
@@ -64,7 +64,7 @@ The core track gave you the universal boxes — cache, balancer, database, queue
 **Key Properties:**
 - Documents are **tokenized and normalized** at index time (lowercase, stemming: "flights" → "flight") — that's why search finds variants a LIKE never would.
 - The name-drop is **Elasticsearch** (or OpenSearch/Lucene): say "I'll stream product updates into Elasticsearch via the [outbox/CDC pipeline](10-delivery-semantics.md)" — the search index is a *derived, eventually-consistent replica* of the source-of-truth DB, not a second master.
-- Prefix flavors of search — typeahead — are [trie](../learning/09-tries.md) territory: same idea, term-prefix → completions, usually precomputed top-k per prefix.
+- Prefix flavors of search — typeahead — are [trie](../learning/08-tries.md) territory: same idea, term-prefix → completions, usually precomputed top-k per prefix.
 
 **Use when:** Any "search the [products/tweets/listings]" requirement. The one-liner: "text search gets its own index — LIKE doesn't scale — so, Elasticsearch fed by CDC."
 
@@ -82,7 +82,7 @@ The core track gave you the universal boxes — cache, balancer, database, queue
 
 **What it is:** "Find drivers within 2km" is unanswerable with B-trees on raw lat/lng — an index on latitude gives you a *band* around the equator, not a circle around a point. The fix is encoding 2D proximity into something 1D-indexable:
 
-- **Geohash** — interleave latitude/longitude bits into a string; longer = more precise, and **nearby points share a prefix**, so a radius query becomes a *prefix query* — your grid intuition ([10b](../learning/11b-grids-primer.md)) turned into a string index.
+- **Geohash** — interleave latitude/longitude bits into a string; longer = more precise, and **nearby points share a prefix**, so a radius query becomes a *prefix query* — your grid intuition ([10b](../learning/10b-grids-primer.md)) turned into a string index.
 - **Quadtree** — recursively split any cell holding more than K points into four children; a radius query descends only into overlapping cells. Adaptive: dense downtown gets deep small cells, the ocean stays one node.
 
 **Key Properties:**
@@ -94,7 +94,7 @@ The core track gave you the universal boxes — cache, balancer, database, queue
 
 ### Probabilistic Structures
 
-**What it is:** At billions of items, exact answers to "seen it before? how many distinct? who's hot?" cost more memory than they're worth. Sketches trade a tunable error for orders-of-magnitude less space — all built on hashing and [bit tricks](../learning/19-bit-manipulation.md).
+**What it is:** At billions of items, exact answers to "seen it before? how many distinct? who's hot?" cost more memory than they're worth. Sketches trade a tunable error for orders-of-magnitude less space — all built on hashing and [bit tricks](../learning/18-bit-manipulation.md).
 
 - **Bloom filter** — a bit array + k hash functions; insert sets k bits, lookup checks them. Answers **definitely-not / probably-yes**: false positives possible (tunable — ~1% at ~10 bits/element), **false negatives impossible**. A billion URLs in ~1.2 GB instead of a 60+ GB exact set. (Reference: [bloom filter](../data-structures/bloom-filter.md).)
 - **Count-min sketch** — a bloom filter for *counts*: a small 2D array of counters; increment one cell per hash row, read the minimum across rows. Overestimates only — perfect for **heavy hitters** (top hashtags, hot keys, rate-limit candidates) in fixed memory.

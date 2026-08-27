@@ -2,7 +2,7 @@
 
 **Hard** · [LeetCode](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 
-[📖 15. 2-D Dynamic Programming lesson](../learning/15-dp-2d.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 15. 2-D Dynamic Programming problems](../rmap-practice/15-dp-2d.md)
+[📖 14. 2-D Dynamic Programming lesson](../learning/15-dp-2d.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 14. 2-D Dynamic Programming problems](../rmap-practice/14-dp-2d.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -121,7 +121,7 @@ Starting at 1 rather than 0 is what makes the `1 + dfs(...)` arithmetic below co
         r = row + dr
         c = col + dc
 ```
-The four-direction sweep, the same offset-pair idiom used throughout the grid problems in [Unit 11](../rmap-practice/12-graphs.md). Only these four — the problem explicitly excludes diagonals, which is what makes example 2's answer 4 rather than longer.
+The four-direction sweep, the same offset-pair idiom used throughout the grid problems in [Unit 11](../rmap-practice/11-graphs.md). Only these four — the problem explicitly excludes diagonals, which is what makes example 2's answer 4 rather than longer.
 → [for-loop](../syntax/for-loop.md) · [list-basics](../syntax/list-basics.md) · [tuple-unpacking](../syntax/tuple-unpacking.md)
 
 ```python

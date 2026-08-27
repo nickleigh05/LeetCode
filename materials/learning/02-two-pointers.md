@@ -7,7 +7,7 @@
 
 > **Builds on:** arrays from [Lesson 01 — Arrays & Hashing](01-arrays-hashing.md). No new data structure here — just a smarter way to scan one.
 >
-> **Sorting prerequisite:** most two-pointer problems (Two Sum II, 3Sum, Container With Most Water) require a **sorted** array. For now, use Python's `sorted()` or `arr.sort()` without worrying about the internals — how merge sort and quicksort actually work is covered in [Lesson 05b — Sorting](06b-sorting.md).
+> **Sorting prerequisite:** most two-pointer problems (Two Sum II, 3Sum, Container With Most Water) require a **sorted** array. For now, use Python's `sorted()` or `arr.sort()` without worrying about the internals — how merge sort and quicksort actually work is covered in [Lesson 05b — Sorting](05b-sorting.md).
 
 Once an array is **sorted**, you rarely need a hash map — two indices walking toward each other can find a pair, triple, or sub-range in O(n) with O(1) extra space. This is the first "aha" pattern: the search space halves itself because monotonicity tells you which way to move.
 

@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/last-stone-weight/) · [Solution file (no hints)](../../problems/1000-1499/1046.py)
 
-[📖 10. Heap / Priority Queue lesson](../learning/10-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 10. Heap / Priority Queue problems](../rmap-practice/10-heap-priority-queue.md)
+[📖 09. Heap / Priority Queue lesson](../learning/09-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 09. Heap / Priority Queue problems](../rmap-practice/09-heap-priority-queue.md)
 
 ---
 

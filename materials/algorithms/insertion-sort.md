@@ -15,4 +15,4 @@ Sort the way you sort a hand of cards: take the next element and slide it left i
 
 **Complexity:** O(n²) worst · O(n) on nearly-sorted input · O(1) space · stable.
 
-**Related:** [bubble-sort](bubble-sort.md) · [merge-sort](merge-sort.md) · [Sorting lesson](../learning/06b-sorting.md) · [bisect-module (syntax)](../syntax/bisect-module.md)
+**Related:** [bubble-sort](bubble-sort.md) · [merge-sort](merge-sort.md) · [Sorting lesson](../learning/05b-sorting.md) · [bisect-module (syntax)](../syntax/bisect-module.md)

@@ -15,4 +15,4 @@ For each position, scan the rest for the smallest remaining element and swap it 
 
 **Complexity:** Θ(n²) time always · O(1) space · not stable (the long-range swap reorders equals).
 
-**Related:** [heapsort](heapsort.md) · [bubble-sort](bubble-sort.md) · [insertion-sort](insertion-sort.md) · [Sorting lesson](../learning/06b-sorting.md)
+**Related:** [heapsort](heapsort.md) · [bubble-sort](bubble-sort.md) · [insertion-sort](insertion-sort.md) · [Sorting lesson](../learning/05b-sorting.md)

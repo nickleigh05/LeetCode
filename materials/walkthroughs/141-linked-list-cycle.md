@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/linked-list-cycle/) · [Solution file (no hints)](../../problems/0001-0499/141.py)
 
-[📖 07. Linked List lesson](../learning/07-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 07. Linked List problems](../rmap-practice/07-linked-list.md)
+[📖 06. Linked List lesson](../learning/06-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Linked List problems](../rmap-practice/06-linked-list.md)
 
 ---
 

@@ -17,4 +17,4 @@ You will likely never implement one (nor be asked to — rotations are memorizat
 
 **Complexity:** search/insert/delete O(log n) guaranteed · in-order iteration O(n) sorted.
 
-**Related:** [binary-search-tree](binary-search-tree.md) · [sorted-list](sorted-list.md) · [skip-list](skip-list.md) · [Trees lesson](../learning/08-trees.md)
+**Related:** [binary-search-tree](binary-search-tree.md) · [sorted-list](sorted-list.md) · [skip-list](skip-list.md) · [Trees lesson](../learning/07-trees.md)

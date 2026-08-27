@@ -68,7 +68,7 @@ box = (row // 3) * 3 + (col // 3)
  rows 6-8 │  6  │   7   │   8
 ```
 
-That `(i // size) * width + (j // size)` flattening is a genuinely reusable trick — see [grids primer](../learning/11b-grids-primer.md).
+That `(i // size) * width + (j // size)` flattening is a genuinely reusable trick — see [grids primer](../learning/10b-grids-primer.md).
 
 **Why not the single-set-of-tuples version?** It's elegant — `if (row, cell) in seen: return False` — and worth mentioning. Three explicit sets make each rule visible in the code, which is easier to defend out loud and easier to debug when one rule fails.
 
@@ -245,7 +245,7 @@ That sentence shows you understand *why* it's constant rather than having patter
 - **Trying to solve the board.** Re-read the question; validity ≠ solvability.
 - **Saying O(n²) without qualification.** Not wrong in spirit, but the board is fixed — name the constant.
 
-**This same move shows up in:** [Contains Duplicate](217-contains-duplicate.md) (the single-set original this is built from) · [Group Anagrams](49-group-anagrams.md) (a derived key to bucket by) · [Word Search](79-word-search.md) and [Number of Islands](200-number-of-islands.md) (the same 2-D grid indexing — see the [grids primer](../learning/11b-grids-primer.md)).
+**This same move shows up in:** [Contains Duplicate](217-contains-duplicate.md) (the single-set original this is built from) · [Group Anagrams](49-group-anagrams.md) (a derived key to bucket by) · [Word Search](79-word-search.md) and [Number of Islands](200-number-of-islands.md) (the same 2-D grid indexing — see the [grids primer](../learning/10b-grids-primer.md)).
 
 </details>
 

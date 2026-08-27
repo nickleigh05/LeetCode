@@ -89,7 +89,7 @@ The numbers just drew the battle line: average-case fan-out on write is cheap (7
 2. **Fan-out on read (pull):** store nothing per-follower; at read time, fetch each followee's recent posts and merge. Writes are one insert — celebrities cost nothing extra. Cost: a user following 500 people triggers ~500 lookups and a merge on *every* feed load, at 35K QPS — the 100:1 ratio means you've moved the multiplication onto the hot path. Latency budget dies.
 3. **Hybrid (pick this):** push for normal users, pull for the few thousand accounts above a follower threshold (~100K–1M). At read time the feed service takes the user's precomputed pushed list, pulls recent posts from the handful of celebrities they follow, and **merges at read**. Push cost is capped (no single post fans to millions), pull cost is capped (nobody follows thousands of celebrities), and each strategy covers the other's worst case.
 
-The merge is your DSA bridge: k small sorted-by-time lists merged with a heap — [merge-k-sorted-lists](../learning/10-heap-priority-queue.md) with infrastructure around it.
+The merge is your DSA bridge: k small sorted-by-time lists merged with a heap — [merge-k-sorted-lists](../learning/09-heap-priority-queue.md) with infrastructure around it.
 
 **Normalize the cache:** feed lists hold **post IDs only**; a separate post cache maps ID → content. An edited post is updated once, not in 10M materialized copies — Step 2 already showed why the multiplied structure must hold the small thing.
 

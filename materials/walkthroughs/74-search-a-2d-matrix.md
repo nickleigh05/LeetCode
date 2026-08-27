@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/) · [Solution file (no hints)](../../problems/0001-0499/74.py)
 
-[📖 06. Binary Search lesson](../learning/06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Binary Search problems](../rmap-practice/06-binary-search.md)
+[📖 05. Binary Search lesson](../learning/05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 05. Binary Search problems](../rmap-practice/05-binary-search.md)
 
 ---
 
@@ -78,7 +78,7 @@ col = index %  n        how far into that row
 
 **Note that `log m + log n = log(m·n)`** — the two-binary-search version is asymptotically identical, not worse. It's a perfectly good answer; it just needs two loops and careful row-boundary logic (find the row whose last element is ≥ target). The single search is less code and fewer places to get boundaries wrong.
 
-**The transferable idea:** *"flatten via index arithmetic"* recurs constantly — same `// width` and `% width` pair as the box index in [Valid Sudoku](36-valid-sudoku.md) and throughout the [grids primer](../learning/11b-grids-primer.md).
+**The transferable idea:** *"flatten via index arithmetic"* recurs constantly — same `// width` and `% width` pair as the box index in [Valid Sudoku](36-valid-sudoku.md) and throughout the [grids primer](../learning/10b-grids-primer.md).
 
 </details>
 
@@ -268,7 +268,7 @@ That's a genuinely reusable idea: **when you need a different view of a data str
 - **Swapping `row` and `col`** in the lookup — `matrix[col][row]` may not even raise on a square matrix, just return the wrong cell.
 - **All the [704](704-binary-search.md) boundary traps** still apply: `<=`, and `mid ± 1`.
 
-**This same move shows up in:** [Binary Search](704-binary-search.md) (the loop this reuses verbatim) · [Valid Sudoku](36-valid-sudoku.md) (the same `// width` and `% width` flattening for box indices) · [Grids Primer](../learning/11b-grids-primer.md) (2-D indexing in general) · [Koko Eating Bananas](875-koko-eating-bananas.md) (binary search over a space that isn't an array at all).
+**This same move shows up in:** [Binary Search](704-binary-search.md) (the loop this reuses verbatim) · [Valid Sudoku](36-valid-sudoku.md) (the same `// width` and `% width` flattening for box indices) · [Grids Primer](../learning/10b-grids-primer.md) (2-D indexing in general) · [Koko Eating Bananas](875-koko-eating-bananas.md) (binary search over a space that isn't an array at all).
 
 </details>
 

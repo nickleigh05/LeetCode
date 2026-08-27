@@ -3,21 +3,18 @@
 A collection of my solutions to LeetCode problems, organized by topic and difficulty. 
 
 > ### Click here for [**DSA Roadmap**](roadmap.md)
->
-> Starting from scratch? Use the [**blank tracker**](blank-roadmap.md) — same page, nothing pre-ticked.
 
 ## Repository Structure
 
 ```
 leetcode/
-├── roadmap.md
-├── blank-roadmap.md
-├── interview.md
-├── materials/
+├── roadmap.md                 ← A roadmap to learn DS&A for leetcode
+├── interview.md               ← The interview roadmap: behavioral · coding · system design
+├── materials/                 ← Educational material for the roadmaps
 │   ├── learning/
 │   ├── guides/
-│   ├── rmap-practice/
-│   ├── walkthroughs/
+│   ├── rmap-practice/        ← per-unit problem indexes
+│   ├── walkthroughs/         ← one page per problem: prompt · hint · solution · complexity
 │   ├── system-design/
 │   ├── sd-practice/
 │   ├── data-structures/
@@ -25,7 +22,7 @@ leetcode/
 │   ├── syntax/
 │   └── appendix/
 │       └── templates/
-├── problems/
+├── problems/                  ← This is where I store all my solutions
 │   ├── 0001-0499/
 │   ├── 0500-0999/
 │   ├── 1000-1499/
@@ -35,9 +32,7 @@ leetcode/
 │   ├── 3000-3499/
 │   ├── 3500-3999/
 │   └── 4000-4499/
-├── tools/
-│   └── make-blank-tracker.py
-├── lists/
+├── lists/                     ← These are the curated lists I follow
 │   ├── neetcodeblind75.md
 │   ├── neetcode150.md
 │   ├── neetcode250.md
@@ -57,6 +52,10 @@ Browse problems by topic each list has a Solution column linking directly to the
 | [NeetCode 250](lists/neetcode250.md) | 250 | Full extended list with deeper category coverage |
 | [Recommended](lists/recommended.md) | 300 | Comprehensive interview prep list (81 Easy, 187 Medium, 32 Hard) |
 | [Rushed 40](lists/rushed40.md) | 40 | Minimal set for a fast, last-minute pass |
+
+## Languages
+
+- Python
 
 ## Topics Covered
 

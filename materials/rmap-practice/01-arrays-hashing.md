@@ -12,7 +12,6 @@ One page per problem: the prompt, a hint, the solution, and its complexity.
 - **49** · Medium · [Group Anagrams](../walkthroughs/49-group-anagrams.md)
 - **347** · Medium · [Top K Frequent Elements](../walkthroughs/347-top-k-frequent-elements.md)
 - **238** · Medium · [Product of Array Except Self](../walkthroughs/238-product-of-array-except-self.md)
-- **560** · Medium · [Subarray Sum Equals K](../walkthroughs/560-subarray-sum-equals-k.md)
 - **36** · Medium · [Valid Sudoku](../walkthroughs/36-valid-sudoku.md)
 - **271** · Medium · [Encode and Decode Strings](../walkthroughs/271-encode-and-decode-strings.md)
 - **128** · Medium · [Longest Consecutive Sequence](../walkthroughs/128-longest-consecutive-sequence.md)

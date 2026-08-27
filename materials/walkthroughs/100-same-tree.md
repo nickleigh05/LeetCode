@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/same-tree/) · [Solution file (no hints)](../../problems/0001-0499/100.py)
 
-[📖 08. Trees lesson](../learning/08-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 08. Trees problems](../rmap-practice/08-trees.md)
+[📖 07. Trees lesson](../learning/07-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 07. Trees problems](../rmap-practice/07-trees.md)
 
 ---
 
@@ -68,7 +68,7 @@ The novelty here isn't the traversal, it's the **signature**: `isSameTree(p, q)`
 
 **Why serialization is risky.** Turning each tree into a string and comparing sounds clean, but `[1,2]` and `[1,null,2]` both serialize to `"1,2"` unless you explicitly emit null markers. Get the encoding wrong and structurally different trees compare equal — the exact bug the problem's second example is designed to catch. Mention it, but the direct comparison is safer. *(This is the same ambiguity problem as [Encode and Decode Strings](271-encode-and-decode-strings.md): a format must be unambiguous by construction.)*
 
-**Why this problem matters beyond itself.** It's a **building block**. [Subtree of Another Tree](572-subtree-of-another-tree.md) calls this function at every node of a larger tree, and [Symmetric Tree](../learning/08-trees.md) is this function with the child pairs crossed. Learn the pair-recursion shape here.
+**Why this problem matters beyond itself.** It's a **building block**. [Subtree of Another Tree](572-subtree-of-another-tree.md) calls this function at every node of a larger tree, and [Symmetric Tree](../learning/07-trees.md) is this function with the child pairs crossed. Learn the pair-recursion shape here.
 
 </details>
 
@@ -224,7 +224,7 @@ At n ≤ 100 none of this is a practical concern, but the reasoning carries dire
 - **Comparing values before checking for `None`** → `AttributeError`.
 - **Serializing without null markers** — structurally different trees compare equal.
 
-**This same move shows up in:** [Subtree of Another Tree](572-subtree-of-another-tree.md) (calls this at every node) · [Invert Binary Tree](226-invert-binary-tree.md) (the single-tree version of the skeleton) · [Symmetric Tree](../learning/08-trees.md) (this with crossed pairs) · [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (why null markers matter).
+**This same move shows up in:** [Subtree of Another Tree](572-subtree-of-another-tree.md) (calls this at every node) · [Invert Binary Tree](226-invert-binary-tree.md) (the single-tree version of the skeleton) · [Symmetric Tree](../learning/07-trees.md) (this with crossed pairs) · [Serialize and Deserialize Binary Tree](297-serialize-and-deserialize-binary-tree.md) (why null markers matter).
 
 </details>
 

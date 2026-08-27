@@ -19,4 +19,4 @@ When a problem says *"return the answer modulo 10⁹+7,"* the true answer overfl
 
 **Complexity:** all operations O(1)-ish (inverse costs O(log MOD)).
 
-**Related:** [fast-exponentiation](fast-exponentiation.md) · [integer-division-modulo (syntax)](../syntax/integer-division-modulo.md) · [euclidean-gcd](euclidean-gcd.md) · [Math lesson](../learning/18-math-geometry.md)
+**Related:** [fast-exponentiation](fast-exponentiation.md) · [integer-division-modulo (syntax)](../syntax/integer-division-modulo.md) · [euclidean-gcd](euclidean-gcd.md) · [Math lesson](../learning/19-math-geometry.md)

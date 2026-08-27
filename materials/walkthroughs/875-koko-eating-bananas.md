@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/koko-eating-bananas/) · [Solution file (no hints)](../../problems/0500-0999/875.py)
 
-[📖 06. Binary Search lesson](../learning/06-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Binary Search problems](../rmap-practice/06-binary-search.md)
+[📖 05. Binary Search lesson](../learning/05-binary-search.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 05. Binary Search problems](../rmap-practice/05-binary-search.md)
 
 ---
 

@@ -30,13 +30,12 @@ A text file with dates works fine. So does Anki with problem names as cards ("LC
 | Sat | Longer block: finish the topic, or one mock interview ([interview-guide](interview-guide.md)) |
 | Sun | Off, or template re-typing (light) |
 
-At that pace the [full roadmap](../../roadmap.md) — ≈180 h — is roughly **5–6 months**, and its [Phases 1–3](../../roadmap.md#phase-1) (core problems only, ≈150 h) are about **4–5 months**. That's slower than the "Blind 75 in 30 days" posts promise, and unlike them, it sticks. Doubling daily hours doesn't halve the time; consolidation needs the nights in between.
+At that pace the full roadmap through Phase 6 is roughly **3–5 months** — slower than the "Blind 75 in 30 days" posts promise, and unlike them, it sticks. Doubling daily hours doesn't halve the time; consolidation needs the nights in between.
 
 ## Plateaus and morale
 
-- **Stretch problems go last.** Every Hard on the roadmap is marked *(stretch)*. Do a unit's core problems, move on, and come back for its Hards at the end of the phase. A Hard attempted before the pattern is automatic teaches you nothing but discouragement.
 - **Quality over count.** 150 problems *understood* (could re-solve, could explain the why) beats 500 pattern-matched. If you can't say *why* the technique applies, you haven't finished the problem.
-- **Plateaus are normal** — usually they mean the current topic's prerequisite is shaky. Feeling lost in [DP](../learning/14-dp-1d.md)? The gap is usually [recursion](../learning/05-recursion.md) — Unit 05, nine units earlier. Go back one layer; it's faster than pushing forward.
+- **Plateaus are normal** — usually they mean the current topic's prerequisite is shaky. Feeling lost in [DP](../learning/14-dp-1d.md)? The gap is usually [recursion](../learning/04b-recursion.md). Go back one layer; it's faster than pushing forward.
 - **Post-solve ritual (2 min):** state the pattern, the complexity, and the one insight that unlocked it ("sorted input → two pointers"). Saying it is what indexes it for recall.
 - **Streaks measure attendance, not learning.** A missed day costs nothing; quitting over a broken streak costs everything. Track "problems I can re-solve cold" instead.
 

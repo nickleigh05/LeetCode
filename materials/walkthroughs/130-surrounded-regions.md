@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/surrounded-regions/)
 
-[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Grids primer](../learning/11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
+[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Grids primer](../learning/10b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -122,7 +122,7 @@ Bounds check, then the stop condition.
 
 **Mark as safe, then spread.** Writing `'T'` before recursing is what prevents infinite recursion between adjacent `'O'`s — the mark *is* the visited flag.
 
-The four-direction list is the standard grid idiom from the [grids primer](../learning/11b-grids-primer.md).
+The four-direction list is the standard grid idiom from the [grids primer](../learning/10b-grids-primer.md).
 
 **No un-marking** — unlike [Word Search](79-word-search.md), this is permanent. A cell reachable from the border is safe, full stop.
 → [tuple-unpacking](../syntax/tuple-unpacking.md) · [for-loop](../syntax/for-loop.md) · [recursion-basics](../syntax/recursion-basics.md)
@@ -327,7 +327,7 @@ Same O(m·n), but the queue holds only the frontier instead of the whole path.
 - **Un-marking on the way out.** Backtracking behaviour; wrong here, since safety is permanent.
 - **Returning a new board.** The problem requires in-place modification.
 
-**This same move shows up in:** [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (the same border-inward inversion) · [Number of Islands](200-number-of-islands.md) (the flood-fill skeleton) · [Rotting Oranges](994-rotting-oranges.md) (in-place marking during traversal) · [Word Search](79-word-search.md) (marking *with* restoration — the contrast) · [grids primer](../learning/11b-grids-primer.md).
+**This same move shows up in:** [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (the same border-inward inversion) · [Number of Islands](200-number-of-islands.md) (the flood-fill skeleton) · [Rotting Oranges](994-rotting-oranges.md) (in-place marking during traversal) · [Word Search](79-word-search.md) (marking *with* restoration — the contrast) · [grids primer](../learning/10b-grids-primer.md).
 
 </details>
 

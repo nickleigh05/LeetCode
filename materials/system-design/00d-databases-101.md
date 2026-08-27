@@ -33,7 +33,7 @@ When an interviewer says "this is payments," they're fishing for the word **tran
 
 Without an index, `WHERE email = 'ada@example.com'` reads *every row* — a full scan, O(n), and n lives on disk where a seek costs ~10 ms. An **index** is a sorted structure kept alongside the table so the database can *search* instead of scan.
 
-The structure is almost always a **B-tree** — the on-disk cousin of the [balanced BST](../data-structures/balanced-bst.md) you met in [Trees (07)](../learning/08-trees.md). Same idea — sorted keys, balanced height, O(log n) search — with one twist: each node is fat, holding hundreds of keys, so the node fills exactly one disk page.
+The structure is almost always a **B-tree** — the on-disk cousin of the [balanced BST](../data-structures/balanced-bst.md) you met in [Trees (07)](../learning/07-trees.md). Same idea — sorted keys, balanced height, O(log n) search — with one twist: each node is fat, holding hundreds of keys, so the node fills exactly one disk page.
 
 ```
 memory: balanced BST — tall & skinny        disk: B-tree — short & fat

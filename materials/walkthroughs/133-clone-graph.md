@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/clone-graph/) · [Solution file (no hints)](../../problems/0001-0499/133.py)
 
-[📖 12. Graphs lesson](../learning/12-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
+[📖 11. Graphs lesson](../learning/11-graphs.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
 
 ---
 

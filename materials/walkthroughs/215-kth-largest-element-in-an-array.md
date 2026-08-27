@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/) · [Solution file (no hints)](../../problems/0001-0499/215.py)
 
-[📖 10. Heap / Priority Queue lesson](../learning/10-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 10. Heap / Priority Queue problems](../rmap-practice/10-heap-priority-queue.md)
+[📖 09. Heap / Priority Queue lesson](../learning/09-heap-priority-queue.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 09. Heap / Priority Queue problems](../rmap-practice/09-heap-priority-queue.md)
 
 ---
 

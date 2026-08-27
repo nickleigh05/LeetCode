@@ -39,4 +39,4 @@
 - **Case / alphabet assumptions.** A fixed-size `[26]` array is faster but breaks on uppercase, digits, or unicode — a dict is the safe default.
 ---
 
-*See also: [Lesson 08 →](../../../learning/09-tries.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*
+*See also: [Lesson 08 →](../../../learning/08-tries.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*

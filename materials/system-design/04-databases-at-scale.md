@@ -6,7 +6,7 @@
 
 ---
 
-> **Builds on:** [Databases 101](00d-databases-101.md) — tables, keys, transactions, and the first look at indexes — and [Trees](../learning/08-trees.md), because a database index is a [balanced BST](../data-structures/balanced-bst.md) grown up: the B-tree's O(log n) is the same O(log n) you earned there.
+> **Builds on:** [Databases 101](00d-databases-101.md) — tables, keys, transactions, and the first look at indexes — and [Trees](../learning/07-trees.md), because a database index is a [balanced BST](../data-structures/balanced-bst.md) grown up: the B-tree's O(log n) is the same O(log n) you earned there.
 
 "SQL or NoSQL?" is the question interviewers ask to find out whether you make choices from requirements or from fashion. The wrong answer is a brand name with no reason attached; the right answer is a rubric applied out loud. Underneath the choice sits the machinery that actually determines performance — the index structures, and what every index costs you on the write path. This lesson gives you the rubric, the two engine families, and the handful of database traps (N+1, missing pools, index bloat) that make deep dives go well or badly.
 
@@ -61,7 +61,7 @@
 - **Composite index** — one index over multiple columns, sorted by the first, then the second: `(user_id, created_at)` serves "this user's posts, newest first" as a single range scan. Order matters — that index is useless for "all posts on a date across users," because `user_id` comes first. Rule of thumb: **equality columns first, range column last**.
 - **Covering index** — include every column the query needs, and the database answers from the index alone, never touching the table. `(user_id, created_at, title)` makes a feed-of-titles query index-only.
 
-**Python** (the mental model — an index is a sorted structure you binary-search, straight from [Binary Search](../learning/06-binary-search.md)):
+**Python** (the mental model — an index is a sorted structure you binary-search, straight from [Binary Search](../learning/05-binary-search.md)):
 ```python
 # index on (user_id, created_at): sorted list of tuples
 idx = sorted((row.user_id, row.created_at, row.id) for row in table)

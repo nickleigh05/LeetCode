@@ -17,7 +17,7 @@ The same problem can have many algorithms, and they are *not* equally fast. Find
 - **Recipe 1 — scan every page** from page 1 until you hit it. Works, but could take 1,000 page-turns.
 - **Recipe 2 — open the middle**, see which half "Nguyen" falls in, throw the other half away, repeat. Ten page-turns, guaranteed.
 
-Both are correct. One is a hundred times faster — and the gap *grows* with the size of the book. That second recipe is [binary search](06-binary-search.md), and you'll write it yourself in Phase 2.
+Both are correct. One is a hundred times faster — and the gap *grows* with the size of the book. That second recipe is [binary search](05-binary-search.md), and you'll write it yourself in Phase 2.
 
 ## Why this course exists
 

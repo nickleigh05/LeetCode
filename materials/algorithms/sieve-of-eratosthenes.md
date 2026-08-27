@@ -15,4 +15,4 @@ Find **all** primes up to n by elimination instead of testing: assume everything
 
 **Complexity:** O(n log log n) time · O(n) space.
 
-**Related:** [euclidean-gcd](euclidean-gcd.md) · [modular-arithmetic](modular-arithmetic.md) · [Math lesson](../learning/18-math-geometry.md)
+**Related:** [euclidean-gcd](euclidean-gcd.md) · [modular-arithmetic](modular-arithmetic.md) · [Math lesson](../learning/19-math-geometry.md)

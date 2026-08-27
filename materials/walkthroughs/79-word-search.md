@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/word-search/)
 
-[📖 11. Backtracking lesson](../learning/11-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Backtracking problems](../rmap-practice/11-backtracking.md)
+[📖 10. Backtracking lesson](../learning/10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 10. Backtracking problems](../rmap-practice/10-backtracking.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -310,7 +310,7 @@ The board *is* fully restored by the time the function returns, so the mutation 
 - **Marking with a character that could appear in the word** — the check would wrongly reject valid cells.
 - **A permanent global `visited`** shared across starting cells — same corruption as forgetting the restore.
 
-**This same move shows up in:** [Word Search II](212-word-search-ii.md) (this DFS with a trie, for many words at once) · [Subsets](78-subsets.md) (choose → explore → un-choose) · [Number of Islands](200-number-of-islands.md) (grid DFS, but with *permanent* marking since revisiting is never needed) · [grids primer](../learning/11b-grids-primer.md) · [backtracking](../algorithms/backtracking.md).
+**This same move shows up in:** [Word Search II](212-word-search-ii.md) (this DFS with a trie, for many words at once) · [Subsets](78-subsets.md) (choose → explore → un-choose) · [Number of Islands](200-number-of-islands.md) (grid DFS, but with *permanent* marking since revisiting is never needed) · [grids primer](../learning/10b-grids-primer.md) · [backtracking](../algorithms/backtracking.md).
 
 </details>
 

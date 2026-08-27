@@ -22,4 +22,4 @@ The smallest convex polygon containing all points — the rubber band snapped ar
 
 **Complexity:** O(n log n) — the sort dominates; the two sweeps are O(n).
 
-**Related:** [monotonic-stack (data-structures)](../data-structures/monotonic-stack.md) · [Math & Geometry lesson](../learning/18-math-geometry.md) · [sorting-key (syntax)](../syntax/sorting-key.md)
+**Related:** [monotonic-stack (data-structures)](../data-structures/monotonic-stack.md) · [Math & Geometry lesson](../learning/19-math-geometry.md) · [sorting-key (syntax)](../syntax/sorting-key.md)

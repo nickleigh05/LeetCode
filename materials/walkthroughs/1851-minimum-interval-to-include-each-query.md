@@ -2,7 +2,7 @@
 
 **Hard** · [LeetCode](https://leetcode.com/problems/minimum-interval-to-include-each-query/)
 
-[📖 17. Intervals lesson](../learning/17-intervals.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 17. Intervals problems](../rmap-practice/17-intervals.md)
+[📖 16. Intervals lesson](../learning/17-intervals.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 16. Intervals problems](../rmap-practice/16-intervals.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/number-of-islands/) · [Solution file (no hints)](../../problems/0001-0499/200.py)
 
-[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Grids primer](../learning/11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
+[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Grids primer](../learning/10b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
 
 ---
 
@@ -135,7 +135,7 @@ def dfs(row, col):
 
 Marking **before** recursing is what prevents infinite recursion — otherwise two adjacent cells would call each other forever.
 
-The direction list is the standard 4-neighbour idiom: down, up, right, left. See the [grids primer](../learning/11b-grids-primer.md).
+The direction list is the standard 4-neighbour idiom: down, up, right, left. See the [grids primer](../learning/10b-grids-primer.md).
 
 **Note there's no un-marking.** Unlike [Word Search](79-word-search.md), the mark is permanent — this cell belongs to this island and must never be counted again.
 → [set-operations](../syntax/set-operations.md) · [tuple-unpacking](../syntax/tuple-unpacking.md) · [for-loop](../syntax/for-loop.md)
@@ -298,7 +298,7 @@ BFS uses an explicit queue bounded by the **frontier** size — O(min(m,n)) for 
 - **Incrementing inside the DFS** rather than at the scan — you'd count land cells, not islands.
 - **Assuming a non-empty grid** without checking `grid[0]` — fine given the constraints, worth a guard in general.
 
-**This same move shows up in:** [Max Area of Island](695-max-area-of-island.md) (this DFS returning a size) · [Surrounded Regions](130-surrounded-regions.md) and [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (flood-fill from the borders instead) · [Rotting Oranges](994-rotting-oranges.md) (where BFS is *required*, for the level property) · [Word Search](79-word-search.md) (marking with restoration — the contrast) · [grids primer](../learning/11b-grids-primer.md).
+**This same move shows up in:** [Max Area of Island](695-max-area-of-island.md) (this DFS returning a size) · [Surrounded Regions](130-surrounded-regions.md) and [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (flood-fill from the borders instead) · [Rotting Oranges](994-rotting-oranges.md) (where BFS is *required*, for the level property) · [Word Search](79-word-search.md) (marking with restoration — the contrast) · [grids primer](../learning/10b-grids-primer.md).
 
 </details>
 

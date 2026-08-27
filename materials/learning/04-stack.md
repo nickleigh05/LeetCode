@@ -1,7 +1,7 @@
 # 04. Stacks, Queues & Monotonic Stacks
 *LIFO for "most recent unresolved"; a monotonic stack answers next-greater questions in one pass.*
 
-[← Prev](03-sliding-window.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05-recursion.md)
+[← Prev](03-sliding-window.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](04b-recursion.md)
 
 ---
 
@@ -396,7 +396,7 @@ Work the guided set with hints & solutions: [**Stacks & Queues — Practice →*
 
 ---
 
-**Up next:** [Recursion & the Call Stack](05-recursion.md) — the call stack *is* a stack; this is the bridge to trees, backtracking, and DP.
+**Up next:** [Recursion & the Call Stack](04b-recursion.md) — the call stack *is* a stack; this is the bridge to trees, backtracking, and DP.
 
-[← Prev](03-sliding-window.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](05-recursion.md)
+[← Prev](03-sliding-window.md) · [🗺 Roadmap](../../roadmap.md) · [Next →](04b-recursion.md)
 

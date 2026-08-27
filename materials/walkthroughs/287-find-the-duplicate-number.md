@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)
 
-[📖 07. Linked List lesson](../learning/07-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 07. Linked List problems](../rmap-practice/07-linked-list.md)
+[📖 06. Linked List lesson](../learning/06-linked-list.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 06. Linked List problems](../rmap-practice/06-linked-list.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

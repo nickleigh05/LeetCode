@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
-[📖 11. Backtracking lesson](../learning/11-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Backtracking problems](../rmap-practice/11-backtracking.md)
+[📖 10. Backtracking lesson](../learning/10-backtracking.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 10. Backtracking problems](../rmap-practice/10-backtracking.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 

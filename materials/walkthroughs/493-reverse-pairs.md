@@ -2,7 +2,7 @@
 
 **Hard** · [LeetCode](https://leetcode.com/problems/reverse-pairs/)
 
-[📖 20. Segment Trees & Fenwick Trees lesson](../learning/20-segment-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 20. Segment Trees & Fenwick Trees problems](../rmap-practice/20-segment-trees.md)
+[📖 19. Segment Trees & Fenwick Trees lesson](../learning/20-segment-trees.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 19. Segment Trees & Fenwick Trees problems](../rmap-practice/19-segment-trees.md)
 
 ---
 

@@ -35,14 +35,14 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../problems/0500-0999/739.py) |
 ## 5. Binary Search (2 problems)
 *If the search space is ordered, binary search it. Works on answers, not just arrays.*
-**Reference:** [Binary Search Algorithm](../materials/learning/06-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../materials/learning/06-binary-search.md#binary-search-on-answer) · [Binary Search Template](../materials/appendix/templates/binary-search/README.md)
+**Reference:** [Binary Search Algorithm](../materials/learning/05-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../materials/learning/05-binary-search.md#binary-search-on-answer) · [Binary Search Template](../materials/appendix/templates/binary-search/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../problems/0500-0999/704.py) |
 | 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../problems/0001-0499/33.py) |
 ## 6. Linked List (4 problems)
 *Pointer arithmetic and in-place manipulation. Draw it out — every single time.*
-**Reference:** [Linked List Data Structure](../materials/learning/07-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../materials/learning/07-linked-list.md#fast-and-slow-pointers) · [Linked List Template](../materials/appendix/templates/linked-list/README.md)
+**Reference:** [Linked List Data Structure](../materials/learning/06-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../materials/learning/06-linked-list.md#fast-and-slow-pointers) · [Linked List Template](../materials/appendix/templates/linked-list/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../problems/0001-0499/206.py) |
@@ -51,7 +51,7 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../problems/0001-0499/146.py) |
 ## 7. Trees (4 problems)
 *Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
-**Reference:** [Binary Tree Data Structure](../materials/learning/08-trees.md#binary-tree) · [Binary Search Tree](../materials/learning/08-trees.md#binary-search-tree) · [DFS Algorithm](../materials/learning/12-graphs.md#depth-first-search) · [BFS Algorithm](../materials/learning/12-graphs.md#breadth-first-search) · [Trees Template](../materials/appendix/templates/trees/README.md)
+**Reference:** [Binary Tree Data Structure](../materials/learning/07-trees.md#binary-tree) · [Binary Search Tree](../materials/learning/07-trees.md#binary-search-tree) · [DFS Algorithm](../materials/learning/11-graphs.md#depth-first-search) · [BFS Algorithm](../materials/learning/11-graphs.md#breadth-first-search) · [Trees Template](../materials/appendix/templates/trees/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../problems/0001-0499/226.py) |
@@ -60,20 +60,20 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../problems/0001-0499/235.py) |
 ## 8. Tries (1 problem)
 *Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
-**Reference:** [Trie Data Structure](../materials/learning/09-tries.md#trie) · [Trie Search Pattern](../materials/learning/09-tries.md#trie-search) · [Tries Template](../materials/appendix/templates/tries/README.md)
+**Reference:** [Trie Data Structure](../materials/learning/08-tries.md#trie) · [Trie Search Pattern](../materials/learning/08-tries.md#trie-search) · [Tries Template](../materials/appendix/templates/tries/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../problems/0001-0499/208.py) |
 ## 9. Heap / Priority Queue (2 problems)
 *Whenever you hear 'top K' or 'running median', reach for a heap.*
-**Reference:** [Heap & Priority Queue](../materials/learning/10-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../materials/learning/10-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../materials/learning/10-heap-priority-queue.md#two-heaps) · [Heap Template](../materials/appendix/templates/heap-priority-queue/README.md)
+**Reference:** [Heap & Priority Queue](../materials/learning/09-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../materials/learning/09-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../materials/learning/09-heap-priority-queue.md#two-heaps) · [Heap Template](../materials/appendix/templates/heap-priority-queue/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../problems/0001-0499/215.py) |
 | 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../problems/0001-0499/295.py) |
 ## 10. Backtracking (3 problems)
 *Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
-**Reference:** [Backtracking Algorithm](../materials/learning/11-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../materials/learning/11-backtracking.md#dfs-and-backtracking) · [Backtracking Template](../materials/appendix/templates/backtracking/README.md)
+**Reference:** [Backtracking Algorithm](../materials/learning/10-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../materials/learning/10-backtracking.md#dfs-and-backtracking) · [Backtracking Template](../materials/appendix/templates/backtracking/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../problems/0001-0499/78.py) |
@@ -81,7 +81,7 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../problems/0001-0499/46.py) |
 ## 11. Graphs (3 problems)
 *BFS for shortest path, DFS for connectivity. Grid traversal and cycle detection live here too.*
-**Reference:** [Graph Data Structure](../materials/learning/12-graphs.md#graph) · [BFS Algorithm](../materials/learning/12-graphs.md#breadth-first-search) · [DFS Algorithm](../materials/learning/12-graphs.md#depth-first-search) · [Topological Sort](../materials/learning/13-advanced-graphs.md#topological-sort) · [Graphs Template](../materials/appendix/templates/graphs/README.md)
+**Reference:** [Graph Data Structure](../materials/learning/11-graphs.md#graph) · [BFS Algorithm](../materials/learning/11-graphs.md#breadth-first-search) · [DFS Algorithm](../materials/learning/11-graphs.md#depth-first-search) · [Topological Sort](../materials/learning/13-advanced-graphs.md#topological-sort) · [Graphs Template](../materials/appendix/templates/graphs/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../problems/0001-0499/200.py) |
@@ -89,7 +89,7 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../problems/0001-0499/207.py) |
 ## 12. Advanced Graphs (1 problem)
 *Union-Find merges and queries connected components in near-constant time — the one advanced-graph tool worth memorizing.*
-**Reference:** [Union Find](../materials/learning/12b-union-find.md#disjoint-set-union) · [Topological Sort](../materials/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Template](../materials/appendix/templates/advanced-graphs/README.md)
+**Reference:** [Union Find](../materials/learning/12-union-find.md#disjoint-set-union) · [Topological Sort](../materials/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Template](../materials/appendix/templates/advanced-graphs/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../problems/0001-0499/323.py) |
@@ -128,7 +128,7 @@ One problem per core idea — the fastest path to touching every pattern that sh
 | 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../problems/0001-0499/48.py) |
 ## 18. Bit Manipulation (1 problem)
 *XOR, shifts, and masks. Weird-looking but fast — and interviewers love asking them.*
-**Reference:** [Bit Manipulation Algorithm](../materials/learning/19-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../materials/learning/19-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Manipulation Template](../materials/appendix/templates/bit-manipulation/README.md)
+**Reference:** [Bit Manipulation Algorithm](../materials/learning/18-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../materials/learning/18-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Manipulation Template](../materials/appendix/templates/bit-manipulation/README.md)
 | # | Difficulty | Problem | LeetCode | Solution |
 |---|------------|---------|----------|----------|
 | 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../problems/0001-0499/338.py) |

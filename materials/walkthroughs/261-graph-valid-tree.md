@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/graph-valid-tree/)
 
-[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Union-Find](../learning/12b-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
+[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Union-Find](../learning/12-union-find.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -313,7 +313,7 @@ That's a real advantage on edge-heavy graphs, and it's part of why union-find is
 - **Treating the graph as directed** and using [Course Schedule](207-course-schedule.md)'s indegree approach — undirected edges have no direction to count.
 - **Off-by-one on `n - 1`** — a single node with zero edges is a valid tree.
 
-**This same move shows up in:** [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [Redundant Connection](684-redundant-connection.md) (finding the edge that *creates* the cycle) · [Number of Islands](200-number-of-islands.md) (connectivity, solved by flood-fill instead) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12b-union-find.md).
+**This same move shows up in:** [Number of Connected Components](323-number-of-connected-components-in-an-undirected-graph.md) (union-find counting components) · [Redundant Connection](684-redundant-connection.md) (finding the edge that *creates* the cycle) · [Number of Islands](200-number-of-islands.md) (connectivity, solved by flood-fill instead) · [union-find](../data-structures/union-find.md) · [12. Union-Find lesson](../learning/12-union-find.md).
 
 </details>
 

@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/max-area-of-island/)
 
-[📖 12. Graphs lesson](../learning/12-graphs.md) · [📖 Grids primer](../learning/11b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 12. Graphs problems](../rmap-practice/12-graphs.md)
+[📖 11. Graphs lesson](../learning/11-graphs.md) · [📖 Grids primer](../learning/10b-grids-primer.md) · [🗺 Roadmap](../../roadmap.md) · [🧩 All 11. Graphs problems](../rmap-practice/11-graphs.md)
 
 > *Not yet solved in this repo — no solution file to compare against.*
 
@@ -299,7 +299,7 @@ while queue:
 - **Initializing `area = 0`** and then adding neighbours — forgets to count the current cell.
 - **`best = float('-inf')`** — an all-water grid should return 0, not negative infinity.
 
-**This same move shows up in:** [Number of Islands](200-number-of-islands.md) (the same flood-fill, counting components) · [Maximum Depth of Binary Tree](104-maximum-depth-of-binary-tree.md) (a traversal that composes a value on the way back up) · [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (flood-fill with a different marking rule) · [grids primer](../learning/11b-grids-primer.md).
+**This same move shows up in:** [Number of Islands](200-number-of-islands.md) (the same flood-fill, counting components) · [Maximum Depth of Binary Tree](104-maximum-depth-of-binary-tree.md) (a traversal that composes a value on the way back up) · [Pacific Atlantic Water Flow](417-pacific-atlantic-water-flow.md) (flood-fill with a different marking rule) · [grids primer](../learning/10b-grids-primer.md).
 
 </details>
 

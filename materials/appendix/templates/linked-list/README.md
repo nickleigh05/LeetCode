@@ -39,4 +39,4 @@
 - **First vs second middle.** Initializing `fast = head` lands on the second middle for even length; `fast = head.next` lands on the first. Pick deliberately.
 ---
 
-*See also: [Lesson 06 →](../../../learning/07-linked-list.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*
+*See also: [Lesson 06 →](../../../learning/06-linked-list.md) · [🗺 Roadmap](../../../../roadmap.md) · [problem lists](../../../../lists/)*
