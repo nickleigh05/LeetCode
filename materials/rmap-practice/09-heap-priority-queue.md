@@ -12,14 +12,14 @@ One page per problem: the prompt, a hint, the solution, and its complexity.
 - **973** · Medium · [K Closest Points to Origin](../walkthroughs/973-k-closest-points-to-origin.md)
 - **621** · Medium · [Task Scheduler](../walkthroughs/621-task-scheduler.md)
 - **355** · Medium · [Design Twitter](../walkthroughs/355-design-twitter.md)
-- **692** · Medium · Top K Frequent Words — [LeetCode](https://leetcode.com/problems/top-k-frequent-words/) · *walkthrough pending*
-- **767** · Medium · Reorganize String — [LeetCode](https://leetcode.com/problems/reorganize-string/) · *walkthrough pending*
-- **1834** · Medium · Single-Threaded CPU — [LeetCode](https://leetcode.com/problems/single-threaded-cpu/) · *walkthrough pending*
-- **1985** · Medium · Find the Kth Largest Integer in the Array — [LeetCode](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) · *walkthrough pending*
-- **2542** · Medium · Maximum Subsequence Score — [LeetCode](https://leetcode.com/problems/maximum-subsequence-score/) · *walkthrough pending*
-- **1962** · Medium · Remove Stones to Minimize the Total — [LeetCode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) · *walkthrough pending*
+- **692** · Medium · [Top K Frequent Words](../walkthroughs/692-top-k-frequent-words.md)
+- **767** · Medium · [Reorganize String](../walkthroughs/767-reorganize-string.md)
+- **1834** · Medium · [Single-Threaded CPU](../walkthroughs/1834-single-threaded-cpu.md)
+- **1985** · Medium · [Find the Kth Largest Integer in the Array](../walkthroughs/1985-find-the-kth-largest-integer-in-the-array.md)
+- **2542** · Medium · [Maximum Subsequence Score](../walkthroughs/2542-maximum-subsequence-score.md)
+- **1962** · Medium · [Remove Stones to Minimize the Total](../walkthroughs/1962-remove-stones-to-minimize-the-total.md)
 - **295** · Hard · [Find Median from Data Stream](../walkthroughs/295-find-median-from-data-stream.md)
-- **502** · Hard · IPO — [LeetCode](https://leetcode.com/problems/ipo/) · *walkthrough pending*
+- **502** · Hard · [IPO](../walkthroughs/502-ipo.md)
 
 ---
 

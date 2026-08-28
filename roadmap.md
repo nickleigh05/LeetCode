@@ -1,6 +1,6 @@
 # DSA Roadmap
 
-`██████████████░░░░░░░░░░` **180/301** · walkthroughs written for 180 of 301 problems
+`█████████████████████░░░` **263/301** · walkthroughs written for 263 of 301 problems
 
 Tap a unit → read the lesson → solve its problems → tick the box.
 
@@ -106,61 +106,61 @@ A moving boundary over contiguous ranges; O(n).
 </details>
 
 <details>
-<summary><b>04 · Stack</b> — 7/16 ▓▓▓▓░░░░</summary>
+<summary><b>04 · Stack</b> — 16/16 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 LIFO/FIFO for order-sensitive work; monotonic stack for next-greater.
 
 [📖 Lesson](materials/learning/04-stack.md) · [📖 Recursion](materials/learning/04b-recursion.md)
 
 - [x] **20** · Easy · Valid Parentheses · [LeetCode](https://leetcode.com/problems/valid-parentheses/) · [Solution](problems/0001-0499/20.py) · [Walkthrough](materials/walkthroughs/20-valid-parentheses.md)
-- [ ] **682** · Easy · Baseball Game · [LeetCode](https://leetcode.com/problems/baseball-game/) · [Solution](problems/0500-0999/682.py)
-- [ ] **496** · Easy · Next Greater Element I · [LeetCode](https://leetcode.com/problems/next-greater-element-i/) · [Solution](problems/0001-0499/496.py)
-- [ ] **225** · Easy · Implement Stack using Queues · [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/) · [Solution](problems/0001-0499/225.py)
-- [ ] **232** · Easy · Implement Queue using Stacks · [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) · [Solution](problems/0001-0499/232.py)
+- [x] **682** · Easy · Baseball Game · [LeetCode](https://leetcode.com/problems/baseball-game/) · [Solution](problems/0500-0999/682.py) · [Walkthrough](materials/walkthroughs/682-baseball-game.md)
+- [x] **496** · Easy · Next Greater Element I · [LeetCode](https://leetcode.com/problems/next-greater-element-i/) · [Solution](problems/0001-0499/496.py) · [Walkthrough](materials/walkthroughs/496-next-greater-element-i.md)
+- [x] **225** · Easy · Implement Stack using Queues · [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/) · [Solution](problems/0001-0499/225.py) · [Walkthrough](materials/walkthroughs/225-implement-stack-using-queues.md)
+- [x] **232** · Easy · Implement Queue using Stacks · [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/) · [Solution](problems/0001-0499/232.py) · [Walkthrough](materials/walkthroughs/232-implement-queue-using-stacks.md)
 - [x] **155** · Med · Min Stack · [LeetCode](https://leetcode.com/problems/min-stack/) · [Solution](problems/0001-0499/155.py) · [Walkthrough](materials/walkthroughs/155-min-stack.md)
 - [x] **150** · Med · Evaluate Reverse Polish Notation · [LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) · [Solution](problems/0001-0499/150.py) · [Walkthrough](materials/walkthroughs/150-evaluate-reverse-polish-notation.md)
 - [x] **22** · Med · Generate Parentheses · [LeetCode](https://leetcode.com/problems/generate-parentheses/) · [Solution](problems/0001-0499/22.py) · [Walkthrough](materials/walkthroughs/22-generate-parentheses.md)
 - [x] **739** · Med · Daily Temperatures · [LeetCode](https://leetcode.com/problems/daily-temperatures/) · [Solution](problems/0500-0999/739.py) · [Walkthrough](materials/walkthroughs/739-daily-temperatures.md)
 - [x] **853** · Med · Car Fleet · [LeetCode](https://leetcode.com/problems/car-fleet/) · [Solution](problems/0500-0999/853.py) · [Walkthrough](materials/walkthroughs/853-car-fleet.md)
-- [ ] **901** · Med · Online Stock Span · [LeetCode](https://leetcode.com/problems/online-stock-span/) · [Solution](problems/0500-0999/901.py)
-- [ ] **71** · Med · Simplify Path · [LeetCode](https://leetcode.com/problems/simplify-path/) · [Solution](problems/0001-0499/71.py)
-- [ ] **394** · Med · Decode String · [LeetCode](https://leetcode.com/problems/decode-string/)
-- [ ] **503** · Med · Next Greater Element II · [LeetCode](https://leetcode.com/problems/next-greater-element-ii/)
+- [x] **901** · Med · Online Stock Span · [LeetCode](https://leetcode.com/problems/online-stock-span/) · [Solution](problems/0500-0999/901.py) · [Walkthrough](materials/walkthroughs/901-online-stock-span.md)
+- [x] **71** · Med · Simplify Path · [LeetCode](https://leetcode.com/problems/simplify-path/) · [Solution](problems/0001-0499/71.py) · [Walkthrough](materials/walkthroughs/71-simplify-path.md)
+- [x] **394** · Med · Decode String · [LeetCode](https://leetcode.com/problems/decode-string/) · [Solution](problems/0001-0499/394.py) · [Walkthrough](materials/walkthroughs/394-decode-string.md)
+- [x] **503** · Med · Next Greater Element II · [LeetCode](https://leetcode.com/problems/next-greater-element-ii/) · [Solution](problems/0500-0999/503.py) · [Walkthrough](materials/walkthroughs/503-next-greater-element-ii.md)
 - [x] **84** · Hard · Largest Rectangle in Histogram · [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [Solution](problems/0001-0499/84.py) · [Walkthrough](materials/walkthroughs/84-largest-rectangle-in-histogram.md)
-- [ ] **85** · Hard · Maximal Rectangle · [LeetCode](https://leetcode.com/problems/maximal-rectangle/)
+- [x] **85** · Hard · Maximal Rectangle · [LeetCode](https://leetcode.com/problems/maximal-rectangle/) · [Solution](problems/0001-0499/85.py) · [Walkthrough](materials/walkthroughs/85-maximal-rectangle.md)
 
 </details>
 
 <details>
-<summary><b>05 · Binary Search</b> — 7/18 ▓▓▓░░░░░</summary>
+<summary><b>05 · Binary Search</b> — 18/18 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Halve any ordered search space — including the answer.
 
 [📖 Lesson](materials/learning/05-binary-search.md) · [📖 Sorting](materials/learning/05b-sorting.md)
 
 - [x] **704** · Easy · Binary Search · [LeetCode](https://leetcode.com/problems/binary-search/) · [Solution](problems/0500-0999/704.py) · [Walkthrough](materials/walkthroughs/704-binary-search.md)
-- [ ] **374** · Easy · Guess Number Higher or Lower · [LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/) · [Solution](problems/0001-0499/374.py)
-- [ ] **35** · Easy · Search Insert Position · [LeetCode](https://leetcode.com/problems/search-insert-position/) · [Solution](problems/0001-0499/35.py)
-- [ ] **278** · Easy · First Bad Version · [LeetCode](https://leetcode.com/problems/first-bad-version/) · [Solution](problems/0001-0499/278.py)
-- [ ] **69** · Easy · Sqrt(x) · [LeetCode](https://leetcode.com/problems/sqrtx/) · [Solution](problems/0001-0499/69.py)
-- [ ] **367** · Easy · Valid Perfect Square · [LeetCode](https://leetcode.com/problems/valid-perfect-square/) · [Solution](problems/0001-0499/367.py)
+- [x] **374** · Easy · Guess Number Higher or Lower · [LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/) · [Solution](problems/0001-0499/374.py) · [Walkthrough](materials/walkthroughs/374-guess-number-higher-or-lower.md)
+- [x] **35** · Easy · Search Insert Position · [LeetCode](https://leetcode.com/problems/search-insert-position/) · [Solution](problems/0001-0499/35.py) · [Walkthrough](materials/walkthroughs/35-search-insert-position.md)
+- [x] **278** · Easy · First Bad Version · [LeetCode](https://leetcode.com/problems/first-bad-version/) · [Solution](problems/0001-0499/278.py) · [Walkthrough](materials/walkthroughs/278-first-bad-version.md)
+- [x] **69** · Easy · Sqrt(x) · [LeetCode](https://leetcode.com/problems/sqrtx/) · [Solution](problems/0001-0499/69.py) · [Walkthrough](materials/walkthroughs/69-sqrtx.md)
+- [x] **367** · Easy · Valid Perfect Square · [LeetCode](https://leetcode.com/problems/valid-perfect-square/) · [Solution](problems/0001-0499/367.py) · [Walkthrough](materials/walkthroughs/367-valid-perfect-square.md)
 - [x] **74** · Med · Search a 2D Matrix · [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/) · [Solution](problems/0001-0499/74.py) · [Walkthrough](materials/walkthroughs/74-search-a-2d-matrix.md)
 - [x] **875** · Med · Koko Eating Bananas · [LeetCode](https://leetcode.com/problems/koko-eating-bananas/) · [Solution](problems/0500-0999/875.py) · [Walkthrough](materials/walkthroughs/875-koko-eating-bananas.md)
 - [x] **153** · Med · Find Minimum in Rotated Sorted Array · [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Solution](problems/0001-0499/153.py) · [Walkthrough](materials/walkthroughs/153-find-minimum-in-rotated-sorted-array.md)
 - [x] **33** · Med · Search in Rotated Sorted Array · [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [Solution](problems/0001-0499/33.py) · [Walkthrough](materials/walkthroughs/33-search-in-rotated-sorted-array.md)
-- [ ] **34** · Med · Find First and Last Position of Element in Sorted Array · [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) · [Solution](problems/0001-0499/34.py)
-- [ ] **162** · Med · Find Peak Element · [LeetCode](https://leetcode.com/problems/find-peak-element/)
-- [ ] **540** · Med · Single Element in a Sorted Array · [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/)
-- [ ] **1011** · Med · Capacity To Ship Packages Within D Days · [LeetCode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-- [ ] **658** · Med · Find K Closest Elements · [LeetCode](https://leetcode.com/problems/find-k-closest-elements/)
+- [x] **34** · Med · Find First and Last Position of Element in Sorted Array · [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) · [Solution](problems/0001-0499/34.py) · [Walkthrough](materials/walkthroughs/34-find-first-and-last-position-of-element-in-sorted-array.md)
+- [x] **162** · Med · Find Peak Element · [LeetCode](https://leetcode.com/problems/find-peak-element/) · [Solution](problems/0001-0499/162.py) · [Walkthrough](materials/walkthroughs/162-find-peak-element.md)
+- [x] **540** · Med · Single Element in a Sorted Array · [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) · [Solution](problems/0500-0999/540.py) · [Walkthrough](materials/walkthroughs/540-single-element-in-a-sorted-array.md)
+- [x] **1011** · Med · Capacity To Ship Packages Within D Days · [LeetCode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) · [Solution](problems/1000-1499/1011.py) · [Walkthrough](materials/walkthroughs/1011-capacity-to-ship-packages-within-d-days.md)
+- [x] **658** · Med · Find K Closest Elements · [LeetCode](https://leetcode.com/problems/find-k-closest-elements/) · [Solution](problems/0500-0999/658.py) · [Walkthrough](materials/walkthroughs/658-find-k-closest-elements.md)
 - [x] **981** · Med · Time Based Key-Value Store · [LeetCode](https://leetcode.com/problems/time-based-key-value-store/) · [Solution](problems/0500-0999/981.py) · [Walkthrough](materials/walkthroughs/981-time-based-key-value-store.md)
 - [x] **4** · Hard · Median of Two Sorted Arrays · [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [Solution](problems/0001-0499/4.py) · [Walkthrough](materials/walkthroughs/4-median-of-two-sorted-arrays.md)
-- [ ] **410** · Hard · Split Array Largest Sum · [LeetCode](https://leetcode.com/problems/split-array-largest-sum/)
+- [x] **410** · Hard · Split Array Largest Sum · [LeetCode](https://leetcode.com/problems/split-array-largest-sum/) · [Solution](problems/0001-0499/410.py) · [Walkthrough](materials/walkthroughs/410-split-array-largest-sum.md)
 
 </details>
 
 <details>
-<summary><b>06 · Linked List</b> — 11/20 ▓▓▓▓░░░░</summary>
+<summary><b>06 · Linked List</b> — 20/20 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Pointer surgery: reverse, dummy head, fast/slow.
 
@@ -168,29 +168,29 @@ Pointer surgery: reverse, dummy head, fast/slow.
 
 - [x] **206** · Easy · Reverse Linked List · [LeetCode](https://leetcode.com/problems/reverse-linked-list/) · [Solution](problems/0001-0499/206.py) · [Walkthrough](materials/walkthroughs/206-reverse-linked-list.md)
 - [x] **21** · Easy · Merge Two Sorted Lists · [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) · [Solution](problems/0001-0499/21.py) · [Walkthrough](materials/walkthroughs/21-merge-two-sorted-lists.md)
-- [ ] **876** · Easy · Middle of the Linked List · [LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/) · [Solution](problems/0500-0999/876.py)
+- [x] **876** · Easy · Middle of the Linked List · [LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/) · [Solution](problems/0500-0999/876.py) · [Walkthrough](materials/walkthroughs/876-middle-of-the-linked-list.md)
 - [x] **141** · Easy · Linked List Cycle · [LeetCode](https://leetcode.com/problems/linked-list-cycle/) · [Solution](problems/0001-0499/141.py) · [Walkthrough](materials/walkthroughs/141-linked-list-cycle.md)
-- [ ] **234** · Easy · Palindrome Linked List · [LeetCode](https://leetcode.com/problems/palindrome-linked-list/) · [Solution](problems/0001-0499/234.py)
-- [ ] **203** · Easy · Remove Linked List Elements · [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) · [Solution](problems/0001-0499/203.py)
-- [ ] **83** · Easy · Remove Duplicates from Sorted List · [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) · [Solution](problems/0001-0499/83.py)
-- [ ] **160** · Easy · Intersection of Two Linked Lists · [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/) · [Solution](problems/0001-0499/160.py)
+- [x] **234** · Easy · Palindrome Linked List · [LeetCode](https://leetcode.com/problems/palindrome-linked-list/) · [Solution](problems/0001-0499/234.py) · [Walkthrough](materials/walkthroughs/234-palindrome-linked-list.md)
+- [x] **203** · Easy · Remove Linked List Elements · [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) · [Solution](problems/0001-0499/203.py) · [Walkthrough](materials/walkthroughs/203-remove-linked-list-elements.md)
+- [x] **83** · Easy · Remove Duplicates from Sorted List · [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) · [Solution](problems/0001-0499/83.py) · [Walkthrough](materials/walkthroughs/83-remove-duplicates-from-sorted-list.md)
+- [x] **160** · Easy · Intersection of Two Linked Lists · [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/) · [Solution](problems/0001-0499/160.py) · [Walkthrough](materials/walkthroughs/160-intersection-of-two-linked-lists.md)
 - [x] **143** · Med · Reorder List · [LeetCode](https://leetcode.com/problems/reorder-list/) · [Solution](problems/0001-0499/143.py) · [Walkthrough](materials/walkthroughs/143-reorder-list.md)
 - [x] **19** · Med · Remove Nth Node From End of List · [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) · [Solution](problems/0001-0499/19.py) · [Walkthrough](materials/walkthroughs/19-remove-nth-node-from-end-of-list.md)
-- [ ] **92** · Med · Reverse Linked List II · [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/)
-- [ ] **24** · Med · Swap Nodes in Pairs · [LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)
+- [x] **92** · Med · Reverse Linked List II · [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) · [Solution](problems/0001-0499/92.py) · [Walkthrough](materials/walkthroughs/92-reverse-linked-list-ii.md)
+- [x] **24** · Med · Swap Nodes in Pairs · [LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/) · [Solution](problems/0001-0499/24.py) · [Walkthrough](materials/walkthroughs/24-swap-nodes-in-pairs.md)
 - [x] **2** · Med · Add Two Numbers · [LeetCode](https://leetcode.com/problems/add-two-numbers/) · [Solution](problems/0001-0499/2.py) · [Walkthrough](materials/walkthroughs/2-add-two-numbers.md)
 - [x] **138** · Med · Copy List with Random Pointer · [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/) · [Solution](problems/0001-0499/138.py) · [Walkthrough](materials/walkthroughs/138-copy-list-with-random-pointer.md)
 - [x] **287** · Med · Find the Duplicate Number · [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) · [Solution](problems/0001-0499/287.py) · [Walkthrough](materials/walkthroughs/287-find-the-duplicate-number.md)
 - [x] **146** · Med · LRU Cache · [LeetCode](https://leetcode.com/problems/lru-cache/) · [Solution](problems/0001-0499/146.py) · [Walkthrough](materials/walkthroughs/146-lru-cache.md)
-- [ ] **61** · Med · Rotate List · [LeetCode](https://leetcode.com/problems/rotate-list/)
-- [ ] **86** · Med · Partition List · [LeetCode](https://leetcode.com/problems/partition-list/)
+- [x] **61** · Med · Rotate List · [LeetCode](https://leetcode.com/problems/rotate-list/) · [Solution](problems/0001-0499/61.py) · [Walkthrough](materials/walkthroughs/61-rotate-list.md)
+- [x] **86** · Med · Partition List · [LeetCode](https://leetcode.com/problems/partition-list/) · [Solution](problems/0001-0499/86.py) · [Walkthrough](materials/walkthroughs/86-partition-list.md)
 - [x] **23** · Hard · Merge k Sorted Lists · [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) · [Solution](problems/0001-0499/23.py) · [Walkthrough](materials/walkthroughs/23-merge-k-sorted-lists.md)
 - [x] **25** · Hard · Reverse Nodes in k-Group · [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [Solution](problems/0001-0499/25.py) · [Walkthrough](materials/walkthroughs/25-reverse-nodes-in-k-group.md)
 
 </details>
 
 <details>
-<summary><b>07 · Trees & BSTs</b> — 15/29 ▓▓▓▓░░░░</summary>
+<summary><b>07 · Trees & BSTs</b> — 29/29 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 DFS base→recurse→combine, or BFS level-by-level.
 
@@ -202,15 +202,15 @@ DFS base→recurse→combine, or BFS level-by-level.
 - [x] **110** · Easy · Balanced Binary Tree · [LeetCode](https://leetcode.com/problems/balanced-binary-tree/) · [Solution](problems/0001-0499/110.py) · [Walkthrough](materials/walkthroughs/110-balanced-binary-tree.md)
 - [x] **100** · Easy · Same Tree · [LeetCode](https://leetcode.com/problems/same-tree/) · [Solution](problems/0001-0499/100.py) · [Walkthrough](materials/walkthroughs/100-same-tree.md)
 - [x] **572** · Easy · Subtree of Another Tree · [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/) · [Solution](problems/0500-0999/572.py) · [Walkthrough](materials/walkthroughs/572-subtree-of-another-tree.md)
-- [ ] **112** · Easy · Path Sum · [LeetCode](https://leetcode.com/problems/path-sum/) · [Solution](problems/0001-0499/112.py)
-- [ ] **111** · Easy · Minimum Depth of Binary Tree · [LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree/) · [Solution](problems/0001-0499/111.py)
-- [ ] **101** · Easy · Symmetric Tree · [LeetCode](https://leetcode.com/problems/symmetric-tree/) · [Solution](problems/0001-0499/101.py)
-- [ ] **108** · Easy · Convert Sorted Array to Binary Search Tree · [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · [Solution](problems/0001-0499/108.py)
-- [ ] **700** · Easy · Search in a Binary Search Tree · [LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/)
-- [ ] **94** · Easy · Binary Tree Inorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/) · [Solution](problems/0001-0499/94.py)
-- [ ] **144** · Easy · Binary Tree Preorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/) · [Solution](problems/0001-0499/144.py)
-- [ ] **145** · Easy · Binary Tree Postorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/) · [Solution](problems/0001-0499/145.py)
-- [ ] **257** · Easy · Binary Tree Paths · [LeetCode](https://leetcode.com/problems/binary-tree-paths/) · [Solution](problems/0001-0499/257.py)
+- [x] **112** · Easy · Path Sum · [LeetCode](https://leetcode.com/problems/path-sum/) · [Solution](problems/0001-0499/112.py) · [Walkthrough](materials/walkthroughs/112-path-sum.md)
+- [x] **111** · Easy · Minimum Depth of Binary Tree · [LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree/) · [Solution](problems/0001-0499/111.py) · [Walkthrough](materials/walkthroughs/111-minimum-depth-of-binary-tree.md)
+- [x] **101** · Easy · Symmetric Tree · [LeetCode](https://leetcode.com/problems/symmetric-tree/) · [Solution](problems/0001-0499/101.py) · [Walkthrough](materials/walkthroughs/101-symmetric-tree.md)
+- [x] **108** · Easy · Convert Sorted Array to Binary Search Tree · [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · [Solution](problems/0001-0499/108.py) · [Walkthrough](materials/walkthroughs/108-convert-sorted-array-to-binary-search-tree.md)
+- [x] **700** · Easy · Search in a Binary Search Tree · [LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/) · [Solution](problems/0500-0999/700.py) · [Walkthrough](materials/walkthroughs/700-search-in-a-binary-search-tree.md)
+- [x] **94** · Easy · Binary Tree Inorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/) · [Solution](problems/0001-0499/94.py) · [Walkthrough](materials/walkthroughs/94-binary-tree-inorder-traversal.md)
+- [x] **144** · Easy · Binary Tree Preorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/) · [Solution](problems/0001-0499/144.py) · [Walkthrough](materials/walkthroughs/144-binary-tree-preorder-traversal.md)
+- [x] **145** · Easy · Binary Tree Postorder Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/) · [Solution](problems/0001-0499/145.py) · [Walkthrough](materials/walkthroughs/145-binary-tree-postorder-traversal.md)
+- [x] **257** · Easy · Binary Tree Paths · [LeetCode](https://leetcode.com/problems/binary-tree-paths/) · [Solution](problems/0001-0499/257.py) · [Walkthrough](materials/walkthroughs/257-binary-tree-paths.md)
 - [x] **235** · Med · Lowest Common Ancestor of a Binary Search Tree · [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) · [Solution](problems/0001-0499/235.py) · [Walkthrough](materials/walkthroughs/235-lowest-common-ancestor-of-a-binary-search-tree.md)
 - [x] **102** · Med · Binary Tree Level Order Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [Solution](problems/0001-0499/102.py) · [Walkthrough](materials/walkthroughs/102-binary-tree-level-order-traversal.md)
 - [x] **199** · Med · Binary Tree Right Side View · [LeetCode](https://leetcode.com/problems/binary-tree-right-side-view/) · [Solution](problems/0001-0499/199.py) · [Walkthrough](materials/walkthroughs/199-binary-tree-right-side-view.md)
@@ -218,18 +218,18 @@ DFS base→recurse→combine, or BFS level-by-level.
 - [x] **98** · Med · Validate Binary Search Tree · [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) · [Solution](problems/0001-0499/98.py) · [Walkthrough](materials/walkthroughs/98-validate-binary-search-tree.md)
 - [x] **230** · Med · Kth Smallest Element in a BST · [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [Solution](problems/0001-0499/230.py) · [Walkthrough](materials/walkthroughs/230-kth-smallest-element-in-a-bst.md)
 - [x] **105** · Med · Construct Binary Tree from Preorder and Inorder Traversal · [LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [Solution](problems/0001-0499/105.py) · [Walkthrough](materials/walkthroughs/105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
-- [ ] **701** · Med · Insert into a Binary Search Tree · [LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/) · [Solution](problems/0500-0999/701.py)
-- [ ] **450** · Med · Delete Node in a BST · [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)
-- [ ] **116** · Med · Populating Next Right Pointers in Each Node · [LeetCode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-- [ ] **103** · Med · Binary Tree Zigzag Level Order Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-- [ ] **236** · Med · Lowest Common Ancestor of a Binary Tree · [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [x] **701** · Med · Insert into a Binary Search Tree · [LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/) · [Solution](problems/0500-0999/701.py) · [Walkthrough](materials/walkthroughs/701-insert-into-a-binary-search-tree.md)
+- [x] **450** · Med · Delete Node in a BST · [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/) · [Solution](problems/0001-0499/450.py) · [Walkthrough](materials/walkthroughs/450-delete-node-in-a-bst.md)
+- [x] **116** · Med · Populating Next Right Pointers in Each Node · [LeetCode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) · [Solution](problems/0001-0499/116.py) · [Walkthrough](materials/walkthroughs/116-populating-next-right-pointers-in-each-node.md)
+- [x] **103** · Med · Binary Tree Zigzag Level Order Traversal · [LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) · [Solution](problems/0001-0499/103.py) · [Walkthrough](materials/walkthroughs/103-binary-tree-zigzag-level-order-traversal.md)
+- [x] **236** · Med · Lowest Common Ancestor of a Binary Tree · [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [Solution](problems/0001-0499/236.py) · [Walkthrough](materials/walkthroughs/236-lowest-common-ancestor-of-a-binary-tree.md)
 - [x] **124** · Hard · Binary Tree Maximum Path Sum · [LeetCode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [Solution](problems/0001-0499/124.py) · [Walkthrough](materials/walkthroughs/124-binary-tree-maximum-path-sum.md)
 - [x] **297** · Hard · Serialize and Deserialize Binary Tree · [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [Solution](problems/0001-0499/297.py) · [Walkthrough](materials/walkthroughs/297-serialize-and-deserialize-binary-tree.md)
 
 </details>
 
 <details>
-<summary><b>08 · Tries</b> — 3/6 ▓▓▓▓░░░░</summary>
+<summary><b>08 · Tries</b> — 6/6 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Prefix trees: O(k) prefix queries.
 
@@ -237,15 +237,15 @@ Prefix trees: O(k) prefix queries.
 
 - [x] **208** · Med · Implement Trie (Prefix Tree) · [LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/) · [Solution](problems/0001-0499/208.py) · [Walkthrough](materials/walkthroughs/208-implement-trie-prefix-tree.md)
 - [x] **211** · Med · Design Add and Search Words Data Structure · [LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/) · [Solution](problems/0001-0499/211.py) · [Walkthrough](materials/walkthroughs/211-design-add-and-search-words-data-structure.md)
-- [ ] **648** · Med · Replace Words · [LeetCode](https://leetcode.com/problems/replace-words/)
-- [ ] **677** · Med · Map Sum Pairs · [LeetCode](https://leetcode.com/problems/map-sum-pairs/)
-- [ ] **1268** · Med · Search Suggestions System · [LeetCode](https://leetcode.com/problems/search-suggestions-system/)
+- [x] **648** · Med · Replace Words · [LeetCode](https://leetcode.com/problems/replace-words/) · [Solution](problems/0500-0999/648.py) · [Walkthrough](materials/walkthroughs/648-replace-words.md)
+- [x] **677** · Med · Map Sum Pairs · [LeetCode](https://leetcode.com/problems/map-sum-pairs/) · [Solution](problems/0500-0999/677.py) · [Walkthrough](materials/walkthroughs/677-map-sum-pairs.md)
+- [x] **1268** · Med · Search Suggestions System · [LeetCode](https://leetcode.com/problems/search-suggestions-system/) · [Solution](problems/1000-1499/1268.py) · [Walkthrough](materials/walkthroughs/1268-search-suggestions-system.md)
 - [x] **212** · Hard · Word Search II · [LeetCode](https://leetcode.com/problems/word-search-ii/) · [Solution](problems/0001-0499/212.py) · [Walkthrough](materials/walkthroughs/212-word-search-ii.md)
 
 </details>
 
 <details>
-<summary><b>09 · Heap / Priority Queue</b> — 7/14 ▓▓▓▓░░░░</summary>
+<summary><b>09 · Heap / Priority Queue</b> — 14/14 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 The always-available extreme element; top-K & streaming.
 
@@ -257,19 +257,19 @@ The always-available extreme element; top-K & streaming.
 - [x] **973** · Med · K Closest Points to Origin · [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) · [Solution](problems/0500-0999/973.py) · [Walkthrough](materials/walkthroughs/973-k-closest-points-to-origin.md)
 - [x] **621** · Med · Task Scheduler · [LeetCode](https://leetcode.com/problems/task-scheduler/) · [Solution](problems/0500-0999/621.py) · [Walkthrough](materials/walkthroughs/621-task-scheduler.md)
 - [x] **355** · Med · Design Twitter · [LeetCode](https://leetcode.com/problems/design-twitter/) · [Solution](problems/0001-0499/355.py) · [Walkthrough](materials/walkthroughs/355-design-twitter.md)
-- [ ] **692** · Med · Top K Frequent Words · [LeetCode](https://leetcode.com/problems/top-k-frequent-words/)
-- [ ] **767** · Med · Reorganize String · [LeetCode](https://leetcode.com/problems/reorganize-string/)
-- [ ] **1834** · Med · Single-Threaded CPU · [LeetCode](https://leetcode.com/problems/single-threaded-cpu/)
-- [ ] **1985** · Med · Find the Kth Largest Integer in the Array · [LeetCode](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)
-- [ ] **2542** · Med · Maximum Subsequence Score · [LeetCode](https://leetcode.com/problems/maximum-subsequence-score/)
-- [ ] **1962** · Med · Remove Stones to Minimize the Total · [LeetCode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)
+- [x] **692** · Med · Top K Frequent Words · [LeetCode](https://leetcode.com/problems/top-k-frequent-words/) · [Solution](problems/0500-0999/692.py) · [Walkthrough](materials/walkthroughs/692-top-k-frequent-words.md)
+- [x] **767** · Med · Reorganize String · [LeetCode](https://leetcode.com/problems/reorganize-string/) · [Solution](problems/0500-0999/767.py) · [Walkthrough](materials/walkthroughs/767-reorganize-string.md)
+- [x] **1834** · Med · Single-Threaded CPU · [LeetCode](https://leetcode.com/problems/single-threaded-cpu/) · [Solution](problems/1500-1999/1834.py) · [Walkthrough](materials/walkthroughs/1834-single-threaded-cpu.md)
+- [x] **1985** · Med · Find the Kth Largest Integer in the Array · [LeetCode](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) · [Solution](problems/1500-1999/1985.py) · [Walkthrough](materials/walkthroughs/1985-find-the-kth-largest-integer-in-the-array.md)
+- [x] **2542** · Med · Maximum Subsequence Score · [LeetCode](https://leetcode.com/problems/maximum-subsequence-score/) · [Solution](problems/2500-2999/2542.py) · [Walkthrough](materials/walkthroughs/2542-maximum-subsequence-score.md)
+- [x] **1962** · Med · Remove Stones to Minimize the Total · [LeetCode](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) · [Solution](problems/1500-1999/1962.py) · [Walkthrough](materials/walkthroughs/1962-remove-stones-to-minimize-the-total.md)
 - [x] **295** · Hard · Find Median from Data Stream · [LeetCode](https://leetcode.com/problems/find-median-from-data-stream/) · [Solution](problems/0001-0499/295.py) · [Walkthrough](materials/walkthroughs/295-find-median-from-data-stream.md)
-- [ ] **502** · Hard · IPO · [LeetCode](https://leetcode.com/problems/ipo/)
+- [x] **502** · Hard · IPO · [LeetCode](https://leetcode.com/problems/ipo/) · [Solution](problems/0500-0999/502.py) · [Walkthrough](materials/walkthroughs/502-ipo.md)
 
 </details>
 
 <details>
-<summary><b>10 · Backtracking</b> — 9/16 ▓▓▓▓░░░░</summary>
+<summary><b>10 · Backtracking</b> — 16/16 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Choose → explore → un-choose over partial solutions.
 
@@ -279,31 +279,31 @@ Choose → explore → un-choose over partial solutions.
 - [x] **90** · Med · Subsets II · [LeetCode](https://leetcode.com/problems/subsets-ii/) · [Solution](problems/0001-0499/90.py) · [Walkthrough](materials/walkthroughs/90-subsets-ii.md)
 - [x] **39** · Med · Combination Sum · [LeetCode](https://leetcode.com/problems/combination-sum/) · [Solution](problems/0001-0499/39.py) · [Walkthrough](materials/walkthroughs/39-combination-sum.md)
 - [x] **40** · Med · Combination Sum II · [LeetCode](https://leetcode.com/problems/combination-sum-ii/) · [Solution](problems/0001-0499/40.py) · [Walkthrough](materials/walkthroughs/40-combination-sum-ii.md)
-- [ ] **216** · Med · Combination Sum III · [LeetCode](https://leetcode.com/problems/combination-sum-iii/)
+- [x] **216** · Med · Combination Sum III · [LeetCode](https://leetcode.com/problems/combination-sum-iii/) · [Solution](problems/0001-0499/216.py) · [Walkthrough](materials/walkthroughs/216-combination-sum-iii.md)
 - [x] **46** · Med · Permutations · [LeetCode](https://leetcode.com/problems/permutations/) · [Solution](problems/0001-0499/46.py) · [Walkthrough](materials/walkthroughs/46-permutations.md)
-- [ ] **47** · Med · Permutations II · [LeetCode](https://leetcode.com/problems/permutations-ii/)
-- [ ] **77** · Med · Combinations · [LeetCode](https://leetcode.com/problems/combinations/)
+- [x] **47** · Med · Permutations II · [LeetCode](https://leetcode.com/problems/permutations-ii/) · [Solution](problems/0001-0499/47.py) · [Walkthrough](materials/walkthroughs/47-permutations-ii.md)
+- [x] **77** · Med · Combinations · [LeetCode](https://leetcode.com/problems/combinations/) · [Solution](problems/0001-0499/77.py) · [Walkthrough](materials/walkthroughs/77-combinations.md)
 - [x] **17** · Med · Letter Combinations of a Phone Number · [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · [Solution](problems/0001-0499/17.py) · [Walkthrough](materials/walkthroughs/17-letter-combinations-of-a-phone-number.md)
 - [x] **79** · Med · Word Search · [LeetCode](https://leetcode.com/problems/word-search/) · [Solution](problems/0001-0499/79.py) · [Walkthrough](materials/walkthroughs/79-word-search.md)
 - [x] **131** · Med · Palindrome Partitioning · [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) · [Solution](problems/0001-0499/131.py) · [Walkthrough](materials/walkthroughs/131-palindrome-partitioning.md)
-- [ ] **93** · Med · Restore IP Addresses · [LeetCode](https://leetcode.com/problems/restore-ip-addresses/)
-- [ ] **698** · Med · Partition to K Equal Sum Subsets · [LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
-- [ ] **526** · Med · Beautiful Arrangement · [LeetCode](https://leetcode.com/problems/beautiful-arrangement/)
+- [x] **93** · Med · Restore IP Addresses · [LeetCode](https://leetcode.com/problems/restore-ip-addresses/) · [Solution](problems/0001-0499/93.py) · [Walkthrough](materials/walkthroughs/93-restore-ip-addresses.md)
+- [x] **698** · Med · Partition to K Equal Sum Subsets · [LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) · [Solution](problems/0500-0999/698.py) · [Walkthrough](materials/walkthroughs/698-partition-to-k-equal-sum-subsets.md)
+- [x] **526** · Med · Beautiful Arrangement · [LeetCode](https://leetcode.com/problems/beautiful-arrangement/) · [Solution](problems/0500-0999/526.py) · [Walkthrough](materials/walkthroughs/526-beautiful-arrangement.md)
 - [x] **51** · Hard · N-Queens · [LeetCode](https://leetcode.com/problems/n-queens/) · [Solution](problems/0001-0499/51.py) · [Walkthrough](materials/walkthroughs/51-n-queens.md)
-- [ ] **52** · Hard · N-Queens II · [LeetCode](https://leetcode.com/problems/n-queens-ii/)
+- [x] **52** · Hard · N-Queens II · [LeetCode](https://leetcode.com/problems/n-queens-ii/) · [Solution](problems/0001-0499/52.py) · [Walkthrough](materials/walkthroughs/52-n-queens-ii.md)
 
 </details>
 
 <details>
-<summary><b>11 · Graphs</b> — 14/23 ▓▓▓▓▓░░░</summary>
+<summary><b>11 · Graphs</b> — 23/23 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 BFS for shortest unweighted paths, DFS for connectivity.
 
 [📖 Lesson](materials/learning/11-graphs.md) · [📖 Grids primer](materials/learning/10b-grids-primer.md) · [📖 Union-Find](materials/learning/12-union-find.md)
 
-- [ ] **733** · Easy · Flood Fill · [LeetCode](https://leetcode.com/problems/flood-fill/) · [Solution](problems/0500-0999/733.py)
-- [ ] **463** · Easy · Island Perimeter · [LeetCode](https://leetcode.com/problems/island-perimeter/) · [Solution](problems/0001-0499/463.py)
-- [ ] **1971** · Easy · Find if Path Exists in Graph · [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/)
+- [x] **733** · Easy · Flood Fill · [LeetCode](https://leetcode.com/problems/flood-fill/) · [Solution](problems/0500-0999/733.py) · [Walkthrough](materials/walkthroughs/733-flood-fill.md)
+- [x] **463** · Easy · Island Perimeter · [LeetCode](https://leetcode.com/problems/island-perimeter/) · [Solution](problems/0001-0499/463.py) · [Walkthrough](materials/walkthroughs/463-island-perimeter.md)
+- [x] **1971** · Easy · Find if Path Exists in Graph · [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/) · [Solution](problems/1500-1999/1971.py) · [Walkthrough](materials/walkthroughs/1971-find-if-path-exists-in-graph.md)
 - [x] **200** · Med · Number of Islands · [LeetCode](https://leetcode.com/problems/number-of-islands/) · [Solution](problems/0001-0499/200.py) · [Walkthrough](materials/walkthroughs/200-number-of-islands.md)
 - [x] **695** · Med · Max Area of Island · [LeetCode](https://leetcode.com/problems/max-area-of-island/) · [Solution](problems/0500-0999/695.py) · [Walkthrough](materials/walkthroughs/695-max-area-of-island.md)
 - [x] **133** · Med · Clone Graph · [LeetCode](https://leetcode.com/problems/clone-graph/) · [Solution](problems/0001-0499/133.py) · [Walkthrough](materials/walkthroughs/133-clone-graph.md)
@@ -316,19 +316,19 @@ BFS for shortest unweighted paths, DFS for connectivity.
 - [x] **261** · Med · Graph Valid Tree · [LeetCode](https://leetcode.com/problems/graph-valid-tree/) · [Solution](problems/0001-0499/261.py) · [Walkthrough](materials/walkthroughs/261-graph-valid-tree.md)
 - [x] **323** · Med · Number of Connected Components in an Undirected Graph · [LeetCode](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) · [Solution](problems/0001-0499/323.py) · [Walkthrough](materials/walkthroughs/323-number-of-connected-components-in-an-undirected-graph.md)
 - [x] **684** · Med · Redundant Connection · [LeetCode](https://leetcode.com/problems/redundant-connection/) · [Solution](problems/0500-0999/684.py) · [Walkthrough](materials/walkthroughs/684-redundant-connection.md)
-- [ ] **547** · Med · Number of Provinces · [LeetCode](https://leetcode.com/problems/number-of-provinces/)
-- [ ] **785** · Med · Is Graph Bipartite? · [LeetCode](https://leetcode.com/problems/is-graph-bipartite/)
-- [ ] **802** · Med · Find Eventual Safe States · [LeetCode](https://leetcode.com/problems/find-eventual-safe-states/)
-- [ ] **1466** · Med · Reorder Routes to Make All Paths Lead to the City Zero · [LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
-- [ ] **841** · Med · Keys and Rooms · [LeetCode](https://leetcode.com/problems/keys-and-rooms/)
-- [ ] **1020** · Med · Number of Enclaves · [LeetCode](https://leetcode.com/problems/number-of-enclaves/)
+- [x] **547** · Med · Number of Provinces · [LeetCode](https://leetcode.com/problems/number-of-provinces/) · [Solution](problems/0500-0999/547.py) · [Walkthrough](materials/walkthroughs/547-number-of-provinces.md)
+- [x] **785** · Med · Is Graph Bipartite? · [LeetCode](https://leetcode.com/problems/is-graph-bipartite/) · [Solution](problems/0500-0999/785.py) · [Walkthrough](materials/walkthroughs/785-is-graph-bipartite.md)
+- [x] **802** · Med · Find Eventual Safe States · [LeetCode](https://leetcode.com/problems/find-eventual-safe-states/) · [Solution](problems/0500-0999/802.py) · [Walkthrough](materials/walkthroughs/802-find-eventual-safe-states.md)
+- [x] **1466** · Med · Reorder Routes to Make All Paths Lead to the City Zero · [LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) · [Solution](problems/1000-1499/1466.py) · [Walkthrough](materials/walkthroughs/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero.md)
+- [x] **841** · Med · Keys and Rooms · [LeetCode](https://leetcode.com/problems/keys-and-rooms/) · [Solution](problems/0500-0999/841.py) · [Walkthrough](materials/walkthroughs/841-keys-and-rooms.md)
+- [x] **1020** · Med · Number of Enclaves · [LeetCode](https://leetcode.com/problems/number-of-enclaves/) · [Solution](problems/1000-1499/1020.py) · [Walkthrough](materials/walkthroughs/1020-number-of-enclaves.md)
 - [x] **127** · Hard · Word Ladder · [LeetCode](https://leetcode.com/problems/word-ladder/) · [Solution](problems/0001-0499/127.py) · [Walkthrough](materials/walkthroughs/127-word-ladder.md)
 - [x] **269** · Hard · Alien Dictionary · [LeetCode](https://leetcode.com/problems/alien-dictionary/) · [Solution](problems/0001-0499/269.py) · [Walkthrough](materials/walkthroughs/269-alien-dictionary.md)
 
 </details>
 
 <details>
-<summary><b>12 · Advanced Graphs</b> — 5/11 ▓▓▓▓░░░░</summary>
+<summary><b>12 · Advanced Graphs</b> — 11/11 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Weighted shortest paths (Dijkstra), ordering (topo sort).
 
@@ -337,19 +337,19 @@ Weighted shortest paths (Dijkstra), ordering (topo sort).
 - [x] **743** · Med · Network Delay Time · [LeetCode](https://leetcode.com/problems/network-delay-time/) · [Solution](problems/0500-0999/743.py) · [Walkthrough](materials/walkthroughs/743-network-delay-time.md)
 - [x] **1584** · Med · Min Cost to Connect All Points · [LeetCode](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [Solution](problems/1500-1999/1584.py) · [Walkthrough](materials/walkthroughs/1584-min-cost-to-connect-all-points.md)
 - [x] **787** · Med · Cheapest Flights Within K Stops · [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) · [Solution](problems/0500-0999/787.py) · [Walkthrough](materials/walkthroughs/787-cheapest-flights-within-k-stops.md)
-- [ ] **1631** · Med · Path With Minimum Effort · [LeetCode](https://leetcode.com/problems/path-with-minimum-effort/)
-- [ ] **1976** · Med · Number of Ways to Arrive at Destination · [LeetCode](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
-- [ ] **2492** · Med · Minimum Score of a Path Between Two Cities · [LeetCode](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)
-- [ ] **1462** · Med · Course Schedule IV · [LeetCode](https://leetcode.com/problems/course-schedule-iv/)
+- [x] **1631** · Med · Path With Minimum Effort · [LeetCode](https://leetcode.com/problems/path-with-minimum-effort/) · [Solution](problems/1500-1999/1631.py) · [Walkthrough](materials/walkthroughs/1631-path-with-minimum-effort.md)
+- [x] **1976** · Med · Number of Ways to Arrive at Destination · [LeetCode](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) · [Solution](problems/1500-1999/1976.py) · [Walkthrough](materials/walkthroughs/1976-number-of-ways-to-arrive-at-destination.md)
+- [x] **2492** · Med · Minimum Score of a Path Between Two Cities · [LeetCode](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) · [Solution](problems/2000-2499/2492.py) · [Walkthrough](materials/walkthroughs/2492-minimum-score-of-a-path-between-two-cities.md)
+- [x] **1462** · Med · Course Schedule IV · [LeetCode](https://leetcode.com/problems/course-schedule-iv/) · [Solution](problems/1000-1499/1462.py) · [Walkthrough](materials/walkthroughs/1462-course-schedule-iv.md)
 - [x] **332** · Hard · Reconstruct Itinerary · [LeetCode](https://leetcode.com/problems/reconstruct-itinerary/) · [Solution](problems/0001-0499/332.py) · [Walkthrough](materials/walkthroughs/332-reconstruct-itinerary.md)
 - [x] **778** · Hard · Swim in Rising Water · [LeetCode](https://leetcode.com/problems/swim-in-rising-water/) · [Solution](problems/0500-0999/778.py) · [Walkthrough](materials/walkthroughs/778-swim-in-rising-water.md)
-- [ ] **685** · Hard · Redundant Connection II · [LeetCode](https://leetcode.com/problems/redundant-connection-ii/)
-- [ ] **847** · Hard · Shortest Path Visiting All Nodes · [LeetCode](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- [x] **685** · Hard · Redundant Connection II · [LeetCode](https://leetcode.com/problems/redundant-connection-ii/) · [Solution](problems/0500-0999/685.py) · [Walkthrough](materials/walkthroughs/685-redundant-connection-ii.md)
+- [x] **847** · Hard · Shortest Path Visiting All Nodes · [LeetCode](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) · [Solution](problems/0500-0999/847.py) · [Walkthrough](materials/walkthroughs/847-shortest-path-visiting-all-nodes.md)
 
 </details>
 
 <details>
-<summary><b>13 · 1-D Dynamic Programming</b> — 14/22 ▓▓▓▓▓░░░</summary>
+<summary><b>13 · 1-D Dynamic Programming</b> — 22/22 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 State + transition + base case over one axis.
 
@@ -357,7 +357,7 @@ State + transition + base case over one axis.
 
 - [x] **70** · Easy · Climbing Stairs · [LeetCode](https://leetcode.com/problems/climbing-stairs/) · [Solution](problems/0001-0499/70.py) · [Walkthrough](materials/walkthroughs/70-climbing-stairs.md)
 - [x] **746** · Easy · Min Cost Climbing Stairs · [LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/) · [Solution](problems/0500-0999/746.py) · [Walkthrough](materials/walkthroughs/746-min-cost-climbing-stairs.md)
-- [ ] **1137** · Easy · N-th Tribonacci Number · [LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/) · [Solution](problems/1000-1499/1137.py)
+- [x] **1137** · Easy · N-th Tribonacci Number · [LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/) · [Solution](problems/1000-1499/1137.py) · [Walkthrough](materials/walkthroughs/1137-n-th-tribonacci-number.md)
 - [x] **198** · Med · House Robber · [LeetCode](https://leetcode.com/problems/house-robber/) · [Solution](problems/0001-0499/198.py) · [Walkthrough](materials/walkthroughs/198-house-robber.md)
 - [x] **213** · Med · House Robber II · [LeetCode](https://leetcode.com/problems/house-robber-ii/) · [Solution](problems/0001-0499/213.py) · [Walkthrough](materials/walkthroughs/213-house-robber-ii.md)
 - [x] **5** · Med · Longest Palindromic Substring · [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) · [Solution](problems/0001-0499/5.py) · [Walkthrough](materials/walkthroughs/5-longest-palindromic-substring.md)
@@ -368,15 +368,15 @@ State + transition + base case over one axis.
 - [x] **152** · Med · Maximum Product Subarray · [LeetCode](https://leetcode.com/problems/maximum-product-subarray/) · [Solution](problems/0001-0499/152.py) · [Walkthrough](materials/walkthroughs/152-maximum-product-subarray.md)
 - [x] **139** · Med · Word Break · [LeetCode](https://leetcode.com/problems/word-break/) · [Solution](problems/0001-0499/139.py) · [Walkthrough](materials/walkthroughs/139-word-break.md)
 - [x] **300** · Med · Longest Increasing Subsequence · [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) · [Solution](problems/0001-0499/300.py) · [Walkthrough](materials/walkthroughs/300-longest-increasing-subsequence.md)
-- [ ] **377** · Med · Combination Sum IV · [LeetCode](https://leetcode.com/problems/combination-sum-iv/)
+- [x] **377** · Med · Combination Sum IV · [LeetCode](https://leetcode.com/problems/combination-sum-iv/) · [Solution](problems/0001-0499/377.py) · [Walkthrough](materials/walkthroughs/377-combination-sum-iv.md)
 - [x] **416** · Med · Partition Equal Subset Sum · [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) · [Solution](problems/0001-0499/416.py) · [Walkthrough](materials/walkthroughs/416-partition-equal-subset-sum.md)
-- [ ] **740** · Med · Delete and Earn · [LeetCode](https://leetcode.com/problems/delete-and-earn/)
-- [ ] **279** · Med · Perfect Squares · [LeetCode](https://leetcode.com/problems/perfect-squares/)
-- [ ] **343** · Med · Integer Break · [LeetCode](https://leetcode.com/problems/integer-break/)
+- [x] **740** · Med · Delete and Earn · [LeetCode](https://leetcode.com/problems/delete-and-earn/) · [Solution](problems/0500-0999/740.py) · [Walkthrough](materials/walkthroughs/740-delete-and-earn.md)
+- [x] **279** · Med · Perfect Squares · [LeetCode](https://leetcode.com/problems/perfect-squares/) · [Solution](problems/0001-0499/279.py) · [Walkthrough](materials/walkthroughs/279-perfect-squares.md)
+- [x] **343** · Med · Integer Break · [LeetCode](https://leetcode.com/problems/integer-break/) · [Solution](problems/0001-0499/343.py) · [Walkthrough](materials/walkthroughs/343-integer-break.md)
 - [x] **309** · Med · Best Time to Buy and Sell Stock with Cooldown · [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) · [Solution](problems/0001-0499/309.py) · [Walkthrough](materials/walkthroughs/309-best-time-to-buy-and-sell-stock-with-cooldown.md)
-- [ ] **96** · Med · Unique Binary Search Trees · [LeetCode](https://leetcode.com/problems/unique-binary-search-trees/)
-- [ ] **1027** · Med · Longest Arithmetic Subsequence · [LeetCode](https://leetcode.com/problems/longest-arithmetic-subsequence/)
-- [ ] **132** · Hard · Palindrome Partitioning II · [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/)
+- [x] **96** · Med · Unique Binary Search Trees · [LeetCode](https://leetcode.com/problems/unique-binary-search-trees/) · [Solution](problems/0001-0499/96.py) · [Walkthrough](materials/walkthroughs/96-unique-binary-search-trees.md)
+- [x] **1027** · Med · Longest Arithmetic Subsequence · [LeetCode](https://leetcode.com/problems/longest-arithmetic-subsequence/) · [Solution](problems/1000-1499/1027.py) · [Walkthrough](materials/walkthroughs/1027-longest-arithmetic-subsequence.md)
+- [x] **132** · Hard · Palindrome Partitioning II · [LeetCode](https://leetcode.com/problems/palindrome-partitioning-ii/) · [Solution](problems/0001-0499/132.py) · [Walkthrough](materials/walkthroughs/132-palindrome-partitioning-ii.md)
 
 </details>
 
