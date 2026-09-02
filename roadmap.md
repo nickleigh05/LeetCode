@@ -1,6 +1,6 @@
 # DSA Roadmap
 
-`███████████████████████░` **285/301** · walkthroughs written for 285 of 301 problems
+`████████████████████████` **301/301** · all units complete 🎉
 
 Tap a unit → read the lesson → solve its problems → tick the box.
 
@@ -456,33 +456,33 @@ Sort first, then one linear sweep to merge / count.
 </details>
 
 <details>
-<summary><b>17 · Math & Geometry</b> — 8/16 ▓▓▓▓░░░░</summary>
+<summary><b>17 · Math & Geometry</b> — 16/16 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 GCD, fast power, in-place matrix transforms.
 
 [📖 Lesson](materials/learning/19-math-geometry.md)
 
-- [ ] **9** · Easy · Palindrome Number · [LeetCode](https://leetcode.com/problems/palindrome-number/) · [Solution](problems/0001-0499/9.py)
-- [ ] **13** · Easy · Roman to Integer · [LeetCode](https://leetcode.com/problems/roman-to-integer/) · [Solution](problems/0001-0499/13.py)
+- [x] **9** · Easy · Palindrome Number · [LeetCode](https://leetcode.com/problems/palindrome-number/) · [Solution](problems/0001-0499/9.py) · [Walkthrough](materials/walkthroughs/9-palindrome-number.md)
+- [x] **13** · Easy · Roman to Integer · [LeetCode](https://leetcode.com/problems/roman-to-integer/) · [Solution](problems/0001-0499/13.py) · [Walkthrough](materials/walkthroughs/13-roman-to-integer.md)
 - [x] **202** · Easy · Happy Number · [LeetCode](https://leetcode.com/problems/happy-number/) · [Solution](problems/0001-0499/202.py) · [Walkthrough](materials/walkthroughs/202-happy-number.md)
-- [ ] **263** · Easy · Ugly Number · [LeetCode](https://leetcode.com/problems/ugly-number/)
-- [ ] **1071** · Easy · Greatest Common Divisor of Strings · [LeetCode](https://leetcode.com/problems/greatest-common-divisor-of-strings/) · [Solution](problems/1000-1499/1071.py)
-- [ ] **415** · Easy · Add Strings · [LeetCode](https://leetcode.com/problems/add-strings/) · [Solution](problems/0001-0499/415.py)
-- [ ] **168** · Easy · Excel Sheet Column Title · [LeetCode](https://leetcode.com/problems/excel-sheet-column-title/) · [Solution](problems/0001-0499/168.py)
+- [x] **263** · Easy · Ugly Number · [LeetCode](https://leetcode.com/problems/ugly-number/) · [Solution](problems/0001-0499/263.py) · [Walkthrough](materials/walkthroughs/263-ugly-number.md)
+- [x] **1071** · Easy · Greatest Common Divisor of Strings · [LeetCode](https://leetcode.com/problems/greatest-common-divisor-of-strings/) · [Solution](problems/1000-1499/1071.py) · [Walkthrough](materials/walkthroughs/1071-greatest-common-divisor-of-strings.md)
+- [x] **415** · Easy · Add Strings · [LeetCode](https://leetcode.com/problems/add-strings/) · [Solution](problems/0001-0499/415.py) · [Walkthrough](materials/walkthroughs/415-add-strings.md)
+- [x] **168** · Easy · Excel Sheet Column Title · [LeetCode](https://leetcode.com/problems/excel-sheet-column-title/) · [Solution](problems/0001-0499/168.py) · [Walkthrough](materials/walkthroughs/168-excel-sheet-column-title.md)
 - [x] **7** · Med · Reverse Integer · [LeetCode](https://leetcode.com/problems/reverse-integer/) · [Solution](problems/0001-0499/7.py) · [Walkthrough](materials/walkthroughs/7-reverse-integer.md)
-- [ ] **12** · Med · Integer to Roman · [LeetCode](https://leetcode.com/problems/integer-to-roman/)
+- [x] **12** · Med · Integer to Roman · [LeetCode](https://leetcode.com/problems/integer-to-roman/) · [Solution](problems/0001-0499/12.py) · [Walkthrough](materials/walkthroughs/12-integer-to-roman.md)
 - [x] **50** · Med · Pow(x, n) · [LeetCode](https://leetcode.com/problems/powx-n/) · [Solution](problems/0001-0499/50.py) · [Walkthrough](materials/walkthroughs/50-pow-x-n.md)
 - [x] **43** · Med · Multiply Strings · [LeetCode](https://leetcode.com/problems/multiply-strings/) · [Solution](problems/0001-0499/43.py) · [Walkthrough](materials/walkthroughs/43-multiply-strings.md)
 - [x] **73** · Med · Set Matrix Zeroes · [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) · [Solution](problems/0001-0499/73.py) · [Walkthrough](materials/walkthroughs/73-set-matrix-zeroes.md)
 - [x] **54** · Med · Spiral Matrix · [LeetCode](https://leetcode.com/problems/spiral-matrix/) · [Solution](problems/0001-0499/54.py) · [Walkthrough](materials/walkthroughs/54-spiral-matrix.md)
 - [x] **48** · Med · Rotate Image · [LeetCode](https://leetcode.com/problems/rotate-image/) · [Solution](problems/0001-0499/48.py) · [Walkthrough](materials/walkthroughs/48-rotate-image.md)
 - [x] **2013** · Med · Detect Squares · [LeetCode](https://leetcode.com/problems/detect-squares/) · [Solution](problems/2000-2499/2013.py) · [Walkthrough](materials/walkthroughs/2013-detect-squares.md)
-- [ ] **149** · Hard · Max Points on a Line · [LeetCode](https://leetcode.com/problems/max-points-on-a-line/)
+- [x] **149** · Hard · Max Points on a Line · [LeetCode](https://leetcode.com/problems/max-points-on-a-line/) · [Solution](problems/0001-0499/149.py) · [Walkthrough](materials/walkthroughs/149-max-points-on-a-line.md)
 
 </details>
 
 <details>
-<summary><b>18 · Bit Manipulation</b> — 5/13 ▓▓▓░░░░░</summary>
+<summary><b>18 · Bit Manipulation</b> — 13/13 ▓▓▓▓▓▓▓▓ ✅</summary>
 
 Masks, shifts, and XOR cancellation in O(1).
 
@@ -492,15 +492,15 @@ Masks, shifts, and XOR cancellation in O(1).
 - [x] **191** · Easy · Number of 1 Bits · [LeetCode](https://leetcode.com/problems/number-of-1-bits/) · [Solution](problems/0001-0499/191.py) · [Walkthrough](materials/walkthroughs/191-number-of-1-bits.md)
 - [x] **338** · Easy · Counting Bits · [LeetCode](https://leetcode.com/problems/counting-bits/) · [Solution](problems/0001-0499/338.py) · [Walkthrough](materials/walkthroughs/338-counting-bits.md)
 - [x] **190** · Easy · Reverse Bits · [LeetCode](https://leetcode.com/problems/reverse-bits/) · [Solution](problems/0001-0499/190.py) · [Walkthrough](materials/walkthroughs/190-reverse-bits.md)
-- [ ] **67** · Easy · Add Binary · [LeetCode](https://leetcode.com/problems/add-binary/) · [Solution](problems/0001-0499/67.py)
-- [ ] **461** · Easy · Hamming Distance · [LeetCode](https://leetcode.com/problems/hamming-distance/) · [Solution](problems/0001-0499/461.py)
+- [x] **67** · Easy · Add Binary · [LeetCode](https://leetcode.com/problems/add-binary/) · [Solution](problems/0001-0499/67.py) · [Walkthrough](materials/walkthroughs/67-add-binary.md)
+- [x] **461** · Easy · Hamming Distance · [LeetCode](https://leetcode.com/problems/hamming-distance/) · [Solution](problems/0001-0499/461.py) · [Walkthrough](materials/walkthroughs/461-hamming-distance.md)
 - [x] **371** · Med · Sum of Two Integers · [LeetCode](https://leetcode.com/problems/sum-of-two-integers/) · [Solution](problems/0001-0499/371.py) · [Walkthrough](materials/walkthroughs/371-sum-of-two-integers.md)
-- [ ] **137** · Med · Single Number II · [LeetCode](https://leetcode.com/problems/single-number-ii/)
-- [ ] **260** · Med · Single Number III · [LeetCode](https://leetcode.com/problems/single-number-iii/)
-- [ ] **201** · Med · Bitwise AND of Numbers Range · [LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
-- [ ] **318** · Med · Maximum Product of Word Lengths · [LeetCode](https://leetcode.com/problems/maximum-product-of-word-lengths/)
-- [ ] **1318** · Med · Minimum Flips to Make a OR b Equal to c · [LeetCode](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
-- [ ] **89** · Med · Gray Code · [LeetCode](https://leetcode.com/problems/gray-code/)
+- [x] **137** · Med · Single Number II · [LeetCode](https://leetcode.com/problems/single-number-ii/) · [Solution](problems/0001-0499/137.py) · [Walkthrough](materials/walkthroughs/137-single-number-ii.md)
+- [x] **260** · Med · Single Number III · [LeetCode](https://leetcode.com/problems/single-number-iii/) · [Solution](problems/0001-0499/260.py) · [Walkthrough](materials/walkthroughs/260-single-number-iii.md)
+- [x] **201** · Med · Bitwise AND of Numbers Range · [LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range/) · [Solution](problems/0001-0499/201.py) · [Walkthrough](materials/walkthroughs/201-bitwise-and-of-numbers-range.md)
+- [x] **318** · Med · Maximum Product of Word Lengths · [LeetCode](https://leetcode.com/problems/maximum-product-of-word-lengths/) · [Solution](problems/0001-0499/318.py) · [Walkthrough](materials/walkthroughs/318-maximum-product-of-word-lengths.md)
+- [x] **1318** · Med · Minimum Flips to Make a OR b Equal to c · [LeetCode](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) · [Solution](problems/1000-1499/1318.py) · [Walkthrough](materials/walkthroughs/1318-minimum-flips-to-make-a-or-b-equal-to-c.md)
+- [x] **89** · Med · Gray Code · [LeetCode](https://leetcode.com/problems/gray-code/) · [Solution](problems/0001-0499/89.py) · [Walkthrough](materials/walkthroughs/89-gray-code.md)
 
 </details>
 
