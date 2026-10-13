@@ -1,8 +1,15 @@
-# LeetCode Tracking
+```
+ /$$                          /$$     /$$$$$$                /$$
+| $$                         | $$    /$$__  $$              | $$
+| $$       /$$$$$$  /$$$$$$ /$$$$$$ | $$  \__/ /$$$$$$  /$$$$$$$ /$$$$$$
+| $$      /$$__  $$/$$__  $|_  $$_/ | $$      /$$__  $$/$$__  $$/$$__  $$
+| $$     | $$$$$$$| $$$$$$$$ | $$   | $$     | $$  \ $| $$  | $| $$$$$$$$
+| $$     | $$_____| $$_____/ | $$ /$| $$    $| $$  | $| $$  | $| $$_____/
+| $$$$$$$|  $$$$$$|  $$$$$$$ |  $$$$|  $$$$$$|  $$$$$$|  $$$$$$|  $$$$$$$
+|________/\_______/\_______/  \___/  \______/ \______/ \_______/\_______/
+```
 
-A collection of my solutions to LeetCode problems, organized by topic and difficulty. 
-
-> ### [**Click here for DSA Roadmap**](roadmap.md)
+A collection of my solutions to LeetCode problems, organized by topic and difficulty. I follow this [**leetcode roadmap**](roadmap.md).
 
 ## Repository Structure
 
