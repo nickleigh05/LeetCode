@@ -63,7 +63,7 @@ The LeetCode SQL 50 study plan in order, plus a handful of bonus problems that s
 | 2356 | Easy | Number of Unique Subjects Taught by Each Teacher | [Link](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | [Solution](../problems/2000-2499/2356.sql) |
 | 1141 | Easy | User Activity for the Past 30 Days I | [Link](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [Solution](../problems/1000-1499/1141.sql) |
 | 1070 | Medium | Product Sales Analysis III | [Link](https://leetcode.com/problems/product-sales-analysis-iii/) | [Solution](../problems/1000-1499/1070.sql) |
-| 596 | Easy | Classes More Than 5 Students | [Link](https://leetcode.com/problems/classes-more-than-5-students/) | [Solution](../problems/0500-0999/596.sql) |
+| 596 | Easy | Classes With at Least 5 Students | [Link](https://leetcode.com/problems/classes-with-at-least-5-students/) | [Solution](../problems/0500-0999/596.sql) |
 | 1729 | Easy | Find Followers Count | [Link](https://leetcode.com/problems/find-followers-count/) | [Solution](../problems/1500-1999/1729.sql) |
 | 619 | Easy | Biggest Single Number | [Link](https://leetcode.com/problems/biggest-single-number/) | [Solution](../problems/0500-0999/619.sql) |
 | 1045 | Medium | Customers Who Bought All Products | [Link](https://leetcode.com/problems/customers-who-bought-all-products/) | [Solution](../problems/1000-1499/1045.sql) |
