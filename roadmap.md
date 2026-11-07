@@ -661,11 +661,13 @@ $\color{#e67e22}{\textbf{Medium}}$
 
 `SELECT`, `WHERE`, `DISTINCT`, `LIKE`, `IS NULL`. Get comfortable reading a table and filtering rows.
 
-- [ ] **1757** · Easy · Recyclable and Low Fat Products · [LeetCode](https://leetcode.com/problems/recyclable-and-low-fat-products/) · [Solution](problems/1500-1999/1757.sql) · [Walkthrough](materials/walkthroughs/1757-recyclable-and-low-fat-products.md)
-- [ ] **584** · Easy · Find Customer Referee · [LeetCode](https://leetcode.com/problems/find-customer-referee/) · [Solution](problems/0500-0999/584.sql) · [Walkthrough](materials/walkthroughs/584-find-customer-referee.md)
-- [ ] **595** · Easy · Big Countries · [LeetCode](https://leetcode.com/problems/big-countries/) · [Solution](problems/0500-0999/595.sql) · [Walkthrough](materials/walkthroughs/595-big-countries.md)
-- [ ] **1148** · Easy · Article Views I · [LeetCode](https://leetcode.com/problems/article-views-i/) · [Solution](problems/1000-1499/1148.sql) · [Walkthrough](materials/walkthroughs/1148-article-views-i.md)
-- [ ] **1683** · Easy · Invalid Tweets · [LeetCode](https://leetcode.com/problems/invalid-tweets/) · [Solution](problems/1500-1999/1683.sql) · [Walkthrough](materials/walkthroughs/1683-invalid-tweets.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1757** Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) · [Solution](problems/1500-1999/1757.sql) · [Walkthrough](materials/walkthroughs/1757-recyclable-and-low-fat-products.md)
+- [ ] [**584** Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) · [Solution](problems/0500-0999/584.sql) · [Walkthrough](materials/walkthroughs/584-find-customer-referee.md)
+- [ ] [**595** Big Countries](https://leetcode.com/problems/big-countries/) · [Solution](problems/0500-0999/595.sql) · [Walkthrough](materials/walkthroughs/595-big-countries.md)
+- [ ] [**1148** Article Views I](https://leetcode.com/problems/article-views-i/) · [Solution](problems/1000-1499/1148.sql) · [Walkthrough](materials/walkthroughs/1148-article-views-i.md)
+- [ ] [**1683** Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) · [Solution](problems/1500-1999/1683.sql) · [Walkthrough](materials/walkthroughs/1683-invalid-tweets.md)
 
 </details>
 
@@ -674,15 +676,20 @@ $\color{#e67e22}{\textbf{Medium}}$
 
 `INNER JOIN`, `LEFT JOIN`, self-joins, and the anti-join (`LEFT JOIN ... WHERE x IS NULL`).
 
-- [ ] **1378** · Easy · Replace Employee ID With The Unique Identifier · [LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) · [Solution](problems/1000-1499/1378.sql) · [Walkthrough](materials/walkthroughs/1378-replace-employee-id-with-the-unique-identifier.md)
-- [ ] **1068** · Easy · Product Sales Analysis I · [LeetCode](https://leetcode.com/problems/product-sales-analysis-i/) · [Solution](problems/1000-1499/1068.sql) · [Walkthrough](materials/walkthroughs/1068-product-sales-analysis-i.md)
-- [ ] **1581** · Easy · Customer Who Visited but Did Not Make Any Transactions · [LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) · [Solution](problems/1500-1999/1581.sql) · [Walkthrough](materials/walkthroughs/1581-customer-who-visited-but-did-not-make-any-transactions.md)
-- [ ] **197** · Easy · Rising Temperature · [LeetCode](https://leetcode.com/problems/rising-temperature/) · [Solution](problems/0001-0499/197.sql) · [Walkthrough](materials/walkthroughs/197-rising-temperature.md)
-- [ ] **1661** · Easy · Average Time of Process per Machine · [LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/) · [Solution](problems/1500-1999/1661.sql) · [Walkthrough](materials/walkthroughs/1661-average-time-of-process-per-machine.md)
-- [ ] **577** · Easy · Employee Bonus · [LeetCode](https://leetcode.com/problems/employee-bonus/) · [Solution](problems/0500-0999/577.sql) · [Walkthrough](materials/walkthroughs/577-employee-bonus.md)
-- [ ] **1280** · Easy · Students and Examinations · [LeetCode](https://leetcode.com/problems/students-and-examinations/) · [Solution](problems/1000-1499/1280.sql) · [Walkthrough](materials/walkthroughs/1280-students-and-examinations.md)
-- [ ] **570** · Med · Managers with at Least 5 Direct Reports · [LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) · [Solution](problems/0500-0999/570.sql) · [Walkthrough](materials/walkthroughs/570-managers-with-at-least-5-direct-reports.md)
-- [ ] **1934** · Med · Confirmation Rate · [LeetCode](https://leetcode.com/problems/confirmation-rate/) · [Solution](problems/1500-1999/1934.sql) · [Walkthrough](materials/walkthroughs/1934-confirmation-rate.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1378** Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) · [Solution](problems/1000-1499/1378.sql) · [Walkthrough](materials/walkthroughs/1378-replace-employee-id-with-the-unique-identifier.md)
+- [ ] [**1068** Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) · [Solution](problems/1000-1499/1068.sql) · [Walkthrough](materials/walkthroughs/1068-product-sales-analysis-i.md)
+- [ ] [**1581** Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) · [Solution](problems/1500-1999/1581.sql) · [Walkthrough](materials/walkthroughs/1581-customer-who-visited-but-did-not-make-any-transactions.md)
+- [ ] [**197** Rising Temperature](https://leetcode.com/problems/rising-temperature/) · [Solution](problems/0001-0499/197.sql) · [Walkthrough](materials/walkthroughs/197-rising-temperature.md)
+- [ ] [**1661** Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) · [Solution](problems/1500-1999/1661.sql) · [Walkthrough](materials/walkthroughs/1661-average-time-of-process-per-machine.md)
+- [ ] [**577** Employee Bonus](https://leetcode.com/problems/employee-bonus/) · [Solution](problems/0500-0999/577.sql) · [Walkthrough](materials/walkthroughs/577-employee-bonus.md)
+- [ ] [**1280** Students and Examinations](https://leetcode.com/problems/students-and-examinations/) · [Solution](problems/1000-1499/1280.sql) · [Walkthrough](materials/walkthroughs/1280-students-and-examinations.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**570** Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) · [Solution](problems/0500-0999/570.sql) · [Walkthrough](materials/walkthroughs/570-managers-with-at-least-5-direct-reports.md)
+- [ ] [**1934** Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) · [Solution](problems/1500-1999/1934.sql) · [Walkthrough](materials/walkthroughs/1934-confirmation-rate.md)
 
 </details>
 
@@ -691,14 +698,19 @@ $\color{#e67e22}{\textbf{Medium}}$
 
 `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`, `HAVING`. `WHERE` filters rows before grouping; `HAVING` filters groups after.
 
-- [ ] **620** · Easy · Not Boring Movies · [LeetCode](https://leetcode.com/problems/not-boring-movies/) · [Solution](problems/0500-0999/620.sql) · [Walkthrough](materials/walkthroughs/620-not-boring-movies.md)
-- [ ] **1251** · Easy · Average Selling Price · [LeetCode](https://leetcode.com/problems/average-selling-price/) · [Solution](problems/1000-1499/1251.sql) · [Walkthrough](materials/walkthroughs/1251-average-selling-price.md)
-- [ ] **1075** · Easy · Project Employees I · [LeetCode](https://leetcode.com/problems/project-employees-i/) · [Solution](problems/1000-1499/1075.sql) · [Walkthrough](materials/walkthroughs/1075-project-employees-i.md)
-- [ ] **1633** · Easy · Percentage of Users Attended a Contest · [LeetCode](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) · [Solution](problems/1500-1999/1633.sql) · [Walkthrough](materials/walkthroughs/1633-percentage-of-users-attended-a-contest.md)
-- [ ] **1211** · Easy · Queries Quality and Percentage · [LeetCode](https://leetcode.com/problems/queries-quality-and-percentage/) · [Solution](problems/1000-1499/1211.sql) · [Walkthrough](materials/walkthroughs/1211-queries-quality-and-percentage.md)
-- [ ] **1193** · Med · Monthly Transactions I · [LeetCode](https://leetcode.com/problems/monthly-transactions-i/) · [Solution](problems/1000-1499/1193.sql) · [Walkthrough](materials/walkthroughs/1193-monthly-transactions-i.md)
-- [ ] **1174** · Med · Immediate Food Delivery II · [LeetCode](https://leetcode.com/problems/immediate-food-delivery-ii/) · [Solution](problems/1000-1499/1174.sql) · [Walkthrough](materials/walkthroughs/1174-immediate-food-delivery-ii.md)
-- [ ] **550** · Med · Game Play Analysis IV · [LeetCode](https://leetcode.com/problems/game-play-analysis-iv/) · [Solution](problems/0500-0999/550.sql) · [Walkthrough](materials/walkthroughs/550-game-play-analysis-iv.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**620** Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) · [Solution](problems/0500-0999/620.sql) · [Walkthrough](materials/walkthroughs/620-not-boring-movies.md)
+- [ ] [**1251** Average Selling Price](https://leetcode.com/problems/average-selling-price/) · [Solution](problems/1000-1499/1251.sql) · [Walkthrough](materials/walkthroughs/1251-average-selling-price.md)
+- [ ] [**1075** Project Employees I](https://leetcode.com/problems/project-employees-i/) · [Solution](problems/1000-1499/1075.sql) · [Walkthrough](materials/walkthroughs/1075-project-employees-i.md)
+- [ ] [**1633** Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) · [Solution](problems/1500-1999/1633.sql) · [Walkthrough](materials/walkthroughs/1633-percentage-of-users-attended-a-contest.md)
+- [ ] [**1211** Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) · [Solution](problems/1000-1499/1211.sql) · [Walkthrough](materials/walkthroughs/1211-queries-quality-and-percentage.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**1193** Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) · [Solution](problems/1000-1499/1193.sql) · [Walkthrough](materials/walkthroughs/1193-monthly-transactions-i.md)
+- [ ] [**1174** Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) · [Solution](problems/1000-1499/1174.sql) · [Walkthrough](materials/walkthroughs/1174-immediate-food-delivery-ii.md)
+- [ ] [**550** Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · [Solution](problems/0500-0999/550.sql) · [Walkthrough](materials/walkthroughs/550-game-play-analysis-iv.md)
 
 </details>
 
@@ -707,13 +719,24 @@ $\color{#e67e22}{\textbf{Medium}}$
 
 `ORDER BY`, `GROUP BY` with `DISTINCT` counts, and grouping conditions.
 
-- [ ] **2356** · Easy · Number of Unique Subjects Taught by Each Teacher · [LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) · [Solution](problems/2000-2499/2356.sql) · [Walkthrough](materials/walkthroughs/2356-number-of-unique-subjects-taught-by-each-teacher.md)
-- [ ] **1141** · Easy · User Activity for the Past 30 Days I · [LeetCode](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) · [Solution](problems/1000-1499/1141.sql) · [Walkthrough](materials/walkthroughs/1141-user-activity-for-the-past-30-days-i.md)
-- [ ] **1070** · Med · Product Sales Analysis III · [LeetCode](https://leetcode.com/problems/product-sales-analysis-iii/) · [Solution](problems/1000-1499/1070.sql) · [Walkthrough](materials/walkthroughs/1070-product-sales-analysis-iii.md)
-- [ ] **596** · Easy · Classes With at Least 5 Students · [LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/) · [Solution](problems/0500-0999/596.sql) · [Walkthrough](materials/walkthroughs/596-classes-with-at-least-5-students.md)
-- [ ] **1729** · Easy · Find Followers Count · [LeetCode](https://leetcode.com/problems/find-followers-count/) · [Solution](problems/1500-1999/1729.sql) · [Walkthrough](materials/walkthroughs/1729-find-followers-count.md)
-- [ ] **619** · Easy · Biggest Single Number · [LeetCode](https://leetcode.com/problems/biggest-single-number/) · [Solution](problems/0500-0999/619.sql) · [Walkthrough](materials/walkthroughs/619-biggest-single-number.md)
-- [ ] **1045** · Med · Customers Who Bought All Products · [LeetCode](https://leetcode.com/problems/customers-who-bought-all-products/) · [Solution](problems/1000-1499/1045.sql) · [Walkthrough](materials/walkthroughs/1045-customers-who-bought-all-products.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**2356** Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) · [Solution](problems/2000-2499/2356.sql) · [Walkthrough](materials/walkthroughs/2356-number-of-unique-subjects-taught-by-each-teacher.md)
+- [ ] [**1141** User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) · [Solution](problems/1000-1499/1141.sql) · [Walkthrough](materials/walkthroughs/1141-user-activity-for-the-past-30-days-i.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**1070** Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/) · [Solution](problems/1000-1499/1070.sql) · [Walkthrough](materials/walkthroughs/1070-product-sales-analysis-iii.md)
+
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**596** Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) · [Solution](problems/0500-0999/596.sql) · [Walkthrough](materials/walkthroughs/596-classes-with-at-least-5-students.md)
+- [ ] [**1729** Find Followers Count](https://leetcode.com/problems/find-followers-count/) · [Solution](problems/1500-1999/1729.sql) · [Walkthrough](materials/walkthroughs/1729-find-followers-count.md)
+- [ ] [**619** Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) · [Solution](problems/0500-0999/619.sql) · [Walkthrough](materials/walkthroughs/619-biggest-single-number.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**1045** Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) · [Solution](problems/1000-1499/1045.sql) · [Walkthrough](materials/walkthroughs/1045-customers-who-bought-all-products.md)
 
 </details>
 
@@ -722,13 +745,18 @@ $\color{#e67e22}{\textbf{Medium}}$
 
 Self-joins, `CASE WHEN`, `UNION`, gap and consecutive detection, and last-value-as-of-date lookups.
 
-- [ ] **1731** · Easy · The Number of Employees Which Report to Each Employee · [LeetCode](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) · [Solution](problems/1500-1999/1731.sql) · [Walkthrough](materials/walkthroughs/1731-the-number-of-employees-which-report-to-each-employee.md)
-- [ ] **1789** · Easy · Primary Department for Each Employee · [LeetCode](https://leetcode.com/problems/primary-department-for-each-employee/) · [Solution](problems/1500-1999/1789.sql) · [Walkthrough](materials/walkthroughs/1789-primary-department-for-each-employee.md)
-- [ ] **610** · Easy · Triangle Judgement · [LeetCode](https://leetcode.com/problems/triangle-judgement/) · [Solution](problems/0500-0999/610.sql) · [Walkthrough](materials/walkthroughs/610-triangle-judgement.md)
-- [ ] **180** · Med · Consecutive Numbers · [LeetCode](https://leetcode.com/problems/consecutive-numbers/) · [Solution](problems/0001-0499/180.sql) · [Walkthrough](materials/walkthroughs/180-consecutive-numbers.md)
-- [ ] **1164** · Med · Product Price at a Given Date · [LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/) · [Solution](problems/1000-1499/1164.sql) · [Walkthrough](materials/walkthroughs/1164-product-price-at-a-given-date.md)
-- [ ] **1204** · Med · Last Person to Fit in the Bus · [LeetCode](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) · [Solution](problems/1000-1499/1204.sql) · [Walkthrough](materials/walkthroughs/1204-last-person-to-fit-in-the-bus.md)
-- [ ] **1907** · Med · Count Salary Categories · [LeetCode](https://leetcode.com/problems/count-salary-categories/) · [Solution](problems/1500-1999/1907.sql) · [Walkthrough](materials/walkthroughs/1907-count-salary-categories.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1731** The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) · [Solution](problems/1500-1999/1731.sql) · [Walkthrough](materials/walkthroughs/1731-the-number-of-employees-which-report-to-each-employee.md)
+- [ ] [**1789** Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) · [Solution](problems/1500-1999/1789.sql) · [Walkthrough](materials/walkthroughs/1789-primary-department-for-each-employee.md)
+- [ ] [**610** Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) · [Solution](problems/0500-0999/610.sql) · [Walkthrough](materials/walkthroughs/610-triangle-judgement.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**180** Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) · [Solution](problems/0001-0499/180.sql) · [Walkthrough](materials/walkthroughs/180-consecutive-numbers.md)
+- [ ] [**1164** Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) · [Solution](problems/1000-1499/1164.sql) · [Walkthrough](materials/walkthroughs/1164-product-price-at-a-given-date.md)
+- [ ] [**1204** Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) · [Solution](problems/1000-1499/1204.sql) · [Walkthrough](materials/walkthroughs/1204-last-person-to-fit-in-the-bus.md)
+- [ ] [**1907** Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) · [Solution](problems/1500-1999/1907.sql) · [Walkthrough](materials/walkthroughs/1907-count-salary-categories.md)
 
 </details>
 
@@ -737,13 +765,21 @@ Self-joins, `CASE WHEN`, `UNION`, gap and consecutive detection, and last-value-
 
 Subqueries in `WHERE` and `FROM`, CTEs, `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG`, running totals with `SUM() OVER`.
 
-- [ ] **1978** · Easy · Employees Whose Manager Left the Company · [LeetCode](https://leetcode.com/problems/employees-whose-manager-left-the-company/) · [Solution](problems/1500-1999/1978.sql) · [Walkthrough](materials/walkthroughs/1978-employees-whose-manager-left-the-company.md)
-- [ ] **626** · Med · Exchange Seats · [LeetCode](https://leetcode.com/problems/exchange-seats/) · [Solution](problems/0500-0999/626.sql) · [Walkthrough](materials/walkthroughs/626-exchange-seats.md)
-- [ ] **1341** · Med · Movie Rating · [LeetCode](https://leetcode.com/problems/movie-rating/) · [Solution](problems/1000-1499/1341.sql) · [Walkthrough](materials/walkthroughs/1341-movie-rating.md)
-- [ ] **1321** · Med · Restaurant Growth · [LeetCode](https://leetcode.com/problems/restaurant-growth/) · [Solution](problems/1000-1499/1321.sql) · [Walkthrough](materials/walkthroughs/1321-restaurant-growth.md)
-- [ ] **602** · Med · Friend Requests II: Who Has the Most Friends · [LeetCode](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) · [Solution](problems/0500-0999/602.sql) · [Walkthrough](materials/walkthroughs/602-friend-requests-ii-who-has-the-most-friends.md)
-- [ ] **585** · Med · Investments in 2016 · [LeetCode](https://leetcode.com/problems/investments-in-2016/) · [Solution](problems/0500-0999/585.sql) · [Walkthrough](materials/walkthroughs/585-investments-in-2016.md)
-- [ ] **185** · Hard · Department Top Three Salaries · [LeetCode](https://leetcode.com/problems/department-top-three-salaries/) · [Solution](problems/0001-0499/185.sql) · [Walkthrough](materials/walkthroughs/185-department-top-three-salaries.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1978** Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) · [Solution](problems/1500-1999/1978.sql) · [Walkthrough](materials/walkthroughs/1978-employees-whose-manager-left-the-company.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**626** Exchange Seats](https://leetcode.com/problems/exchange-seats/) · [Solution](problems/0500-0999/626.sql) · [Walkthrough](materials/walkthroughs/626-exchange-seats.md)
+- [ ] [**1341** Movie Rating](https://leetcode.com/problems/movie-rating/) · [Solution](problems/1000-1499/1341.sql) · [Walkthrough](materials/walkthroughs/1341-movie-rating.md)
+- [ ] [**1321** Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · [Solution](problems/1000-1499/1321.sql) · [Walkthrough](materials/walkthroughs/1321-restaurant-growth.md)
+- [ ] [**602** Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) · [Solution](problems/0500-0999/602.sql) · [Walkthrough](materials/walkthroughs/602-friend-requests-ii-who-has-the-most-friends.md)
+- [ ] [**585** Investments in 2016](https://leetcode.com/problems/investments-in-2016/) · [Solution](problems/0500-0999/585.sql) · [Walkthrough](materials/walkthroughs/585-investments-in-2016.md)
+
+$\color{#cf222e}{\textbf{Hard}}$
+
+- [ ] [**185** Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · [Solution](problems/0001-0499/185.sql) · [Walkthrough](materials/walkthroughs/185-department-top-three-salaries.md)
 
 </details>
 
@@ -752,13 +788,21 @@ Subqueries in `WHERE` and `FROM`, CTEs, `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG
 
 String functions, `LIKE`/`REGEXP`, `DELETE`, `GROUP_CONCAT`, and `LIMIT`/`OFFSET` tricks.
 
-- [ ] **1667** · Easy · Fix Names in a Table · [LeetCode](https://leetcode.com/problems/fix-names-in-a-table/) · [Solution](problems/1500-1999/1667.sql) · [Walkthrough](materials/walkthroughs/1667-fix-names-in-a-table.md)
-- [ ] **1527** · Easy · Patients With a Condition · [LeetCode](https://leetcode.com/problems/patients-with-a-condition/) · [Solution](problems/1500-1999/1527.sql) · [Walkthrough](materials/walkthroughs/1527-patients-with-a-condition.md)
-- [ ] **196** · Easy · Delete Duplicate Emails · [LeetCode](https://leetcode.com/problems/delete-duplicate-emails/) · [Solution](problems/0001-0499/196.sql) · [Walkthrough](materials/walkthroughs/196-delete-duplicate-emails.md)
-- [ ] **176** · Med · Second Highest Salary · [LeetCode](https://leetcode.com/problems/second-highest-salary/) · [Solution](problems/0001-0499/176.sql) · [Walkthrough](materials/walkthroughs/176-second-highest-salary.md)
-- [ ] **1484** · Easy · Group Sold Products By The Date · [LeetCode](https://leetcode.com/problems/group-sold-products-by-the-date/) · [Solution](problems/1000-1499/1484.sql) · [Walkthrough](materials/walkthroughs/1484-group-sold-products-by-the-date.md)
-- [ ] **1327** · Easy · List the Products Ordered in a Period · [LeetCode](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) · [Solution](problems/1000-1499/1327.sql) · [Walkthrough](materials/walkthroughs/1327-list-the-products-ordered-in-a-period.md)
-- [ ] **1517** · Easy · Find Users With Valid E-Mails · [LeetCode](https://leetcode.com/problems/find-users-with-valid-e-mails/) · [Solution](problems/1500-1999/1517.sql) · [Walkthrough](materials/walkthroughs/1517-find-users-with-valid-e-mails.md)
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1667** Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) · [Solution](problems/1500-1999/1667.sql) · [Walkthrough](materials/walkthroughs/1667-fix-names-in-a-table.md)
+- [ ] [**1527** Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) · [Solution](problems/1500-1999/1527.sql) · [Walkthrough](materials/walkthroughs/1527-patients-with-a-condition.md)
+- [ ] [**196** Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) · [Solution](problems/0001-0499/196.sql) · [Walkthrough](materials/walkthroughs/196-delete-duplicate-emails.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**176** Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) · [Solution](problems/0001-0499/176.sql) · [Walkthrough](materials/walkthroughs/176-second-highest-salary.md)
+
+$\color{#2da44e}{\textbf{Easy}}$
+
+- [ ] [**1484** Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) · [Solution](problems/1000-1499/1484.sql) · [Walkthrough](materials/walkthroughs/1484-group-sold-products-by-the-date.md)
+- [ ] [**1327** List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) · [Solution](problems/1000-1499/1327.sql) · [Walkthrough](materials/walkthroughs/1327-list-the-products-ordered-in-a-period.md)
+- [ ] [**1517** Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) · [Solution](problems/1500-1999/1517.sql) · [Walkthrough](materials/walkthroughs/1517-find-users-with-valid-e-mails.md)
 
 </details>
 
@@ -767,12 +811,20 @@ String functions, `LIKE`/`REGEXP`, `DELETE`, `GROUP_CONCAT`, and `LIMIT`/`OFFSET
 
 Not in the SQL 50, but they show up again and again in online assessments. Do these after the 50.
 
-- [ ] **178** · Med · Rank Scores · [LeetCode](https://leetcode.com/problems/rank-scores/) · [Solution](problems/0001-0499/178.sql) · [Walkthrough](materials/walkthroughs/178-rank-scores.md)
-- [ ] **184** · Med · Department Highest Salary · [LeetCode](https://leetcode.com/problems/department-highest-salary/) · [Solution](problems/0001-0499/184.sql) · [Walkthrough](materials/walkthroughs/184-department-highest-salary.md)
-- [ ] **177** · Med · Nth Highest Salary · [LeetCode](https://leetcode.com/problems/nth-highest-salary/) · [Solution](problems/0001-0499/177.sql) · [Walkthrough](materials/walkthroughs/177-nth-highest-salary.md)
-- [ ] **262** · Hard · Trips and Users · [LeetCode](https://leetcode.com/problems/trips-and-users/) · [Solution](problems/0001-0499/262.sql) · [Walkthrough](materials/walkthroughs/262-trips-and-users.md)
-- [ ] **1393** · Med · Capital Gain/Loss · [LeetCode](https://leetcode.com/problems/capital-gainloss/) · [Solution](problems/1000-1499/1393.sql) · [Walkthrough](materials/walkthroughs/1393-capital-gainloss.md)
-- [ ] **1158** · Med · Market Analysis I · [LeetCode](https://leetcode.com/problems/market-analysis-i/) · [Solution](problems/1000-1499/1158.sql) · [Walkthrough](materials/walkthroughs/1158-market-analysis-i.md)
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**178** Rank Scores](https://leetcode.com/problems/rank-scores/) · [Solution](problems/0001-0499/178.sql) · [Walkthrough](materials/walkthroughs/178-rank-scores.md)
+- [ ] [**184** Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) · [Solution](problems/0001-0499/184.sql) · [Walkthrough](materials/walkthroughs/184-department-highest-salary.md)
+- [ ] [**177** Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) · [Solution](problems/0001-0499/177.sql) · [Walkthrough](materials/walkthroughs/177-nth-highest-salary.md)
+
+$\color{#cf222e}{\textbf{Hard}}$
+
+- [ ] [**262** Trips and Users](https://leetcode.com/problems/trips-and-users/) · [Solution](problems/0001-0499/262.sql) · [Walkthrough](materials/walkthroughs/262-trips-and-users.md)
+
+$\color{#e67e22}{\textbf{Medium}}$
+
+- [ ] [**1393** Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) · [Solution](problems/1000-1499/1393.sql) · [Walkthrough](materials/walkthroughs/1393-capital-gainloss.md)
+- [ ] [**1158** Market Analysis I](https://leetcode.com/problems/market-analysis-i/) · [Solution](problems/1000-1499/1158.sql) · [Walkthrough](materials/walkthroughs/1158-market-analysis-i.md)
 
 </details>
 
