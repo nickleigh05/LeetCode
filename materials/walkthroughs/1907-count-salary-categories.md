@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/count-salary-categories/) · [Solution file (no hints)](../../problems/1500-1999/1907.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

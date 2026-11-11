@@ -358,7 +358,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/binary
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Binary Search — Practice →**](../rmap-practice/05-binary-search.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#5-binary-search-18-problems).
+Work the guided set with hints & solutions: [**Binary Search — Practice →**](../rmap-practice/05-binary-search.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#5-binary-search-18-problems).
 
 ## Check Yourself
 

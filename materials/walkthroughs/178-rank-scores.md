@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/rank-scores/) · [Solution file (no hints)](../../problems/0001-0499/178.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

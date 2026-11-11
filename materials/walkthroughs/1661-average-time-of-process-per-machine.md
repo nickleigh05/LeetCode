@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/) · [Solution file (no hints)](../../problems/1500-1999/1661.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

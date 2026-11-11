@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/group-sold-products-by-the-date/) · [Solution file (no hints)](../../problems/1000-1499/1484.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

@@ -158,7 +158,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/greedy
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Greedy — Practice →**](../rmap-practice/15-greedy.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#15-greedy-14-problems).
+Work the guided set with hints & solutions: [**Greedy — Practice →**](../rmap-practice/15-greedy.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#15-greedy-14-problems).
 
 ## Check Yourself
 

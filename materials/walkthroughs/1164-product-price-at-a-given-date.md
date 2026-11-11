@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/product-price-at-a-given-date/) · [Solution file (no hints)](../../problems/1000-1499/1164.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

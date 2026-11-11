@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) · [Solution file (no hints)](../../problems/1500-1999/1633.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) · [Solution file (no hints)](../../problems/1000-1499/1141.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

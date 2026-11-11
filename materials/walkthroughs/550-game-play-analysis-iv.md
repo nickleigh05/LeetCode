@@ -2,7 +2,7 @@
 
 **Medium** · [LeetCode](https://leetcode.com/problems/game-play-analysis-iv/) · [Solution file (no hints)](../../problems/0500-0999/550.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

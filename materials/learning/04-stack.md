@@ -385,7 +385,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/stack/
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Stacks & Queues — Practice →**](../rmap-practice/04-stack.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#4-stack-16-problems).
+Work the guided set with hints & solutions: [**Stacks & Queues — Practice →**](../rmap-practice/04-stack.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#4-stack-16-problems).
 
 ## Check Yourself
 

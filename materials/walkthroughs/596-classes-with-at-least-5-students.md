@@ -2,7 +2,7 @@
 
 **Easy** · [LeetCode](https://leetcode.com/problems/classes-with-at-least-5-students/) · [Solution file (no hints)](../../problems/0500-0999/596.sql)
 
-[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/sql.md)
+[🗺 Roadmap](../../roadmap.md) · [📋 All SQL 50 problems](../../lists/other/sql.md)
 
 ---
 

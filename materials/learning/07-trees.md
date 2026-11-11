@@ -241,7 +241,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/trees/
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](../rmap-practice/07-trees.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#7-trees-29-problems).
+Work the guided set with hints & solutions: [**Trees & BSTs — Practice →**](../rmap-practice/07-trees.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#7-trees-29-problems).
 
 ## Check Yourself
 

@@ -150,7 +150,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/arrays
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Arrays & Hashing — Practice →**](../rmap-practice/01-arrays-hashing.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#1-arrays--hashing-24-problems).
+Work the guided set with hints & solutions: [**Arrays & Hashing — Practice →**](../rmap-practice/01-arrays-hashing.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#1-arrays--hashing-24-problems).
 
 ## Check Yourself
 

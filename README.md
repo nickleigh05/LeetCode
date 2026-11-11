@@ -39,12 +39,19 @@ leetcode/
 │   ├── 3500-3999/
 │   └── 4000-4499/
 ├── lists/
-│   ├── neetcodeblind75.md
-│   ├── neetcode150.md
-│   ├── neetcode250.md
-│   ├── recommended.md
-│   └── rushed40.md
-│   └── sql.md
+│   ├── neetcode/
+│   │   ├── neetcodeblind75.md
+│   │   ├── neetcode150.md
+│   │   └── neetcode250.md
+│   ├── techInterviewHandbook/
+│   │   ├── grind75.md
+│   │   ├── grind137.md
+│   │   ├── grind143.md
+│   │   └── grind169.md
+│   └── other/
+│       ├── recommended.md
+│       ├── rushed40.md
+│       └── sql.md
 └── README.md
 ```
 
@@ -69,3 +76,4 @@ leetcode/
 
 - [LeetCode](https://leetcode.com)
 - [NeetCode](https://neetcode.io)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org)

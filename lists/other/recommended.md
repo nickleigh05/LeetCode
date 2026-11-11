@@ -1,0 +1,477 @@
+# 300 LeetCode Problems — Interview Prep
+
+Pattern-first, easy-to-hard. Work top to bottom — each section builds on the last. Check things off as you go. When a section feels solved, move on; don't grind the same pattern forever.
+
+**300 problems · 81 Easy · 187 Medium · 32 Hard**
+
+---
+
+## 1. Arrays & Hashing (24 problems)
+
+*The foundation. Hash maps unlock O(1) lookups and show up everywhere — master these first.*
+
+**Reference:** [Arrays](../../materials/learning/01-arrays-hashing.md#array) · [Hash Maps & Sets](../../materials/learning/01-arrays-hashing.md#hash-map-and-hash-set) · [Arrays & Hashing Template](../../materials/appendix/templates/arrays-hashing/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../../problems/0001-0499/1.py) |
+| 217 | Easy | Contains Duplicate | [Link](https://leetcode.com/problems/contains-duplicate/) | [Solution](../../problems/0001-0499/217.py) |
+| 242 | Easy | Valid Anagram | [Link](https://leetcode.com/problems/valid-anagram/) | [Solution](../../problems/0001-0499/242.py) |
+| 14 | Easy | Longest Common Prefix | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Solution](../../problems/0001-0499/14.py) |
+| 169 | Easy | Majority Element | [Link](https://leetcode.com/problems/majority-element/) | [Solution](../../problems/0001-0499/169.py) |
+| 26 | Easy | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](../../problems/0001-0499/26.py) |
+| 27 | Easy | Remove Element | [Link](https://leetcode.com/problems/remove-element/) | [Solution](../../problems/0001-0499/27.py) |
+| 66 | Easy | Plus One | [Link](https://leetcode.com/problems/plus-one/) | [Solution](../../problems/0001-0499/66.py) |
+| 88 | Easy | Merge Sorted Array | [Link](https://leetcode.com/problems/merge-sorted-array/) | [Solution](../../problems/0001-0499/88.py) |
+| 268 | Easy | Missing Number | [Link](https://leetcode.com/problems/missing-number/) | [Solution](../../problems/0001-0499/268.py) |
+| 448 | Easy | Find All Numbers Disappeared in an Array | [Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Solution](../../problems/0001-0499/448.py) |
+| 1929 | Easy | Concatenation of Array | [Link](https://leetcode.com/problems/concatenation-of-array/) | [Solution](../../problems/1500-1999/1929.py) |
+| 303 | Easy | Range Sum Query - Immutable | [Link](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](../../problems/0001-0499/303.py) |
+| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../../problems/0001-0499/49.py) |
+| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../../problems/0001-0499/347.py) |
+| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../../problems/0001-0499/238.py) |
+| 271 | Medium | Encode and Decode Strings | [Link](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](../../problems/0001-0499/271.py) |
+| 36 | Medium | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/) | [Solution](../../problems/0001-0499/36.py) |
+| 380 | Medium | Insert Delete GetRandom O(1) | [Link](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](../../problems/0001-0499/380.py) |
+| 128 | Medium | Longest Consecutive Sequence | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](../../problems/0001-0499/128.py) |
+| 560 | Medium | Subarray Sum Equals K | [Link](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](../../problems/0500-0999/560.py) |
+| 525 | Medium | Contiguous Array | [Link](https://leetcode.com/problems/contiguous-array/) | [Solution](../../problems/0500-0999/525.py) |
+| 274 | Medium | H-Index | [Link](https://leetcode.com/problems/h-index/) | [Solution](../../problems/0001-0499/274.py) |
+| 41 | Hard | First Missing Positive | [Link](https://leetcode.com/problems/first-missing-positive/) | [Solution](../../problems/0001-0499/41.py) |
+
+## 2. Two Pointers (14 problems)
+
+*One scan, two cursors. The trick is knowing which condition moves which pointer.*
+
+**Reference:** [Two Pointers Pattern](../../materials/learning/02-two-pointers.md#two-pointers) · [Two Pointers Template](../../materials/appendix/templates/two-pointers/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../../problems/0001-0499/125.py) |
+| 680 | Easy | Valid Palindrome II | [Link](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](../../problems/0500-0999/680.py) |
+| 283 | Easy | Move Zeroes | [Link](https://leetcode.com/problems/move-zeroes/) | [Solution](../../problems/0001-0499/283.py) |
+| 977 | Easy | Squares of a Sorted Array | [Link](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Solution](../../problems/0500-0999/977.py) |
+| 344 | Easy | Reverse String | [Link](https://leetcode.com/problems/reverse-string/) | [Solution](../../problems/0001-0499/344.py) |
+| 392 | Easy | Is Subsequence | [Link](https://leetcode.com/problems/is-subsequence/) | [Solution](../../problems/0001-0499/392.py) |
+| 1768 | Easy | Merge Strings Alternately | [Link](https://leetcode.com/problems/merge-strings-alternately/) | [Solution](../../problems/1500-1999/1768.py) |
+| 167 | Medium | Two Sum II - Input Array Is Sorted | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](../../problems/0001-0499/167.py) |
+| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../../problems/0001-0499/15.py) |
+| 16 | Medium | 3Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) | [Solution](../../problems/0001-0499/16.py) |
+| 18 | Medium | 4Sum | [Link](https://leetcode.com/problems/4sum/) | [Solution](../../problems/0001-0499/18.py) |
+| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../../problems/0001-0499/11.py) |
+| 75 | Medium | Sort Colors | [Link](https://leetcode.com/problems/sort-colors/) | [Solution](../../problems/0001-0499/75.py) |
+| 42 | Hard | Trapping Rain Water | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Solution](../../problems/0001-0499/42.py) |
+
+## 3. Sliding Window (14 problems)
+
+*Contiguous subarrays / substrings with a moving boundary — brute force is O(n²), this is O(n).*
+
+**Reference:** [Sliding Window Pattern](../../materials/learning/03-sliding-window.md#sliding-window) · [Sliding Window Template](../../materials/appendix/templates/sliding-window/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../../problems/0001-0499/121.py) |
+| 219 | Easy | Contains Duplicate II | [Link](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](../../problems/0001-0499/219.py) |
+| 643 | Easy | Maximum Average Subarray I | [Link](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](../../problems/0500-0999/643.py) |
+| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../../problems/0001-0499/3.py) |
+| 424 | Medium | Longest Repeating Character Replacement | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](../../problems/0001-0499/424.py) |
+| 567 | Medium | Permutation in String | [Link](https://leetcode.com/problems/permutation-in-string/) | [Solution](../../problems/0500-0999/567.py) |
+| 438 | Medium | Find All Anagrams in a String | [Link](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](../../problems/0001-0499/438.py) |
+| 209 | Medium | Minimum Size Subarray Sum | [Link](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](../../problems/0001-0499/209.py) |
+| 904 | Medium | Fruit Into Baskets | [Link](https://leetcode.com/problems/fruit-into-baskets/) | [Solution](../../problems/0500-0999/904.py) |
+| 1456 | Medium | Maximum Number of Vowels in a Substring of Given Length | [Link](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Solution](../../problems/1000-1499/1456.py) |
+| 1004 | Medium | Max Consecutive Ones III | [Link](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Solution](../../problems/1000-1499/1004.py) |
+| 1493 | Medium | Longest Subarray of 1's After Deleting One Element | [Link](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | - |
+| 76 | Hard | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Solution](../../problems/0001-0499/76.py) |
+| 239 | Hard | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](../../problems/0001-0499/239.py) |
+
+## 4. Stack (16 problems)
+
+*LIFO wins whenever you need to track 'most recent unseen' — parentheses, temperatures, histograms.*
+
+**Reference:** [Stack Data Structure](../../materials/learning/04-stack.md#stack) · [Monotonic Stack](../../materials/learning/04-stack.md#monotonic-stack) · [Stack & Queue Template](../../materials/appendix/templates/stack/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../../problems/0001-0499/20.py) |
+| 682 | Easy | Baseball Game | [Link](https://leetcode.com/problems/baseball-game/) | [Solution](../../problems/0500-0999/682.py) |
+| 496 | Easy | Next Greater Element I | [Link](https://leetcode.com/problems/next-greater-element-i/) | [Solution](../../problems/0001-0499/496.py) |
+| 225 | Easy | Implement Stack using Queues | [Link](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](../../problems/0001-0499/225.py) |
+| 232 | Easy | Implement Queue using Stacks | [Link](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](../../problems/0001-0499/232.py) |
+| 155 | Medium | Min Stack | [Link](https://leetcode.com/problems/min-stack/) | [Solution](../../problems/0001-0499/155.py) |
+| 150 | Medium | Evaluate Reverse Polish Notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](../../problems/0001-0499/150.py) |
+| 22 | Medium | Generate Parentheses | [Link](https://leetcode.com/problems/generate-parentheses/) | [Solution](../../problems/0001-0499/22.py) |
+| 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../../problems/0500-0999/739.py) |
+| 853 | Medium | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/) | [Solution](../../problems/0500-0999/853.py) |
+| 901 | Medium | Online Stock Span | [Link](https://leetcode.com/problems/online-stock-span/) | - |
+| 71 | Medium | Simplify Path | [Link](https://leetcode.com/problems/simplify-path/) | - |
+| 394 | Medium | Decode String | [Link](https://leetcode.com/problems/decode-string/) | - |
+| 503 | Medium | Next Greater Element II | [Link](https://leetcode.com/problems/next-greater-element-ii/) | - |
+| 84 | Hard | Largest Rectangle in Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](../../problems/0001-0499/84.py) |
+| 85 | Hard | Maximal Rectangle | [Link](https://leetcode.com/problems/maximal-rectangle/) | - |
+
+## 5. Binary Search (18 problems)
+
+*If the search space is ordered, binary search it. Works on answers, not just arrays.*
+
+**Reference:** [Binary Search Algorithm](../../materials/learning/05-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../../materials/learning/05-binary-search.md#binary-search-on-answer) · [Binary Search Template](../../materials/appendix/templates/binary-search/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../../problems/0500-0999/704.py) |
+| 374 | Easy | Guess Number Higher or Lower | [Link](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Solution](../../problems/0001-0499/374.py) |
+| 35 | Easy | Search Insert Position | [Link](https://leetcode.com/problems/search-insert-position/) | [Solution](../../problems/0001-0499/35.py) |
+| 278 | Easy | First Bad Version | [Link](https://leetcode.com/problems/first-bad-version/) | [Solution](../../problems/0001-0499/278.py) |
+| 69 | Easy | Sqrt(x) | [Link](https://leetcode.com/problems/sqrtx/) | [Solution](../../problems/0001-0499/69.py) |
+| 367 | Easy | Valid Perfect Square | [Link](https://leetcode.com/problems/valid-perfect-square/) | [Solution](../../problems/0001-0499/367.py) |
+| 74 | Medium | Search a 2D Matrix | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](../../problems/0001-0499/74.py) |
+| 875 | Medium | Koko Eating Bananas | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](../../problems/0500-0999/875.py) |
+| 153 | Medium | Find Minimum in Rotated Sorted Array | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](../../problems/0001-0499/153.py) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../../problems/0001-0499/33.py) |
+| 34 | Medium | Find First and Last Position of Element in Sorted Array | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](../../problems/0001-0499/34.py) |
+| 162 | Medium | Find Peak Element | [Link](https://leetcode.com/problems/find-peak-element/) | - |
+| 540 | Medium | Single Element in a Sorted Array | [Link](https://leetcode.com/problems/single-element-in-a-sorted-array/) | - |
+| 1011 | Medium | Capacity To Ship Packages Within D Days | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - |
+| 658 | Medium | Find K Closest Elements | [Link](https://leetcode.com/problems/find-k-closest-elements/) | - |
+| 981 | Medium | Time Based Key-Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/) | [Solution](../../problems/0500-0999/981.py) |
+| 4 | Hard | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](../../problems/0001-0499/4.py) |
+| 410 | Hard | Split Array Largest Sum | [Link](https://leetcode.com/problems/split-array-largest-sum/) | - |
+
+## 6. Linked List (20 problems)
+
+*Pointer arithmetic and in-place manipulation. Draw it out — every single time.*
+
+**Reference:** [Linked List Data Structure](../../materials/learning/06-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../../materials/learning/06-linked-list.md#fast-and-slow-pointers) · [Linked List Template](../../materials/appendix/templates/linked-list/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../../problems/0001-0499/206.py) |
+| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../../problems/0001-0499/21.py) |
+| 876 | Easy | Middle of the Linked List | [Link](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](../../problems/0500-0999/876.py) |
+| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../../problems/0001-0499/141.py) |
+| 234 | Easy | Palindrome Linked List | [Link](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](../../problems/0001-0499/234.py) |
+| 203 | Easy | Remove Linked List Elements | [Link](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](../../problems/0001-0499/203.py) |
+| 83 | Easy | Remove Duplicates from Sorted List | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](../../problems/0001-0499/83.py) |
+| 160 | Easy | Intersection of Two Linked Lists | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Solution](../../problems/0001-0499/160.py) |
+| 143 | Medium | Reorder List | [Link](https://leetcode.com/problems/reorder-list/) | [Solution](../../problems/0001-0499/143.py) |
+| 19 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](../../problems/0001-0499/19.py) |
+| 92 | Medium | Reverse Linked List II | [Link](https://leetcode.com/problems/reverse-linked-list-ii/) | - |
+| 24 | Medium | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) | - |
+| 2 | Medium | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/) | [Solution](../../problems/0001-0499/2.py) |
+| 138 | Medium | Copy List with Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](../../problems/0001-0499/138.py) |
+| 287 | Medium | Find the Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](../../problems/0001-0499/287.py) |
+| 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../../problems/0001-0499/146.py) |
+| 61 | Medium | Rotate List | [Link](https://leetcode.com/problems/rotate-list/) | - |
+| 86 | Medium | Partition List | [Link](https://leetcode.com/problems/partition-list/) | - |
+| 23 | Hard | Merge k Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](../../problems/0001-0499/23.py) |
+| 25 | Hard | Reverse Nodes in k-Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](../../problems/0001-0499/25.py) |
+
+## 7. Trees (29 problems)
+
+*Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
+
+**Reference:** [Binary Tree Data Structure](../../materials/learning/07-trees.md#binary-tree) · [Binary Search Tree](../../materials/learning/07-trees.md#binary-search-tree) · [DFS Algorithm](../../materials/learning/11-graphs.md#depth-first-search) · [BFS Algorithm](../../materials/learning/11-graphs.md#breadth-first-search) · [Trees Template](../../materials/appendix/templates/trees/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../../problems/0001-0499/226.py) |
+| 104 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](../../problems/0001-0499/104.py) |
+| 543 | Easy | Diameter of Binary Tree | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](../../problems/0500-0999/543.py) |
+| 110 | Easy | Balanced Binary Tree | [Link](https://leetcode.com/problems/balanced-binary-tree/) | [Solution](../../problems/0001-0499/110.py) |
+| 100 | Easy | Same Tree | [Link](https://leetcode.com/problems/same-tree/) | [Solution](../../problems/0001-0499/100.py) |
+| 572 | Easy | Subtree of Another Tree | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](../../problems/0500-0999/572.py) |
+| 112 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) | [Solution](../../problems/0001-0499/112.py) |
+| 111 | Easy | Minimum Depth of Binary Tree | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Solution](../../problems/0001-0499/111.py) |
+| 101 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) | [Solution](../../problems/0001-0499/101.py) |
+| 108 | Easy | Convert Sorted Array to Binary Search Tree | [Link](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](../../problems/0001-0499/108.py) |
+| 700 | Easy | Search in a Binary Search Tree | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree/) | - |
+| 94 | Easy | Binary Tree Inorder Traversal | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](../../problems/0001-0499/94.py) |
+| 144 | Easy | Binary Tree Preorder Traversal | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Solution](../../problems/0001-0499/144.py) |
+| 145 | Easy | Binary Tree Postorder Traversal | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Solution](../../problems/0001-0499/145.py) |
+| 257 | Easy | Binary Tree Paths | [Link](https://leetcode.com/problems/binary-tree-paths/) | [Solution](../../problems/0001-0499/257.py) |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../../problems/0001-0499/235.py) |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../../problems/0001-0499/102.py) |
+| 199 | Medium | Binary Tree Right Side View | [Link](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](../../problems/0001-0499/199.py) |
+| 1448 | Medium | Count Good Nodes in Binary Tree | [Link](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Solution](../../problems/1000-1499/1448.py) |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../../problems/0001-0499/98.py) |
+| 230 | Medium | Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](../../problems/0001-0499/230.py) |
+| 105 | Medium | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](../../problems/0001-0499/105.py) |
+| 701 | Medium | Insert into a Binary Search Tree | [Link](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Solution](../../problems/0500-0999/701.py) |
+| 450 | Medium | Delete Node in a BST | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | - |
+| 116 | Medium | Populating Next Right Pointers in Each Node | [Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | - |
+| 103 | Medium | Binary Tree Zigzag Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | - |
+| 236 | Medium | Lowest Common Ancestor of a Binary Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | - |
+| 124 | Hard | Binary Tree Maximum Path Sum | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](../../problems/0001-0499/124.py) |
+| 297 | Hard | Serialize and Deserialize Binary Tree | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](../../problems/0001-0499/297.py) |
+
+## 8. Heap / Priority Queue (14 problems)
+
+*Whenever you hear 'top K' or 'running median', reach for a heap.*
+
+**Reference:** [Heap & Priority Queue](../../materials/learning/09-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../../materials/learning/09-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../../materials/learning/09-heap-priority-queue.md#two-heaps) · [Heap Template](../../materials/appendix/templates/heap-priority-queue/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 703 | Easy | Kth Largest Element in a Stream | [Link](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Solution](../../problems/0500-0999/703.py) |
+| 1046 | Easy | Last Stone Weight | [Link](https://leetcode.com/problems/last-stone-weight/) | [Solution](../../problems/1000-1499/1046.py) |
+| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../../problems/0001-0499/215.py) |
+| 973 | Medium | K Closest Points to Origin | [Link](https://leetcode.com/problems/k-closest-points-to-origin/) | [Solution](../../problems/0500-0999/973.py) |
+| 621 | Medium | Task Scheduler | [Link](https://leetcode.com/problems/task-scheduler/) | [Solution](../../problems/0500-0999/621.py) |
+| 355 | Medium | Design Twitter | [Link](https://leetcode.com/problems/design-twitter/) | [Solution](../../problems/0001-0499/355.py) |
+| 692 | Medium | Top K Frequent Words | [Link](https://leetcode.com/problems/top-k-frequent-words/) | - |
+| 767 | Medium | Reorganize String | [Link](https://leetcode.com/problems/reorganize-string/) | - |
+| 1834 | Medium | Single-Threaded CPU | [Link](https://leetcode.com/problems/single-threaded-cpu/) | - |
+| 1985 | Medium | Find the Kth Largest Integer in the Array | [Link](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) | - |
+| 2542 | Medium | Maximum Subsequence Score | [Link](https://leetcode.com/problems/maximum-subsequence-score/) | - |
+| 1962 | Medium | Remove Stones to Minimize the Total | [Link](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | - |
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../../problems/0001-0499/295.py) |
+| 502 | Hard | IPO | [Link](https://leetcode.com/problems/ipo/) | - |
+
+## 9. Backtracking (16 problems)
+
+*Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
+
+**Reference:** [Backtracking Algorithm](../../materials/learning/10-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../../materials/learning/10-backtracking.md#dfs-and-backtracking) · [Backtracking Template](../../materials/appendix/templates/backtracking/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../../problems/0001-0499/78.py) |
+| 90 | Medium | Subsets II | [Link](https://leetcode.com/problems/subsets-ii/) | [Solution](../../problems/0001-0499/90.py) |
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../../problems/0001-0499/39.py) |
+| 40 | Medium | Combination Sum II | [Link](https://leetcode.com/problems/combination-sum-ii/) | [Solution](../../problems/0001-0499/40.py) |
+| 216 | Medium | Combination Sum III | [Link](https://leetcode.com/problems/combination-sum-iii/) | - |
+| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../../problems/0001-0499/46.py) |
+| 47 | Medium | Permutations II | [Link](https://leetcode.com/problems/permutations-ii/) | - |
+| 77 | Medium | Combinations | [Link](https://leetcode.com/problems/combinations/) | - |
+| 17 | Medium | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](../../problems/0001-0499/17.py) |
+| 79 | Medium | Word Search | [Link](https://leetcode.com/problems/word-search/) | [Solution](../../problems/0001-0499/79.py) |
+| 131 | Medium | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/) | [Solution](../../problems/0001-0499/131.py) |
+| 93 | Medium | Restore IP Addresses | [Link](https://leetcode.com/problems/restore-ip-addresses/) | - |
+| 698 | Medium | Partition to K Equal Sum Subsets | [Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | - |
+| 526 | Medium | Beautiful Arrangement | [Link](https://leetcode.com/problems/beautiful-arrangement/) | - |
+| 51 | Hard | N-Queens | [Link](https://leetcode.com/problems/n-queens/) | [Solution](../../problems/0001-0499/51.py) |
+| 52 | Hard | N-Queens II | [Link](https://leetcode.com/problems/n-queens-ii/) | - |
+
+## 10. Tries (6 problems)
+
+*Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
+
+**Reference:** [Trie Data Structure](../../materials/learning/08-tries.md#trie) · [Trie Search Pattern](../../materials/learning/08-tries.md#trie-search) · [Tries Template](../../materials/appendix/templates/tries/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../../problems/0001-0499/208.py) |
+| 211 | Medium | Design Add and Search Words Data Structure | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution](../../problems/0001-0499/211.py) |
+| 648 | Medium | Replace Words | [Link](https://leetcode.com/problems/replace-words/) | - |
+| 677 | Medium | Map Sum Pairs | [Link](https://leetcode.com/problems/map-sum-pairs/) | - |
+| 1268 | Medium | Search Suggestions System | [Link](https://leetcode.com/problems/search-suggestions-system/) | - |
+| 212 | Hard | Word Search II | [Link](https://leetcode.com/problems/word-search-ii/) | [Solution](../../problems/0001-0499/212.py) |
+
+## 11. Graphs (23 problems)
+
+*BFS for shortest path, DFS for connectivity. Union-Find for components. Know all three.*
+
+**Reference:** [Graph Data Structure](../../materials/learning/11-graphs.md#graph) · [BFS Algorithm](../../materials/learning/11-graphs.md#breadth-first-search) · [DFS Algorithm](../../materials/learning/11-graphs.md#depth-first-search) · [Union Find](../../materials/learning/12-union-find.md#disjoint-set-union) · [Graphs Template](../../materials/appendix/templates/graphs/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 733 | Easy | Flood Fill | [Link](https://leetcode.com/problems/flood-fill/) | [Solution](../../problems/0500-0999/733.py) |
+| 463 | Easy | Island Perimeter | [Link](https://leetcode.com/problems/island-perimeter/) | [Solution](../../problems/0001-0499/463.py) |
+| 1971 | Easy | Find if Path Exists in Graph | [Link](https://leetcode.com/problems/find-if-path-exists-in-graph/) | - |
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../../problems/0001-0499/200.py) |
+| 695 | Medium | Max Area of Island | [Link](https://leetcode.com/problems/max-area-of-island/) | [Solution](../../problems/0500-0999/695.py) |
+| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../../problems/0001-0499/133.py) |
+| 994 | Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) | [Solution](../../problems/0500-0999/994.py) |
+| 286 | Medium | Walls and Gates | [Link](https://leetcode.com/problems/walls-and-gates/) | [Solution](../../problems/0001-0499/286.py) |
+| 417 | Medium | Pacific Atlantic Water Flow | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](../../problems/0001-0499/417.py) |
+| 130 | Medium | Surrounded Regions | [Link](https://leetcode.com/problems/surrounded-regions/) | [Solution](../../problems/0001-0499/130.py) |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../../problems/0001-0499/207.py) |
+| 210 | Medium | Course Schedule II | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Solution](../../problems/0001-0499/210.py) |
+| 261 | Medium | Graph Valid Tree | [Link](https://leetcode.com/problems/graph-valid-tree/) | [Solution](../../problems/0001-0499/261.py) |
+| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../../problems/0001-0499/323.py) |
+| 684 | Medium | Redundant Connection | [Link](https://leetcode.com/problems/redundant-connection/) | [Solution](../../problems/0500-0999/684.py) |
+| 547 | Medium | Number of Provinces | [Link](https://leetcode.com/problems/number-of-provinces/) | - |
+| 785 | Medium | Is Graph Bipartite? | [Link](https://leetcode.com/problems/is-graph-bipartite/) | - |
+| 802 | Medium | Find Eventual Safe States | [Link](https://leetcode.com/problems/find-eventual-safe-states/) | - |
+| 1466 | Medium | Reorder Routes to Make All Paths Lead to the City Zero | [Link](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | - |
+| 841 | Medium | Keys and Rooms | [Link](https://leetcode.com/problems/keys-and-rooms/) | - |
+| 1020 | Medium | Number of Enclaves | [Link](https://leetcode.com/problems/number-of-enclaves/) | - |
+| 127 | Hard | Word Ladder | [Link](https://leetcode.com/problems/word-ladder/) | [Solution](../../problems/0001-0499/127.py) |
+| 269 | Hard | Alien Dictionary | [Link](https://leetcode.com/problems/alien-dictionary/) | [Solution](../../problems/0001-0499/269.py) |
+
+## 12. Advanced Graphs (11 problems)
+
+*Weighted shortest paths, MST, Euler paths. High effort, high signal for senior roles.*
+
+**Reference:** [Dijkstra's Algorithm](../../materials/learning/13-advanced-graphs.md#dijkstras-algorithm) · [Topological Sort](../../materials/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Template](../../materials/appendix/templates/advanced-graphs/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 743 | Medium | Network Delay Time | [Link](https://leetcode.com/problems/network-delay-time/) | [Solution](../../problems/0500-0999/743.py) |
+| 1584 | Medium | Min Cost to Connect All Points | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Solution](../../problems/1500-1999/1584.py) |
+| 787 | Medium | Cheapest Flights Within K Stops | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](../../problems/0500-0999/787.py) |
+| 1631 | Medium | Path With Minimum Effort | [Link](https://leetcode.com/problems/path-with-minimum-effort/) | - |
+| 1976 | Medium | Number of Ways to Arrive at Destination | [Link](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | - |
+| 2492 | Medium | Minimum Score of a Path Between Two Cities | [Link](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | - |
+| 1462 | Medium | Course Schedule IV | [Link](https://leetcode.com/problems/course-schedule-iv/) | - |
+| 332 | Hard | Reconstruct Itinerary | [Link](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](../../problems/0001-0499/332.py) |
+| 778 | Hard | Swim in Rising Water | [Link](https://leetcode.com/problems/swim-in-rising-water/) | [Solution](../../problems/0500-0999/778.py) |
+| 685 | Hard | Redundant Connection II | [Link](https://leetcode.com/problems/redundant-connection-ii/) | - |
+| 847 | Hard | Shortest Path Visiting All Nodes | [Link](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | - |
+
+## 13. 1-D Dynamic Programming (22 problems)
+
+*Break the problem into overlapping subproblems. Define state, write recurrence, add memoization.*
+
+**Reference:** [Dynamic Programming Algorithm](../../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../../materials/learning/14-dp-1d.md#dynamic-programming) · [1-D DP Template](../../materials/appendix/templates/dp-1d/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../../problems/0001-0499/70.py) |
+| 746 | Easy | Min Cost Climbing Stairs | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](../../problems/0500-0999/746.py) |
+| 1137 | Easy | N-th Tribonacci Number | [Link](https://leetcode.com/problems/n-th-tribonacci-number/) | [Solution](../../problems/1000-1499/1137.py) |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../../problems/0001-0499/198.py) |
+| 213 | Medium | House Robber II | [Link](https://leetcode.com/problems/house-robber-ii/) | [Solution](../../problems/0001-0499/213.py) |
+| 5 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](../../problems/0001-0499/5.py) |
+| 647 | Medium | Palindromic Substrings | [Link](https://leetcode.com/problems/palindromic-substrings/) | [Solution](../../problems/0500-0999/647.py) |
+| 91 | Medium | Decode Ways | [Link](https://leetcode.com/problems/decode-ways/) | [Solution](../../problems/0001-0499/91.py) |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../../problems/0001-0499/322.py) |
+| 518 | Medium | Coin Change II | [Link](https://leetcode.com/problems/coin-change-ii/) | [Solution](../../problems/0500-0999/518.py) |
+| 152 | Medium | Maximum Product Subarray | [Link](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](../../problems/0001-0499/152.py) |
+| 139 | Medium | Word Break | [Link](https://leetcode.com/problems/word-break/) | [Solution](../../problems/0001-0499/139.py) |
+| 300 | Medium | Longest Increasing Subsequence | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](../../problems/0001-0499/300.py) |
+| 377 | Medium | Combination Sum IV | [Link](https://leetcode.com/problems/combination-sum-iv/) | - |
+| 416 | Medium | Partition Equal Subset Sum | [Link](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](../../problems/0001-0499/416.py) |
+| 740 | Medium | Delete and Earn | [Link](https://leetcode.com/problems/delete-and-earn/) | - |
+| 279 | Medium | Perfect Squares | [Link](https://leetcode.com/problems/perfect-squares/) | - |
+| 343 | Medium | Integer Break | [Link](https://leetcode.com/problems/integer-break/) | - |
+| 309 | Medium | Best Time to Buy and Sell Stock with Cooldown | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](../../problems/0001-0499/309.py) |
+| 96 | Medium | Unique Binary Search Trees | [Link](https://leetcode.com/problems/unique-binary-search-trees/) | - |
+| 1027 | Medium | Longest Arithmetic Subsequence | [Link](https://leetcode.com/problems/longest-arithmetic-subsequence/) | - |
+| 132 | Hard | Palindrome Partitioning II | [Link](https://leetcode.com/problems/palindrome-partitioning-ii/) | - |
+
+## 14. 2-D Dynamic Programming (20 problems)
+
+*Same idea as 1-D but your state is a grid. Usually string matching or path problems.*
+
+**Reference:** [Dynamic Programming Algorithm](../../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../../materials/learning/14-dp-1d.md#dynamic-programming) · [2-D DP Template](../../materials/appendix/templates/dp-2d/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | [Solution](../../problems/0001-0499/62.py) |
+| 63 | Medium | Unique Paths II | [Link](https://leetcode.com/problems/unique-paths-ii/) | - |
+| 64 | Medium | Minimum Path Sum | [Link](https://leetcode.com/problems/minimum-path-sum/) | - |
+| 120 | Medium | Triangle | [Link](https://leetcode.com/problems/triangle/) | - |
+| 931 | Medium | Minimum Falling Path Sum | [Link](https://leetcode.com/problems/minimum-falling-path-sum/) | - |
+| 221 | Medium | Maximal Square | [Link](https://leetcode.com/problems/maximal-square/) | - |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../../problems/1000-1499/1143.py) |
+| 1035 | Medium | Uncrossed Lines | [Link](https://leetcode.com/problems/uncrossed-lines/) | - |
+| 516 | Medium | Longest Palindromic Subsequence | [Link](https://leetcode.com/problems/longest-palindromic-subsequence/) | - |
+| 494 | Medium | Target Sum | [Link](https://leetcode.com/problems/target-sum/) | [Solution](../../problems/0001-0499/494.py) |
+| 1049 | Medium | Last Stone Weight II | [Link](https://leetcode.com/problems/last-stone-weight-ii/) | - |
+| 72 | Medium | Edit Distance | [Link](https://leetcode.com/problems/edit-distance/) | [Solution](../../problems/0001-0499/72.py) |
+| 97 | Medium | Interleaving String | [Link](https://leetcode.com/problems/interleaving-string/) | [Solution](../../problems/0001-0499/97.py) |
+| 718 | Medium | Maximum Length of Repeated Subarray | [Link](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | - |
+| 115 | Hard | Distinct Subsequences | [Link](https://leetcode.com/problems/distinct-subsequences/) | [Solution](../../problems/0001-0499/115.py) |
+| 312 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/) | [Solution](../../problems/0001-0499/312.py) |
+| 10 | Hard | Regular Expression Matching | [Link](https://leetcode.com/problems/regular-expression-matching/) | [Solution](../../problems/0001-0499/10.py) |
+| 174 | Hard | Dungeon Game | [Link](https://leetcode.com/problems/dungeon-game/) | - |
+| 123 | Hard | Best Time to Buy and Sell Stock III | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
+| 188 | Hard | Best Time to Buy and Sell Stock IV | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | - |
+
+## 15. Greedy (14 problems)
+
+*Take the locally optimal choice and trust it's globally optimal. Proving why is the hard part.*
+
+**Reference:** [Greedy Algorithm](../../materials/learning/16-greedy.md#greedy) · [Greedy Template](../../materials/appendix/templates/greedy/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 561 | Easy | Array Partition | [Link](https://leetcode.com/problems/array-partition/) | - |
+| 1005 | Easy | Maximize Sum Of Array After K Negations | [Link](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | - |
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../../problems/0001-0499/53.py) |
+| 55 | Medium | Jump Game | [Link](https://leetcode.com/problems/jump-game/) | [Solution](../../problems/0001-0499/55.py) |
+| 45 | Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/) | [Solution](../../problems/0001-0499/45.py) |
+| 122 | Medium | Best Time to Buy and Sell Stock II | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](../../problems/0001-0499/122.py) |
+| 134 | Medium | Gas Station | [Link](https://leetcode.com/problems/gas-station/) | [Solution](../../problems/0001-0499/134.py) |
+| 846 | Medium | Hand of Straights | [Link](https://leetcode.com/problems/hand-of-straights/) | [Solution](../../problems/0500-0999/846.py) |
+| 1899 | Medium | Merge Triplets to Form Target Triplet | [Link](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | [Solution](../../problems/1500-1999/1899.py) |
+| 763 | Medium | Partition Labels | [Link](https://leetcode.com/problems/partition-labels/) | [Solution](../../problems/0500-0999/763.py) |
+| 678 | Medium | Valid Parenthesis String | [Link](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](../../problems/0500-0999/678.py) |
+| 1647 | Medium | Minimum Deletions to Make Character Frequencies Unique | [Link](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | - |
+| 738 | Medium | Monotone Increasing Digits | [Link](https://leetcode.com/problems/monotone-increasing-digits/) | - |
+| 376 | Medium | Wiggle Subsequence | [Link](https://leetcode.com/problems/wiggle-subsequence/) | - |
+
+## 16. Intervals (10 problems)
+
+*Sort by start time. Merge, count, or query — the pattern is always sort-first.*
+
+**Reference:** [Merge Intervals Pattern](../../materials/learning/17-intervals.md#merge-intervals) · [Intervals Template](../../materials/appendix/templates/intervals/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 252 | Easy | Meeting Rooms | [Link](https://leetcode.com/problems/meeting-rooms/) | [Solution](../../problems/0001-0499/252.py) |
+| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../../problems/0001-0499/56.py) |
+| 57 | Medium | Insert Interval | [Link](https://leetcode.com/problems/insert-interval/) | [Solution](../../problems/0001-0499/57.py) |
+| 435 | Medium | Non-overlapping Intervals | [Link](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](../../problems/0001-0499/435.py) |
+| 253 | Medium | Meeting Rooms II | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](../../problems/0001-0499/253.py) |
+| 986 | Medium | Interval List Intersections | [Link](https://leetcode.com/problems/interval-list-intersections/) | - |
+| 1288 | Medium | Remove Covered Intervals | [Link](https://leetcode.com/problems/remove-covered-intervals/) | - |
+| 452 | Medium | Minimum Number of Arrows to Burst Balloons | [Link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | - |
+| 731 | Medium | My Calendar II | [Link](https://leetcode.com/problems/my-calendar-ii/) | - |
+| 1851 | Hard | Minimum Interval to Include Each Query | [Link](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | [Solution](../../problems/1500-1999/1851.py) |
+
+## 17. Math & Geometry (16 problems)
+
+*Modular arithmetic, GCD, matrix ops. Usually a 5-liner once you remember the trick.*
+
+**Reference:** [Math & Geometry Template](../../materials/appendix/templates/math-geometry/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 9 | Easy | Palindrome Number | [Link](https://leetcode.com/problems/palindrome-number/) | [Solution](../../problems/0001-0499/9.py) |
+| 13 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) | [Solution](../../problems/0001-0499/13.py) |
+| 202 | Easy | Happy Number | [Link](https://leetcode.com/problems/happy-number/) | [Solution](../../problems/0001-0499/202.py) |
+| 263 | Easy | Ugly Number | [Link](https://leetcode.com/problems/ugly-number/) | - |
+| 1071 | Easy | Greatest Common Divisor of Strings | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [Solution](../../problems/1000-1499/1071.py) |
+| 415 | Easy | Add Strings | [Link](https://leetcode.com/problems/add-strings/) | [Solution](../../problems/0001-0499/415.py) |
+| 168 | Easy | Excel Sheet Column Title | [Link](https://leetcode.com/problems/excel-sheet-column-title/) | [Solution](../../problems/0001-0499/168.py) |
+| 7 | Medium | Reverse Integer | [Link](https://leetcode.com/problems/reverse-integer/) | [Solution](../../problems/0001-0499/7.py) |
+| 12 | Medium | Integer to Roman | [Link](https://leetcode.com/problems/integer-to-roman/) | - |
+| 50 | Medium | Pow(x, n) | [Link](https://leetcode.com/problems/powx-n/) | [Solution](../../problems/0001-0499/50.py) |
+| 43 | Medium | Multiply Strings | [Link](https://leetcode.com/problems/multiply-strings/) | [Solution](../../problems/0001-0499/43.py) |
+| 73 | Medium | Set Matrix Zeroes | [Link](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](../../problems/0001-0499/73.py) |
+| 54 | Medium | Spiral Matrix | [Link](https://leetcode.com/problems/spiral-matrix/) | [Solution](../../problems/0001-0499/54.py) |
+| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../../problems/0001-0499/48.py) |
+| 2013 | Medium | Detect Squares | [Link](https://leetcode.com/problems/detect-squares/) | [Solution](../../problems/2000-2499/2013.py) |
+| 149 | Hard | Max Points on a Line | [Link](https://leetcode.com/problems/max-points-on-a-line/) | - |
+
+## 18. Bit Manipulation (13 problems)
+
+*XOR, shifts, and masks. Weird-looking but fast — and interviewers love asking them.*
+
+**Reference:** [Bit Manipulation Algorithm](../../materials/learning/18-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../../materials/learning/18-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Manipulation Template](../../materials/appendix/templates/bit-manipulation/README.md)
+
+| # | Difficulty | Problem | LeetCode | Solution |
+|---|------------|---------|----------|----------|
+| 136 | Easy | Single Number | [Link](https://leetcode.com/problems/single-number/) | [Solution](../../problems/0001-0499/136.py) |
+| 191 | Easy | Number of 1 Bits | [Link](https://leetcode.com/problems/number-of-1-bits/) | [Solution](../../problems/0001-0499/191.py) |
+| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../../problems/0001-0499/338.py) |
+| 190 | Easy | Reverse Bits | [Link](https://leetcode.com/problems/reverse-bits/) | [Solution](../../problems/0001-0499/190.py) |
+| 67 | Easy | Add Binary | [Link](https://leetcode.com/problems/add-binary/) | [Solution](../../problems/0001-0499/67.py) |
+| 461 | Easy | Hamming Distance | [Link](https://leetcode.com/problems/hamming-distance/) | - |
+| 371 | Medium | Sum of Two Integers | [Link](https://leetcode.com/problems/sum-of-two-integers/) | [Solution](../../problems/0001-0499/371.py) |
+| 137 | Medium | Single Number II | [Link](https://leetcode.com/problems/single-number-ii/) | - |
+| 260 | Medium | Single Number III | [Link](https://leetcode.com/problems/single-number-iii/) | - |
+| 201 | Medium | Bitwise AND of Numbers Range | [Link](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | - |
+| 318 | Medium | Maximum Product of Word Lengths | [Link](https://leetcode.com/problems/maximum-product-of-word-lengths/) | - |
+| 1318 | Medium | Minimum Flips to Make a OR b Equal to c | [Link](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | - |
+| 89 | Medium | Gray Code | [Link](https://leetcode.com/problems/gray-code/) | - |
+
+---
+
+## Summary
+
+**Total: 300 problems — 81 Easy · 187 Medium · 32 Hard**
+
+This list is built for pattern drilling, not random grinding. Finish a category before moving to the next. If a section feels easy, speed through it — the goal is identifying gaps, not re-solving things you already know.

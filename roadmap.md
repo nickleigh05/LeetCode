@@ -653,7 +653,7 @@ $\color{#e67e22}{\textbf{Medium}}$
 <summary><b>19 · SQL</b> — 0/56 ░░░░░░░░</summary>
 
 [📖 SQL syntax](materials/sql/_index.md)
-[📋 SQL list](lists/sql.md)
+[📋 SQL list](lists/other/sql.md)
 
 <details>
 

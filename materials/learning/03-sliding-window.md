@@ -114,7 +114,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/slidin
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Sliding Window — Practice →**](../rmap-practice/03-sliding-window.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#3-sliding-window-14-problems).
+Work the guided set with hints & solutions: [**Sliding Window — Practice →**](../rmap-practice/03-sliding-window.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#3-sliding-window-14-problems).
 
 ## Check Yourself
 

@@ -250,7 +250,7 @@ The reusable code skeleton for this pattern lives in [`appendix/templates/heap-p
 
 ## Practice
 
-Work the guided set with hints & solutions: [**Heaps & Priority Queues — Practice →**](../rmap-practice/09-heap-priority-queue.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/recommended.md#8-heap--priority-queue-14-problems).
+Work the guided set with hints & solutions: [**Heaps & Priority Queues — Practice →**](../rmap-practice/09-heap-priority-queue.md). Easy → hard, top to bottom; when the pattern feels automatic, move on — don’t grind it forever. Want more volume? See the [recommended list](../../lists/other/recommended.md#8-heap--priority-queue-14-problems).
 
 ## Check Yourself
 
