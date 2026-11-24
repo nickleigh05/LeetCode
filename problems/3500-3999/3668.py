@@ -43,10 +43,12 @@ Constraints:
 
 class Solution:
     def recoverOrder(self, order: List[int], friends: List[int]) -> List[int]:
-        
+
+        friend_set = set(friends)
         array = []
 
         for friend in order:
-            if friend in friends:
+            if friend in friend_set:
                 array.append(friend)
+
         return array

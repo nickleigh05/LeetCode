@@ -37,39 +37,12 @@ Constraints:
 
 """
 
-# first solve without using set
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
-        
-        freqdict = {}
 
-        for char in s:
-            freqdict[char] = freqdict.get(char, 0) + 1
-
-            for key, value in freqdict.items():
-                if value == 2:
-                    return key
-                
-
-# second solve using set 
-class Solution:
-    def repeatedCharacter(self, s: str) -> str:
-        
         hashset = set()
 
         for char in s:
             if char in hashset:
                 return char
             hashset.add(char)
-
-
-
-
-
-
-
-
-
-
-
-

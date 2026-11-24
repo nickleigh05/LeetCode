@@ -34,29 +34,28 @@ Follow up: Could you do it in O(n) time and O(1) space?
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
 
         slow = head
         fast = head
-
         while fast is not None and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
 
         prev = None
         current = slow
-
         while current is not None:
             next_node = current.next
             current.next = prev
             prev = current
             current = next_node
+        reversed_head = prev
 
         first_half_pointer = head
-        second_half_pointer = prev
+        second_half_pointer = reversed_head
         is_palindrome = True
-
         while second_half_pointer is not None:
             if first_half_pointer.val != second_half_pointer.val:
                 is_palindrome = False
@@ -65,20 +64,11 @@ class Solution:
             second_half_pointer = second_half_pointer.next
 
         prev = None
-        current = second_half_pointer if second_half_pointer is None else None
-        current = slow
+        current = reversed_head
+        while current is not None:
+            next_node = current.next
+            current.next = prev
+            prev = current
+            current = next_node
 
         return is_palindrome
-    
-
-
-
-
-
-
-
-
-
-
-
-

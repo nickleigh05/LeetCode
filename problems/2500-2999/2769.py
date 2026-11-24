@@ -42,28 +42,4 @@ Constraints:
 
 class Solution:
     def theMaximumAchievableX(self, num: int, t: int) -> int:
-        
-        x = num
-
-        for _ in range(t):
-            x += 2
-        return x 
-
-
-
-
-
-
-
-
-
-### one liner ###
-
-class Solution:
-    def theMaximumAchievableX(self, num: int, t: int) -> int:
         return num + (2 * t)
-
-
-
-
-

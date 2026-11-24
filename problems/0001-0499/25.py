@@ -47,33 +47,33 @@ Follow-up: Can you solve the problem in O(1) extra memory space?
 
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-                
-        node = head
-        count = 0
-        while node and count < k:
-            node = node.next
-            count += 1
 
-        if count < k:
-            return head
+        def get_kth(node, steps):
+            while node and steps > 0:
+                node = node.next
+                steps -= 1
+            return node
 
-        prev = self.reverseKGroup(node, k)
-        curr = head
+        dummy = ListNode(0, head)
+        group_prev = dummy
 
-        for _ in range(k):
-            next_node = curr.next
-            curr.next = prev
-            prev = curr
-            curr = next_node
+        while True:
+            kth = get_kth(group_prev, k)
+            if not kth:
+                break
+            group_next = kth.next
 
-        return prev
-    
+            prev = group_next
+            curr = group_prev.next
 
+            while curr != group_next:
+                next_node = curr.next
+                curr.next = prev
+                prev = curr
+                curr = next_node
 
+            group_tail = group_prev.next
+            group_prev.next = kth
+            group_prev = group_tail
 
-
-
-
-
-
-
+        return dummy.next

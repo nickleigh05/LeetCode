@@ -47,38 +47,3 @@ class Solution:
                 return False
 
         return True
-
-
-
-
-
-
-
-
-
-
-### My original ###
-
-class Solution:
-    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        
-        hashmap_Magazine = {}
-        for char in magazine:
-            hashmap_Magazine[char] = hashmap_Magazine.get(char, 0) + 1
-        
-        hashmap_ransomNote = {}
-        for char in ransomNote:
-            hashmap_ransomNote[char] = hashmap_ransomNote.get(char, 0) + 1
-            if hashmap_ransomNote == hashmap_Magazine:
-                return True
-            else:
-                return False
-
-
-
-
-
-
-
-
-

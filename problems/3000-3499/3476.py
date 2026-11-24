@@ -43,20 +43,10 @@ Constraints:
 
 class Solution:
     def transformArray(self, nums: List[int]) -> List[int]:
-        array = []
 
+        evens = 0
         for num in nums:
             if num % 2 == 0:
-                array.append(0)
-            elif num % 2 != 0:
-                array.append(1)
-        return sorted(array)
-    
-# more optimal solutions 
-#
-# return sorted(num % 2 for num in nums)
-#
-# Or
-#
-# zeros = sum(1 for num in nums if num % 2 == 0)
-# return [0] * zeros + [1] * (len(nums) - zeros)
+                evens += 1
+
+        return [0] * evens + [1] * (len(nums) - evens)

@@ -77,7 +77,7 @@ class Solution:
 
 ### Alternative solution using built-in sorting with a custom key ###
 
-    class Solution:
+class Solution:
     def kthLargestNumber(self, nums: List[str], k: int) -> str:
         nums_sorted = sorted(nums, key=lambda x: (len(x), x))
         return nums_sorted[len(nums_sorted) - k]

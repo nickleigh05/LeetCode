@@ -35,25 +35,23 @@ Constraints:
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
 
-        result = []
+        n = len(boxes)
+        answer = [0] * n
 
-        for i in range(len(boxes)):
-            cost = 0
-            for j in range(len(boxes)):
-                if boxes[j] == '1':
-                    cost += abs(i - j)
-            result.append(cost)
-        return result
-    
+        balls = 0
+        moves = 0
+        for i in range(n):
+            answer[i] = moves
+            if boxes[i] == '1':
+                balls += 1
+            moves += balls
 
+        balls = 0
+        moves = 0
+        for i in range(n - 1, -1, -1):
+            answer[i] += moves
+            if boxes[i] == '1':
+                balls += 1
+            moves += balls
 
-
-
-
-
-
-
-
-
-
-
+        return answer

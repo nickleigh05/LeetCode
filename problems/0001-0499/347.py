@@ -37,33 +37,18 @@ Follow up: Your algorithm's time complexity must be better than O(n log n), wher
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        
-        hashmap = {}
 
+        count = {}
         for num in nums:
-            if num in hashmap:
-                hashmap[num] += 1
-            else:
-                hashmap[num] = 1
-        
-        return sorted(hashmap, key=lambda x: hashmap[x], reverse=True)[:k]
-    
+            count[num] = count.get(num, 0) + 1
 
+        buckets = [[] for _ in range(len(nums) + 1)]
+        for num, freq in count.items():
+            buckets[freq].append(num)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        result = []
+        for freq in range(len(buckets) - 1, 0, -1):
+            for num in buckets[freq]:
+                result.append(num)
+                if len(result) == k:
+                    return result

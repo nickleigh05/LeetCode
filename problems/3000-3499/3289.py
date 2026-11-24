@@ -50,22 +50,13 @@ Constraints:
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
 
-        array = []
+        seen = set()
         sneakynums = []
-        for num in nums:
-            if num in array:
-                sneakynums.append(num)
-            else: 
-                array.append(num)
-        return sneakynums
 
-"""
-Steps to Improve:
-Instead of:
-pythonarray = []
-if num in array:  # O(n) check
-Use:
-pythonseen = set()
-if num in seen:  # O(1) check
-Your logic is perfect - just swap the data structure! This is a super common optimization pattern. Does this make sense why sets are better for membership checking?
-"""
+        for num in nums:
+            if num in seen:
+                sneakynums.append(num)
+            else:
+                seen.add(num)
+
+        return sneakynums

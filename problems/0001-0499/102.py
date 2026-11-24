@@ -65,6 +65,8 @@ class Solution:
 
             result.append(current_level)
 
+        return result
+
 
 
 
