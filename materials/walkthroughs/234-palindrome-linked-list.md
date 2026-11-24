@@ -96,7 +96,7 @@ Afterwards `prev` is the head of the reversed second half.
 
 So the shorter traversal (`second`) is the right loop bound, and the middle element never causes a mismatch.
 
-**A note on the list's final state.** The reversal **mutates the input**. A polished solution restores it by reversing the second half back before returning — interviewers often ask about this, since leaving a caller's data structure corrupted is a real-world bug. The solution file *intends* to do this but the restore is incomplete (see the code notes below).
+**A note on the list's final state.** The reversal **mutates the input**. A polished solution restores it by reversing the second half back before returning — interviewers often ask about this, since leaving a caller's data structure corrupted is a real-world bug. The code below does exactly that.
 
 **Why not recursion?** The recursive version is elegant — recurse to the tail, then compare while unwinding against a forward pointer — but it's O(n) stack. At 10⁵ nodes Python raises `RecursionError` well before finishing.
 
@@ -134,6 +134,7 @@ while current is not None:
     current.next = prev
     prev = current
     current = next_node
+reversed_head = prev
 ```
 
 **The four-line reversal, and the order is non-negotiable:**
@@ -145,7 +146,7 @@ while current is not None:
 
 Skip step 1 and you lose the remainder of the list irrecoverably. This is the single most important sequence in linked-list manipulation — see [Reverse Linked List](206-reverse-linked-list.md).
 
-After the loop, `prev` heads the reversed second half.
+After the loop, `prev` heads the reversed second half, so save it as `reversed_head` — the restore step at the end needs it.
 → [variables-assignment](../syntax/variables-assignment.md)
 
 ---
@@ -154,7 +155,7 @@ After the loop, `prev` heads the reversed second half.
 
 ```python
 first_half_pointer = head
-second_half_pointer = prev
+second_half_pointer = reversed_head
 is_palindrome = True
 
 while second_half_pointer is not None:
@@ -174,33 +175,21 @@ Walk both inward-facing halves in lockstep.
 
 ```python
 prev = None
-current = second_half_pointer if second_half_pointer is None else None
-current = slow
-
-return is_palindrome
-```
-
-⚠️ **Those three lines before the `return` are vestigial.** They set up variables that are never used — an unfinished attempt to reverse the second half back and restore the original list. `prev` and `current` are assigned and then immediately discarded, so they have **no effect** on the result.
-
-The function is still **correct** — `is_palindrome` was already determined — but the list is left with its second half reversed. If you want the restore, the completed version is:
-
-```python
-# restore: reverse the second half back
-prev2 = None
-current = prev            # head of the reversed half
+current = reversed_head
 while current is not None:
-    nxt = current.next
-    current.next = prev2
-    prev2 = current
-    current = nxt
+    next_node = current.next
+    current.next = prev
+    prev = current
+    current = next_node
 
 return is_palindrome
 ```
 
-Worth cleaning up in your own copy — dead code that *looks* meaningful is worse than no code at all.
+**Restore the list.** The reversal mutated the input, so reverse the second half **back** before returning. It's the same four-line reversal, run on `reversed_head`, and it relinks the middle node so the list is exactly as it was given. The answer was already decided, so this only tidies up.
+→ [linked-list](../data-structures/linked-list.md)
 
 <details>
-<summary>The whole thing together (as in the solution file)</summary>
+<summary>The whole thing together</summary>
 
 ```python
 class Solution:
@@ -219,9 +208,10 @@ class Solution:
             current.next = prev
             prev = current
             current = next_node
+        reversed_head = prev
 
         first_half_pointer = head
-        second_half_pointer = prev
+        second_half_pointer = reversed_head
         is_palindrome = True
         while second_half_pointer is not None:
             if first_half_pointer.val != second_half_pointer.val:
@@ -231,13 +221,16 @@ class Solution:
             second_half_pointer = second_half_pointer.next
 
         prev = None
-        current = second_half_pointer if second_half_pointer is None else None
-        current = slow
+        current = reversed_head
+        while current is not None:
+            next_node = current.next
+            current.next = prev
+            prev = current
+            current = next_node
 
         return is_palindrome
 ```
 
-The last three lines before the `return` are dead — see the note above.
 
 </details>
 
@@ -321,9 +314,9 @@ Total ≈ `1.5n` pointer operations — **O(n)**. Adding the optional restore ma
 
 **The cost is mutation.** The reversal edits the caller's list in place. Three positions to take:
 
-1. **Restore it** — reverse the second half back before returning. Best practice, and what an interviewer usually wants to hear.
+1. **Restore it** — reverse the second half back before returning. Best practice, what an interviewer usually wants to hear, and what the code here does.
 2. **Document it** — acceptable if the caller doesn't care.
-3. **Ignore it** — what the solution file effectively does, since its restore is incomplete.
+3. **Ignore it** — fine for a quick answer, but say that you are leaving the list modified.
 
 Say this unprompted. "It's O(1) space, but it mutates the input — I'd reverse the second half back before returning" is exactly the kind of remark that separates a careful answer from a memorized one.
 
@@ -350,7 +343,7 @@ Say this unprompted. "It's O(1) space, but it mutates the input — I'd reverse 
 | "Do it recursively." | Recurse to the tail, compare while unwinding against a forward pointer. O(n) stack — `RecursionError` at 10⁵ nodes. |
 | "Why not use a stack?" | Push the first half, pop while walking the second. Correct, but O(n/2) space. |
 | "What if it were **doubly** linked?" | Trivial — two converging pointers from both ends, exactly like [Valid Palindrome](125-valid-palindrome.md). |
-| "Those last three lines don't do anything." | Correct — they're a vestigial restore attempt. The result is unaffected; they should be deleted or completed. |
+| "Does your function change the list?" | No. It reverses the second half to compare, and reverses it back before returning, so the caller's list is intact. |
 
 **Traps:**
 
@@ -359,7 +352,7 @@ Say this unprompted. "It's O(1) space, but it mutates the input — I'd reverse 
 - **Mishandling odd lengths with an explicit special case.** Unnecessary — the loop bound handles it.
 - **Recursing at 10⁵ nodes.** Stack overflow.
 - **Leaving the list mutated without mentioning it.** Correct output, but a real-world bug; say it out loud.
-- **Leaving dead code in place.** The three vestigial lines here look purposeful and aren't — that's worse than omitting the restore entirely.
+- **Forgetting to restore the list.** The answer is right, but the caller's list is left with its second half reversed.
 
 **This same move shows up in:** [Middle of the Linked List](876-middle-of-the-linked-list.md) (step 1 in isolation) · [Reverse Linked List](206-reverse-linked-list.md) (step 2 in isolation) · [Reorder List](143-reorder-list.md) (the same middle-then-reverse decomposition, then interleave) · [Valid Palindrome](125-valid-palindrome.md) (the array version, where random access makes it trivial).
 

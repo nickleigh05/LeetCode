@@ -5,133 +5,133 @@ One problem per core idea — the fastest path to touching every pattern that sh
 ## 1. Arrays & Hashing (4 problems)
 *The foundation. Hash maps unlock O(1) lookups and show up everywhere — master these first.*
 **Reference:** [Arrays](../../materials/learning/01-arrays-hashing.md#array) · [Hash Maps & Sets](../../materials/learning/01-arrays-hashing.md#hash-map-and-hash-set) · [Arrays & Hashing Template](../../materials/appendix/templates/arrays-hashing/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../../problems/0001-0499/1.py) |
-| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../../problems/0001-0499/49.py) |
-| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../../problems/0001-0499/347.py) |
-| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../../problems/0001-0499/238.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 1 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) | [Solution](../../problems/0001-0499/1.py) | [Walkthrough](../../materials/walkthroughs/1-two-sum.md) |
+| 49 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) | [Solution](../../problems/0001-0499/49.py) | [Walkthrough](../../materials/walkthroughs/49-group-anagrams.md) |
+| 347 | Medium | Top K Frequent Elements | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](../../problems/0001-0499/347.py) | [Walkthrough](../../materials/walkthroughs/347-top-k-frequent-elements.md) |
+| 238 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](../../problems/0001-0499/238.py) | [Walkthrough](../../materials/walkthroughs/238-product-of-array-except-self.md) |
 ## 2. Two Pointers (3 problems)
 *One scan, two cursors. The trick is knowing which condition moves which pointer.*
 **Reference:** [Two Pointers Pattern](../../materials/learning/02-two-pointers.md#two-pointers) · [Two Pointers Template](../../materials/appendix/templates/two-pointers/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../../problems/0001-0499/125.py) |
-| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../../problems/0001-0499/11.py) |
-| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../../problems/0001-0499/15.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 125 | Easy | Valid Palindrome | [Link](https://leetcode.com/problems/valid-palindrome/) | [Solution](../../problems/0001-0499/125.py) | [Walkthrough](../../materials/walkthroughs/125-valid-palindrome.md) |
+| 11 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) | [Solution](../../problems/0001-0499/11.py) | [Walkthrough](../../materials/walkthroughs/11-container-with-most-water.md) |
+| 15 | Medium | 3Sum | [Link](https://leetcode.com/problems/3sum/) | [Solution](../../problems/0001-0499/15.py) | [Walkthrough](../../materials/walkthroughs/15-3sum.md) |
 ## 3. Sliding Window (2 problems)
 *Contiguous subarrays / substrings with a moving boundary — brute force is O(n²), this is O(n).*
 **Reference:** [Sliding Window Pattern](../../materials/learning/03-sliding-window.md#sliding-window) · [Sliding Window Template](../../materials/appendix/templates/sliding-window/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../../problems/0001-0499/121.py) |
-| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../../problems/0001-0499/3.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 121 | Easy | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](../../problems/0001-0499/121.py) | [Walkthrough](../../materials/walkthroughs/121-best-time-to-buy-and-sell-stock.md) |
+| 3 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](../../problems/0001-0499/3.py) | [Walkthrough](../../materials/walkthroughs/3-longest-substring-without-repeating-characters.md) |
 ## 4. Stack (2 problems)
 *LIFO wins whenever you need to track 'most recent unseen' — parentheses, temperatures, histograms.*
 **Reference:** [Stack Data Structure](../../materials/learning/04-stack.md#stack) · [Monotonic Stack](../../materials/learning/04-stack.md#monotonic-stack) · [Stack & Queue Template](../../materials/appendix/templates/stack/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../../problems/0001-0499/20.py) |
-| 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../../problems/0500-0999/739.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 20 | Easy | Valid Parentheses | [Link](https://leetcode.com/problems/valid-parentheses/) | [Solution](../../problems/0001-0499/20.py) | [Walkthrough](../../materials/walkthroughs/20-valid-parentheses.md) |
+| 739 | Medium | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/) | [Solution](../../problems/0500-0999/739.py) | [Walkthrough](../../materials/walkthroughs/739-daily-temperatures.md) |
 ## 5. Binary Search (2 problems)
 *If the search space is ordered, binary search it. Works on answers, not just arrays.*
 **Reference:** [Binary Search Algorithm](../../materials/learning/05-binary-search.md#binary-search) · [Binary Search on Answer Pattern](../../materials/learning/05-binary-search.md#binary-search-on-answer) · [Binary Search Template](../../materials/appendix/templates/binary-search/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../../problems/0500-0999/704.py) |
-| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../../problems/0001-0499/33.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 704 | Easy | Binary Search | [Link](https://leetcode.com/problems/binary-search/) | [Solution](../../problems/0500-0999/704.py) | [Walkthrough](../../materials/walkthroughs/704-binary-search.md) |
+| 33 | Medium | Search in Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](../../problems/0001-0499/33.py) | [Walkthrough](../../materials/walkthroughs/33-search-in-rotated-sorted-array.md) |
 ## 6. Linked List (4 problems)
 *Pointer arithmetic and in-place manipulation. Draw it out — every single time.*
 **Reference:** [Linked List Data Structure](../../materials/learning/06-linked-list.md#linked-list) · [Fast and Slow Pointers Pattern](../../materials/learning/06-linked-list.md#fast-and-slow-pointers) · [Linked List Template](../../materials/appendix/templates/linked-list/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../../problems/0001-0499/206.py) |
-| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../../problems/0001-0499/21.py) |
-| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../../problems/0001-0499/141.py) |
-| 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../../problems/0001-0499/146.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 206 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Solution](../../problems/0001-0499/206.py) | [Walkthrough](../../materials/walkthroughs/206-reverse-linked-list.md) |
+| 21 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](../../problems/0001-0499/21.py) | [Walkthrough](../../materials/walkthroughs/21-merge-two-sorted-lists.md) |
+| 141 | Easy | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Solution](../../problems/0001-0499/141.py) | [Walkthrough](../../materials/walkthroughs/141-linked-list-cycle.md) |
+| 146 | Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/) | [Solution](../../problems/0001-0499/146.py) | [Walkthrough](../../materials/walkthroughs/146-lru-cache.md) |
 ## 7. Trees (4 problems)
 *Most tree problems are DFS in disguise. Learn pre/in/post-order cold and the rest follows.*
 **Reference:** [Binary Tree Data Structure](../../materials/learning/07-trees.md#binary-tree) · [Binary Search Tree](../../materials/learning/07-trees.md#binary-search-tree) · [DFS Algorithm](../../materials/learning/11-graphs.md#depth-first-search) · [BFS Algorithm](../../materials/learning/11-graphs.md#breadth-first-search) · [Trees Template](../../materials/appendix/templates/trees/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../../problems/0001-0499/226.py) |
-| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../../problems/0001-0499/102.py) |
-| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../../problems/0001-0499/98.py) |
-| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../../problems/0001-0499/235.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 226 | Easy | Invert Binary Tree | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Solution](../../problems/0001-0499/226.py) | [Walkthrough](../../materials/walkthroughs/226-invert-binary-tree.md) |
+| 102 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](../../problems/0001-0499/102.py) | [Walkthrough](../../materials/walkthroughs/102-binary-tree-level-order-traversal.md) |
+| 98 | Medium | Validate Binary Search Tree | [Link](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](../../problems/0001-0499/98.py) | [Walkthrough](../../materials/walkthroughs/98-validate-binary-search-tree.md) |
+| 235 | Medium | Lowest Common Ancestor of a Binary Search Tree | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](../../problems/0001-0499/235.py) | [Walkthrough](../../materials/walkthroughs/235-lowest-common-ancestor-of-a-binary-search-tree.md) |
 ## 8. Tries (1 problem)
 *Prefix trees make string prefix queries O(k) instead of O(n·k). Elegant once it clicks.*
 **Reference:** [Trie Data Structure](../../materials/learning/08-tries.md#trie) · [Trie Search Pattern](../../materials/learning/08-tries.md#trie-search) · [Tries Template](../../materials/appendix/templates/tries/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../../problems/0001-0499/208.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 208 | Medium | Implement Trie (Prefix Tree) | [Link](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](../../problems/0001-0499/208.py) | [Walkthrough](../../materials/walkthroughs/208-implement-trie-prefix-tree.md) |
 ## 9. Heap / Priority Queue (2 problems)
 *Whenever you hear 'top K' or 'running median', reach for a heap.*
 **Reference:** [Heap & Priority Queue](../../materials/learning/09-heap-priority-queue.md#heap-and-priority-queue) · [Top K Elements Pattern](../../materials/learning/09-heap-priority-queue.md#top-k-elements) · [Two Heaps Pattern](../../materials/learning/09-heap-priority-queue.md#two-heaps) · [Heap Template](../../materials/appendix/templates/heap-priority-queue/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../../problems/0001-0499/215.py) |
-| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../../problems/0001-0499/295.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 215 | Medium | Kth Largest Element in an Array | [Link](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](../../problems/0001-0499/215.py) | [Walkthrough](../../materials/walkthroughs/215-kth-largest-element-in-an-array.md) |
+| 295 | Hard | Find Median from Data Stream | [Link](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](../../problems/0001-0499/295.py) | [Walkthrough](../../materials/walkthroughs/295-find-median-from-data-stream.md) |
 ## 10. Backtracking (3 problems)
 *Explore all possibilities, prune early. Build → recurse → undo. That's the whole template.*
 **Reference:** [Backtracking Algorithm](../../materials/learning/10-backtracking.md#backtracking) · [DFS and Backtracking Pattern](../../materials/learning/10-backtracking.md#dfs-and-backtracking) · [Backtracking Template](../../materials/appendix/templates/backtracking/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../../problems/0001-0499/78.py) |
-| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../../problems/0001-0499/39.py) |
-| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../../problems/0001-0499/46.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 78 | Medium | Subsets | [Link](https://leetcode.com/problems/subsets/) | [Solution](../../problems/0001-0499/78.py) | [Walkthrough](../../materials/walkthroughs/78-subsets.md) |
+| 39 | Medium | Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | [Solution](../../problems/0001-0499/39.py) | [Walkthrough](../../materials/walkthroughs/39-combination-sum.md) |
+| 46 | Medium | Permutations | [Link](https://leetcode.com/problems/permutations/) | [Solution](../../problems/0001-0499/46.py) | [Walkthrough](../../materials/walkthroughs/46-permutations.md) |
 ## 11. Graphs (3 problems)
 *BFS for shortest path, DFS for connectivity. Grid traversal and cycle detection live here too.*
 **Reference:** [Graph Data Structure](../../materials/learning/11-graphs.md#graph) · [BFS Algorithm](../../materials/learning/11-graphs.md#breadth-first-search) · [DFS Algorithm](../../materials/learning/11-graphs.md#depth-first-search) · [Topological Sort](../../materials/learning/13-advanced-graphs.md#topological-sort) · [Graphs Template](../../materials/appendix/templates/graphs/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../../problems/0001-0499/200.py) |
-| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../../problems/0001-0499/133.py) |
-| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../../problems/0001-0499/207.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 200 | Medium | Number of Islands | [Link](https://leetcode.com/problems/number-of-islands/) | [Solution](../../problems/0001-0499/200.py) | [Walkthrough](../../materials/walkthroughs/200-number-of-islands.md) |
+| 133 | Medium | Clone Graph | [Link](https://leetcode.com/problems/clone-graph/) | [Solution](../../problems/0001-0499/133.py) | [Walkthrough](../../materials/walkthroughs/133-clone-graph.md) |
+| 207 | Medium | Course Schedule | [Link](https://leetcode.com/problems/course-schedule/) | [Solution](../../problems/0001-0499/207.py) | [Walkthrough](../../materials/walkthroughs/207-course-schedule.md) |
 ## 12. Advanced Graphs (1 problem)
 *Union-Find merges and queries connected components in near-constant time — the one advanced-graph tool worth memorizing.*
 **Reference:** [Union Find](../../materials/learning/12-union-find.md#disjoint-set-union) · [Topological Sort](../../materials/learning/13-advanced-graphs.md#topological-sort) · [Advanced Graphs Template](../../materials/appendix/templates/advanced-graphs/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../../problems/0001-0499/323.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 323 | Medium | Number of Connected Components in an Undirected Graph | [Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](../../problems/0001-0499/323.py) | [Walkthrough](../../materials/walkthroughs/323-number-of-connected-components-in-an-undirected-graph.md) |
 ## 13. 1-D Dynamic Programming (3 problems)
 *Break the problem into overlapping subproblems. Define state, write recurrence, add memoization.*
 **Reference:** [Dynamic Programming Algorithm](../../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../../materials/learning/14-dp-1d.md#dynamic-programming) · [1-D DP Template](../../materials/appendix/templates/dp-1d/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../../problems/0001-0499/70.py) |
-| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../../problems/0001-0499/198.py) |
-| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../../problems/0001-0499/322.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 70 | Easy | Climbing Stairs | [Link](https://leetcode.com/problems/climbing-stairs/) | [Solution](../../problems/0001-0499/70.py) | [Walkthrough](../../materials/walkthroughs/70-climbing-stairs.md) |
+| 198 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) | [Solution](../../problems/0001-0499/198.py) | [Walkthrough](../../materials/walkthroughs/198-house-robber.md) |
+| 322 | Medium | Coin Change | [Link](https://leetcode.com/problems/coin-change/) | [Solution](../../problems/0001-0499/322.py) | [Walkthrough](../../materials/walkthroughs/322-coin-change.md) |
 ## 14. 2-D Dynamic Programming (2 problems)
 *Same idea as 1-D but your state is a grid. Usually string matching or path problems.*
 **Reference:** [Dynamic Programming Algorithm](../../materials/learning/14-dp-1d.md#dynamic-programming) · [DP Pattern](../../materials/learning/14-dp-1d.md#dynamic-programming) · [2-D DP Template](../../materials/appendix/templates/dp-2d/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | [Solution](../../problems/0001-0499/62.py) |
-| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../../problems/1000-1499/1143.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 62 | Medium | Unique Paths | [Link](https://leetcode.com/problems/unique-paths/) | [Solution](../../problems/0001-0499/62.py) | [Walkthrough](../../materials/walkthroughs/62-unique-paths.md) |
+| 1143 | Medium | Longest Common Subsequence | [Link](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](../../problems/1000-1499/1143.py) | [Walkthrough](../../materials/walkthroughs/1143-longest-common-subsequence.md) |
 ## 15. Greedy (1 problem)
 *Take the locally optimal choice and trust it's globally optimal. Proving why is the hard part.*
 **Reference:** [Greedy Algorithm](../../materials/learning/16-greedy.md#greedy) · [Greedy Template](../../materials/appendix/templates/greedy/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../../problems/0001-0499/53.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 53 | Medium | Maximum Subarray | [Link](https://leetcode.com/problems/maximum-subarray/) | [Solution](../../problems/0001-0499/53.py) | [Walkthrough](../../materials/walkthroughs/53-maximum-subarray.md) |
 ## 16. Intervals (1 problem)
 *Sort by start time. Merge, count, or query — the pattern is always sort-first.*
 **Reference:** [Merge Intervals Pattern](../../materials/learning/17-intervals.md#merge-intervals) · [Intervals Template](../../materials/appendix/templates/intervals/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../../problems/0001-0499/56.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 56 | Medium | Merge Intervals | [Link](https://leetcode.com/problems/merge-intervals/) | [Solution](../../problems/0001-0499/56.py) | [Walkthrough](../../materials/walkthroughs/56-merge-intervals.md) |
 ## 17. Math & Geometry (1 problem)
 *Modular arithmetic, GCD, matrix ops. Usually a 5-liner once you remember the trick.*
 **Reference:** [Math & Geometry Template](../../materials/appendix/templates/math-geometry/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../../problems/0001-0499/48.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 48 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) | [Solution](../../problems/0001-0499/48.py) | [Walkthrough](../../materials/walkthroughs/48-rotate-image.md) |
 ## 18. Bit Manipulation (1 problem)
 *XOR, shifts, and masks. Weird-looking but fast — and interviewers love asking them.*
 **Reference:** [Bit Manipulation Algorithm](../../materials/learning/18-bit-manipulation.md#bit-manipulation) · [Bit Manipulation & XOR Pattern](../../materials/learning/18-bit-manipulation.md#bit-manipulation-and-xor) · [Bit Manipulation Template](../../materials/appendix/templates/bit-manipulation/README.md)
-| # | Difficulty | Problem | LeetCode | Solution |
-|---|------------|---------|----------|----------|
-| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../../problems/0001-0499/338.py) |
+| # | Difficulty | Problem | LeetCode | Solution | Walkthrough |
+|---|------------|---------|----------|----------|-------------|
+| 338 | Easy | Counting Bits | [Link](https://leetcode.com/problems/counting-bits/) | [Solution](../../problems/0001-0499/338.py) | [Walkthrough](../../materials/walkthroughs/338-counting-bits.md) |
 ---
 ## Summary
 **Total: 40 problems — 11 Easy · 28 Medium · 1 Hard**
