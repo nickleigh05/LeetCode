@@ -75,5 +75,25 @@ class Solution:
 
 
 
+# Less optimal solution using a hashset
+
+"""
+        hashset = set()
+        current = head
+
+        while current:
+            
+            if current in hashset:
+                return True
+
+            hashset.add(current)
+            current = current.next
+
+        return False
+"""
+
+
+
+
 
 
